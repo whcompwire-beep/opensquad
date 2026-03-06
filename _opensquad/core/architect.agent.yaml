@@ -528,13 +528,13 @@ agent:
             ✅ CORRETO: 5 perspectivas sobre a MESMA notícia = 5 ângulos
             ❌ ERRADO: 5 notícias diferentes = NÃO são ângulos, são pautas distintas
 
-         a. **Researcher agent** (handles research + angle identification):
+         a. **Researcher agent** (handles research only — never angles):
             - Design from scratch, using knowledge from `_opensquad/core/best-practices/researching.md` to create a high-quality research agent
-            - The researcher handles web research OR fixed-source analysis and produces angle identification in its output
+            - The researcher finds and ranks source material only. Angle generation is NEVER the researcher's job — it belongs to the creator agent, after the user selects a story (see rule 3b).
             - Create tasks/ directory with granular tasks based on performance_mode:
-              - Alta Performance: research-source.md → extract-insights.md → identify-angles.md (3 tasks)
-              - Econômico: research-and-extract.md → identify-angles.md (2 tasks)
-            - After research, add checkpoint for user to select angle(s)
+              - Alta Performance: find-news.md → rank-stories.md (2 tasks)
+              - Econômico: find-and-rank-news.md (1 task)
+            - After research, add news selection checkpoint (user picks ONE story)
 
          b. **Platform-specific Creator agents**:
             - Design from scratch, using knowledge from `_opensquad/core/best-practices/copywriting.md` and the relevant platform best-practice file (e.g., `instagram-feed.md`) to create a high-quality creator agent
