@@ -5,6 +5,7 @@
   "chooseIdes": "Which IDEs/tools do you use? (select all that apply)",
   "step1Codex": "1. See AGENTS.md in your project root for Codex instructions",
   "step1Antigravity": "1. See .antigravity/rules.md for Antigravity instructions",
+  "step1Cursor": "1. Open Cursor, type / in the chat and select opensquad to get started.",
   "ideNotAvailable": "⚠️  \"{label}\" is not available yet. Choose another option.",
   "enterNumber": "Please enter a number between 1 and {max}.",
   "alreadyInitialized": "⚠️  Opensquad is already initialized in this directory.",

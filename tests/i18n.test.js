@@ -100,3 +100,19 @@ test('all locales have skills keys', async () => {
     }
   }
 });
+
+test('all locales have step1Cursor key', async () => {
+  const LOCALES_DIR = join(dirname(fileURLToPath(import.meta.url)), '../src/locales');
+  const localeFiles = ['en', 'pt-BR', 'es'];
+
+  for (const locale of localeFiles) {
+    const content = JSON.parse(
+      await readFile(join(LOCALES_DIR, `${locale}.json`), 'utf-8')
+    );
+    assert.ok('step1Cursor' in content, `${locale}.json missing key: step1Cursor`);
+    assert.ok(
+      content.step1Cursor.length > 0,
+      `${locale}.json: step1Cursor must not be empty`
+    );
+  }
+});
