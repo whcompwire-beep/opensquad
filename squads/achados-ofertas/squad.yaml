@@ -1,0 +1,89 @@
+name: achados-ofertas
+display_name: "Achados RioMafra — Squad de Ofertas"
+description: >
+  Squad completo para encontrar produtos trending nos marketplaces brasileiros
+  (Mercado Livre, Shopee, Amazon) e criar posts de oferta prontos para publicação
+  no Instagram Feed, Instagram Stories, WhatsApp e TikTok/Reels como afiliado.
+version: "1.1.0"
+created: "2026-03-26"
+performance_mode: alta_performance
+
+investigation:
+  enriched: true
+  profiles_analyzed: 3
+  date: "2026-03-26"
+  dir: squads/achados-ofertas/_investigations
+
+platforms:
+  - instagram-feed
+  - instagram-stories
+  - whatsapp
+  - reels
+
+company: Achados RioMafra
+
+agents:
+  - id: garimpeiro
+    name: Garimpeiro
+    file: agents/garimpeiro.agent.md
+    role: researcher
+  - id: visual
+    name: Designer Visual
+    file: agents/visual.agent.md
+    role: visual
+  - id: estrategista
+    name: Estrategista
+    file: agents/estrategista.agent.md
+    role: strategist
+  - id: copywriter
+    name: Copywriter de Ofertas
+    file: agents/copywriter.agent.md
+    role: writer
+  - id: revisor
+    name: Revisor de Qualidade
+    file: agents/revisor.agent.md
+    role: reviewer
+
+pipeline:
+  - step: 01-pesquisa
+    agent: garimpeiro
+    file: pipeline/steps/01-pesquisa.step.md
+    description: "Pesquisa produtos trending nos marketplaces"
+
+  - step: checkpoint-produtos
+    type: checkpoint
+    label: "✅ Aprovar produtos para promover"
+    description: "Revise os produtos encontrados e selecione quais seguirão para produção de conteúdo"
+
+  - step: 02-visual
+    agent: visual
+    file: pipeline/steps/02-visual.step.md
+    description: "Navega até cada produto e captura as melhores imagens para divulgação"
+
+  - step: 03-estrategia
+    agent: estrategista
+    file: pipeline/steps/03-estrategia.step.md
+    description: "Define ângulos, formatos e ordem de publicação"
+
+  - step: checkpoint-estrategia
+    type: checkpoint
+    label: "✅ Aprovar estratégia de conteúdo"
+    description: "Revise os ângulos e decisões de formato antes de criar o copy"
+
+  - step: 04-copy
+    agent: copywriter
+    file: pipeline/steps/04-copy.step.md
+    description: "Cria conteúdo completo para todas as plataformas"
+
+  - step: checkpoint-conteudo
+    type: checkpoint
+    label: "✅ Aprovar conteúdo final"
+    description: "Revise todo o conteúdo criado antes da avaliação final"
+
+  - step: 05-revisao
+    agent: revisor
+    file: pipeline/steps/05-revisao.step.md
+    description: "Avalia qualidade e aprova ou solicita ajustes"
+
+output_dir: squads/achados-ofertas/output
+memory_file: squads/achados-ofertas/_memory/memories.md

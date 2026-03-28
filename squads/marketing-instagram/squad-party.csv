@@ -1,0 +1,6 @@
+id,displayName,role,icon,path
+pesquisador,Pesquisador de Tendências,researcher,🔍,./agents/pesquisador.agent.md
+estrategista,Estrategista de Conteúdo,strategist,🎯,./agents/estrategista.agent.md
+copywriter,Copywriter de Instagram,writer,✍️,./agents/copywriter.agent.md
+designer,Designer Visual,visual,🎨,./agents/designer.agent.md
+revisor,Revisor de Qualidade,reviewer,✅,./agents/revisor.agent.md

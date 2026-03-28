@@ -3,7 +3,20 @@
     "allow": [
       "Read(//c/Users/renat/.claude/plugins//**)",
       "Read(//c/Users/renat/.claude/plugins/**)",
-      "Read(//c/Users/renat/.claude/**)"
+      "Read(//c/Users/renat/.claude/**)",
+      "Bash(npm install:*)",
+      "Bash(npm.cmd --version)",
+      "Bash(cmd /c \"cd /d f:\\\\Claude\\\\opensquad && npm install\")",
+      "Bash(cmd /c \"cd /d f:\\\\Claude\\\\opensquad && npm install 2>&1\")",
+      "Bash(powershell -Command \"cd ''f:\\\\Claude\\\\opensquad''; npm install\")",
+      "Bash(powershell.exe -NoProfile -Command \"Test-Path ''C:\\\\Program Files\\\\nodejs\\\\npm.cmd''\")",
+      "Bash(powershell.exe -NoProfile -Command \"& ''C:\\\\Program Files\\\\nodejs\\\\npm.cmd'' install\")",
+      "Bash(powershell.exe -NoProfile -Command \"Set-Location ''f:\\\\Claude\\\\opensquad''; & ''C:\\\\Program Files\\\\nodejs\\\\npm.cmd'' audit fix\")",
+      "Bash(powershell.exe -NoProfile -Command \"Set-Location ''f:\\\\Claude\\\\opensquad''; & ''C:\\\\Program Files\\\\nodejs\\\\npm.cmd'' install\")",
+      "WebSearch",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_press_key"
     ]
   },
   "outputStyle": "default"

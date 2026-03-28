@@ -1,0 +1,95 @@
+name: marketing-instagram
+display_name: "Marketing Instagram — Squad Multi-Cliente"
+description: >
+  Squad reutilizável de marketing digital para Instagram. A cada execução,
+  define-se o cliente e o tema. O squad pesquisa tendências, define estratégia,
+  cria copy completo (carrossel, imagem única e stories) e renderiza as imagens
+  prontas para publicação via Playwright.
+version: "1.0.0"
+created: "2026-03-27"
+performance_mode: alta_performance
+
+platforms:
+  - instagram-feed
+  - instagram-stories
+
+agents:
+  - id: pesquisador
+    name: Pesquisador de Tendências
+    file: agents/pesquisador.agent.md
+    role: researcher
+  - id: estrategista
+    name: Estrategista de Conteúdo
+    file: agents/estrategista.agent.md
+    role: strategist
+  - id: copywriter
+    name: Copywriter de Instagram
+    file: agents/copywriter.agent.md
+    role: writer
+  - id: designer
+    name: Designer Visual
+    file: agents/designer.agent.md
+    role: visual
+  - id: revisor
+    name: Revisor de Qualidade
+    file: agents/revisor.agent.md
+    role: reviewer
+
+pipeline:
+  steps:
+    - id: 00-briefing
+      type: checkpoint
+      label: "📋 Definir cliente, tema e tom de voz"
+      description: "Informe o cliente, o tema do post e o tom de voz desejado para esta execução"
+      outputFile: squads/marketing-instagram/output/briefing.md
+
+    - id: 01-pesquisa
+      agent: pesquisador
+      file: pipeline/steps/01-pesquisa.step.md
+      execution: subagent
+      description: "Pesquisa tendências, dados e melhores ângulos para o tema definido"
+
+    - id: checkpoint-pesquisa
+      type: checkpoint
+      label: "✅ Aprovar ângulos de pesquisa"
+      description: "Revise os ângulos e insights encontrados antes de definir a estratégia"
+
+    - id: 02-estrategia
+      agent: estrategista
+      file: pipeline/steps/02-estrategia.step.md
+      execution: inline
+      format: instagram-feed
+      description: "Define estratégia de conteúdo: formatos, pilares, estrutura dos posts"
+
+    - id: checkpoint-estrategia
+      type: checkpoint
+      label: "✅ Aprovar estratégia de conteúdo"
+      description: "Revise a estratégia e os formatos escolhidos antes de criar o copy"
+
+    - id: 03-copy
+      agent: copywriter
+      file: pipeline/steps/03-copy.step.md
+      execution: inline
+      format: instagram-feed
+      description: "Cria copy completo: slides do carrossel, imagem única, stories e legendas"
+
+    - id: checkpoint-copy
+      type: checkpoint
+      label: "✅ Aprovar copy dos posts"
+      description: "Revise todo o copy criado antes de renderizar as imagens"
+
+    - id: 04-design
+      agent: designer
+      file: pipeline/steps/04-design.step.md
+      execution: inline
+      format: image-design
+      description: "Cria HTML/CSS e renderiza imagens prontas para publicação"
+
+    - id: 05-revisao
+      agent: revisor
+      file: pipeline/steps/05-revisao.step.md
+      execution: inline
+      description: "Revisão final de qualidade e entrega do pacote completo"
+
+output_dir: squads/marketing-instagram/output
+memory_file: squads/marketing-instagram/_memory/memories.md

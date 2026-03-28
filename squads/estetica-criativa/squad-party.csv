@@ -1,0 +1,5 @@
+id,name,role,file,description
+estrategista,Estrategista de Beleza,strategist,agents/estrategista.agent.md,"Especialista em tendências de beleza e estética feminina. Pesquisa temas, define ângulos e cria briefings de conteúdo baseados em dados reais do mercado."
+redatora,Redatora Criativa,writer,agents/redatora.agent.md,"Criadora de conteúdo para Instagram Feed (carrossel e imagem única), Reels e Stories. Especializada em copywriting para o nicho de beleza e estética feminina."
+revisora,Revisora de Qualidade,reviewer,agents/revisora.agent.md,"Avalia a qualidade do conteúdo criado contra critérios baseados em dados reais dos perfis investigados. Aprova ou solicita ajustes antes da entrega final."
+designer,Designer Visual,designer,agents/designer.agent.md,"Transforma o copy aprovado em imagens PNG prontas para publicar. Cria carrosseis, thumbnails de Reels, feed imagem única e stories usando HTML/CSS renderizado via Playwright."

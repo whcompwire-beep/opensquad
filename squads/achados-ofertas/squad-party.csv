@@ -1,0 +1,6 @@
+id,name,role,file,description
+garimpeiro,Garimpeiro,researcher,agents/garimpeiro.agent.md,"Especialista em encontrar produtos trending nos marketplaces brasileiros com alto potencial de conversão"
+visual,Designer Visual,visual,agents/visual.agent.md,"Navega até a página de cada produto aprovado e captura as melhores imagens para Feed, Reels e Stories"
+estrategista,Estrategista,strategist,agents/estrategista.agent.md,"Define quais produtos promover, qual ângulo usar e como distribuir o conteúdo entre plataformas"
+copywriter,Copywriter de Ofertas,writer,agents/copywriter.agent.md,"Cria legendas, hooks e CTAs otimizados para Instagram Feed, Stories, WhatsApp e Reels"
+revisor,Revisor de Qualidade,reviewer,agents/revisor.agent.md,"Avalia o conteúdo contra critérios de qualidade e aprova ou solicita ajustes antes da publicação"
