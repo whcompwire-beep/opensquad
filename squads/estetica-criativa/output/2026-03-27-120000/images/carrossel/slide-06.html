@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1080px; height: 1440px; overflow: hidden;
+      background-image:
+        linear-gradient(rgba(20,14,10,0.70), rgba(30,18,10,0.78)),
+        url('../FotoLais.png');
+      background-size: cover;
+      background-position: center top;
+      font-family: 'Lato', sans-serif;
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: center;
+      padding: 100px 90px;
+      position: relative;
+    }
+    .accent-line {
+      width: 80px; height: 3px;
+      background: #C9A87C;
+      margin-bottom: 60px;
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 66px; font-weight: 700;
+      color: #FDFAF7;
+      text-align: center;
+      line-height: 1.25;
+      margin-bottom: 50px;
+    }
+    .divider { width: 60px; height: 2px; background: #C9A87C; margin-bottom: 50px; }
+    .cta-text {
+      font-size: 46px; font-weight: 300;
+      color: #E8D5B7;
+      text-align: center;
+      line-height: 1.5;
+      margin-bottom: 60px;
+    }
+    .cta-button {
+      background: #C9A87C;
+      color: #2C2C2C;
+      font-size: 36px; font-weight: 700;
+      padding: 28px 70px;
+      border-radius: 60px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    .brand {
+      position: absolute; bottom: 55px;
+      left: 50%; transform: translateX(-50%);
+      font-size: 24px; font-weight: 500; color: #C9A87C;
+      letter-spacing: 3px; text-transform: uppercase;
+      font-family: 'Lato', sans-serif;
+      white-space: nowrap;
+    }
+    .slide-num {
+      position: absolute; bottom: 55px; left: 70px;
+      font-size: 22px; color: #6B6B6B;
+      font-family: 'Lato', sans-serif;
+    }
+    .bottom-line {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      height: 4px; background: #C9A87C;
+    }
+  </style>
+</head>
+<body>
+  <div class="accent-line"></div>
+  <h2>Sua pele tem necessidades únicas.</h2>
+  <div class="divider"></div>
+  <p class="cta-text">Agende uma avaliação e descubra<br>o protocolo ideal para você.</p>
+  <div class="cta-button">Link na bio</div>
+  <span class="brand">Estética Criativa</span>
+  <span class="slide-num">6 / 6</span>
+  <div class="bottom-line"></div>
+</body>
+</html>

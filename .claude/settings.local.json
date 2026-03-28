@@ -16,7 +16,11 @@
       "WebSearch",
       "mcp__playwright__browser_navigate",
       "mcp__playwright__browser_click",
-      "mcp__playwright__browser_press_key"
+      "mcp__playwright__browser_press_key",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_resize",
+      "Bash(pkill -f \"http.server 8765\")",
+      "Bash(netstat -ano)"
     ]
   },
   "outputStyle": "default"

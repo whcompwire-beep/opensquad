@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1080px; height: 1920px; overflow: hidden;
+      background-image:
+        linear-gradient(rgba(20,14,10,0.68), rgba(30,18,10,0.75)),
+        url('../FotoLais.png');
+      background-size: cover;
+      background-position: center top;
+      font-family: 'Lato', sans-serif;
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: center;
+      padding: 120px 100px;
+      position: relative;
+    }
+    .top-accent {
+      position: absolute; top: 0; left: 0; right: 0;
+      height: 10px;
+      background: linear-gradient(90deg, #C9A87C, #E8D5B7, #C9A87C);
+    }
+    .number-badge {
+      font-size: 200px; font-weight: 900;
+      color: #C9A87C;
+      opacity: 0.12;
+      position: absolute;
+      top: 200px;
+      font-family: 'Lato', sans-serif;
+      line-height: 1;
+    }
+    .tag {
+      font-size: 28px; font-weight: 500;
+      color: #C9A87C;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      margin-bottom: 50px;
+      background: rgba(201, 168, 124, 0.12);
+      padding: 16px 36px;
+      border-radius: 40px;
+      border: 1px solid rgba(201, 168, 124, 0.3);
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 90px; font-weight: 700;
+      color: #FDFAF7;
+      text-align: center;
+      line-height: 1.15;
+      margin-bottom: 50px;
+    }
+    h1 em {
+      color: #C9A87C;
+      font-style: italic;
+    }
+    .accent-line {
+      width: 80px; height: 3px;
+      background: #C9A87C;
+      margin-bottom: 50px;
+    }
+    .sub {
+      font-size: 44px; font-weight: 300;
+      color: #B0A090;
+      text-align: center;
+      line-height: 1.5;
+    }
+    .brand {
+      position: absolute; bottom: 70px;
+      left: 50%; transform: translateX(-50%);
+      font-size: 26px; font-weight: 500; color: #C9A87C;
+      letter-spacing: 4px; text-transform: uppercase;
+      white-space: nowrap;
+    }
+    .bottom-accent {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      height: 6px;
+      background: linear-gradient(90deg, #C9A87C, #E8D5B7, #C9A87C);
+    }
+  </style>
+</head>
+<body>
+  <div class="top-accent"></div>
+  <div class="number-badge">5</div>
+  <div class="tag">Você sabia?</div>
+  <div class="accent-line"></div>
+  <h1>A limpeza de pele faz <em>muito mais</em> do que tirar cravo.</h1>
+  <p class="sub">5 benefícios que quase<br>ninguém fala</p>
+  <span class="brand">Estética Criativa</span>
+  <div class="bottom-accent"></div>
+</body>
+</html>

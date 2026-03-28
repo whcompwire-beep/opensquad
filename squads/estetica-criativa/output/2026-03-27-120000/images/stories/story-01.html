@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1080px; height: 1920px; overflow: hidden;
+      background-image:
+        linear-gradient(rgba(245,239,230,0.0) 0%, rgba(245,239,230,0.0) 45%, rgba(245,239,230,0.92) 65%, rgba(253,250,247,0.98) 100%),
+        url('../FotoLais.png');
+      background-size: cover;
+      background-position: center top;
+      font-family: 'Lato', sans-serif;
+      display: flex; flex-direction: column;
+      justify-content: flex-end; align-items: center;
+      padding: 0 80px 200px;
+      position: relative;
+    }
+    .top-accent {
+      position: absolute; top: 0; left: 0; right: 0;
+      height: 8px;
+      background: linear-gradient(90deg, #C9A87C, #E8D5B7, #C9A87C);
+    }
+    /* Card de texto */
+    .card {
+      width: 100%;
+      background: #FDFAF7;
+      border-radius: 32px 32px 0 0;
+      padding: 60px 70px 40px;
+      box-shadow: 0 -10px 40px rgba(0,0,0,0.08);
+    }
+    .emoji-row {
+      font-size: 52px;
+      margin-bottom: 28px;
+      text-align: center;
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 62px; font-weight: 700;
+      color: #2C2C2C;
+      text-align: center;
+      line-height: 1.2;
+      margin-bottom: 30px;
+    }
+    .sub {
+      font-size: 40px; font-weight: 400;
+      color: #8B7355;
+      text-align: center;
+      line-height: 1.5;
+    }
+    .brand {
+      position: absolute; bottom: 55px;
+      left: 50%; transform: translateX(-50%);
+      font-size: 24px; font-weight: 500; color: #C9A87C;
+      letter-spacing: 3px; text-transform: uppercase;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+  <div class="top-accent"></div>
+  <div class="card">
+    <div class="emoji-row">✨</div>
+    <h2>Pronto para receber você</h2>
+    <p class="sub">Sabe o que acontece na sua pele<br>antes de começar?</p>
+  </div>
+  <span class="brand">Estética Criativa</span>
+</body>
+</html>
