@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1080px; height: 1920px; overflow: hidden;
+      background: #C97D6E;
+      font-family: 'Inter', sans-serif;
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: center;
+      padding: 90px; text-align: center;
+      position: relative;
+    }
+    .brand { position: absolute; top: 80px; left: 50%; transform: translateX(-50%); font-family: 'Inter', sans-serif; font-size: 30px; color: rgba(250,246,242,0.6); white-space: nowrap; }
+    .question {
+      font-family: 'Playfair Display', serif;
+      font-size: 58px; font-weight: 700;
+      color: #FAF6F2; line-height: 1.3;
+      max-width: 900px; margin-bottom: 64px;
+    }
+    .poll {
+      display: flex; flex-direction: column;
+      gap: 28px; width: 900px;
+    }
+    .poll-option {
+      background: rgba(250,246,242,0.2);
+      border: 2.5px solid rgba(250,246,242,0.5);
+      border-radius: 16px;
+      padding: 36px 52px;
+      font-family: 'Inter', sans-serif;
+      font-size: 40px; font-weight: 500;
+      color: #FAF6F2;
+    }
+    .poll-label {
+      font-family: 'Inter', sans-serif;
+      font-size: 26px; font-weight: 500;
+      color: rgba(250,246,242,0.7);
+      letter-spacing: 3px; text-transform: uppercase;
+      margin-bottom: 36px;
+    }
+  </style>
+</head>
+<body>
+  <span class="brand">@lais_esteticista</span>
+  <p class="question">Qual dessas você sente mais no inverno?</p>
+  <div class="poll-label">Vote aqui 👇</div>
+  <div class="poll">
+    <div class="poll-option">A pele puxando</div>
+    <div class="poll-option">Descamação e vermelhidão</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+{
+  "squad": "achados-ofertas",
+  "status": "completed",
+  "step": { "current": 7, "total": 7, "label": "04-revisao" },
+  "agents": [
+    {
+      "id": "garimpeiro",
+      "name": "Garimpeiro",
+      "icon": "🔍",
+      "status": "done",
+      "deliverTo": null,
+      "desk": { "col": 1, "row": 1 }
+    },
+    {
+      "id": "estrategista",
+      "name": "Estrategista",
+      "icon": "🎯",
+      "status": "done",
+      "deliverTo": null,
+      "desk": { "col": 2, "row": 1 }
+    },
+    {
+      "id": "copywriter",
+      "name": "Copywriter de Ofertas",
+      "icon": "✍️",
+      "status": "done",
+      "deliverTo": null,
+      "desk": { "col": 3, "row": 1 }
+    },
+    {
+      "id": "revisor",
+      "name": "Revisor de Qualidade",
+      "icon": "✅",
+      "status": "done",
+      "deliverTo": null,
+      "desk": { "col": 1, "row": 2 }
+    }
+  ],
+  "handoff": {
+    "from": "revisor",
+    "to": null,
+    "message": "Revisão concluída. Média 94,7/100. Todos os 3 produtos aprovados para publicação.",
+    "completedAt": "2026-03-26T12:30:00.000Z"
+  },
+  "startedAt": "2026-03-26T12:00:00.000Z",
+  "completedAt": "2026-03-26T12:30:00.000Z",
+  "updatedAt": "2026-03-26T12:30:00.000Z"
+}

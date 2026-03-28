@@ -1,0 +1,40 @@
+{
+  "squad": "estetica-criativa",
+  "status": "completed",
+  "step": { "current": 6, "total": 6, "label": "revisao" },
+  "agents": [
+    {
+      "id": "estrategista",
+      "name": "Estrategista de Beleza",
+      "icon": "🎯",
+      "status": "done",
+      "deliverTo": null,
+      "desk": { "col": 1, "row": 1 }
+    },
+    {
+      "id": "redatora",
+      "name": "Redatora Criativa",
+      "icon": "✍️",
+      "status": "done",
+      "deliverTo": null,
+      "desk": { "col": 2, "row": 1 }
+    },
+    {
+      "id": "revisora",
+      "name": "Revisora de Qualidade",
+      "icon": "🔍",
+      "status": "done",
+      "deliverTo": null,
+      "desk": { "col": 3, "row": 1 }
+    }
+  ],
+  "handoff": {
+    "from": "revisora",
+    "to": null,
+    "message": "5 peças aprovadas com score 10/10. Conteúdo final salvo.",
+    "completedAt": "2026-03-27T12:15:00.000Z"
+  },
+  "startedAt": "2026-03-27T12:01:00.000Z",
+  "completedAt": "2026-03-27T12:15:00.000Z",
+  "updatedAt": "2026-03-27T12:15:00.000Z"
+}
