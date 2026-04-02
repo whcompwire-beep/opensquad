@@ -1,0 +1,9 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: 6 / 6
+  - generic [ref=e3]: 💛
+  - heading "Antes de desistir, entenda o processo." [level=1] [ref=e4]
+  - paragraph [ref=e5]:
+    - text: Cada pele tem o seu protocolo ideal.
+    - text: O primeiro passo é uma conversa.
+  - paragraph [ref=e7]: Agende sua avaliação
+  - generic [ref=e8]: Estética Criativa

@@ -1,0 +1,11 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: Antes de cada sessão
+    - heading "Preparamos a pele do jeitinho certo." [level=1] [ref=e6]
+    - paragraph [ref=e7]:
+      - text: Cada fototipo tem
+      - text: seu
+      - strong [ref=e8]: protocolo personalizado
+      - text: .
+      - text: Não existe receita de bolo.
+  - generic [ref=e9]: "@lais_esteticista"

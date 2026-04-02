@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1080px; height: 1920px; overflow: hidden;
+      background: #FFFFFF;
+      font-family: 'Lato', sans-serif;
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: flex-start;
+      padding: 90px 80px;
+      position: relative;
+    }
+    .top-bar { position: absolute; top: 0; left: 0; right: 0; height: 8px; background: linear-gradient(90deg, #BDA78D, #C38F8B, #AA9176); }
+    .brand-top { position: absolute; top: 76px; left: 80px; font-size: 22px; font-weight: 700; color: #C38F8B; letter-spacing: 3px; text-transform: uppercase; }
+    .story-number { position: absolute; top: 80px; right: 80px; font-size: 22px; color: #BDA78D; font-weight: 300; letter-spacing: 3px; }
+    .icon-row { display: flex; gap: 24px; align-items: center; margin-bottom: 60px; }
+    .icon-box {
+      width: 100px; height: 100px; border-radius: 20px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 50px;
+    }
+    .icon-box.sun { background: #FFF3CD; }
+    .icon-box.no { background: #FCE8E8; position: relative; }
+    .icon-box.no::after {
+      content: "✕";
+      position: absolute; top: -12px; right: -12px;
+      background: #A16C67; color: white;
+      width: 36px; height: 36px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px; font-weight: 700;
+      display: grid; place-items: center;
+    }
+    .arrow { font-size: 48px; color: #D2BBA0; }
+    .icon-box.laser { background: linear-gradient(135deg, #F9D4D0, #E7D5BF); }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 68px; font-weight: 700;
+      color: #2C2C2C;
+      line-height: 1.2;
+      margin-bottom: 50px;
+    }
+    h1 em { color: #A16C67; font-style: italic; }
+    .accent-line { width: 60px; height: 2px; background: linear-gradient(90deg, #BDA78D, #C38F8B); margin-bottom: 50px; }
+    .info-card {
+      background: linear-gradient(135deg, #F9D4D0 0%, #E7D5BF 100%);
+      border-radius: 24px; padding: 50px 60px; width: 100%;
+    }
+    .info-card p { font-size: 38px; font-weight: 300; color: #2C2C2C; line-height: 1.6; }
+    .info-card p strong { font-weight: 700; color: #A16C67; }
+  </style>
+</head>
+<body>
+  <div class="top-bar"></div>
+  <span class="brand-top">Estética Criativa</span>
+  <span class="story-number">2/3</span>
+  <div class="icon-row">
+    <div class="icon-box no">☀️</div>
+    <span class="arrow">→</span>
+    <div class="icon-box laser">✨</div>
+  </div>
+  <h1>Sem sol direto,<br>a pele responde<br><em>melhor ao laser.</em></h1>
+  <div class="accent-line"></div>
+  <div class="info-card">
+    <p>Menos irritação.<br>Mais resultado.<br><strong>O inverno trabalha a seu favor.</strong></p>
+  </div>
+</body>
+</html>

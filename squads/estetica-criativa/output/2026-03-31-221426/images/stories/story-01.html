@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1080px; height: 1920px; overflow: hidden;
+      background: linear-gradient(160deg, #E7D5BF 0%, #FFFFFF 50%, #F9D4D0 100%);
+      font-family: 'Lato', sans-serif;
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: center;
+      padding: 90px 80px;
+      position: relative;
+    }
+    .story-number {
+      position: absolute; top: 80px; right: 80px;
+      font-size: 22px; color: #BDA78D; font-weight: 300; letter-spacing: 3px;
+    }
+    .brand-top {
+      position: absolute; top: 76px; left: 80px;
+      font-size: 22px; font-weight: 700; color: #C38F8B;
+      letter-spacing: 3px; text-transform: uppercase;
+    }
+    .snowflake { font-size: 80px; margin-bottom: 60px; }
+    .tag {
+      font-size: 22px; font-weight: 700; color: #C38F8B;
+      letter-spacing: 5px; text-transform: uppercase;
+      margin-bottom: 40px;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 68px; font-weight: 700;
+      color: #2C2C2C;
+      text-align: center;
+      line-height: 1.2;
+      margin-bottom: 50px;
+    }
+    h1 span { color: #A16C67; font-style: italic; }
+    .accent-line { width: 60px; height: 2px; background: linear-gradient(90deg, #BDA78D, #C38F8B); margin-bottom: 50px; }
+    .poll-box {
+      background: #FFFFFF;
+      border-radius: 24px;
+      padding: 44px 60px;
+      width: 100%;
+      box-shadow: 0 8px 40px rgba(161,108,103,0.12);
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .poll-question { font-size: 38px; font-weight: 400; color: #2C2C2C; line-height: 1.4; margin-bottom: 40px; }
+    .poll-options { display: flex; gap: 20px; justify-content: center; }
+    .poll-btn {
+      flex: 1; padding: 22px 0;
+      border-radius: 50px; font-size: 34px; font-weight: 700;
+      text-align: center;
+    }
+    .poll-btn.yes { background: linear-gradient(135deg, #C38F8B, #A16C67); color: #FFFFFF; }
+    .poll-btn.no { background: #F5EFE6; color: #AA9176; border: 2px solid #D2BBA0; }
+    .swipe-hint { font-size: 26px; color: #BDA78D; font-weight: 300; letter-spacing: 1px; }
+  </style>
+</head>
+<body>
+  <span class="brand-top">Estética Criativa</span>
+  <span class="story-number">1/3</span>
+  <div class="snowflake">❄️</div>
+  <p class="tag">Dica de Inverno</p>
+  <h1>O inverno é o <span>melhor momento</span> para começar a depilação a laser.</h1>
+  <div class="accent-line"></div>
+  <div class="poll-box">
+    <p class="poll-question">Você já sabia disso? 🤔</p>
+    <div class="poll-options">
+      <div class="poll-btn yes">Sim! ✓</div>
+      <div class="poll-btn no">Não sabia</div>
+    </div>
+  </div>
+  <p class="swipe-hint">veja o próximo story →</p>
+</body>
+</html>

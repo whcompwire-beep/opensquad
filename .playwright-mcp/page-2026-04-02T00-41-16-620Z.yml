@@ -1,0 +1,12 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]: Nos bastidores
+    - heading "Avaliamos sua pele antes de começar." [level=1] [ref=e6]
+    - paragraph [ref=e8]:
+      - text: Cor, sensibilidade e histórico.
+      - text: O equipamento é calibrado
+      - text: para
+      - strong [ref=e9]: você especificamente
+      - text: —
+      - text: não existe um protocolo único.
+  - generic [ref=e10]: "@lais_esteticista"

@@ -1,0 +1,15 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]: 2 / 6
+  - generic [ref=e4]:
+    - generic [ref=e5]: ❌
+    - generic [ref=e6]: Mito 1
+  - paragraph [ref=e7]: "\"Só funciona em pele clara.\""
+  - generic [ref=e9]:
+    - generic [ref=e10]: ✅
+    - generic [ref=e11]: Verdade
+  - paragraph [ref=e12]: A tecnologia evoluiu.
+  - paragraph [ref=e13]:
+    - text: Hoje existem protocolos para todos os fototipos.
+    - text: O que muda é o equipamento —
+    - text: não a possibilidade.
+  - generic [ref=e14]: Estética Criativa

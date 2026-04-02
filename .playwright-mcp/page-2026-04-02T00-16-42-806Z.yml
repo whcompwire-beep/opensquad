@@ -1,0 +1,11 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]: Depilação a laser
+    - heading "O laser não raspa. Ele desativa." [level=1] [ref=e6]:
+      - text: O laser não raspa.
+      - text: Ele desativa.
+    - paragraph [ref=e8]:
+      - text: A luz chega até a raiz do pelo
+      - text: e impede o crescimento —
+      - text: sem irritação, sem corte.
+  - generic [ref=e9]: "@lais_esteticista"

@@ -1,0 +1,15 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]: Estética Criativa
+  - generic [ref=e4]: 2/3
+  - generic [ref=e5]:
+    - generic [ref=e6]: ☀️ ✕
+    - generic [ref=e7]: →
+    - generic [ref=e8]: ✨
+  - heading "Sem sol direto, a pele responde melhor ao laser." [level=1] [ref=e9]:
+    - text: Sem sol direto,
+    - text: a pele responde
+    - emphasis [ref=e10]: melhor ao laser.
+  - paragraph [ref=e13]:
+    - text: Menos irritação.
+    - text: Mais resultado.
+    - strong [ref=e14]: O inverno trabalha a seu favor.

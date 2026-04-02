@@ -1,0 +1,10 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]: ✨
+    - heading "Avaliação gratuita disponível." [level=1] [ref=e4]
+    - paragraph [ref=e5]:
+      - text: Descobre o que realmente
+      - text: funciona para a sua pele.
+    - generic [ref=e6]: Manda mensagem
+    - paragraph [ref=e7]: "@lais_esteticista"
+  - generic [ref=e8]: "@lais_esteticista"

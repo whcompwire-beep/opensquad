@@ -1,0 +1,10 @@
+- generic [ref=e3]:
+  - generic [ref=e4]: Transformação Real
+  - heading "Ela evitava colocar short. Não era vaidade. Era vergonha." [level=1] [ref=e6]:
+    - text: Ela evitava colocar short.
+    - text: Não era
+    - emphasis [ref=e7]: vaidade
+    - text: .
+    - text: Era vergonha.
+  - paragraph [ref=e8]: A história que muitas de nós conhecemos bem.
+  - generic [ref=e9]: "@lais_esteticista"

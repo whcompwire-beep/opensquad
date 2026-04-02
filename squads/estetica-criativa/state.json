@@ -1,0 +1,19 @@
+{
+  "squad": "estetica-criativa",
+  "status": "running",
+  "step": { "current": 8, "total": 8, "label": "checkpoint-visual" },
+  "agents": [
+    { "id": "estrategista", "name": "Estrategista de Beleza", "icon": "🧠", "status": "done", "deliverTo": null, "desk": { "col": 1, "row": 1 } },
+    { "id": "redatora", "name": "Redatora Criativa", "icon": "✍️", "status": "done", "deliverTo": null, "desk": { "col": 2, "row": 1 } },
+    { "id": "revisora", "name": "Revisora de Qualidade", "icon": "🔍", "status": "done", "deliverTo": null, "desk": { "col": 3, "row": 1 } },
+    { "id": "designer", "name": "Designer Visual", "icon": "🎨", "status": "delivering", "deliverTo": null, "desk": { "col": 1, "row": 2 } }
+  ],
+  "handoff": {
+    "from": "designer",
+    "to": null,
+    "message": "11 imagens renderizadas — 6 slides de carrossel, 2 capas de Reel, 1 feed imagem única e 3 stories.",
+    "completedAt": "2026-03-31T22:35:00Z"
+  },
+  "startedAt": "2026-03-31T22:14:26Z",
+  "updatedAt": "2026-03-31T22:35:00Z"
+}

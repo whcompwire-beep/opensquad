@@ -20,7 +20,14 @@
       "mcp__playwright__browser_take_screenshot",
       "mcp__playwright__browser_resize",
       "Bash(pkill -f \"http.server 8765\")",
-      "Bash(netstat -ano)"
+      "Bash(netstat -ano)",
+      "mcp__playwright__browser_close",
+      "mcp__playwright__browser_snapshot",
+      "Bash(pkill -f \"python -m http.server 8765\")",
+      "Bash(tasklist)",
+      "mcp__playwright__browser_run_code",
+      "WebFetch(domain:www.pexels.com)",
+      "mcp__playwright__browser_wait_for"
     ]
   },
   "outputStyle": "default"

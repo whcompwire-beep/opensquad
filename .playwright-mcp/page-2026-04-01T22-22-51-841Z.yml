@@ -1,0 +1,9 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]: 💡
+    - heading "Você sabe como funciona o laser por dentro?" [level=1] [ref=e6]
+    - paragraph [ref=e7]:
+      - text: Fica até o final —
+      - text: vou te mostrar.
+    - generic [ref=e8]: 👇
+  - generic [ref=e9]: "@lais_esteticista"

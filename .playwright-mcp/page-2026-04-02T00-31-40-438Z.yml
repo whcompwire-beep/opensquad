@@ -1,0 +1,16 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: "@lais_esteticista"
+  - generic: laser
+  - generic [ref=e3]:
+    - generic [ref=e4]: Depilação a laser
+    - heading "Cansada de começar tudo de novo todo mês?" [level=1] [ref=e5]:
+      - text: Cansada de
+      - text: começar
+      - text: tudo de novo
+      - text: todo mês?
+    - paragraph [ref=e7]:
+      - text: Existe uma forma de
+      - text: se depilar que
+      - strong [ref=e8]: dura de verdade
+      - text: .
+      - text: Sem dor. Sem folículo inflamado.

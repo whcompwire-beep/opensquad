@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Lato:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1080px; height: 1080px; overflow: hidden;
+      background: #FFFFFF;
+      font-family: 'Lato', sans-serif;
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: center;
+      padding: 80px;
+      position: relative;
+    }
+    .border-frame {
+      position: absolute; inset: 30px;
+      border: 2px solid #F9D4D0;
+      border-radius: 4px;
+    }
+    .corner-tl, .corner-br {
+      position: absolute;
+      width: 60px; height: 60px;
+    }
+    .corner-tl {
+      top: 50px; left: 50px;
+      border-top: 4px solid #C38F8B;
+      border-left: 4px solid #C38F8B;
+    }
+    .corner-br {
+      bottom: 50px; right: 50px;
+      border-bottom: 4px solid #C38F8B;
+      border-right: 4px solid #C38F8B;
+    }
+    .quote-mark {
+      font-family: 'Playfair Display', serif;
+      font-size: 140px;
+      color: #F9D4D0;
+      line-height: 0.8;
+      margin-bottom: 20px;
+      align-self: flex-start;
+      margin-left: 40px;
+    }
+    .quote {
+      font-family: 'Playfair Display', serif;
+      font-size: 64px;
+      font-weight: 700;
+      color: #2C2C2C;
+      text-align: center;
+      line-height: 1.35;
+      margin-bottom: 50px;
+      padding: 0 20px;
+    }
+    .accent-line {
+      width: 60px; height: 3px;
+      background: #C38F8B;
+      margin-bottom: 30px;
+      border-radius: 2px;
+    }
+    .brand {
+      font-size: 28px; font-weight: 600;
+      color: #C38F8B;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+<body>
+  <div class="border-frame"></div>
+  <div class="corner-tl"></div>
+  <div class="corner-br"></div>
+  <div class="quote-mark">"</div>
+  <p class="quote">Pare de repetir o que não te serve<br>só porque sempre foi assim.</p>
+  <div class="accent-line"></div>
+  <div class="brand">@lais_esteticista</div>
+</body>
+</html>

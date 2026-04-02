@@ -1,0 +1,10 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]: Reel
+  - generic [ref=e6]:
+    - paragraph [ref=e7]: Transformação
+    - heading "Ela evitava usar short há 3 anos." [level=1] [ref=e8]
+    - paragraph [ref=e10]:
+      - text: Não era falta de vontade.
+      - text: Era falta de
+      - strong [ref=e11]: estratégia.
+  - generic [ref=e12]: Estética Criativa

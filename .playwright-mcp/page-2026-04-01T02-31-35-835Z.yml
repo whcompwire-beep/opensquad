@@ -1,0 +1,13 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: Estética Criativa
+  - generic [ref=e3]: 3/3
+  - generic [ref=e4]: 🌞
+  - heading "Você começa agora — e chega no verão do jeito que sempre quis." [level=1] [ref=e5]:
+    - text: Você começa agora —
+    - text: e chega no verão
+    - emphasis [ref=e6]: do jeito que sempre quis.
+  - paragraph [ref=e8]:
+    - text: Avaliação gratuita.
+    - text: Sem compromisso. Só uma conversa.
+  - paragraph [ref=e10]: Manda mensagem 💛
+  - paragraph [ref=e11]: link na bio

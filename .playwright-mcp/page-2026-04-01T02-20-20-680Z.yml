@@ -1,0 +1,10 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]: Reel
+  - generic [ref=e6]:
+    - heading "Você não precisa se depilar toda semana pelo resto da vida." [level=1] [ref=e7]:
+      - text: Você não precisa se depilar toda semana
+      - emphasis [ref=e8]: pelo resto da vida.
+    - paragraph [ref=e10]:
+      - text: Mas ninguém te contou isso
+      - text: de um jeito que fez sentido.
+  - generic [ref=e11]: Estética Criativa

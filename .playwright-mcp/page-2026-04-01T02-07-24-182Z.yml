@@ -1,0 +1,15 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]: 4 / 6
+  - generic [ref=e4]:
+    - generic [ref=e5]: ❌
+    - generic [ref=e6]: Mito 3
+  - paragraph [ref=e7]: "\"Uma sessão já resolve.\""
+  - generic [ref=e9]:
+    - generic [ref=e10]: ✅
+    - generic [ref=e11]: Verdade
+  - paragraph [ref=e12]: O pelo tem ciclos.
+  - paragraph [ref=e13]:
+    - text: O laser age no pelo em fase de crescimento.
+    - text: Um protocolo completo dura de 6 a 10 sessões —
+    - text: e é isso que garante o resultado.
+  - generic [ref=e14]: Estética Criativa

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1080px; height: 1920px; overflow: hidden;
+      background: linear-gradient(180deg, #2C2020 0%, #A16C67 40%, #C38F8B 75%, #F9D4D0 100%);
+      font-family: 'Lato', sans-serif;
+      display: flex; flex-direction: column;
+      justify-content: flex-end; align-items: flex-start;
+      padding: 0 90px 140px;
+      position: relative;
+    }
+    .overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.2) 100%);
+    }
+    .reel-tag {
+      position: absolute; top: 80px; left: 90px;
+      display: flex; align-items: center; gap: 12px;
+    }
+    .reel-tag .dot {
+      width: 10px; height: 10px; border-radius: 50%;
+      background: #F9D4D0;
+    }
+    .reel-tag span {
+      font-size: 22px; font-weight: 700; color: rgba(255,255,255,0.8);
+      letter-spacing: 5px; text-transform: uppercase;
+    }
+    .content { position: relative; z-index: 2; }
+    .eyebrow {
+      font-size: 22px; font-weight: 700; color: #F9D4D0;
+      letter-spacing: 4px; text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 86px; font-weight: 700; font-style: italic;
+      color: #FFFFFF;
+      line-height: 1.1;
+      margin-bottom: 40px;
+    }
+    .hook-line {
+      width: 70px; height: 3px;
+      background: #F9D4D0;
+      margin-bottom: 36px;
+    }
+    .sub {
+      font-size: 36px; font-weight: 300; color: rgba(255,255,255,0.85);
+      line-height: 1.6;
+    }
+    .brand {
+      position: absolute; bottom: 60px; right: 90px;
+      font-size: 22px; font-weight: 700; color: rgba(255,255,255,0.6);
+      letter-spacing: 3px; text-transform: uppercase;
+      z-index: 2;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="reel-tag"><div class="dot"></div><span>Reel</span></div>
+  <div class="content">
+    <p class="eyebrow">Transformação</p>
+    <h1>Ela evitava usar short há 3 anos.</h1>
+    <div class="hook-line"></div>
+    <p class="sub">Não era falta de vontade.<br>Era falta de <strong>estratégia.</strong></p>
+  </div>
+  <span class="brand">Estética Criativa</span>
+</body>
+</html>

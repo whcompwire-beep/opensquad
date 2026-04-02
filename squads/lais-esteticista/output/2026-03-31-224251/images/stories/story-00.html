@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1080px; height: 1920px; overflow: hidden;
+      background: linear-gradient(180deg, #A16C67 0%, #C18881 55%, #F9D4D0 100%);
+      font-family: 'Lato', sans-serif;
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: flex-start;
+      padding: 0 100px;
+      position: relative;
+    }
+    .top-handle {
+      position: absolute; top: 80px; left: 100px;
+      font-family: 'Lato', sans-serif;
+      font-size: 30px; font-weight: 700;
+      letter-spacing: 2px;
+      color: rgba(255,255,255,0.65);
+    }
+    .bg-text {
+      position: absolute;
+      font-family: 'Playfair Display', serif;
+      font-size: 320px; font-weight: 700;
+      color: rgba(255,255,255,0.05);
+      line-height: 1;
+      right: -40px; top: 160px;
+      letter-spacing: -10px;
+      pointer-events: none;
+    }
+    .content {
+      position: relative; z-index: 2;
+      margin-top: -200px;
+    }
+    .tag {
+      display: inline-block;
+      font-family: 'Lato', sans-serif;
+      font-size: 26px; font-weight: 700;
+      letter-spacing: 4px; text-transform: uppercase;
+      color: rgba(255,255,255,0.75);
+      border: 2px solid rgba(255,255,255,0.35);
+      border-radius: 60px;
+      padding: 12px 40px;
+      margin-bottom: 50px;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 90px; font-weight: 700;
+      color: #FFFFFF;
+      line-height: 1.2;
+      margin-bottom: 50px;
+    }
+    .divider {
+      width: 70px; height: 4px;
+      background: rgba(255,255,255,0.55);
+      border-radius: 2px;
+      margin-bottom: 50px;
+    }
+    .sub {
+      font-family: 'Lato', sans-serif;
+      font-size: 46px; font-weight: 300;
+      color: rgba(255,255,255,0.9);
+      line-height: 1.6;
+      max-width: 880px;
+    }
+    .sub strong { font-weight: 700; color: #FFFFFF; }
+  </style>
+</head>
+<body>
+  <div class="top-handle">@lais_esteticista</div>
+  <div class="bg-text">laser</div>
+  <div class="content">
+    <div class="tag">Depilação a laser</div>
+    <h1>Cansada de<br>começar<br>tudo de novo<br>todo mês?</h1>
+    <div class="divider"></div>
+    <p class="sub">Existe uma forma de<br>se depilar que <strong>dura de verdade</strong>.<br>Sem dor. Sem folículo inflamado.</p>
+  </div>
+</body>
+</html>

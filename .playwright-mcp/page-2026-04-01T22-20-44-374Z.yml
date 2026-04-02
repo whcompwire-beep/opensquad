@@ -1,0 +1,17 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: ❌
+    - generic [ref=e5]:
+      - generic [ref=e6]: Mito
+      - generic [ref=e7]: O resultado é imediato
+  - generic [ref=e9]:
+    - generic [ref=e10]: ✅
+    - generic [ref=e11]:
+      - generic [ref=e12]: Realidade
+      - list [ref=e13]:
+        - listitem [ref=e14]: O pelo tem ciclos de crescimento.
+        - listitem [ref=e15]: São necessárias sessões regulares
+        - listitem [ref=e16]: para atingir os pelos em fase ativa.
+        - listitem [ref=e17]: Constância é o segredo.
+  - generic [ref=e18]: "@lais_esteticista"
+  - generic [ref=e19]: 4 / 6

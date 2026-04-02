@@ -1,0 +1,17 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: ❌
+    - generic [ref=e5]:
+      - generic [ref=e6]: Mito
+      - generic [ref=e7]: Não funciona em pele morena ou escura
+  - generic [ref=e9]:
+    - generic [ref=e10]: ✅
+    - generic [ref=e11]:
+      - generic [ref=e12]: Realidade
+      - list [ref=e13]:
+        - listitem [ref=e14]: Com o equipamento adequado
+        - listitem [ref=e15]: e profissional qualificado,
+        - listitem [ref=e16]: funciona em todos os fototipos.
+        - listitem [ref=e17]: A avaliação define o protocolo.
+  - generic [ref=e18]: "@lais_esteticista"
+  - generic [ref=e19]: 3 / 6

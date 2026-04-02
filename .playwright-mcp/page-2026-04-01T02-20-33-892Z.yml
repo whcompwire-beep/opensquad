@@ -1,0 +1,9 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]: "\""
+  - heading "Cuidar de si não é luxo. É decidir como você quer gastar sua energia." [level=1] [ref=e5]:
+    - text: Cuidar de si
+    - text: não é luxo.
+    - text: É decidir como você quer
+    - emphasis [ref=e6]: gastar sua energia.
+  - paragraph [ref=e8]: Depilação definitiva — liberdade real.
+  - generic [ref=e9]: Estética Criativa

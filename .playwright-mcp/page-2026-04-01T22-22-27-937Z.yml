@@ -1,0 +1,10 @@
+- generic [active] [ref=e1]:
+  - heading "Cada pele é única. O protocolo certo começa com uma avaliação." [level=1] [ref=e3]:
+    - text: Cada pele é única.
+    - text: O protocolo certo começa
+    - text: com uma avaliação.
+  - generic [ref=e4]:
+    - generic [ref=e5]: Salva esse post.
+    - generic [ref=e6]: Leva para a sua consulta.
+  - generic [ref=e7]: "@lais_esteticista"
+  - generic [ref=e8]: 6 / 6

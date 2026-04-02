@@ -1,11 +1,12 @@
-name: estetica-criativa
-display_name: "Estética Criativa — Squad de Conteúdo"
+name: lais-esteticista
+display_name: "Laís Esteticista — Squad de Conteúdo"
 description: >
-  Squad completo de marketing digital para empresa de estética e beleza feminina.
+  Squad completo de marketing digital para Laís Esteticista.
   Produz conteúdo para Instagram Feed (carrossel e imagem única), Instagram Reels e
   Instagram Stories voltado para mulheres que buscam serviços de estética.
+  Inclui análise de qualidade final após entrega visual.
 version: "1.0.0"
-created: "2026-03-27"
+created: "2026-03-31"
 performance_mode: alta_performance
 
 investigation:
@@ -39,6 +40,10 @@ agents:
     name: Designer Visual
     file: agents/designer.agent.md
     role: designer
+  - id: analista
+    name: Analista de Qualidade Final
+    file: agents/analista-qualidade.agent.md
+    role: analyst
 
 pipeline:
   steps:
@@ -82,5 +87,15 @@ pipeline:
       label: "Aprovar imagens geradas"
       file: pipeline/steps/08-checkpoint-visual.step.md
 
-output_dir: squads/estetica-criativa/output
-memory_file: squads/estetica-criativa/_memory/memories.md
+    - id: analise-qualidade
+      agent: analista
+      file: pipeline/steps/09-analise-qualidade.step.md
+      description: "Análise final integrada: copy + visual + consistência de marca"
+
+    - id: checkpoint-qualidade-final
+      type: checkpoint
+      label: "Relatório de qualidade final"
+      file: pipeline/steps/10-checkpoint-qualidade-final.step.md
+
+output_dir: squads/lais-esteticista/output
+memory_file: squads/lais-esteticista/_memory/memories.md

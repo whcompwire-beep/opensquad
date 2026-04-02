@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1080px; height: 1920px; overflow: hidden;
+      background: linear-gradient(180deg, #F9D4D0 0%, #C38F8B 60%, #A16C67 100%);
+      font-family: 'Lato', sans-serif;
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: center;
+      padding: 100px 80px;
+      position: relative;
+    }
+    .pulse-circle {
+      position: absolute;
+      width: 600px; height: 600px;
+      border-radius: 50%;
+      border: 3px solid rgba(255,255,255,0.15);
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .pulse-circle-2 {
+      position: absolute;
+      width: 820px; height: 820px;
+      border-radius: 50%;
+      border: 2px solid rgba(255,255,255,0.08);
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .content { position: relative; z-index: 2; text-align: center; }
+    .label {
+      font-size: 26px; font-weight: 700;
+      letter-spacing: 5px; text-transform: uppercase;
+      color: rgba(255,255,255,0.75);
+      margin-bottom: 50px;
+      display: block;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 80px; font-weight: 700;
+      color: #FFFFFF;
+      line-height: 1.25;
+      margin-bottom: 50px;
+    }
+    .accent { font-style: italic; }
+    .divider {
+      width: 60px; height: 3px;
+      background: rgba(255,255,255,0.5);
+      margin: 0 auto 50px;
+      border-radius: 2px;
+    }
+    .detail {
+      font-size: 46px; font-weight: 400;
+      color: rgba(255,255,255,0.9);
+      line-height: 1.6;
+    }
+    .brand {
+      position: absolute; bottom: 80px;
+      font-size: 32px; font-weight: 700;
+      color: rgba(255,255,255,0.9);
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+<body>
+  <div class="pulse-circle"></div>
+  <div class="pulse-circle-2"></div>
+  <div class="content">
+    <span class="label">Depilação a laser</span>
+    <h1>O laser não raspa.<br>Ele <span class="accent">desativa</span>.</h1>
+    <div class="divider"></div>
+    <p class="detail">A luz chega até a raiz do pelo<br>e impede o crescimento —<br>sem irritação, sem corte.</p>
+  </div>
+  <span class="brand">@lais_esteticista</span>
+</body>
+</html>

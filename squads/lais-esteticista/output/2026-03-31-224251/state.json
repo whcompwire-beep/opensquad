@@ -1,0 +1,21 @@
+{
+  "squad": "lais-esteticista",
+  "status": "completed",
+  "step": { "current": 10, "total": 10, "label": "checkpoint-qualidade-final" },
+  "agents": [
+    { "id": "estrategista", "name": "Estrategista de Beleza", "icon": "🎯", "status": "done", "deliverTo": null, "desk": { "col": 1, "row": 1 } },
+    { "id": "redatora", "name": "Redatora Criativa", "icon": "✍️", "status": "done", "deliverTo": null, "desk": { "col": 2, "row": 1 } },
+    { "id": "revisora", "name": "Revisora de Qualidade", "icon": "🔍", "status": "done", "deliverTo": null, "desk": { "col": 3, "row": 1 } },
+    { "id": "designer", "name": "Designer Visual", "icon": "🎨", "status": "done", "deliverTo": null, "desk": { "col": 1, "row": 2 } },
+    { "id": "analista", "name": "Analista de Qualidade Final", "icon": "📊", "status": "done", "deliverTo": null, "desk": { "col": 2, "row": 2 } }
+  ],
+  "handoff": {
+    "from": "analista",
+    "to": null,
+    "message": "Análise integrada concluída. Score 14,6/15. Rodada completa.",
+    "completedAt": "2026-03-31T22:52:00Z"
+  },
+  "startedAt": "2026-03-31T22:42:51Z",
+  "completedAt": "2026-03-31T22:52:00Z",
+  "updatedAt": "2026-03-31T22:52:00Z"
+}

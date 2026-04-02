@@ -1,0 +1,15 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]: 3 / 6
+  - generic [ref=e4]:
+    - generic [ref=e5]: ❌
+    - generic [ref=e6]: Mito 2
+  - paragraph [ref=e7]: "\"Dói igual à cera.\""
+  - generic [ref=e9]:
+    - generic [ref=e10]: ✅
+    - generic [ref=e11]: Verdade
+  - paragraph [ref=e12]: A sensação é diferente.
+  - paragraph [ref=e13]:
+    - text: É um estalo leve e rápido.
+    - text: A maioria das pacientes relata muito menos
+    - text: desconforto do que esperava.
+  - generic [ref=e14]: Estética Criativa

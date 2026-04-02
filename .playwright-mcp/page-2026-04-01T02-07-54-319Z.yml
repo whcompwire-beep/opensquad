@@ -1,0 +1,15 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]: 5 / 6
+  - generic [ref=e4]:
+    - generic [ref=e5]: ❌
+    - generic [ref=e6]: Mito 4
+  - paragraph [ref=e7]: "\"Melhor fazer no verão.\""
+  - generic [ref=e9]:
+    - generic [ref=e10]: ✅
+    - generic [ref=e11]: Verdade
+  - paragraph [ref=e12]: O inverno é o momento ideal.
+  - paragraph [ref=e13]: Sem sol direto, a pele responde melhor.
+  - paragraph [ref=e15]:
+    - text: Você começa agora — e chega no verão
+    - strong [ref=e16]: do jeito que você sempre quis.
+  - generic [ref=e17]: Estética Criativa
