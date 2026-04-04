@@ -1,0 +1,12 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: 💛
+  - generic [ref=e3]:
+    - text: O que mais te impede
+    - text: de cuidar da sua pele?
+  - heading "Me conta nos comentários 👇" [level=2] [ref=e4]:
+    - text: Me conta
+    - text: nos comentários 👇
+  - generic [ref=e5]: Agende sua avaliação
+  - generic [ref=e6]: "@lais_esteticista"
+  - generic [ref=e7]: "@lais_esteticista"
+  - generic [ref=e8]: 6/6

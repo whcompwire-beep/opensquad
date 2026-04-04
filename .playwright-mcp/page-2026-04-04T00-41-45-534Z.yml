@@ -1,0 +1,13 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]: Laser Lavieen
+    - heading "Manchas. Poros. Textura irregular." [level=1] [ref=e7]:
+      - text: Manchas.
+      - text: Poros.
+      - text: Textura irregular.
+    - paragraph [ref=e8]:
+      - text: 3 problemas que o skincare sozinho
+      - text: nunca vai resolver.
+    - paragraph [ref=e9]: Arrasta e descobre 👉
+  - generic [ref=e10]: "@lais_esteticista"
+  - generic [ref=e11]: 1/4

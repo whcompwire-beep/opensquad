@@ -1,0 +1,13 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: ❌ Mito
+    - generic [ref=e5]: Laser só funciona em pele clara.
+  - generic [ref=e6]:
+    - generic [ref=e7]: ✅ Verdade
+    - generic [ref=e8]:
+      - text: O protocolo é
+      - strong [ref=e9]: adaptado para cada tom de pele
+      - text: .
+      - text: A avaliação profissional garante o tratamento certo para a sua pele — e só a sua.
+  - generic [ref=e10]: "@lais_esteticista"
+  - generic [ref=e11]: 3/6

@@ -1,0 +1,20 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: ✕
+      - generic [ref=e6]: Mito
+    - generic [ref=e7]: Laser queima a pele e o resultado demora meses.
+  - generic [ref=e8]:
+    - generic [ref=e9]:
+      - generic [ref=e10]: ✓
+      - generic [ref=e11]: Verdade
+    - generic [ref=e12]:
+      - text: O Lavieen é
+      - strong [ref=e13]: fracionado
+      - text: .
+      - text: Recuperação em
+      - strong [ref=e14]: 2 a 4 dias
+      - text: .
+      - text: Você volta à rotina quase imediatamente.
+  - generic [ref=e15]: "@lais_esteticista"
+  - generic [ref=e16]: 2/4

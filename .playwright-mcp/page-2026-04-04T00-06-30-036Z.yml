@@ -1,0 +1,20 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]: O Lavieen trata
+  - heading "O que muda com o laser Lavieen" [level=2] [ref=e4]:
+    - text: O que muda
+    - text: com o laser Lavieen
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]: →
+      - text: Manchas e melasma
+    - generic [ref=e8]:
+      - generic [ref=e9]: →
+      - text: Poros dilatados
+    - generic [ref=e10]:
+      - generic [ref=e11]: →
+      - text: Textura irregular
+    - generic [ref=e12]:
+      - generic [ref=e13]: →
+      - text: Flacidez leve e sinais do tempo
+  - generic [ref=e14]: "@lais_esteticista"
+  - generic [ref=e15]: 5/6

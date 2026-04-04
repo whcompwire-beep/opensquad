@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Lato:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1080px; height: 1440px; overflow: hidden;
+      background: linear-gradient(160deg, #E8D5BE 0%, #C9A882 100%);
+      font-family: 'Lato', sans-serif;
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: center;
+      padding: 90px 90px;
+      position: relative;
+    }
+    .top-bar { position: absolute; top: 0; left: 0; right: 0; height: 8px; background: #AA9176; }
+    .bottom-bar { position: absolute; bottom: 0; left: 0; right: 0; height: 8px; background: #AA9176; }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 66px; font-weight: 700;
+      color: #2C2C2C;
+      text-align: center;
+      line-height: 1.2;
+      margin-bottom: 56px;
+    }
+    .list {
+      width: 100%;
+      background: #FFFFFF;
+      border-radius: 16px;
+      padding: 52px 60px;
+    }
+    .item {
+      font-size: 42px; font-weight: 500;
+      color: #2C2C2C;
+      line-height: 1.5;
+      padding: 14px 0;
+      border-bottom: 1px solid #D4B99A;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .item:last-child { border-bottom: none; }
+    .arrow { color: #AA9176; font-weight: 700; }
+    .brand { position: absolute; bottom: 36px; right: 60px; font-size: 26px; font-weight: 700; color: #6B4F38; letter-spacing: 2px; }
+    .slide-num { position: absolute; bottom: 36px; left: 60px; font-size: 24px; color: #6B4F38; font-weight: 500; }
+  </style>
+</head>
+<body>
+  <div class="top-bar"></div>
+  <h2>O que melhora<br>com o Laser Lavieen</h2>
+  <div class="list">
+    <div class="item"><span class="arrow">→</span> Manchas e melasma</div>
+    <div class="item"><span class="arrow">→</span> Poros dilatados</div>
+    <div class="item"><span class="arrow">→</span> Textura irregular</div>
+    <div class="item"><span class="arrow">→</span> Flacidez leve e sinais do tempo</div>
+  </div>
+  <span class="brand">@lais_esteticista</span>
+  <span class="slide-num">3/4</span>
+  <div class="bottom-bar"></div>
+</body>
+</html>

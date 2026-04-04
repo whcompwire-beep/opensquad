@@ -1,0 +1,15 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: ❌ Mito
+    - generic [ref=e5]: Você vai precisar de muitas sessões caras.
+  - generic [ref=e6]:
+    - generic [ref=e7]: ✅ Verdade
+    - generic [ref=e8]:
+      - text: Muitas pacientes veem
+      - strong [ref=e9]: melhora real já na 1ª sessão
+      - text: .
+      - text: Com estratégia, o resultado chega
+      - strong [ref=e10]: no seu tempo
+      - text: .
+  - generic [ref=e11]: "@lais_esteticista"
+  - generic [ref=e12]: 4/6

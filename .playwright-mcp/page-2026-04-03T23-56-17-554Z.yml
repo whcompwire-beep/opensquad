@@ -1,0 +1,13 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: "@lais_esteticista"
+  - generic [ref=e3]: 💛
+  - blockquote [ref=e4]:
+    - text: Aqui a gente cuida
+    - text: da sua pele
+    - text: com estratégia,
+    - text: cuidado e
+    - text: olhar clínico.
+  - paragraph [ref=e6]:
+    - text: Porque sua pele merece
+    - text: mais do que uma rotina.
+    - text: Merece um protocolo.

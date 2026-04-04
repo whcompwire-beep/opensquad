@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1080px; height: 1440px; overflow: hidden;
+      font-family: 'Lato', sans-serif;
+      position: relative;
+    }
+    .photo-bg {
+      position: absolute; inset: 0;
+      background: url('http://localhost:8765/pelemancha.jpeg') center center / cover no-repeat;
+    }
+    .overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.22) 0%,
+        rgba(0,0,0,0.10) 30%,
+        rgba(0,0,0,0.55) 68%,
+        rgba(0,0,0,0.78) 100%
+      );
+    }
+    .content {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      padding: 0 80px 110px;
+      z-index: 1;
+    }
+    .tag {
+      font-size: 24px; font-weight: 700;
+      color: rgba(255,255,255,0.75);
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      margin-bottom: 28px;
+    }
+    .accent-line { width: 50px; height: 2px; background: rgba(255,255,255,0.5); margin-bottom: 36px; }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 84px; font-weight: 700;
+      color: #FFFFFF;
+      line-height: 1.15;
+      margin-bottom: 32px;
+      text-shadow: 0 2px 16px rgba(0,0,0,0.3);
+    }
+    .sub {
+      font-size: 38px; font-weight: 400;
+      color: rgba(255,255,255,0.88);
+      line-height: 1.55;
+      margin-bottom: 44px;
+    }
+    .cta {
+      font-size: 36px; font-weight: 600;
+      color: rgba(255,255,255,0.9);
+      letter-spacing: 1px;
+    }
+    .brand { position: absolute; bottom: 36px; right: 60px; font-size: 26px; font-weight: 500; color: rgba(255,255,255,0.8); letter-spacing: 2px; z-index: 1; }
+    .slide-num { position: absolute; bottom: 36px; left: 60px; font-size: 24px; color: rgba(255,255,255,0.6); z-index: 1; }
+  </style>
+</head>
+<body>
+  <div class="photo-bg"></div>
+  <div class="overlay"></div>
+  <div class="content">
+    <div class="tag">Laser Lavieen</div>
+    <div class="accent-line"></div>
+    <h1>Manchas.<br>Poros.<br>Textura irregular.</h1>
+    <p class="sub">3 problemas que o skincare sozinho<br>nunca vai resolver.</p>
+    <p class="cta">Arrasta e descobre 👉</p>
+  </div>
+  <span class="brand">@lais_esteticista</span>
+  <span class="slide-num">1/4</span>
+</body>
+</html>

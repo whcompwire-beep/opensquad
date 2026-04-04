@@ -1,0 +1,8 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: "\""
+  - blockquote [ref=e4]:
+    - text: Cuidar da sua pele
+    - text: não é vaidade.
+    - text: É o começo de
+    - text: como você se enxerga.
+  - generic [ref=e6]: "@lais_esteticista"

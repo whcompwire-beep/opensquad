@@ -1,0 +1,13 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]: "@lais_esteticista"
+  - generic [ref=e5]: 4/4
+  - generic [ref=e6]:
+    - generic [ref=e7]: Laser Lavieen
+    - heading "Quer saber se o Lavieen é para você?" [level=2] [ref=e9]:
+      - text: Quer saber se o Lavieen
+      - text: é para você?
+    - paragraph [ref=e10]:
+      - text: Faço avaliação personalizada.
+      - text: Vamos encontrar o caminho
+      - text: certo para a sua pele.
+    - generic [ref=e11]: Enviar mensagem

@@ -1,0 +1,10 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: Transformação Real
+  - generic [ref=e4]: História de Paciente
+  - heading "Ela cuidava da pele." [level=1] [ref=e5]:
+    - text: Ela cuidava
+    - text: da pele.
+  - paragraph [ref=e6]:
+    - text: Mas a pele não acompanhava
+    - text: como ela se sentia.
+  - generic [ref=e7]: "@lais_esteticista"

@@ -1,0 +1,26 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]: A resposta
+  - heading "O laser Lavieen resolve os 3." [level=2] [ref=e5]:
+    - text: O laser Lavieen
+    - text: resolve os 3.
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]: "1"
+      - generic [ref=e9]:
+        - text: Tecnologia
+        - strong [ref=e10]: fracionada
+        - text: — age em profundidade sem destruir a superfície
+    - generic [ref=e11]:
+      - generic [ref=e12]: "2"
+      - generic [ref=e13]:
+        - text: Recuperação em
+        - strong [ref=e14]: 2 a 4 dias
+        - text: — você não precisa sumir
+    - generic [ref=e15]:
+      - generic [ref=e16]: "3"
+      - generic [ref=e17]:
+        - text: Protocolo
+        - strong [ref=e18]: personalizado
+        - text: para a sua pele, não genérico
+  - generic [ref=e19]: "@lais_esteticista"
+  - generic [ref=e20]: 2/4

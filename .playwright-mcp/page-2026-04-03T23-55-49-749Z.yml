@@ -1,0 +1,13 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: "@lais_esteticista"
+  - generic [ref=e3]: 💛
+  - heading "Você já adiou cuidar da sua pele por medo do laser?" [level=1] [ref=e4]:
+    - text: Você já adiou cuidar
+    - text: da sua pele por medo
+    - text: do laser?
+  - paragraph [ref=e5]: Responde aqui — quero saber!
+  - generic [ref=e6]:
+    - generic [ref=e7]: Enquete
+    - generic [ref=e8]:
+      - generic [ref=e9]: SIM
+      - generic [ref=e10]: NÃO

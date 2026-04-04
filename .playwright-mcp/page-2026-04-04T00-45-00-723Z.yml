@@ -1,0 +1,19 @@
+- generic [active] [ref=e1]:
+  - heading "O que melhora com o Laser Lavieen" [level=2] [ref=e3]:
+    - text: O que melhora
+    - text: com o Laser Lavieen
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: →
+      - text: Manchas e melasma
+    - generic [ref=e7]:
+      - generic [ref=e8]: →
+      - text: Poros dilatados
+    - generic [ref=e9]:
+      - generic [ref=e10]: →
+      - text: Textura irregular
+    - generic [ref=e11]:
+      - generic [ref=e12]: →
+      - text: Flacidez leve e sinais do tempo
+  - generic [ref=e13]: "@lais_esteticista"
+  - generic [ref=e14]: 3/4

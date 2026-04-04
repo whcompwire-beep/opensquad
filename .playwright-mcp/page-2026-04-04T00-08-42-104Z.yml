@@ -1,0 +1,23 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: "@lais_esteticista"
+  - generic [ref=e3]: Laser Lavieen
+  - heading "É diferente do que você imagina." [level=2] [ref=e5]:
+    - text: É diferente do que
+    - text: você imagina.
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]: ✔️
+      - generic [ref=e9]:
+        - text: Recuperação em
+        - strong [ref=e10]: 2 a 4 dias
+    - generic [ref=e11]:
+      - generic [ref=e12]: ✔️
+      - generic [ref=e13]:
+        - text: Trata
+        - strong [ref=e14]: manchas, poros e textura
+    - generic [ref=e15]:
+      - generic [ref=e16]: ✔️
+      - generic [ref=e17]:
+        - text: Protocolo
+        - strong [ref=e18]: personalizado
+        - text: para a sua pele

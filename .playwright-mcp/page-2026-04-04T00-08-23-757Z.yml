@@ -1,0 +1,12 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: Laser Lavieen
+  - generic [ref=e3]: Depois dos 30
+  - heading "Sua pele começa a pedir algo que creme nenhum entrega." [level=1] [ref=e4]:
+    - text: Sua pele começa
+    - text: a pedir algo que
+    - text: creme nenhum
+    - text: entrega.
+  - paragraph [ref=e5]:
+    - text: Skincare mantém.
+    - text: Laser restaura.
+  - generic [ref=e6]: "@lais_esteticista"
