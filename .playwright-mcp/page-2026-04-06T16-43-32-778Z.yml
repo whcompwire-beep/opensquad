@@ -1,0 +1,21 @@
+- generic [active] [ref=e1]:
+  - heading "O que é lipedema?" [level=2] [ref=e3]
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: →
+      - text: Acúmulo patológico de tecido adiposo
+    - generic [ref=e7]:
+      - generic [ref=e8]: →
+      - text: Predominante em mulheres
+    - generic [ref=e9]:
+      - generic [ref=e10]: →
+      - text: Simétrico — afeta os dois lados do corpo
+    - generic [ref=e11]:
+      - generic [ref=e12]: →
+      - text: Dói ao toque, mesmo levemente
+    - generic [ref=e13]:
+      - generic [ref=e14]: →
+      - text: Não responde a exercício nem a dieta
+  - paragraph [ref=e15]: Não é fraqueza. É fisiologia.
+  - generic [ref=e16]: "@lais_esteticista"
+  - generic [ref=e17]: 2/5

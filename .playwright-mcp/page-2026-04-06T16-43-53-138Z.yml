@@ -1,0 +1,17 @@
+- generic [active] [ref=e1]:
+  - heading "Por que o sistema linfático importa?" [level=2] [ref=e3]:
+    - text: Por que o sistema
+    - text: linfático importa?
+  - paragraph [ref=e5]:
+    - text: O sistema linfático remove
+    - strong [ref=e6]: líquidos, toxinas
+    - text: e células inflamatórias dos tecidos.
+    - text: No lipedema, ele fica
+    - strong [ref=e7]: sobrecarregado
+    - text: .
+    - text: O fluido acumula.
+    - text: A inflamação aumenta.
+    - text: A dor persiste.
+  - paragraph [ref=e8]: Esse é o mecanismo — não é falta de esforço.
+  - generic [ref=e9]: "@lais_esteticista"
+  - generic [ref=e10]: 3/5

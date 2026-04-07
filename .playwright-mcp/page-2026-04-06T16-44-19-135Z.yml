@@ -1,0 +1,31 @@
+- generic [active] [ref=e1]:
+  - heading "O que a drenagem linfática faz?" [level=2] [ref=e3]:
+    - text: O que a drenagem
+    - text: linfática faz?
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: "1"
+      - generic [ref=e7]:
+        - text: Ativa manualmente o que o corpo
+        - strong [ref=e8]: não consegue mais fazer sozinho
+    - generic [ref=e9]:
+      - generic [ref=e10]: "2"
+      - generic [ref=e11]:
+        - text: Estimula os
+        - strong [ref=e12]: vasos linfáticos
+        - text: e melhora o fluxo
+    - generic [ref=e13]:
+      - generic [ref=e14]: "3"
+      - generic [ref=e15]:
+        - text: Reduz o
+        - strong [ref=e16]: acúmulo de fluido
+        - text: e a inflamação crônica
+    - generic [ref=e17]:
+      - generic [ref=e18]: "4"
+      - generic [ref=e19]:
+        - text: Alivia a
+        - strong [ref=e20]: sensação de peso e dor
+        - text: nos membros
+  - paragraph [ref=e21]: Não é estético. É funcional.
+  - generic [ref=e22]: "@lais_esteticista"
+  - generic [ref=e23]: 4/5

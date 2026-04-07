@@ -1,0 +1,13 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]: Lipedema
+  - heading "Lipedema não é gordura. Não é inchaço." [level=1] [ref=e5]:
+    - text: Lipedema não é gordura.
+    - text: Não é inchaço.
+  - paragraph [ref=e6]:
+    - text: E não cede com dieta —
+    - text: porque
+    - emphasis [ref=e7]: não foi gerado
+    - text: por dieta.
+  - paragraph [ref=e8]: Arrasta para entender 👉
+  - generic [ref=e9]: "@lais_esteticista"
+  - generic [ref=e10]: 1/5

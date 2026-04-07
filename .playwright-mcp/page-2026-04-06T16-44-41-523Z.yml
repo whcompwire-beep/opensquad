@@ -1,0 +1,20 @@
+- generic [active] [ref=e1]:
+  - heading "Lipedema pede protocolo." [level=2] [ref=e2]:
+    - text: Lipedema pede
+    - text: protocolo.
+  - generic [ref=e3]:
+    - paragraph [ref=e4]:
+      - text: Não
+      - strong [ref=e5]: dieta
+      - text: .
+    - paragraph [ref=e6]:
+      - text: Não
+      - strong [ref=e7]: academia
+      - text: .
+    - paragraph [ref=e8]:
+      - text: Não
+      - strong [ref=e9]: força de vontade
+      - text: .
+  - generic [ref=e11]: Salva e manda para quem precisa
+  - paragraph [ref=e12]: "@lais_esteticista"
+  - generic [ref=e13]: 5/5

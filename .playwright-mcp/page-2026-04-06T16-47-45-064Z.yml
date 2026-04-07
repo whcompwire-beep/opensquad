@@ -1,0 +1,14 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]: "@lais_esteticista"
+  - generic [ref=e5]:
+    - generic [ref=e6]: Drenagem Linfática
+    - heading "Suspeita de lipedema ou quer entender melhor o seu caso?" [level=2] [ref=e8]:
+      - text: Suspeita de lipedema
+      - text: ou quer entender
+      - text: melhor o seu caso?
+    - paragraph [ref=e9]:
+      - text: Faço avaliação personalizada.
+      - text: Vamos juntas encontrar
+      - text: o protocolo certo.
+    - generic [ref=e10]: Enviar mensagem
+  - generic [ref=e11]: "@lais_esteticista"

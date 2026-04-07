@@ -1,0 +1,14 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: "@lais_esteticista"
+  - generic [ref=e3]: Lipedema
+  - heading "Drenagem linfática não é massagem relaxante." [level=1] [ref=e5]:
+    - text: Drenagem linfática
+    - text: não é massagem
+    - text: relaxante.
+  - paragraph [ref=e6]:
+    - text: No lipedema,
+    - text: ela é
+    - emphasis [ref=e7]: protocolo clínico
+    - text: .
+  - paragraph [ref=e8]: Entenda a diferença. 👇
+  - generic [ref=e9]: "@lais_esteticista"

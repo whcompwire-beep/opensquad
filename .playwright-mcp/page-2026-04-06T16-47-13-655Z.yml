@@ -1,0 +1,15 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]: "@lais_esteticista"
+  - generic [ref=e4]:
+    - generic [ref=e5]: "\""
+    - blockquote [ref=e6]:
+      - text: Não era falta
+      - text: de disciplina.
+      - text: Era o corpo pedindo
+      - text: um tipo de cuidado
+      - emphasis [ref=e7]: diferente
+      - text: .
+    - paragraph [ref=e9]:
+      - text: Entender o próprio corpo
+      - text: é o primeiro passo.
+  - generic [ref=e10]: "@lais_esteticista"

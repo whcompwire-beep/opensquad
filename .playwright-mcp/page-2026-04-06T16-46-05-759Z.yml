@@ -1,0 +1,13 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: "@lais_esteticista"
+  - heading "Você já ouviu falar em lipedema?" [level=1] [ref=e3]:
+    - text: Você já ouviu
+    - text: falar em
+    - text: lipedema?
+  - paragraph [ref=e4]: Responde aqui — quero saber!
+  - generic [ref=e5]:
+    - generic [ref=e6]: Enquete
+    - generic [ref=e7]:
+      - generic [ref=e8]: SIM
+      - generic [ref=e9]: NÃO
+  - generic [ref=e10]: "@lais_esteticista"

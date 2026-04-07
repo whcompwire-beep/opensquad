@@ -37,7 +37,15 @@
       "Bash(break)",
       "Bash(curl -s http://localhost:8765/carrossel/slide-01.html)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8765/carrossel/slide-01.html)",
-      "Bash(python -m http.server 8765 --directory \"c:/Users/william.heckler/OneDrive - compwire.com.br/Documentos/Claude/opensquad/squads/lais-esteticista/output/2026-04-03-120000/images\")"
+      "Bash(python -m http.server 8765 --directory \"c:/Users/william.heckler/OneDrive - compwire.com.br/Documentos/Claude/opensquad/squads/lais-esteticista/output/2026-04-03-120000/images\")",
+      "Bash(python -m http.server 8766)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8766/stories/story-00.html)",
+      "Bash(python3 -m http.server 8766)",
+      "Bash(npx --version)",
+      "Bash(cmd /c \"python --version\")",
+      "Bash(cmd /c \"node -e \\\\\"console.log\\('node ok'\\)\\\\\"\")",
+      "Bash(echo \"exit: $?\")",
+      "Bash(powershell -Command \"Write-Output 'test'\")"
     ]
   },
   "outputStyle": "default"

@@ -1,0 +1,23 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: "@lais_esteticista"
+  - generic [ref=e3]: Lipedema
+  - heading "Sinais que podem indicar lipedema:" [level=2] [ref=e5]:
+    - text: Sinais que podem
+    - text: "indicar lipedema:"
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]: →
+      - text: Pernas pesadas e que incham no calor
+    - generic [ref=e9]:
+      - generic [ref=e10]: →
+      - text: Dor ao toque mesmo leve
+    - generic [ref=e11]:
+      - generic [ref=e12]: →
+      - text: Inchaço simétrico (os dois lados iguais)
+    - generic [ref=e13]:
+      - generic [ref=e14]: →
+      - text: Corpo que não responde à dieta
+    - generic [ref=e15]:
+      - generic [ref=e16]: →
+      - text: Hematomas fáceis
+  - generic [ref=e17]: "@lais_esteticista"

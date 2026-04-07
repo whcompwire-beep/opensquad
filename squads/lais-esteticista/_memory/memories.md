@@ -67,6 +67,7 @@
 |------|------|----------|------------|-----------------|
 | 2026-03-31 | Depilação a laser | Carrossel + Reel×2 + Imagem + Stories | 9,8/10 | 14,6/15 |
 | 2026-04-03 | Laser LaVieen | Carrossel + Reel×2 + Imagem + Stories | 10/10 | 15/15 |
+| 2026-04-06 | Lipedema + Drenagem Linfática | Carrossel + Reel×2 + Imagem + Stories | — | — |
 
 ---
 
@@ -93,6 +94,18 @@
 - Reel emocional com paleta neutra (corrigido na Rodada 2)
 - Reel sem gatilho de comentário — sempre adicionar pergunta
 - Hook genérico de laser sem nomear o tratamento específico
+- Fórmula "X não é Y, é Z" usada repetidamente na mesma rodada e entre rodadas — limitar a 1 uso por peça
+- CTA idêntico "Me chama no direct. Faço avaliação personalizada." em todas as peças da rodada — variar por peça
+- Fechamento "Você merece [X]" — padrão identificado em Rodada 2 e 3, evitar repetição
+- Story no template fixo: enquete → checklist → citação emocional → CTA — variar estrutura da sequência
+
+## Estruturas Alternativas Validadas (Rodada 3)
+
+- **Carrossel**: âncora de dado clínico no Slide 1 (percentual/tempo) como hook — gera identificação imediata
+- **Reel 1**: voz da profissional narrando fala da paciente — mais autoridade, menos genérico
+- **Reel 2**: abordagem de provocação/diagnóstico ("Existe uma pergunta que eu faço...") — gera curiosidade diferente
+- **Feed**: frase de contraste emocional específico ("não aparece na balança, aparece na dor")
+- **Stories**: sequência mito → revelação → dado numérico → CTA específico
 
 ## Nota Técnica — Recorrente
 

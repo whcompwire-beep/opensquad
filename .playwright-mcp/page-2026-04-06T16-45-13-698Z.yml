@@ -1,0 +1,14 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: "@lais_esteticista"
+  - generic [ref=e3]: Drenagem Linfática
+  - heading "Você sabia que o sistema linfático pode ser treinado?" [level=1] [ref=e5]:
+    - text: Você sabia que
+    - text: o sistema linfático
+    - text: pode ser treinado?
+  - paragraph [ref=e6]:
+    - text: No lipedema,
+    - text: isso
+    - strong [ref=e7]: muda tudo
+    - text: .
+  - paragraph [ref=e8]: Assista até o final.
+  - generic [ref=e9]: "@lais_esteticista"
