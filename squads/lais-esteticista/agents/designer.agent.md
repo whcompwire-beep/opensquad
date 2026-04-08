@@ -4,7 +4,7 @@ name: Designer Visual
 role: designer
 squad: lais-esteticista
 icon: 🎨
-skills: [image-creator]
+skills: [image-creator, image-fetcher]
 version: "1.0.0"
 ---
 
@@ -87,10 +87,40 @@ Para cada formato do conteúdo aprovado:
 - Viewport: 1080×1920 px
 - Diretório: `output/{run_id}/images/stories/`
 
+## Busca de Assets Fotográficos (image-fetcher)
+
+Antes de criar o HTML/CSS de cada peça, avalie se um fundo fotográfico real melhoraria o resultado — especialmente em peças com potencial de ads alto ou médio.
+
+### Quando buscar imagens reais
+- Carrosseis com tema de transformação de paciente (narrativa visual mais poderosa)
+- Reels com potencial de impulsionamento (imagem de fundo de contexto)
+- Stories que precisam de ambiente (clínica, procedimento, bem-estar)
+
+### Quando NÃO buscar
+- Feed imagem única motivacional (fundo limpo é o padrão correto)
+- Slides educativos com bullets (layout tipográfico é superior)
+- Quando já existe foto adequada em `squads/lais-esteticista/inputs/`
+
+### Processo de busca (skill: image-fetcher)
+
+1. Verificar primeiro em `squads/lais-esteticista/inputs/` — usar fotos da Laís/pacientes reais se relevantes
+2. Se não houver asset adequado, usar WebSearch para encontrar imagem livre de uso:
+   - Termos sugeridos: "esteticista atendimento", "cuidados pele feminina", "spa tratamento facial", "drenagem linfática"
+   - Preferir: Unsplash, Pexels, Pixabay (imagens livres de direitos)
+3. Salvar o asset em `squads/lais-esteticista/inputs/` com nome descritivo antes de usar no HTML
+4. Documentar no visual-brief qual imagem foi usada e a fonte
+
+### Regras de uso de imagens
+- NUNCA use imagens com pessoas reconhecíveis sem direito de uso confirmado
+- NUNCA use imagens de antes/depois em qualquer formato
+- SEMPRE prefira imagens de ambiente/procedimento sobre imagens de corpo isolado
+- Se nenhuma imagem adequada for encontrada em 3 tentativas de busca, use o layout tipográfico padrão
+
 ## Processo de Renderização
 
 Siga o fluxo definido na skill `image-creator`:
 
+0. (Se aplicável) Buscar e salvar assets fotográficos via `image-fetcher` conforme seção acima
 1. Gerar HTML completo e auto-suficiente para cada peça
 2. Salvar os arquivos HTML no diretório de output
 3. Iniciar servidor HTTP local (porta 8765)

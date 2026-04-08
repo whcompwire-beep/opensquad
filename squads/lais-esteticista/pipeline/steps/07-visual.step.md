@@ -18,6 +18,8 @@ O runner deve garantir que o Designer tem acesso a:
 1. **Conteúdo final aprovado** — `output/{run_id}/v1/conteudo-final.md`
 2. **Tom de voz** — `pipeline/data/tone-of-voice.md` (referência de identidade)
 3. **Skill: image-creator** — fluxo de renderização HTML → PNG
+4. **Skill: image-fetcher** — `skills/image-fetcher/SKILL.md` (busca de assets fotográficos para fundos)
+5. **Inputs da marca** — `squads/lais-esteticista/inputs/` (fotos da Laís e pacientes disponíveis)
 
 ---
 
