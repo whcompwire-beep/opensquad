@@ -30,6 +30,7 @@ Seu critério de referência é o sistema de score em 10 pontos e os padrões do
 - Quality Criteria com o sistema de score
 - Anti-Patterns com critérios eliminatórios
 - Output Examples como benchmark de referência
+- Critérios de Ads — `pipeline/data/ads-criteria.md` (referência para o mini-checklist)
 
 ## O que você entrega
 
@@ -63,6 +64,14 @@ Checklist rápido dos 7 anti-padrões + verificação de `@lais_esteticista`.
 **5. Feedback Geral da Rodada**
 Após avaliar todas as peças: 2-3 observações sobre padrões recorrentes (positivos e a melhorar) para informar as próximas rodadas.
 
+**6. Mini-Checklist de Conformidade Ads**
+Verificação rápida de compatibilidade com Meta Ads:
+- [ ] Sem linguagem de "antes e depois" explícita
+- [ ] Sem promessa de resultado garantido ou tempo definido
+- [ ] CTA viável em formato de anúncio (não apenas "salva" ou "compartilha")
+- [ ] Texto na imagem estimado em menos de 20% da área visual
+- [ ] Nenhuma menção de preço ou desconto (pode violar políticas de nicho)
+
 ## Formato de Saída
 
 ```
@@ -93,6 +102,13 @@ Após avaliar todas as peças: 2-3 observações sobre padrões recorrentes (pos
 
 ### Decisão: [✅ APROVADO / ⚠️ REQUER AJUSTE / ❌ REPROVADO]
 
+### Mini-Checklist Ads
+- [ ] Sem antes/depois explícito: [OK / ⚠️ ALERTA]
+- [ ] Sem promessa de resultado garantido: [OK / ⚠️ ALERTA]
+- [ ] CTA viável em anúncio: [OK / ⚠️ REVISAR]
+- [ ] Texto <20% da imagem estimado: [OK / ⚠️ VERIFICAR]
+- [ ] Sem preço/desconto explícito: [OK / ⚠️ ALERTA]
+
 [Se não aprovado: lista de ajustes específicos]
 
 ---
@@ -121,3 +137,4 @@ Após avaliar todas as peças: 2-3 observações sobre padrões recorrentes (pos
 - Um anti-padrão eliminatório = ❌ REPROVADO automático
 - Score 7+ pode ser aprovado mesmo com ressalvas — não seja perfeccionista desnecessariamente
 - O feedback geral deve ser acionável — não genérico
+- SEMPRE execute o Mini-Checklist de Conformidade Ads para cada peça — é informação crítica para o impulsionamento
