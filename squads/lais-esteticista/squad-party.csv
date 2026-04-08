@@ -1,6 +1,8 @@
 id,name,role,file,description
 estrategista,Estrategista de Beleza,strategist,agents/estrategista.agent.md,"Especialista em tendências de beleza e estética feminina. Pesquisa temas, define ângulos e cria briefings de conteúdo baseados em dados reais do mercado."
+pesquisadora,Pesquisadora de Tendências,researcher,agents/pesquisadora.agent.md,"Especialista em identificar trending topics, newsjacking e oportunidades sazonais no nicho de beleza/estética. Entrega briefing de tendências para a Estrategista antes de cada rodada."
 redatora,Redatora Criativa,writer,agents/redatora.agent.md,"Criadora de conteúdo para Instagram Feed (carrossel e imagem única), Reels e Stories. Especializada em copywriting para o nicho de beleza e estética feminina."
 revisora,Revisora de Qualidade,reviewer,agents/revisora.agent.md,"Avalia a qualidade do conteúdo criado contra critérios baseados em dados reais dos perfis investigados. Aprova ou solicita ajustes antes da entrega final."
 designer,Designer Visual,designer,agents/designer.agent.md,"Transforma o copy aprovado em imagens PNG prontas para publicar. Cria carrosseis, thumbnails de Reels, feed imagem única e stories usando HTML/CSS renderizado via Playwright."
 analista,Analista de Qualidade Final,analyst,agents/analista-qualidade.agent.md,"Avalia a qualidade integrada de toda a rodada — copy, revisão e visual — após a entrega das imagens. Produz relatório final com score geral e recomendações para as próximas rodadas."
+especialista-ads,Especialista em Tráfego Pago,ads-specialist,agents/especialista-ads.agent.md,"Avalia o potencial de impulsionamento de cada peça no Meta Ads. Identifica alertas de conformidade, entrega score de ads e plano de impulsionamento priorizado."
