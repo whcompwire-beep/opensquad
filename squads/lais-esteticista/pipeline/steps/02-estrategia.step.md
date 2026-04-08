@@ -20,6 +20,7 @@ O runner deve garantir que a Estrategista tem acesso a:
 3. **Domain Framework** — `pipeline/data/domain-framework.md`
 4. **Tone of Voice** — `pipeline/data/tone-of-voice.md`
 5. **Consolidated Analysis** — `_investigations/consolidated-analysis.md`
+6. **Briefing de Tendências** — `output/{run_id}/v1/briefing-tendencias.md` (tendências atuais identificadas pela Pesquisadora)
 
 ---
 
