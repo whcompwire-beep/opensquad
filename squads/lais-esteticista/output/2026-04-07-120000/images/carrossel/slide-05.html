@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Lato:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1080px; height: 1440px; overflow: hidden;
+      background: url('lipedema2.jpeg') center center / cover no-repeat;
+      font-family: 'Lato', sans-serif;
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: center;
+      padding: 90px 90px;
+      position: relative;
+      text-align: center;
+    }
+    body::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: rgba(10,6,4,0.75);
+    }
+    h2 {
+      position: relative; z-index: 1;
+      font-family: 'Playfair Display', serif;
+      font-size: 70px; font-weight: 700;
+      color: #FFFFFF; line-height: 1.25;
+      margin-bottom: 48px;
+    }
+    .list { position: relative; z-index: 1; margin-bottom: 52px; }
+    .list p {
+      font-size: 44px; font-weight: 400;
+      color: rgba(255,255,255,0.90);
+      line-height: 2; font-style: italic;
+      font-family: 'Playfair Display', serif;
+    }
+    .list p strong { font-style: normal; font-weight: 700; color: #FFFFFF; }
+    .accent-line { position: relative; z-index: 1; width: 60px; height: 2px; background: rgba(255,255,255,0.5); margin: 0 auto 44px; }
+    .cta-box {
+      position: relative; z-index: 1;
+      background: #FFFFFF;
+      border-radius: 60px; padding: 28px 64px;
+      font-size: 36px; font-weight: 700;
+      color: #AA9176; letter-spacing: 1px;
+      margin-bottom: 28px;
+    }
+    .brand { position: absolute; bottom: 36px; right: 60px; z-index: 1; font-size: 26px; font-weight: 500; color: rgba(255,255,255,0.65); letter-spacing: 2px; }
+    .slide-num { position: absolute; bottom: 36px; left: 60px; z-index: 1; font-size: 24px; color: rgba(255,255,255,0.5); }
+  </style>
+</head>
+<body>
+  <h2>Lipedema não some<br>com o tempo —<br>mas dá pra viver<br>muito melhor com ele.</h2>
+  <div class="list">
+    <p>Com o cuidado certo,</p>
+    <p>o tratamento faz diferença<br>no dia a dia.</p>
+  </div>
+  <div class="accent-line"></div>
+  <div class="cta-box">Salva e compartilha com quem precisa</div>
+  <span class="brand">@lais_esteticista</span>
+  <span class="slide-num">5/5</span>
+</body>
+</html>

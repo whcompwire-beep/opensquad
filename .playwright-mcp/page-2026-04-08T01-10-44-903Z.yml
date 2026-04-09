@@ -1,0 +1,22 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]: Como é a sessão
+  - heading "O que esperar na prática" [level=2] [ref=e4]:
+    - text: O que esperar
+    - text: na prática
+  - generic [ref=e6]:
+    - paragraph [ref=e9]:
+      - strong [ref=e10]: 40 a 60 minutos
+      - text: de duração
+    - paragraph [ref=e13]:
+      - text: Sensação de
+      - strong [ref=e14]: calor suave
+      - text: na pele
+    - paragraph [ref=e17]:
+      - text: Você sai
+      - strong [ref=e18]: maquiada se quiser
+    - paragraph [ref=e21]:
+      - text: A pele vai
+      - strong [ref=e22]: melhorando nas semanas
+      - text: seguintes
+  - generic [ref=e23]: "@lais_esteticista"
+  - generic [ref=e24]: 5/6

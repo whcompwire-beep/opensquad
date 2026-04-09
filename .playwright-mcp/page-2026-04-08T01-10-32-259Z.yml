@@ -1,0 +1,23 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]: Para quem é
+  - heading "A radiofrequência é indicada para:" [level=2] [ref=e4]:
+    - text: A radiofrequência
+    - text: "é indicada para:"
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]: ✓
+      - generic [ref=e8]: 30 a 60 anos
+    - generic [ref=e9]:
+      - generic [ref=e10]: ✓
+      - generic [ref=e11]: Qualquer tipo de pele
+    - generic [ref=e12]:
+      - generic [ref=e13]: ✓
+      - generic [ref=e14]: Sem corte, sem agulha
+    - generic [ref=e15]:
+      - generic [ref=e16]: ✓
+      - generic [ref=e17]: Sem tempo de recuperação
+    - generic [ref=e18]:
+      - generic [ref=e19]: ✓
+      - generic [ref=e20]: Resultado progressivo e natural
+  - generic [ref=e21]: "@lais_esteticista"
+  - generic [ref=e22]: 4/6

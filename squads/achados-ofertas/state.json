@@ -1,0 +1,16 @@
+{
+  "squad": "achados-ofertas",
+  "status": "checkpoint",
+  "step": { "current": 10, "total": 13, "label": "checkpoint-publicacao" },
+  "agents": [
+    { "id": "garimpeiro", "name": "Garimpeiro", "icon": "🔍", "status": "done", "deliverTo": null, "desk": { "col": 1, "row": 1 } },
+    { "id": "visual", "name": "Designer Visual", "icon": "🖼️", "status": "done", "deliverTo": null, "desk": { "col": 2, "row": 1 } },
+    { "id": "estrategista", "name": "Estrategista", "icon": "🧠", "status": "done", "deliverTo": null, "desk": { "col": 3, "row": 1 } },
+    { "id": "copywriter", "name": "Copywriter de Ofertas", "icon": "✍️", "status": "done", "deliverTo": null, "desk": { "col": 1, "row": 2 } },
+    { "id": "revisor", "name": "Revisor de Qualidade", "icon": "✅", "status": "done", "deliverTo": null, "desk": { "col": 2, "row": 2 } },
+    { "id": "analista-trafego", "name": "Analista de Tráfego Pago", "icon": "📊", "status": "done", "deliverTo": null, "desk": { "col": 3, "row": 2 } }
+  ],
+  "handoff": { "from": "analista-trafego", "to": "usuario", "message": "Pipeline automático concluído. Aguardando publicação pelo usuário.", "completedAt": "2026-04-08T19:05:00.000Z" },
+  "startedAt": "2026-04-08T18:00:00.000Z",
+  "updatedAt": "2026-04-08T19:05:00.000Z"
+}

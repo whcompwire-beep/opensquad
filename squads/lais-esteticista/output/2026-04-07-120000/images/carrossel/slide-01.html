@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Lato:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1080px; height: 1440px; overflow: hidden;
+      background: url('lipedema.jpeg') center center / cover no-repeat;
+      font-family: 'Lato', sans-serif;
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: center;
+      padding: 90px 80px;
+      position: relative;
+      text-align: center;
+    }
+    body::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: linear-gradient(175deg, rgba(20,12,6,0.62) 0%, rgba(20,12,6,0.72) 100%);
+    }
+    .top-bar { position: absolute; top: 0; left: 0; right: 0; height: 8px; background: #AA9176; z-index: 2; }
+    .bottom-bar { position: absolute; bottom: 0; left: 0; right: 0; height: 8px; background: #AA9176; z-index: 2; }
+    .tag {
+      position: relative; z-index: 1;
+      font-size: 24px; font-weight: 700; color: #EDD5C0;
+      letter-spacing: 5px; text-transform: uppercase;
+      margin-bottom: 32px;
+    }
+    .accent-line { position: relative; z-index: 1; width: 60px; height: 3px; background: #BDA78D; margin: 0 auto 56px; }
+    h1 {
+      position: relative; z-index: 1;
+      font-family: 'Playfair Display', serif;
+      font-size: 78px; font-weight: 700;
+      color: #FFFFFF; line-height: 1.2;
+      margin-bottom: 44px;
+      text-shadow: 0 2px 24px rgba(0,0,0,0.4);
+    }
+    .sub {
+      position: relative; z-index: 1;
+      font-size: 40px; font-weight: 400;
+      color: rgba(255,255,255,0.85); line-height: 1.65;
+      margin-bottom: 52px;
+    }
+    .cta {
+      position: relative; z-index: 1;
+      font-size: 36px; font-weight: 600;
+      color: #EDD5C0; letter-spacing: 1px;
+    }
+    .brand { position: absolute; bottom: 36px; right: 60px; z-index: 2; font-size: 26px; font-weight: 500; color: rgba(255,255,255,0.7); letter-spacing: 2px; }
+    .slide-num { position: absolute; bottom: 36px; left: 60px; z-index: 2; font-size: 24px; color: rgba(255,255,255,0.5); }
+  </style>
+</head>
+<body>
+  <div class="top-bar"></div>
+  <div class="tag">Lipedema</div>
+  <div class="accent-line"></div>
+  <h1>Lipedema: a condição<br>que muitas mulheres<br>ainda não sabem<br>que têm.</h1>
+  <p class="sub">Ela pode ser confundida com outros fatores<br>e levar um tempo para ser reconhecida.<br>Mas tem como identificar — e cuidar.</p>
+  <p class="cta">Arrasta para entender melhor. 👉</p>
+  <span class="brand">@lais_esteticista</span>
+  <span class="slide-num">1/5</span>
+  <div class="bottom-bar"></div>
+</body>
+</html>

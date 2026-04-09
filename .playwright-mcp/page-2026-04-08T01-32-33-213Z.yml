@@ -1,0 +1,12 @@
+- generic [active] [ref=e1]:
+  - heading "Quer saber se a radiofrequência é o tratamento certo pra você?" [level=1] [ref=e3]:
+    - text: Quer saber se a radiofrequência
+    - text: é o tratamento certo
+    - text: pra você?
+  - generic [ref=e4]:
+    - generic [ref=e5]: Me chama no direct.
+    - generic [ref=e6]:
+      - text: Faço avaliação personalizada
+      - text: sem compromisso.
+  - generic [ref=e7]: "@lais_esteticista"
+  - generic [ref=e8]: 6/6

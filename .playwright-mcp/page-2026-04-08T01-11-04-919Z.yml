@@ -1,0 +1,14 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]: ✦
+  - paragraph [ref=e4]:
+    - text: Quer saber se a radiofrequência
+    - text: é o tratamento certo
+    - text: pra você?
+  - generic [ref=e6]:
+    - paragraph [ref=e7]:
+      - text: Me chama no direct.
+      - text: Faço avaliação personalizada
+      - text: — sem compromisso.
+    - paragraph [ref=e8]: "@lais_esteticista ✨"
+  - generic [ref=e9]: "@lais_esteticista"
+  - generic [ref=e10]: 6/6

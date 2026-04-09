@@ -1,0 +1,13 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: "@lais_esteticista"
+  - generic [ref=e3]:
+    - generic [ref=e4]: Importante saber
+    - paragraph [ref=e6]:
+      - text: Lipedema é uma condição crônica — e o objetivo do tratamento é
+      - emphasis [ref=e7]: manejo
+      - text: ", não cura."
+    - paragraph [ref=e8]:
+      - text: Com acompanhamento regular,
+      - text: a drenagem linfática contribui
+      - text: para menos desconforto
+      - text: e mais bem-estar no dia a dia.

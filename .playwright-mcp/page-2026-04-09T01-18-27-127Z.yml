@@ -1,0 +1,1112 @@
+- generic [ref=e2]:
+  - navigation "Menu de atalhos" [ref=e3]:
+    - heading "Ir para" [level=2] [ref=e4]
+    - list "Ir para" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "conteúdo principal" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Conteúdo principal
+    - separator [ref=e8]
+    - heading "Atalhos do teclado" [level=2] [ref=e9]
+    - list "Atalhos do teclado" [ref=e10]:
+      - listitem [ref=e11]:
+        - link "Pesquisa, alt, barra para frente" [ref=e12] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e13]:
+            - generic [ref=e14]: Pesquisar
+            - generic [ref=e15]:
+              - generic [ref=e16]: alt
+              - generic [ref=e17]: +
+              - generic [ref=e18]: /
+      - listitem [ref=e19]:
+        - link "Carrinho, shift, alt, c" [ref=e20] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e21]:
+            - generic [ref=e22]: Carrinho
+            - generic [ref=e23]:
+              - generic [ref=e24]: shift
+              - generic [ref=e25]: +
+              - generic [ref=e26]: alt
+              - generic [ref=e27]: +
+              - generic [ref=e28]: C
+      - listitem [ref=e29]:
+        - link "Início, shift, alt, h" [ref=e30] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e31]:
+            - generic [ref=e32]: Página inicial
+            - generic [ref=e33]:
+              - generic [ref=e34]: shift
+              - generic [ref=e35]: +
+              - generic [ref=e36]: alt
+              - generic [ref=e37]: +
+              - generic [ref=e38]: H
+      - listitem [ref=e39]:
+        - link "Seus pedidos, shift, alt, o" [ref=e40] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e41]:
+            - generic [ref=e42]: Seus Pedidos
+            - generic [ref=e43]:
+              - generic [ref=e44]: shift
+              - generic [ref=e45]: +
+              - generic [ref=e46]: alt
+              - generic [ref=e47]: +
+              - generic [ref=e48]: O
+      - listitem [ref=e49]:
+        - button "Mostrar/ocultar atalhos, shift, alt, z" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]:
+            - generic [ref=e52]: Mostrar/ocultar atalhos
+            - generic [ref=e53]:
+              - generic [ref=e54]: shift
+              - generic [ref=e55]: +
+              - generic [ref=e56]: alt
+              - generic [ref=e57]: +
+              - generic [ref=e58]: Z
+    - generic [ref=e64]: Para se mover entre os produtos, use as setas para cima ou para baixo do teclado.
+  - banner [ref=e65]:
+    - navigation "Principal" [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - link "Amazon.com.br" [ref=e70] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .com.br
+          - button "A entrega será feita em Bela Vista 01319900 Atualizar CEP" [ref=e73] [cursor=pointer]:
+            - generic [ref=e75]:
+              - generic [ref=e76]: A entrega será feita em Bela Vista 01319900
+              - generic [ref=e77]: Atualizar CEP
+        - search [ref=e80]:
+          - generic [ref=e83]:
+            - generic [ref=e85]: Todos
+            - combobox "Selecione o departamento que deseja pesquisar no" [ref=e87] [cursor=pointer]:
+              - option "Todos os departamentos" [selected]
+              - option "Alexa Skills"
+              - option "Alimentos e Bebidas"
+              - option "Amazon Now"
+              - option "Amazon Quase Novo"
+              - option "Apps e Jogos"
+              - option "Audiolivros Audible"
+              - option "Automotivo"
+              - option "Bebês"
+              - option "Beleza"
+              - option "Beleza de luxo"
+              - option "Bolsas, Malas e Mochilas"
+              - option "Brinquedos e Jogos"
+              - option "Casa"
+              - option "CD e Vinil"
+              - option "Computadores e Informática"
+              - option "Cozinha"
+              - option "Dispositivos Amazon"
+              - option "DVD e Blu-Ray"
+              - option "Eletrodomésticos"
+              - option "Eletrônicos"
+              - option "Esportes e Aventura"
+              - option "Ferramentas e Materiais de Construção"
+              - option "Games"
+              - option "Industrial"
+              - option "Instrumentos Musicais"
+              - option "Jardim e Piscina"
+              - option "Livros"
+              - option "Loja Kindle"
+              - option "Material para Escritório e Papelaria"
+              - option "Móveis e Decoração"
+              - option "Pet Shop"
+              - option "Prime Video"
+              - option "Programe e Poupe"
+              - option "Roupas, Calçados e Joias"
+              - option "Roupas, sapatos e joias femininas"
+              - option "Roupas, sapatos e joias masculinas"
+              - option "Roupas, sapatos e joias para meninas"
+              - option "Roupas, sapatos e joias para meninos"
+              - option "Roupas, sapatos e joias para bebês"
+              - option "Saúde e Cuidados Pessoais"
+          - searchbox "Pesquisar Amazon.com.br" [ref=e90]
+          - generic "Ir" [ref=e93] [cursor=pointer]:
+            - button "Ir" [ref=e94]
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - link "Olá, faça seu login Contas e Listas" [ref=e98] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fgp%2Fbestsellers%2F%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e100]: Olá, faça seu login
+              - generic [ref=e101]: Contas e Listas
+            - button "Expandir conta e listas" [ref=e102] [cursor=pointer]
+          - link "Devoluções e Pedidos" [ref=e103] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e104]: Devoluções
+            - generic [ref=e105]: e Pedidos
+          - link "0 itens no carrinho" [ref=e106] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e108]: "0"
+            - generic [ref=e111]: Carrinho
+      - generic [ref=e115]:
+        - link "Faça seu login" [ref=e116] [cursor=pointer]:
+          - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fgp%2Fbestsellers%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+          - generic [ref=e117]: Faça seu login
+        - generic [ref=e118]:
+          - text: Cliente novo?
+          - link "Novo na Amazon? Comece aqui para criar uma conta" [ref=e119] [cursor=pointer]:
+            - /url: https://www.amazon.com.br/ap/register?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fgp%2Fbestsellers%2F%3Fie%3DUTF8%26ref_%3Dnav_custrec_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+            - text: Comece aqui.
+      - generic [ref=e124]:
+        - button "Abrir o menu Todas as categorias" [ref=e126] [cursor=pointer]:
+          - generic [ref=e128]: Todos
+        - list [ref=e132]:
+          - listitem [ref=e133]:
+            - link "Venda na Amazon" [ref=e135] [cursor=pointer]:
+              - /url: /gp/browse.html?node=17877554011&ld=ASBRSOA_retail_sell_header_t1&ref_=nav_cs_sell
+          - listitem [ref=e136]:
+            - link "Chega em 15 min" [ref=e138] [cursor=pointer]:
+              - /url: /alm/storefront?almBrandId=10zZeC1FBwm&ref_=nav_cs_amnow
+          - listitem [ref=e139]:
+            - link "Ofertas do Dia" [ref=e141] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e142]:
+            - link "Mais Vendidos" [ref=e144] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e145]:
+            - link "Games" [ref=e147] [cursor=pointer]:
+              - /url: /Games-Consoles/b/?ie=UTF8&node=7791985011&ref_=nav_cs_video_games
+          - listitem [ref=e148]:
+            - link "Livros" [ref=e150] [cursor=pointer]:
+              - /url: /Livros/b/?ie=UTF8&node=6740748011&ref_=nav_cs_books
+          - listitem [ref=e151]:
+            - generic [ref=e152]:
+              - link "Prime" [ref=e153] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Detalhes de Prime" [ref=e154] [cursor=pointer]
+          - listitem [ref=e155]:
+            - link "Música" [ref=e157] [cursor=pointer]:
+              - /url: /music/unlimited?ref_=nav_cs_music
+          - listitem [ref=e158]:
+            - link "Casa" [ref=e160] [cursor=pointer]:
+              - /url: /Casa/b/?ie=UTF8&node=16191000011&ref_=nav_cs_home
+          - listitem [ref=e161]:
+            - link "Eletrônicos" [ref=e163] [cursor=pointer]:
+              - /url: /Eletronicos-e-Tecnologia/b/?ie=UTF8&node=16209062011&ref_=nav_cs_electronics
+          - listitem [ref=e164]:
+            - link "Brinquedos e Jogos" [ref=e166] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16194299011&ref_=nav_cs_toys
+          - listitem [ref=e167]:
+            - link "Computadores" [ref=e169] [cursor=pointer]:
+              - /url: /Computadores-Informatica/b/?ie=UTF8&node=16339926011&ref_=nav_cs_pc
+          - listitem [ref=e170]:
+            - link "Beleza" [ref=e172] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16194414011&ref_=nav_cs_beauty
+          - listitem [ref=e173]:
+            - link "Mercado" [ref=e175] [cursor=pointer]:
+              - /url: /fmc/everyday-essentials/?ref_=nav_cs_ee_desktop_disco
+          - listitem [ref=e176]:
+            - link "Cuidados Pessoais" [ref=e178] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16215417011&ref_=nav_cs_hpc
+          - listitem [ref=e179]:
+            - link "Novidades na Amazon" [ref=e181] [cursor=pointer]:
+              - /url: /gp/browse.html?node=207658984011&ref_=nav_cs_mtech
+          - listitem [ref=e182]:
+            - link "Ferramentas e Construção" [ref=e184] [cursor=pointer]:
+              - /url: /Ferramentas-Construcao/b/?ie=UTF8&node=16957182011&ref_=nav_cs_hi
+          - listitem [ref=e185]:
+            - link "Bebês" [ref=e187] [cursor=pointer]:
+              - /url: /gp/browse.html?node=17242603011&ref_=nav_cs_baby
+          - listitem [ref=e188]:
+            - link "Alimentos e Bebidas" [ref=e190] [cursor=pointer]:
+              - /url: /gp/browse.html?node=18991079011&ref_=nav_cs_grocery
+          - listitem [ref=e191]:
+            - link "Amazon Moda" [ref=e193] [cursor=pointer]:
+              - /url: /gp/browse.html?node=17365811011&ref_=nav_cs_fashion
+          - listitem [ref=e194]:
+            - link "Pet Shop" [ref=e196] [cursor=pointer]:
+              - /url: /gp/browse.html?node=18991136011&ref_=nav_cs_pets
+          - listitem [ref=e197]:
+            - link "Automotivos" [ref=e199] [cursor=pointer]:
+              - /url: /gp/browse.html?node=18914209011&ref_=nav_cs_automotive
+          - listitem [ref=e200]:
+            - link "eBooks Kindle" [ref=e202] [cursor=pointer]:
+              - /url: /ebooks-kindle/b/?ie=UTF8&node=5475882011&ref_=nav_cs_kindle_books
+          - listitem [ref=e203]:
+            - link "Atendimento ao Cliente" [ref=e205] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_help
+        - link "Prime Video" [ref=e209] [cursor=pointer]:
+          - /url: /gp/video/ssoredirect/?ie=UTF8&pvp=%2Fdetail%2Famzn1.dv.gti.88de2837-bb3f-4f7b-b41a-9c1ce670ee9a%2F%3Fref_%3Ddvm_crs_nav_br_s_dt_swm_l_al_thby_tp&ref_=nav_swm_dvm_crs_nav_br_s_dt_swm_l_al_thby_tp&pf_rd_p=084ccdf0-a0ea-443d-814f-7e8646db2bd3&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A2Q3Y263D00KWC&pf_rd_r=87BER56YWC87E6WWSH02
+          - img "Prime Video" [ref=e210]
+      - dialog [ref=e211]
+  - generic [ref=e213]:
+    - generic [ref=e214]:
+      - generic [ref=e217]:
+        - list:
+          - listitem [ref=e218]:
+            - link "Mais Vendidos" [ref=e220] [cursor=pointer]:
+              - /url: /gp/bestsellers/ref=zg_bs_tab_bs
+          - listitem [ref=e221]:
+            - link "Novidades na Amazon" [ref=e223] [cursor=pointer]:
+              - /url: /gp/new-releases/ref=zg_bs_tab_bsnr
+          - listitem [ref=e224]:
+            - link "Produtos em alta" [ref=e226] [cursor=pointer]:
+              - /url: /gp/movers-and-shakers/ref=zg_bs_tab_bsms
+      - generic [ref=e228]:
+        - generic [ref=e229]:
+          - heading "Mais vendidos" [level=1] [ref=e230]
+          - text: Nossos produtos mais populares com base nas vendas. Atualizado com frequência.
+        - heading "Mais Vendidos" [level=1] [ref=e231]
+    - generic [ref=e232]:
+      - group [ref=e235]:
+        - list [ref=e236]:
+          - listitem "Árvore de navegação" [ref=e237]:
+            - generic [ref=e238]:
+              - text: Qualquer departamento
+              - generic [ref=e239]: (Current)
+          - listitem [ref=e240]:
+            - list [ref=e241]:
+              - listitem [ref=e242]:
+                - link "Alimentos e Bebidas" [ref=e243] [cursor=pointer]:
+                  - /url: /gp/bestsellers/grocery/ref=zg_bs_nav_grocery_0
+              - listitem [ref=e244]:
+                - link "Apps e Jogos" [ref=e245] [cursor=pointer]:
+                  - /url: /gp/bestsellers/mobile-apps/ref=zg_bs_nav_mobile-apps_0
+              - listitem [ref=e246]:
+                - link "Automotivo" [ref=e247] [cursor=pointer]:
+                  - /url: /gp/bestsellers/automotive/ref=zg_bs_nav_automotive_0
+              - listitem [ref=e248]:
+                - link "Bebês" [ref=e249] [cursor=pointer]:
+                  - /url: /gp/bestsellers/baby-products/ref=zg_bs_nav_baby-products_0
+              - listitem [ref=e250]:
+                - link "Beleza" [ref=e251] [cursor=pointer]:
+                  - /url: /gp/bestsellers/beauty/ref=zg_bs_nav_beauty_0
+              - listitem [ref=e252]:
+                - link "Beleza Premium" [ref=e253] [cursor=pointer]:
+                  - /url: /gp/bestsellers/premium-beauty/ref=zg_bs_nav_premium-beauty_0
+              - listitem [ref=e254]:
+                - link "Brinquedos e Jogos" [ref=e255] [cursor=pointer]:
+                  - /url: /gp/bestsellers/toys/ref=zg_bs_nav_toys_0
+              - listitem [ref=e256]:
+                - link "Casa" [ref=e257] [cursor=pointer]:
+                  - /url: /gp/bestsellers/home/ref=zg_bs_nav_home_0
+              - listitem [ref=e258]:
+                - link "CD e Vinil" [ref=e259] [cursor=pointer]:
+                  - /url: /gp/bestsellers/music/ref=zg_bs_nav_music_0
+              - listitem [ref=e260]:
+                - link "Computadores e Informática" [ref=e261] [cursor=pointer]:
+                  - /url: /gp/bestsellers/computers/ref=zg_bs_nav_computers_0
+              - listitem [ref=e262]:
+                - link "Cozinha" [ref=e263] [cursor=pointer]:
+                  - /url: /gp/bestsellers/kitchen/ref=zg_bs_nav_kitchen_0
+              - listitem [ref=e264]:
+                - link "Dispositivos Amazon e Acessórios" [ref=e265] [cursor=pointer]:
+                  - /url: /gp/bestsellers/amazon-devices/ref=zg_bs_nav_amazon-devices_0
+              - listitem [ref=e266]:
+                - link "DVD e Blu-ray" [ref=e267] [cursor=pointer]:
+                  - /url: /gp/bestsellers/dvd/ref=zg_bs_nav_dvd_0
+              - listitem [ref=e268]:
+                - link "Eletrodomésticos" [ref=e269] [cursor=pointer]:
+                  - /url: /gp/bestsellers/appliances/ref=zg_bs_nav_appliances_0
+              - listitem [ref=e270]:
+                - link "Eletrônicos" [ref=e271] [cursor=pointer]:
+                  - /url: /gp/bestsellers/electronics/ref=zg_bs_nav_electronics_0
+              - listitem [ref=e272]:
+                - link "Esporte" [ref=e273] [cursor=pointer]:
+                  - /url: /gp/bestsellers/sports/ref=zg_bs_nav_sports_0
+              - listitem [ref=e274]:
+                - link "Ferramentas e Materiais de Construção" [ref=e275] [cursor=pointer]:
+                  - /url: /gp/bestsellers/hi/ref=zg_bs_nav_hi_0
+              - listitem [ref=e276]:
+                - link "Games e Consoles" [ref=e277] [cursor=pointer]:
+                  - /url: /gp/bestsellers/videogames/ref=zg_bs_nav_videogames_0
+              - listitem [ref=e278]:
+                - link "Gift Cards" [ref=e279] [cursor=pointer]:
+                  - /url: /gp/bestsellers/gift-cards/ref=zg_bs_nav_gift-cards_0
+              - listitem [ref=e280]:
+                - link "Instrumentos Musicais" [ref=e281] [cursor=pointer]:
+                  - /url: /gp/bestsellers/musical-instruments/ref=zg_bs_nav_musical-instruments_0
+              - listitem [ref=e282]:
+                - link "Jardim e Piscina" [ref=e283] [cursor=pointer]:
+                  - /url: /gp/bestsellers/lawn-and-garden/ref=zg_bs_nav_lawn-and-garden_0
+              - listitem [ref=e284]:
+                - link "Livros" [ref=e285] [cursor=pointer]:
+                  - /url: /gp/bestsellers/books/ref=zg_bs_nav_books_0
+              - listitem [ref=e286]:
+                - link "Loja Kindle" [ref=e287] [cursor=pointer]:
+                  - /url: /gp/bestsellers/digital-text/ref=zg_bs_nav_digital-text_0
+              - listitem [ref=e288]:
+                - link "Moda" [ref=e289] [cursor=pointer]:
+                  - /url: /gp/bestsellers/fashion/ref=zg_bs_nav_fashion_0
+              - listitem [ref=e290]:
+                - link "Móveis" [ref=e291] [cursor=pointer]:
+                  - /url: /gp/bestsellers/furniture/ref=zg_bs_nav_furniture_0
+              - listitem [ref=e292]:
+                - link "Papelaria e Escritório" [ref=e293] [cursor=pointer]:
+                  - /url: /gp/bestsellers/office/ref=zg_bs_nav_office_0
+              - listitem [ref=e294]:
+                - link "Pet Shop" [ref=e295] [cursor=pointer]:
+                  - /url: /gp/bestsellers/pet-products/ref=zg_bs_nav_pet-products_0
+              - listitem [ref=e296]:
+                - link "Saúde e Bem-Estar" [ref=e297] [cursor=pointer]:
+                  - /url: /gp/bestsellers/hpc/ref=zg_bs_nav_hpc_0
+      - generic [ref=e298]:
+        - group [ref=e303]:
+          - generic [ref=e304]:
+            - generic [ref=e305]:
+              - heading "Mais Vendidos em Cozinha" [level=2] [ref=e306]
+              - link "Mais Vendidos em Cozinha - Ver mais" [ref=e308] [cursor=pointer]:
+                - /url: /gp/bestsellers/kitchen/ref=zg_bs_kitchen_sm
+                - text: Ver mais
+            - generic [ref=e311]: Página 1 de 5
+          - generic [ref=e313]:
+            - button "Previous page" [ref=e315] [cursor=pointer]:
+              - generic [ref=e318]: Previous page
+            - group [ref=e320]:
+              - list [ref=e321]:
+                - listitem [ref=e322]:
+                  - generic [ref=e323]:
+                    - generic [ref=e324]: "#1"
+                    - generic [ref=e328]:
+                      - link [ref=e329] [cursor=pointer]:
+                        - /url: /Mixer-Power-Inox-Elgin-Lunar/dp/B0DCKBMVH9/ref=zg_bs_c_kitchen_d_sccl_1/140-5235038-8618349?pd_rd_w=rWKdN&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0DCKBMVH9&psc=1
+                      - generic [ref=e332]:
+                        - link "Mixer Power Inox 3 em 1 600W Elgin Lunar 110V - Mixer, triturador e batedor" [ref=e333] [cursor=pointer]:
+                          - /url: /Mixer-Power-Inox-Elgin-Lunar/dp/B0DCKBMVH9/ref=zg_bs_c_kitchen_d_sccl_1/140-5235038-8618349?pd_rd_w=rWKdN&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0DCKBMVH9&psc=1
+                          - generic [ref=e335]: Mixer Power Inox 3 em 1 600W Elgin Lunar 110V - Mixer, triturador e batedor
+                        - link "4,6 de 5 estrelas, 13.030 classificações" [ref=e338] [cursor=pointer]:
+                          - /url: /product-reviews/B0DCKBMVH9/ref=zg_bs_c_kitchen_d_sccl_1_cr/140-5235038-8618349?pd_rd_w=rWKdN&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0DCKBMVH9
+                          - generic [ref=e340]: 4,6 de 5 estrelas
+                          - text: "13.030"
+                        - link "R$ 117,80" [ref=e344] [cursor=pointer]:
+                          - /url: /Mixer-Power-Inox-Elgin-Lunar/dp/B0DCKBMVH9/ref=zg_bs_c_kitchen_d_sccl_1/140-5235038-8618349?pd_rd_w=rWKdN&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0DCKBMVH9&psc=1
+                          - generic [ref=e346]: R$ 117,80
+                    - button "Assistir ao vídeo" [ref=e348] [cursor=pointer]:
+                      - img "Assistir ao vídeo" [ref=e350]
+                - listitem [ref=e356]:
+                  - generic [ref=e357]:
+                    - generic [ref=e358]: "#2"
+                    - generic [ref=e362]:
+                      - link [ref=e363] [cursor=pointer]:
+                        - /url: /Sanduicheira-El%C3%A9trica-Cadence-Click-127V/dp/B0CDJ4L7CZ/ref=zg_bs_c_kitchen_d_sccl_2/140-5235038-8618349?pd_rd_w=rWKdN&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0CDJ4L7CZ&psc=1
+                      - generic [ref=e366]:
+                        - link "Sanduicheira Elétrica Cadence Click - 127V" [ref=e367] [cursor=pointer]:
+                          - /url: /Sanduicheira-El%C3%A9trica-Cadence-Click-127V/dp/B0CDJ4L7CZ/ref=zg_bs_c_kitchen_d_sccl_2/140-5235038-8618349?pd_rd_w=rWKdN&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0CDJ4L7CZ&psc=1
+                          - generic [ref=e369]: Sanduicheira Elétrica Cadence Click - 127V
+                        - link "4,8 de 5 estrelas, 27.843 classificações" [ref=e372] [cursor=pointer]:
+                          - /url: /product-reviews/B0CDJ4L7CZ/ref=zg_bs_c_kitchen_d_sccl_2_cr/140-5235038-8618349?pd_rd_w=rWKdN&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0CDJ4L7CZ
+                          - generic [ref=e374]: 4,8 de 5 estrelas
+                          - text: "27.843"
+                        - link "R$ 93,80" [ref=e378] [cursor=pointer]:
+                          - /url: /Sanduicheira-El%C3%A9trica-Cadence-Click-127V/dp/B0CDJ4L7CZ/ref=zg_bs_c_kitchen_d_sccl_2/140-5235038-8618349?pd_rd_w=rWKdN&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0CDJ4L7CZ&psc=1
+                          - generic [ref=e380]: R$ 93,80
+                    - button "Assistir ao vídeo" [ref=e382] [cursor=pointer]:
+                      - img "Assistir ao vídeo" [ref=e384]
+                - listitem [ref=e390]:
+                  - generic [ref=e391]:
+                    - generic [ref=e392]: "#3"
+                    - generic [ref=e396]:
+                      - link [ref=e397] [cursor=pointer]:
+                        - /url: /Filtro-Refil-Original-Purificador-Electrolux/dp/B0F256HPZJ/ref=zg_bs_c_kitchen_d_sccl_3/140-5235038-8618349?pd_rd_w=rWKdN&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0F256HPZJ&psc=1
+                      - generic [ref=e400]:
+                        - link "Filtro/Refil Original de Água Acqua Pure para Purificador Electrolux PE12A/PE12B/PE12G/PE12V/PE12P" [ref=e401] [cursor=pointer]:
+                          - /url: /Filtro-Refil-Original-Purificador-Electrolux/dp/B0F256HPZJ/ref=zg_bs_c_kitchen_d_sccl_3/140-5235038-8618349?pd_rd_w=rWKdN&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0F256HPZJ&psc=1
+                          - generic [ref=e403]: Filtro/Refil Original de Água Acqua Pure para Purificador Electrolux PE12A/PE12B/PE12G/PE12V/PE12P
+                        - link "4,8 de 5 estrelas, 1.889 classificações" [ref=e406] [cursor=pointer]:
+                          - /url: /product-reviews/B0F256HPZJ/ref=zg_bs_c_kitchen_d_sccl_3_cr/140-5235038-8618349?pd_rd_w=rWKdN&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0F256HPZJ
+                          - generic [ref=e408]: 4,8 de 5 estrelas
+                          - text: "1.889"
+                        - link "R$ 72,00" [ref=e412] [cursor=pointer]:
+                          - /url: /Filtro-Refil-Original-Purificador-Electrolux/dp/B0F256HPZJ/ref=zg_bs_c_kitchen_d_sccl_3/140-5235038-8618349?pd_rd_w=rWKdN&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0F256HPZJ&psc=1
+                          - generic [ref=e414]: R$ 72,00
+                - listitem [ref=e415]:
+                  - generic [ref=e416]:
+                    - generic [ref=e417]: "#4"
+                    - generic [ref=e421]:
+                      - link [ref=e422] [cursor=pointer]:
+                        - /url: /Kit-Potes-Herm%C3%A9ticos-Pl%C3%A1stico-Electrolux/dp/B09XJL4B9H/ref=zg_bs_c_kitchen_d_sccl_4/140-5235038-8618349?pd_rd_w=rWKdN&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B09XJL4B9H&psc=1
+                      - generic [ref=e425]:
+                        - link "Electrolux Kit 12 Potes Herméticos de Plástico Retangulares, Multiuso, Vedação Silicone, BPA Free, Porta Mantimentos" [ref=e426] [cursor=pointer]:
+                          - /url: /Kit-Potes-Herm%C3%A9ticos-Pl%C3%A1stico-Electrolux/dp/B09XJL4B9H/ref=zg_bs_c_kitchen_d_sccl_4/140-5235038-8618349?pd_rd_w=rWKdN&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B09XJL4B9H&psc=1
+                          - generic [ref=e428]: Electrolux Kit 12 Potes Herméticos de Plástico Retangulares, Multiuso, Vedação Silicone, BPA Free, Porta Mantimentos
+                        - link "4,9 de 5 estrelas, 50.584 classificações" [ref=e431] [cursor=pointer]:
+                          - /url: /product-reviews/B09XJL4B9H/ref=zg_bs_c_kitchen_d_sccl_4_cr/140-5235038-8618349?pd_rd_w=rWKdN&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B09XJL4B9H
+                          - generic [ref=e433]: 4,9 de 5 estrelas
+                          - text: "50.584"
+                        - link "R$ 89,90" [ref=e437] [cursor=pointer]:
+                          - /url: /Kit-Potes-Herm%C3%A9ticos-Pl%C3%A1stico-Electrolux/dp/B09XJL4B9H/ref=zg_bs_c_kitchen_d_sccl_4/140-5235038-8618349?pd_rd_w=rWKdN&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B09XJL4B9H&psc=1
+                          - generic [ref=e439]: R$ 89,90
+                    - button "Assistir ao vídeo" [ref=e441] [cursor=pointer]:
+                      - img "Assistir ao vídeo" [ref=e443]
+            - button "Next page" [ref=e450] [cursor=pointer]:
+              - generic [ref=e453]: Next page
+          - generic: 
+        - group [ref=e458]:
+          - generic [ref=e459]:
+            - generic [ref=e460]:
+              - heading "Mais Vendidos em Moda" [level=2] [ref=e461]
+              - link "Mais Vendidos em Moda - Ver mais" [ref=e463] [cursor=pointer]:
+                - /url: /gp/bestsellers/fashion/ref=zg_bs_fashion_sm
+                - text: Ver mais
+            - generic [ref=e466]: Página 1 de 5
+          - generic [ref=e468]:
+            - button "Previous page" [ref=e470] [cursor=pointer]:
+              - generic [ref=e473]: Previous page
+            - group [ref=e475]:
+              - list [ref=e476]:
+                - listitem [ref=e477]:
+                  - generic [ref=e478]:
+                    - generic [ref=e479]: "#1"
+                    - generic [ref=e483]:
+                      - link [ref=e484] [cursor=pointer]:
+                        - /url: /Cuecas-Sandrini-Algod%C3%A3o-Masculinas-SORTIDAS/dp/B0CL8H7GJL/ref=zg_bs_c_fashion_d_sccl_1/140-5235038-8618349?pd_rd_w=VP9qh&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0CL8H7GJL&psc=1
+                      - generic [ref=e487]:
+                        - link "Kit 10 Cuecas Boxer Sandrini Masculinas Algodão Conforto" [ref=e488] [cursor=pointer]:
+                          - /url: /Cuecas-Sandrini-Algod%C3%A3o-Masculinas-SORTIDAS/dp/B0CL8H7GJL/ref=zg_bs_c_fashion_d_sccl_1/140-5235038-8618349?pd_rd_w=VP9qh&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0CL8H7GJL&psc=1
+                          - generic [ref=e490]: Kit 10 Cuecas Boxer Sandrini Masculinas Algodão Conforto
+                        - link "4,3 de 5 estrelas, 1.163 classificações" [ref=e493] [cursor=pointer]:
+                          - /url: /product-reviews/B0CL8H7GJL/ref=zg_bs_c_fashion_d_sccl_1_cr/140-5235038-8618349?pd_rd_w=VP9qh&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0CL8H7GJL
+                          - generic [ref=e495]: 4,3 de 5 estrelas
+                          - text: "1.163"
+                        - link "R$ 79,99" [ref=e499] [cursor=pointer]:
+                          - /url: /Cuecas-Sandrini-Algod%C3%A3o-Masculinas-SORTIDAS/dp/B0CL8H7GJL/ref=zg_bs_c_fashion_d_sccl_1/140-5235038-8618349?pd_rd_w=VP9qh&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0CL8H7GJL&psc=1
+                          - generic [ref=e501]: R$ 79,99
+                - listitem [ref=e502]:
+                  - generic [ref=e503]:
+                    - generic [ref=e504]: "#2"
+                    - generic [ref=e508]:
+                      - link [ref=e509] [cursor=pointer]:
+                        - /url: /Havaianas-Top-Preto-41-42/dp/B000YKO2XM/ref=zg_bs_c_fashion_d_sccl_2/140-5235038-8618349?pd_rd_w=VP9qh&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B000YKO2XM&psc=1
+                      - generic [ref=e512]:
+                        - link "Chinelo Havaianas Top adulto-unissex" [ref=e513] [cursor=pointer]:
+                          - /url: /Havaianas-Top-Preto-41-42/dp/B000YKO2XM/ref=zg_bs_c_fashion_d_sccl_2/140-5235038-8618349?pd_rd_w=VP9qh&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B000YKO2XM&psc=1
+                          - generic [ref=e515]: Chinelo Havaianas Top adulto-unissex
+                        - link "4,8 de 5 estrelas, 40.663 classificações" [ref=e518] [cursor=pointer]:
+                          - /url: /product-reviews/B000YKO2XM/ref=zg_bs_c_fashion_d_sccl_2_cr/140-5235038-8618349?pd_rd_w=VP9qh&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B000YKO2XM
+                          - generic [ref=e520]: 4,8 de 5 estrelas
+                          - text: "40.663"
+                        - link "R$ 32,75" [ref=e524] [cursor=pointer]:
+                          - /url: /Havaianas-Top-Preto-41-42/dp/B000YKO2XM/ref=zg_bs_c_fashion_d_sccl_2/140-5235038-8618349?pd_rd_w=VP9qh&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B000YKO2XM&psc=1
+                          - generic [ref=e526]: R$ 32,75
+                - listitem [ref=e527]:
+                  - generic [ref=e528]:
+                    - generic [ref=e529]: "#3"
+                    - generic [ref=e533]:
+                      - link [ref=e534] [cursor=pointer]:
+                        - /url: /Saco-Lavadora-Interior-Respir%C3%A1vel-Refor%C3%A7ado/dp/B0GMRF2JS1/ref=zg_bs_c_fashion_d_sccl_3/140-5235038-8618349?pd_rd_w=VP9qh&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0GMRF2JS1&psc=1
+                      - generic [ref=e537]:
+                        - link "Saco Lavadora de Tênis com Interior Macio, Tecido Respirável, Zíper Reforçado, Amarelo e Azul" [ref=e538] [cursor=pointer]:
+                          - /url: /Saco-Lavadora-Interior-Respir%C3%A1vel-Refor%C3%A7ado/dp/B0GMRF2JS1/ref=zg_bs_c_fashion_d_sccl_3/140-5235038-8618349?pd_rd_w=VP9qh&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0GMRF2JS1&psc=1
+                          - generic [ref=e540]: Saco Lavadora de Tênis com Interior Macio, Tecido Respirável, Zíper Reforçado, Amarelo e Azul
+                        - link "4,8 de 5 estrelas, 6 classificações" [ref=e543] [cursor=pointer]:
+                          - /url: /product-reviews/B0GMRF2JS1/ref=zg_bs_c_fashion_d_sccl_3_cr/140-5235038-8618349?pd_rd_w=VP9qh&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0GMRF2JS1
+                          - generic [ref=e545]: 4,8 de 5 estrelas
+                          - text: "6"
+                    - button "Assistir ao vídeo" [ref=e547] [cursor=pointer]:
+                      - img "Assistir ao vídeo" [ref=e549]
+                - listitem [ref=e555]:
+                  - generic [ref=e556]:
+                    - generic [ref=e557]: "#4"
+                    - generic [ref=e561]:
+                      - link [ref=e562] [cursor=pointer]:
+                        - /url: /Reebok-Masculinas-Microfibra-Costura-Sortidos/dp/B0CW246HNL/ref=zg_bs_c_fashion_d_sccl_4/140-5235038-8618349?pd_rd_w=VP9qh&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0CW246HNL&psc=1
+                      - generic [ref=e565]:
+                        - link "Kit 12 Cuecas Boxer Reebok Masculinas Microfibra Adulto Box Sem Costura" [ref=e566] [cursor=pointer]:
+                          - /url: /Reebok-Masculinas-Microfibra-Costura-Sortidos/dp/B0CW246HNL/ref=zg_bs_c_fashion_d_sccl_4/140-5235038-8618349?pd_rd_w=VP9qh&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0CW246HNL&psc=1
+                          - generic [ref=e568]: Kit 12 Cuecas Boxer Reebok Masculinas Microfibra Adulto Box Sem Costura
+                        - link "4,3 de 5 estrelas, 4.642 classificações" [ref=e571] [cursor=pointer]:
+                          - /url: /product-reviews/B0CW246HNL/ref=zg_bs_c_fashion_d_sccl_4_cr/140-5235038-8618349?pd_rd_w=VP9qh&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0CW246HNL
+                          - generic [ref=e573]: 4,3 de 5 estrelas
+                          - text: "4.642"
+                        - link "R$ 103,99" [ref=e577] [cursor=pointer]:
+                          - /url: /Reebok-Masculinas-Microfibra-Costura-Sortidos/dp/B0CW246HNL/ref=zg_bs_c_fashion_d_sccl_4/140-5235038-8618349?pd_rd_w=VP9qh&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0CW246HNL&psc=1
+                          - generic [ref=e579]: R$ 103,99
+            - button "Next page" [ref=e581] [cursor=pointer]:
+              - generic [ref=e584]: Next page
+          - generic: 
+        - group [ref=e589]:
+          - generic [ref=e591]:
+            - heading "Mais Vendidos em Beleza" [level=2] [ref=e592]
+            - link "Mais Vendidos em Beleza - Ver mais" [ref=e594] [cursor=pointer]:
+              - /url: /gp/bestsellers/beauty/ref=zg_bs_beauty_sm
+              - text: Ver mais
+          - group [ref=e599]:
+            - list [ref=e600]:
+              - listitem [ref=e601]:
+                - generic [ref=e602]:
+                  - generic [ref=e603]: "#1"
+                  - generic [ref=e607]:
+                    - link [ref=e608] [cursor=pointer]:
+                      - /url: /Paris-Extraordin%C3%A1rio-Finalizador-Preciosos-Anti-Frizz/dp/B07H113TPQ/ref=zg_bs_c_beauty_d_sccl_1/140-5235038-8618349?pd_rd_w=61693&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07H113TPQ&psc=1
+                    - generic [ref=e611]:
+                      - link "L'Oréal Paris Elseve Óleo Extraordinário Finalizador Capilar, Nutrição Profunda com 6 Óleos Preciosos, Anti-Frizz, Proteção Térmica até 230°C, Brilho Intenso para Todos os Tipos de Cabelo, 100ml" [ref=e612] [cursor=pointer]:
+                        - /url: /Paris-Extraordin%C3%A1rio-Finalizador-Preciosos-Anti-Frizz/dp/B07H113TPQ/ref=zg_bs_c_beauty_d_sccl_1/140-5235038-8618349?pd_rd_w=61693&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07H113TPQ&psc=1
+                        - generic "L'Oréal Paris Elseve Óleo Extraordinário Finalizador Capilar, Nutrição Profunda com 6 Óleos Preciosos, Anti-Frizz, Proteção Térmica até 230°C, Brilho Intenso para Todos os Tipos de Cabelo, 100ml" [ref=e614]: L'Oréal Paris Elseve Óleo Extraordinário Finalizador Capilar, Nutrição Profunda com 6 Óleos Preciosos, Anti-Frizz, Proteção…
+                      - link "4,8 de 5 estrelas, 112.294 classificações" [ref=e617] [cursor=pointer]:
+                        - /url: /product-reviews/B07H113TPQ/ref=zg_bs_c_beauty_d_sccl_1_cr/140-5235038-8618349?pd_rd_w=61693&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07H113TPQ
+                        - generic [ref=e619]: 4,8 de 5 estrelas
+                        - text: "112.294"
+                      - link "R$ 36,99" [ref=e623] [cursor=pointer]:
+                        - /url: /Paris-Extraordin%C3%A1rio-Finalizador-Preciosos-Anti-Frizz/dp/B07H113TPQ/ref=zg_bs_c_beauty_d_sccl_1/140-5235038-8618349?pd_rd_w=61693&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07H113TPQ&psc=1
+                        - generic [ref=e625]: R$ 36,99
+                  - button "Assistir ao vídeo" [ref=e627] [cursor=pointer]:
+                    - img "Assistir ao vídeo" [ref=e629]
+              - listitem [ref=e635]:
+                - generic [ref=e636]:
+                  - generic [ref=e637]: "#2"
+                  - generic [ref=e641]:
+                    - link [ref=e642] [cursor=pointer]:
+                      - /url: /Roche-Posay-Cicaplast-Cuidado-Multirreparador-Calmante/dp/B072MK7BN2/ref=zg_bs_c_beauty_d_sccl_2/140-5235038-8618349?pd_rd_w=61693&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B072MK7BN2&psc=1
+                    - generic [ref=e645]:
+                      - link "La Roche-Posay Cicaplast Baume B5+ Cuidado Multirreparador Calmante" [ref=e646] [cursor=pointer]:
+                        - /url: /Roche-Posay-Cicaplast-Cuidado-Multirreparador-Calmante/dp/B072MK7BN2/ref=zg_bs_c_beauty_d_sccl_2/140-5235038-8618349?pd_rd_w=61693&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B072MK7BN2&psc=1
+                        - generic [ref=e648]: La Roche-Posay Cicaplast Baume B5+ Cuidado Multirreparador Calmante
+                      - link "4,8 de 5 estrelas, 19.850 classificações" [ref=e651] [cursor=pointer]:
+                        - /url: /product-reviews/B072MK7BN2/ref=zg_bs_c_beauty_d_sccl_2_cr/140-5235038-8618349?pd_rd_w=61693&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B072MK7BN2
+                        - generic [ref=e653]: 4,8 de 5 estrelas
+                        - text: "19.850"
+                      - link "R$ 63,79" [ref=e657] [cursor=pointer]:
+                        - /url: /Roche-Posay-Cicaplast-Cuidado-Multirreparador-Calmante/dp/B072MK7BN2/ref=zg_bs_c_beauty_d_sccl_2/140-5235038-8618349?pd_rd_w=61693&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B072MK7BN2&psc=1
+                        - generic [ref=e659]: R$ 63,79
+                  - button "Assistir ao vídeo" [ref=e661] [cursor=pointer]:
+                    - img "Assistir ao vídeo" [ref=e663]
+              - listitem [ref=e669]:
+                - generic [ref=e670]:
+                  - generic [ref=e671]: "#3"
+                  - generic [ref=e675]:
+                    - link [ref=e676] [cursor=pointer]:
+                      - /url: /Argan-Oil-Novo-Lola-Cosmetics/dp/B07SBXMSGB/ref=zg_bs_c_beauty_d_sccl_3/140-5235038-8618349?pd_rd_w=61693&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07SBXMSGB&psc=1
+                    - generic [ref=e679]:
+                      - link "Argan Óleo Reparador 50ml , Lola Cosmetics" [ref=e680] [cursor=pointer]:
+                        - /url: /Argan-Oil-Novo-Lola-Cosmetics/dp/B07SBXMSGB/ref=zg_bs_c_beauty_d_sccl_3/140-5235038-8618349?pd_rd_w=61693&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07SBXMSGB&psc=1
+                        - generic [ref=e682]: Argan Óleo Reparador 50ml , Lola Cosmetics
+                      - link "4,8 de 5 estrelas, 41.026 classificações" [ref=e685] [cursor=pointer]:
+                        - /url: /product-reviews/B07SBXMSGB/ref=zg_bs_c_beauty_d_sccl_3_cr/140-5235038-8618349?pd_rd_w=61693&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07SBXMSGB
+                        - generic [ref=e687]: 4,8 de 5 estrelas
+                        - text: "41.026"
+                      - link "R$ 17,58" [ref=e691] [cursor=pointer]:
+                        - /url: /Argan-Oil-Novo-Lola-Cosmetics/dp/B07SBXMSGB/ref=zg_bs_c_beauty_d_sccl_3/140-5235038-8618349?pd_rd_w=61693&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07SBXMSGB&psc=1
+                        - generic [ref=e693]: R$ 17,58
+              - listitem [ref=e694]:
+                - generic [ref=e695]:
+                  - generic [ref=e696]: "#4"
+                  - generic [ref=e700]:
+                    - link [ref=e701] [cursor=pointer]:
+                      - /url: /DANOS-VORAZES-REPARADOR-Lola-Cosmetics/dp/B09GHN14FP/ref=zg_bs_c_beauty_d_sccl_4/140-5235038-8618349?pd_rd_w=61693&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B09GHN14FP&psc=1
+                    - generic [ref=e704]:
+                      - link "Danos Vorazes Óleo Reparador 50ml , Lola Cosmetics" [ref=e705] [cursor=pointer]:
+                        - /url: /DANOS-VORAZES-REPARADOR-Lola-Cosmetics/dp/B09GHN14FP/ref=zg_bs_c_beauty_d_sccl_4/140-5235038-8618349?pd_rd_w=61693&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B09GHN14FP&psc=1
+                        - generic [ref=e707]: Danos Vorazes Óleo Reparador 50ml , Lola Cosmetics
+                      - link "4,8 de 5 estrelas, 15.588 classificações" [ref=e710] [cursor=pointer]:
+                        - /url: /product-reviews/B09GHN14FP/ref=zg_bs_c_beauty_d_sccl_4_cr/140-5235038-8618349?pd_rd_w=61693&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B09GHN14FP
+                        - generic [ref=e712]: 4,8 de 5 estrelas
+                        - text: "15.588"
+                      - link "R$ 15,21" [ref=e716] [cursor=pointer]:
+                        - /url: /DANOS-VORAZES-REPARADOR-Lola-Cosmetics/dp/B09GHN14FP/ref=zg_bs_c_beauty_d_sccl_4/140-5235038-8618349?pd_rd_w=61693&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B09GHN14FP&psc=1
+                        - generic [ref=e718]: R$ 15,21
+                  - button "Assistir ao vídeo" [ref=e720] [cursor=pointer]:
+                    - img "Assistir ao vídeo" [ref=e722]
+              - listitem [ref=e728]:
+                - generic [ref=e729]:
+                  - generic [ref=e730]: "#5"
+                  - generic [ref=e734]:
+                    - link [ref=e735] [cursor=pointer]:
+                      - /url: /Sabonete-L%C3%ADquido-Natural-200ml-Nivea/dp/B00XDX9JJY/ref=zg_bs_c_beauty_d_sccl_5/140-5235038-8618349?pd_rd_w=61693&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B00XDX9JJY&psc=1
+                    - generic [ref=e738]:
+                      - link "NIVEA Sabonete Líquido Óleo de Banho 200ml, Limpeza Corporal, Pele Macia, 55% Óleos Naturais, Sensação Hidratante" [ref=e739] [cursor=pointer]:
+                        - /url: /Sabonete-L%C3%ADquido-Natural-200ml-Nivea/dp/B00XDX9JJY/ref=zg_bs_c_beauty_d_sccl_5/140-5235038-8618349?pd_rd_w=61693&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B00XDX9JJY&psc=1
+                        - generic [ref=e741]: NIVEA Sabonete Líquido Óleo de Banho 200ml, Limpeza Corporal, Pele Macia, 55% Óleos Naturais, Sensação Hidratante
+                      - link "4,7 de 5 estrelas, 36.631 classificações" [ref=e744] [cursor=pointer]:
+                        - /url: /product-reviews/B00XDX9JJY/ref=zg_bs_c_beauty_d_sccl_5_cr/140-5235038-8618349?pd_rd_w=61693&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B00XDX9JJY
+                        - generic [ref=e746]: 4,7 de 5 estrelas
+                        - text: "36.631"
+                      - link "R$ 32,90" [ref=e750] [cursor=pointer]:
+                        - /url: /Sabonete-L%C3%ADquido-Natural-200ml-Nivea/dp/B00XDX9JJY/ref=zg_bs_c_beauty_d_sccl_5/140-5235038-8618349?pd_rd_w=61693&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B00XDX9JJY&psc=1
+                        - generic [ref=e752]: R$ 32,90
+                  - button "Assistir ao vídeo" [ref=e754] [cursor=pointer]:
+                    - img "Assistir ao vídeo" [ref=e756]
+              - listitem [ref=e762]:
+                - generic [ref=e763]:
+                  - generic [ref=e764]: "#6"
+                  - generic [ref=e768]:
+                    - link [ref=e769] [cursor=pointer]:
+                      - /url: /Bepantol-Derma-Hidratante-Corporal-Restaurador/dp/B0DR3Q9ZKX/ref=zg_bs_c_beauty_d_sccl_6/140-5235038-8618349?pd_rd_w=61693&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0DR3Q9ZKX&psc=1
+                    - generic [ref=e772]:
+                      - link "Bepantol Derma Hidratante Corporal, Loção Hidratante e Restauradora para Pele Seca, 400ml" [ref=e773] [cursor=pointer]:
+                        - /url: /Bepantol-Derma-Hidratante-Corporal-Restaurador/dp/B0DR3Q9ZKX/ref=zg_bs_c_beauty_d_sccl_6/140-5235038-8618349?pd_rd_w=61693&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0DR3Q9ZKX&psc=1
+                        - generic [ref=e775]: Bepantol Derma Hidratante Corporal, Loção Hidratante e Restauradora para Pele Seca, 400ml
+                      - link "4,8 de 5 estrelas, 1.173 classificações" [ref=e778] [cursor=pointer]:
+                        - /url: /product-reviews/B0DR3Q9ZKX/ref=zg_bs_c_beauty_d_sccl_6_cr/140-5235038-8618349?pd_rd_w=61693&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0DR3Q9ZKX
+                        - generic [ref=e780]: 4,8 de 5 estrelas
+                        - text: "1.173"
+                      - link "R$ 75,00" [ref=e784] [cursor=pointer]:
+                        - /url: /Bepantol-Derma-Hidratante-Corporal-Restaurador/dp/B0DR3Q9ZKX/ref=zg_bs_c_beauty_d_sccl_6/140-5235038-8618349?pd_rd_w=61693&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0DR3Q9ZKX&psc=1
+                        - generic [ref=e786]: R$ 75,00
+                  - button "Assistir ao vídeo" [ref=e788] [cursor=pointer]:
+                    - img "Assistir ao vídeo" [ref=e790]
+          - generic: 
+        - group [ref=e800]:
+          - generic [ref=e802]:
+            - heading "Mais Vendidos em Saúde e Bem-Estar" [level=2] [ref=e803]
+            - link "Mais Vendidos em Saúde e Bem-Estar - Ver mais" [ref=e805] [cursor=pointer]:
+              - /url: /gp/bestsellers/hpc/ref=zg_bs_hpc_sm
+              - text: Ver mais
+          - group [ref=e810]:
+            - list [ref=e811]:
+              - listitem [ref=e812]:
+                - generic [ref=e813]:
+                  - generic [ref=e814]: "#1"
+                  - generic [ref=e818]:
+                    - link [ref=e819] [cursor=pointer]:
+                      - /url: /Dux-Nutrition-Whey-Protein-Concentrado/dp/B0CMXQGND5/ref=zg_bs_c_hpc_d_sccl_1/140-5235038-8618349?pd_rd_w=ZMX9Q&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0CMXQGND5&psc=1
+                    - generic [ref=e822]:
+                      - link "Whey Protein Concentrado Pote (900g), Chocolate Branco, Dux Human Health" [ref=e823] [cursor=pointer]:
+                        - /url: /Dux-Nutrition-Whey-Protein-Concentrado/dp/B0CMXQGND5/ref=zg_bs_c_hpc_d_sccl_1/140-5235038-8618349?pd_rd_w=ZMX9Q&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0CMXQGND5&psc=1
+                        - generic [ref=e825]: Whey Protein Concentrado Pote (900g), Chocolate Branco, Dux Human Health
+                      - link "4,7 de 5 estrelas, 1.343 classificações" [ref=e828] [cursor=pointer]:
+                        - /url: /product-reviews/B0CMXQGND5/ref=zg_bs_c_hpc_d_sccl_1_cr/140-5235038-8618349?pd_rd_w=ZMX9Q&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0CMXQGND5
+                        - generic [ref=e830]: 4,7 de 5 estrelas
+                        - text: "1.343"
+                      - link "R$ 157,51" [ref=e834] [cursor=pointer]:
+                        - /url: /Dux-Nutrition-Whey-Protein-Concentrado/dp/B0CMXQGND5/ref=zg_bs_c_hpc_d_sccl_1/140-5235038-8618349?pd_rd_w=ZMX9Q&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0CMXQGND5&psc=1
+                        - generic [ref=e836]: R$ 157,51
+                  - button "Assistir ao vídeo" [ref=e838] [cursor=pointer]:
+                    - img "Assistir ao vídeo" [ref=e840]
+              - listitem [ref=e846]:
+                - generic [ref=e847]:
+                  - generic [ref=e848]: "#2"
+                  - generic [ref=e852]:
+                    - link [ref=e853] [cursor=pointer]:
+                      - /url: /Sabonete-L%C3%ADquido-Nivea-%C3%8Dntimo-Suave/dp/B07F3DK2CK/ref=zg_bs_c_hpc_d_sccl_2/140-5235038-8618349?pd_rd_w=ZMX9Q&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07F3DK2CK&psc=1
+                    - generic [ref=e856]:
+                      - link "NIVEA Sabonete Líquido Íntimo Suave 250ml, Limpeza Delicada, Mantém pH Natural, Extrato de Camomila, Cuidado Calmante, Uso Diário" [ref=e857] [cursor=pointer]:
+                        - /url: /Sabonete-L%C3%ADquido-Nivea-%C3%8Dntimo-Suave/dp/B07F3DK2CK/ref=zg_bs_c_hpc_d_sccl_2/140-5235038-8618349?pd_rd_w=ZMX9Q&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07F3DK2CK&psc=1
+                        - generic "NIVEA Sabonete Líquido Íntimo Suave 250ml, Limpeza Delicada, Mantém pH Natural, Extrato de Camomila, Cuidado Calmante, Uso Diário" [ref=e859]: NIVEA Sabonete Líquido Íntimo Suave 250ml, Limpeza Delicada, Mantém pH Natural, Extrato de Camomila, Cuidado Calmante,…
+                      - link "4,9 de 5 estrelas, 11.820 classificações" [ref=e862] [cursor=pointer]:
+                        - /url: /product-reviews/B07F3DK2CK/ref=zg_bs_c_hpc_d_sccl_2_cr/140-5235038-8618349?pd_rd_w=ZMX9Q&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07F3DK2CK
+                        - generic [ref=e864]: 4,9 de 5 estrelas
+                        - text: "11.820"
+                      - link "12 ofertas a partir de R$ 8,99" [ref=e866] [cursor=pointer]:
+                        - /url: /Sabonete-L%C3%ADquido-Nivea-%C3%8Dntimo-Suave/dp/B07F3DK2CK/ref=zg_bs_c_hpc_d_sccl_2/140-5235038-8618349?pd_rd_w=ZMX9Q&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07F3DK2CK&psc=1
+                        - generic [ref=e867]:
+                          - text: 12 ofertas a partir de
+                          - generic [ref=e868]: R$ 8,99
+                  - button "Assistir ao vídeo" [ref=e870] [cursor=pointer]:
+                    - img "Assistir ao vídeo" [ref=e872]
+              - listitem [ref=e878]:
+                - generic [ref=e879]:
+                  - generic [ref=e880]: "#3"
+                  - generic [ref=e884]:
+                    - link [ref=e885] [cursor=pointer]:
+                      - /url: /Creatina-Monohidratada-Dark-Lab-Pureza/dp/B0CF71CJ2L/ref=zg_bs_c_hpc_d_sccl_3/140-5235038-8618349?pd_rd_w=ZMX9Q&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0CF71CJ2L&psc=1
+                    - generic [ref=e888]:
+                      - link "Creatina Pura 500g Dark Lab Monohidratada 100% de Pureza, Sem Sabor" [ref=e889] [cursor=pointer]:
+                        - /url: /Creatina-Monohidratada-Dark-Lab-Pureza/dp/B0CF71CJ2L/ref=zg_bs_c_hpc_d_sccl_3/140-5235038-8618349?pd_rd_w=ZMX9Q&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0CF71CJ2L&psc=1
+                        - generic [ref=e891]: Creatina Pura 500g Dark Lab Monohidratada 100% de Pureza, Sem Sabor
+                      - link "4,8 de 5 estrelas, 35.400 classificações" [ref=e894] [cursor=pointer]:
+                        - /url: /product-reviews/B0CF71CJ2L/ref=zg_bs_c_hpc_d_sccl_3_cr/140-5235038-8618349?pd_rd_w=ZMX9Q&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0CF71CJ2L
+                        - generic [ref=e896]: 4,8 de 5 estrelas
+                        - text: "35.400"
+                      - link "R$ 44,90" [ref=e900] [cursor=pointer]:
+                        - /url: /Creatina-Monohidratada-Dark-Lab-Pureza/dp/B0CF71CJ2L/ref=zg_bs_c_hpc_d_sccl_3/140-5235038-8618349?pd_rd_w=ZMX9Q&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0CF71CJ2L&psc=1
+                        - generic [ref=e902]: R$ 44,90
+                  - button "Assistir ao vídeo" [ref=e904] [cursor=pointer]:
+                    - img "Assistir ao vídeo" [ref=e906]
+              - listitem [ref=e912]:
+                - generic [ref=e913]:
+                  - generic [ref=e914]: "#4"
+                  - generic [ref=e918]:
+                    - link [ref=e919] [cursor=pointer]:
+                      - /url: /OMO-Lava-Roupas-L%C3%ADquido-Ultra-Frasco/dp/B0CBCRP3BS/ref=zg_bs_c_hpc_d_sccl_4/140-5235038-8618349?pd_rd_w=ZMX9Q&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0CBCRP3BS&psc=1
+                    - generic [ref=e922]:
+                      - link "Omo Sabão Líquido Ultra Power 1,8 L" [ref=e923] [cursor=pointer]:
+                        - /url: /OMO-Lava-Roupas-L%C3%ADquido-Ultra-Frasco/dp/B0CBCRP3BS/ref=zg_bs_c_hpc_d_sccl_4/140-5235038-8618349?pd_rd_w=ZMX9Q&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0CBCRP3BS&psc=1
+                        - generic [ref=e925]: Omo Sabão Líquido Ultra Power 1,8 L
+                      - link "4,8 de 5 estrelas, 10.394 classificações" [ref=e928] [cursor=pointer]:
+                        - /url: /product-reviews/B0CBCRP3BS/ref=zg_bs_c_hpc_d_sccl_4_cr/140-5235038-8618349?pd_rd_w=ZMX9Q&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0CBCRP3BS
+                        - generic [ref=e930]: 4,8 de 5 estrelas
+                        - text: "10.394"
+                      - link "R$ 23,99" [ref=e934] [cursor=pointer]:
+                        - /url: /OMO-Lava-Roupas-L%C3%ADquido-Ultra-Frasco/dp/B0CBCRP3BS/ref=zg_bs_c_hpc_d_sccl_4/140-5235038-8618349?pd_rd_w=ZMX9Q&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0CBCRP3BS&psc=1
+                        - generic [ref=e936]: R$ 23,99
+              - listitem [ref=e937]:
+                - generic [ref=e938]:
+                  - generic [ref=e939]: "#5"
+                  - generic [ref=e943]:
+                    - link [ref=e944] [cursor=pointer]:
+                      - /url: /Detergente-L%C3%ADquido-Brancas-Coloridas-Brilhante/dp/B07DTN9W36/ref=zg_bs_c_hpc_d_sccl_5/140-5235038-8618349?pd_rd_w=ZMX9Q&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07DTN9W36&psc=1
+                    - generic [ref=e947]:
+                      - link "Brilhante Limpeza Total - Lava Roupas Líquido 3L" [ref=e948] [cursor=pointer]:
+                        - /url: /Detergente-L%C3%ADquido-Brancas-Coloridas-Brilhante/dp/B07DTN9W36/ref=zg_bs_c_hpc_d_sccl_5/140-5235038-8618349?pd_rd_w=ZMX9Q&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07DTN9W36&psc=1
+                        - generic [ref=e950]: Brilhante Limpeza Total - Lava Roupas Líquido 3L
+                      - link "4,8 de 5 estrelas, 21.450 classificações" [ref=e953] [cursor=pointer]:
+                        - /url: /product-reviews/B07DTN9W36/ref=zg_bs_c_hpc_d_sccl_5_cr/140-5235038-8618349?pd_rd_w=ZMX9Q&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07DTN9W36
+                        - generic [ref=e955]: 4,8 de 5 estrelas
+                        - text: "21.450"
+                      - link "R$ 24,84" [ref=e959] [cursor=pointer]:
+                        - /url: /Detergente-L%C3%ADquido-Brancas-Coloridas-Brilhante/dp/B07DTN9W36/ref=zg_bs_c_hpc_d_sccl_5/140-5235038-8618349?pd_rd_w=ZMX9Q&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07DTN9W36&psc=1
+                        - generic [ref=e961]: R$ 24,84
+                  - button "Assistir ao vídeo" [ref=e963] [cursor=pointer]:
+                    - img "Assistir ao vídeo" [ref=e965]
+              - listitem [ref=e971]:
+                - generic [ref=e972]:
+                  - generic [ref=e973]: "#6"
+                  - generic [ref=e977]:
+                    - link [ref=e978] [cursor=pointer]:
+                      - /url: /Integralm%C3%A9dica-Creatina-300G-Monohidratada-Branco/dp/B07L5WFHXW/ref=zg_bs_c_hpc_d_sccl_6/140-5235038-8618349?pd_rd_w=ZMX9Q&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07L5WFHXW&psc=1
+                    - generic [ref=e981]:
+                      - link "Integralmedica - Creatina em Pó Hardcore 100% Pura e Monohidratada - 300g" [ref=e982] [cursor=pointer]:
+                        - /url: /Integralm%C3%A9dica-Creatina-300G-Monohidratada-Branco/dp/B07L5WFHXW/ref=zg_bs_c_hpc_d_sccl_6/140-5235038-8618349?pd_rd_w=ZMX9Q&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07L5WFHXW&psc=1
+                        - generic [ref=e984]: Integralmedica - Creatina em Pó Hardcore 100% Pura e Monohidratada - 300g
+                      - link "4,7 de 5 estrelas, 76.594 classificações" [ref=e987] [cursor=pointer]:
+                        - /url: /product-reviews/B07L5WFHXW/ref=zg_bs_c_hpc_d_sccl_6_cr/140-5235038-8618349?pd_rd_w=ZMX9Q&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07L5WFHXW
+                        - generic [ref=e989]: 4,7 de 5 estrelas
+                        - text: "76.594"
+                      - link "R$ 39,80" [ref=e993] [cursor=pointer]:
+                        - /url: /Integralm%C3%A9dica-Creatina-300G-Monohidratada-Branco/dp/B07L5WFHXW/ref=zg_bs_c_hpc_d_sccl_6/140-5235038-8618349?pd_rd_w=ZMX9Q&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07L5WFHXW&psc=1
+                        - generic [ref=e995]: R$ 39,80
+                  - button "Assistir ao vídeo" [ref=e997] [cursor=pointer]:
+                    - img "Assistir ao vídeo" [ref=e999]
+          - generic: 
+        - group [ref=e1009]:
+          - generic [ref=e1011]:
+            - heading "Mais Vendidos em Papelaria e Escritório" [level=2] [ref=e1012]
+            - link "Mais Vendidos em Papelaria e Escritório - Ver mais" [ref=e1014] [cursor=pointer]:
+              - /url: /gp/bestsellers/office/ref=zg_bs_office_sm
+              - text: Ver mais
+          - group [ref=e1019]:
+            - list [ref=e1020]:
+              - listitem [ref=e1021]:
+                - generic [ref=e1022]:
+                  - generic [ref=e1023]: "#1"
+                  - generic [ref=e1027]:
+                    - link [ref=e1028] [cursor=pointer]:
+                      - /url: /Papel-sulfite-chamex-office-A4/dp/B01CZXF4XW/ref=zg_bs_c_office_d_sccl_1/140-5235038-8618349?pd_rd_w=jhIgp&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B01CZXF4XW&psc=1
+                    - generic [ref=e1031]:
+                      - link "Chamex - Papel Sulfite, A4, 75g, 500 folhas" [ref=e1032] [cursor=pointer]:
+                        - /url: /Papel-sulfite-chamex-office-A4/dp/B01CZXF4XW/ref=zg_bs_c_office_d_sccl_1/140-5235038-8618349?pd_rd_w=jhIgp&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B01CZXF4XW&psc=1
+                        - generic [ref=e1034]: Chamex - Papel Sulfite, A4, 75g, 500 folhas
+                      - link "4,9 de 5 estrelas, 35.659 classificações" [ref=e1037] [cursor=pointer]:
+                        - /url: /product-reviews/B01CZXF4XW/ref=zg_bs_c_office_d_sccl_1_cr/140-5235038-8618349?pd_rd_w=jhIgp&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B01CZXF4XW
+                        - generic [ref=e1039]: 4,9 de 5 estrelas
+                        - text: "35.659"
+                      - link "R$ 34,50" [ref=e1043] [cursor=pointer]:
+                        - /url: /Papel-sulfite-chamex-office-A4/dp/B01CZXF4XW/ref=zg_bs_c_office_d_sccl_1/140-5235038-8618349?pd_rd_w=jhIgp&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B01CZXF4XW&psc=1
+                        - generic [ref=e1045]: R$ 34,50
+                  - button "Assistir ao vídeo" [ref=e1047] [cursor=pointer]:
+                    - img "Assistir ao vídeo" [ref=e1049]
+              - listitem [ref=e1055]:
+                - generic [ref=e1056]:
+                  - generic [ref=e1057]: "#2"
+                  - generic [ref=e1061]:
+                    - link [ref=e1062] [cursor=pointer]:
+                      - /url: /Permanente-Profissional-Organizador-Canetinhas-Hidrogr%C3%A1ficas/dp/B0FNYHQJ2L/ref=zg_bs_c_office_d_sccl_2/140-5235038-8618349?pd_rd_w=jhIgp&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0FNYHQJ2L&psc=1
+                    - generic [ref=e1065]:
+                      - link "Kit de 60 Canetas Marcador Permanente Ponta Dupla Touch Coloridas para Desenho Profissional Escolar Infantil com Estojo Organizador Base Artista Canetinhas Hidrográficas Alcool Caneta para Colorir" [ref=e1066] [cursor=pointer]:
+                        - /url: /Permanente-Profissional-Organizador-Canetinhas-Hidrogr%C3%A1ficas/dp/B0FNYHQJ2L/ref=zg_bs_c_office_d_sccl_2/140-5235038-8618349?pd_rd_w=jhIgp&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0FNYHQJ2L&psc=1
+                        - generic "Kit de 60 Canetas Marcador Permanente Ponta Dupla Touch Coloridas para Desenho Profissional Escolar Infantil com Estojo Organizador Base Artista Canetinhas Hidrográficas Alcool Caneta para Colorir" [ref=e1068]: Kit de 60 Canetas Marcador Permanente Ponta Dupla Touch Coloridas para Desenho Profissional Escolar Infantil com…
+                      - link "4,6 de 5 estrelas, 2.577 classificações" [ref=e1071] [cursor=pointer]:
+                        - /url: /product-reviews/B0FNYHQJ2L/ref=zg_bs_c_office_d_sccl_2_cr/140-5235038-8618349?pd_rd_w=jhIgp&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0FNYHQJ2L
+                        - generic [ref=e1073]: 4,6 de 5 estrelas
+                        - text: "2.577"
+                      - link "R$ 19,99" [ref=e1077] [cursor=pointer]:
+                        - /url: /Permanente-Profissional-Organizador-Canetinhas-Hidrogr%C3%A1ficas/dp/B0FNYHQJ2L/ref=zg_bs_c_office_d_sccl_2/140-5235038-8618349?pd_rd_w=jhIgp&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0FNYHQJ2L&psc=1
+                        - generic [ref=e1079]: R$ 19,99
+                  - button "Assistir ao vídeo" [ref=e1081] [cursor=pointer]:
+                    - img "Assistir ao vídeo" [ref=e1083]
+              - listitem [ref=e1089]:
+                - generic [ref=e1090]:
+                  - generic [ref=e1091]: "#3"
+                  - generic [ref=e1095]:
+                    - link [ref=e1096] [cursor=pointer]:
+                      - /url: /Papel-Sulfite-Chamex-Pacote-Folhas/dp/B08CZW8H1L/ref=zg_bs_c_office_d_sccl_3/140-5235038-8618349?pd_rd_w=jhIgp&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B08CZW8H1L&psc=1
+                    - generic [ref=e1099]:
+                      - link "Papel Sulfite, Chamex, A4, 75 Gramas, Pacote De 300 Folhas" [ref=e1100] [cursor=pointer]:
+                        - /url: /Papel-Sulfite-Chamex-Pacote-Folhas/dp/B08CZW8H1L/ref=zg_bs_c_office_d_sccl_3/140-5235038-8618349?pd_rd_w=jhIgp&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B08CZW8H1L&psc=1
+                        - generic [ref=e1102]: Papel Sulfite, Chamex, A4, 75 Gramas, Pacote De 300 Folhas
+                      - link "4,8 de 5 estrelas, 13.151 classificações" [ref=e1105] [cursor=pointer]:
+                        - /url: /product-reviews/B08CZW8H1L/ref=zg_bs_c_office_d_sccl_3_cr/140-5235038-8618349?pd_rd_w=jhIgp&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B08CZW8H1L
+                        - generic [ref=e1107]: 4,8 de 5 estrelas
+                        - text: "13.151"
+                      - link "R$ 22,10" [ref=e1111] [cursor=pointer]:
+                        - /url: /Papel-Sulfite-Chamex-Pacote-Folhas/dp/B08CZW8H1L/ref=zg_bs_c_office_d_sccl_3/140-5235038-8618349?pd_rd_w=jhIgp&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B08CZW8H1L&psc=1
+                        - generic [ref=e1113]: R$ 22,10
+                  - button "Assistir ao vídeo" [ref=e1115] [cursor=pointer]:
+                    - img "Assistir ao vídeo" [ref=e1117]
+              - listitem [ref=e1123]:
+                - generic [ref=e1124]:
+                  - generic [ref=e1125]: "#4"
+                  - generic [ref=e1129]:
+                    - link [ref=e1130] [cursor=pointer]:
+                      - /url: /Papel-Sulfite-Chamequinho-100-Folhas/dp/B076X67XSW/ref=zg_bs_c_office_d_sccl_4/140-5235038-8618349?pd_rd_w=jhIgp&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B076X67XSW&psc=1
+                    - generic [ref=e1133]:
+                      - link "Chamequinho Papel A4, 75 g, 100 Folhas, Branco Sulfite" [ref=e1134] [cursor=pointer]:
+                        - /url: /Papel-Sulfite-Chamequinho-100-Folhas/dp/B076X67XSW/ref=zg_bs_c_office_d_sccl_4/140-5235038-8618349?pd_rd_w=jhIgp&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B076X67XSW&psc=1
+                        - generic [ref=e1136]: Chamequinho Papel A4, 75 g, 100 Folhas, Branco Sulfite
+                      - link "4,9 de 5 estrelas, 18.612 classificações" [ref=e1139] [cursor=pointer]:
+                        - /url: /product-reviews/B076X67XSW/ref=zg_bs_c_office_d_sccl_4_cr/140-5235038-8618349?pd_rd_w=jhIgp&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B076X67XSW
+                        - generic [ref=e1141]: 4,9 de 5 estrelas
+                        - text: "18.612"
+                      - link "R$ 7,70" [ref=e1145] [cursor=pointer]:
+                        - /url: /Papel-Sulfite-Chamequinho-100-Folhas/dp/B076X67XSW/ref=zg_bs_c_office_d_sccl_4/140-5235038-8618349?pd_rd_w=jhIgp&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B076X67XSW&psc=1
+                        - generic [ref=e1147]: R$ 7,70
+                  - button "Assistir ao vídeo" [ref=e1149] [cursor=pointer]:
+                    - img "Assistir ao vídeo" [ref=e1151]
+              - listitem [ref=e1157]:
+                - generic [ref=e1158]:
+                  - generic [ref=e1159]: "#5"
+                  - generic [ref=e1163]:
+                    - link [ref=e1164] [cursor=pointer]:
+                      - /url: /Caderno-Universit%C3%A1rio-Tilibra-305421-Mat%C3%A9rias/dp/B07VFWFS4P/ref=zg_bs_c_office_d_sccl_5/140-5235038-8618349?pd_rd_w=jhIgp&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07VFWFS4P&psc=1
+                    - generic [ref=e1167]:
+                      - link "Tilibra 305421 Universitário 10 Matérias Zip - Caderno Espiral, Capa Dura, 160 Folhas, Preto" [ref=e1168] [cursor=pointer]:
+                        - /url: /Caderno-Universit%C3%A1rio-Tilibra-305421-Mat%C3%A9rias/dp/B07VFWFS4P/ref=zg_bs_c_office_d_sccl_5/140-5235038-8618349?pd_rd_w=jhIgp&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07VFWFS4P&psc=1
+                        - generic [ref=e1170]: Tilibra 305421 Universitário 10 Matérias Zip - Caderno Espiral, Capa Dura, 160 Folhas, Preto
+                      - link "4,8 de 5 estrelas, 31.513 classificações" [ref=e1173] [cursor=pointer]:
+                        - /url: /product-reviews/B07VFWFS4P/ref=zg_bs_c_office_d_sccl_5_cr/140-5235038-8618349?pd_rd_w=jhIgp&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07VFWFS4P
+                        - generic [ref=e1175]: 4,8 de 5 estrelas
+                        - text: "31.513"
+                      - link "R$ 26,10" [ref=e1179] [cursor=pointer]:
+                        - /url: /Caderno-Universit%C3%A1rio-Tilibra-305421-Mat%C3%A9rias/dp/B07VFWFS4P/ref=zg_bs_c_office_d_sccl_5/140-5235038-8618349?pd_rd_w=jhIgp&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07VFWFS4P&psc=1
+                        - generic [ref=e1181]: R$ 26,10
+                  - button "Assistir ao vídeo" [ref=e1183] [cursor=pointer]:
+                    - img "Assistir ao vídeo" [ref=e1185]
+              - listitem [ref=e1191]:
+                - generic [ref=e1192]:
+                  - generic [ref=e1193]: "#6"
+                  - generic [ref=e1197]:
+                    - link [ref=e1198] [cursor=pointer]:
+                      - /url: /Giz-Pastel-Oleoso-Pentel-Cores/dp/B07D3WCMVD/ref=zg_bs_c_office_d_sccl_6/140-5235038-8618349?pd_rd_w=jhIgp&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07D3WCMVD&psc=1
+                    - generic [ref=e1201]:
+                      - link "Pentel Giz Pastel Oleoso 50 Cores PHN-50" [ref=e1202] [cursor=pointer]:
+                        - /url: /Giz-Pastel-Oleoso-Pentel-Cores/dp/B07D3WCMVD/ref=zg_bs_c_office_d_sccl_6/140-5235038-8618349?pd_rd_w=jhIgp&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07D3WCMVD&psc=1
+                        - generic [ref=e1204]: Pentel Giz Pastel Oleoso 50 Cores PHN-50
+                      - link "4,8 de 5 estrelas, 14.910 classificações" [ref=e1207] [cursor=pointer]:
+                        - /url: /product-reviews/B07D3WCMVD/ref=zg_bs_c_office_d_sccl_6_cr/140-5235038-8618349?pd_rd_w=jhIgp&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07D3WCMVD
+                        - generic [ref=e1209]: 4,8 de 5 estrelas
+                        - text: "14.910"
+                      - link "R$ 47,10" [ref=e1213] [cursor=pointer]:
+                        - /url: /Giz-Pastel-Oleoso-Pentel-Cores/dp/B07D3WCMVD/ref=zg_bs_c_office_d_sccl_6/140-5235038-8618349?pd_rd_w=jhIgp&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B07D3WCMVD&psc=1
+                        - generic [ref=e1215]: R$ 47,10
+                  - button "Assistir ao vídeo" [ref=e1217] [cursor=pointer]:
+                    - img "Assistir ao vídeo" [ref=e1219]
+          - generic: 
+        - group [ref=e1229]:
+          - generic [ref=e1231]:
+            - heading "Mais Vendidos em Eletrodomésticos" [level=2] [ref=e1232]
+            - link "Mais Vendidos em Eletrodomésticos - Ver mais" [ref=e1234] [cursor=pointer]:
+              - /url: /gp/bestsellers/appliances/ref=zg_bs_appliances_sm
+              - text: Ver mais
+          - group [ref=e1239]:
+            - list [ref=e1240]:
+              - listitem [ref=e1241]:
+                - generic [ref=e1242]:
+                  - generic [ref=e1243]: "#1"
+                  - generic [ref=e1247]:
+                    - link [ref=e1248] [cursor=pointer]:
+                      - /url: /SUGGAR-DEPURADOR-SLIM-PRETO-DPS161PT/dp/B0B3SJ345V/ref=zg_bs_c_appliances_d_sccl_1/140-5235038-8618349?pd_rd_w=FhfZl&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0B3SJ345V&psc=1
+                    - generic [ref=e1251]:
+                      - link "SUGGAR DEPURADOR DE AR SLIM 60CM 3 VEL. PRETO 110V DPS161PT" [ref=e1252] [cursor=pointer]:
+                        - /url: /SUGGAR-DEPURADOR-SLIM-PRETO-DPS161PT/dp/B0B3SJ345V/ref=zg_bs_c_appliances_d_sccl_1/140-5235038-8618349?pd_rd_w=FhfZl&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0B3SJ345V&psc=1
+                        - generic [ref=e1254]: SUGGAR DEPURADOR DE AR SLIM 60CM 3 VEL. PRETO 110V DPS161PT
+                      - link "4,6 de 5 estrelas, 8.729 classificações" [ref=e1257] [cursor=pointer]:
+                        - /url: /product-reviews/B0B3SJ345V/ref=zg_bs_c_appliances_d_sccl_1_cr/140-5235038-8618349?pd_rd_w=FhfZl&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0B3SJ345V
+                        - generic [ref=e1259]: 4,6 de 5 estrelas
+                        - text: "8.729"
+                      - link "R$ 379,99" [ref=e1263] [cursor=pointer]:
+                        - /url: /SUGGAR-DEPURADOR-SLIM-PRETO-DPS161PT/dp/B0B3SJ345V/ref=zg_bs_c_appliances_d_sccl_1/140-5235038-8618349?pd_rd_w=FhfZl&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0B3SJ345V&psc=1
+                        - generic [ref=e1265]: R$ 379,99
+                  - button "Assistir ao vídeo" [ref=e1267] [cursor=pointer]:
+                    - img "Assistir ao vídeo" [ref=e1269]
+              - listitem [ref=e1275]:
+                - generic [ref=e1276]:
+                  - generic [ref=e1277]: "#2"
+                  - generic [ref=e1281]:
+                    - link [ref=e1282] [cursor=pointer]:
+                      - /url: /El%C3%A9trico-Port%C3%A1til-Cooktop-Elgin-Double/dp/B0DCM31SDG/ref=zg_bs_c_appliances_d_sccl_2/140-5235038-8618349?pd_rd_w=FhfZl&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0DCM31SDG&psc=1
+                    - generic [ref=e1285]:
+                      - link "Fogão Elétrico Portátil Cooktop Elgin Double Cook 2 Bocas - 110V" [ref=e1286] [cursor=pointer]:
+                        - /url: /El%C3%A9trico-Port%C3%A1til-Cooktop-Elgin-Double/dp/B0DCM31SDG/ref=zg_bs_c_appliances_d_sccl_2/140-5235038-8618349?pd_rd_w=FhfZl&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0DCM31SDG&psc=1
+                        - generic [ref=e1288]: Fogão Elétrico Portátil Cooktop Elgin Double Cook 2 Bocas - 110V
+                      - link "4,4 de 5 estrelas, 1.980 classificações" [ref=e1291] [cursor=pointer]:
+                        - /url: /product-reviews/B0DCM31SDG/ref=zg_bs_c_appliances_d_sccl_2_cr/140-5235038-8618349?pd_rd_w=FhfZl&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0DCM31SDG
+                        - generic [ref=e1293]: 4,4 de 5 estrelas
+                        - text: "1.980"
+                      - link "R$ 99,00" [ref=e1297] [cursor=pointer]:
+                        - /url: /El%C3%A9trico-Port%C3%A1til-Cooktop-Elgin-Double/dp/B0DCM31SDG/ref=zg_bs_c_appliances_d_sccl_2/140-5235038-8618349?pd_rd_w=FhfZl&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0DCM31SDG&psc=1
+                        - generic [ref=e1299]: R$ 99,00
+              - listitem [ref=e1300]:
+                - generic [ref=e1301]:
+                  - generic [ref=e1302]: "#3"
+                  - generic [ref=e1306]:
+                    - link [ref=e1307] [cursor=pointer]:
+                      - /url: /Lava-Samsung-Branca-Programas-Lavagem/dp/B0B625GC45/ref=zg_bs_c_appliances_d_sccl_3/140-5235038-8618349?pd_rd_w=FhfZl&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0B625GC45&psc=1
+                    - generic [ref=e1310]:
+                      - link "Samsung Lava e Seca WD11M com Digital Inverter WD11M4473PW Branca 11/7kg - 220V" [ref=e1311] [cursor=pointer]:
+                        - /url: /Lava-Samsung-Branca-Programas-Lavagem/dp/B0B625GC45/ref=zg_bs_c_appliances_d_sccl_3/140-5235038-8618349?pd_rd_w=FhfZl&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0B625GC45&psc=1
+                        - generic [ref=e1313]: Samsung Lava e Seca WD11M com Digital Inverter WD11M4473PW Branca 11/7kg - 220V
+                      - link "4,6 de 5 estrelas, 265 classificações" [ref=e1316] [cursor=pointer]:
+                        - /url: /product-reviews/B0B625GC45/ref=zg_bs_c_appliances_d_sccl_3_cr/140-5235038-8618349?pd_rd_w=FhfZl&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0B625GC45
+                        - generic [ref=e1318]: 4,6 de 5 estrelas
+                        - text: "265"
+                      - link "R$ 3.323,95" [ref=e1322] [cursor=pointer]:
+                        - /url: /Lava-Samsung-Branca-Programas-Lavagem/dp/B0B625GC45/ref=zg_bs_c_appliances_d_sccl_3/140-5235038-8618349?pd_rd_w=FhfZl&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0B625GC45&psc=1
+                        - generic [ref=e1324]: R$ 3.323,95
+              - listitem [ref=e1325]:
+                - generic [ref=e1326]:
+                  - generic [ref=e1327]: "#4"
+                  - generic [ref=e1331]:
+                    - link [ref=e1332] [cursor=pointer]:
+                      - /url: /Protetor-Contra-Energia-Freezer-Geladeira/dp/B0798XT2VK/ref=zg_bs_c_appliances_d_sccl_4/140-5235038-8618349?pd_rd_w=FhfZl&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0798XT2VK&psc=1
+                    - generic [ref=e1335]:
+                      - link "Protetor De Geladeira ou Freezer Contra Queda Surtos de Energia 127V" [ref=e1336] [cursor=pointer]:
+                        - /url: /Protetor-Contra-Energia-Freezer-Geladeira/dp/B0798XT2VK/ref=zg_bs_c_appliances_d_sccl_4/140-5235038-8618349?pd_rd_w=FhfZl&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0798XT2VK&psc=1
+                        - generic [ref=e1338]: Protetor De Geladeira ou Freezer Contra Queda Surtos de Energia 127V
+                      - link "4,5 de 5 estrelas, 5.368 classificações" [ref=e1341] [cursor=pointer]:
+                        - /url: /product-reviews/B0798XT2VK/ref=zg_bs_c_appliances_d_sccl_4_cr/140-5235038-8618349?pd_rd_w=FhfZl&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0798XT2VK
+                        - generic [ref=e1343]: 4,5 de 5 estrelas
+                        - text: "5.368"
+                      - link "R$ 44,20" [ref=e1347] [cursor=pointer]:
+                        - /url: /Protetor-Contra-Energia-Freezer-Geladeira/dp/B0798XT2VK/ref=zg_bs_c_appliances_d_sccl_4/140-5235038-8618349?pd_rd_w=FhfZl&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0798XT2VK&psc=1
+                        - generic [ref=e1349]: R$ 44,20
+                  - button "Assistir ao vídeo" [ref=e1351] [cursor=pointer]:
+                    - img "Assistir ao vídeo" [ref=e1353]
+              - listitem [ref=e1359]:
+                - generic [ref=e1360]:
+                  - generic [ref=e1361]: "#5"
+                  - generic [ref=e1365]:
+                    - link [ref=e1366] [cursor=pointer]:
+                      - /url: /SUGGAR-DEPURADOR-SLIM-PRETO-DPS181PT/dp/B0B3SHMB2W/ref=zg_bs_c_appliances_d_sccl_5/140-5235038-8618349?pd_rd_w=FhfZl&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0B3SHMB2W&psc=1
+                    - generic [ref=e1369]:
+                      - link "SUGGAR DEPURADOR DE AR SLIM 80CM 3 VEL. PRETO 110V DPS181PT" [ref=e1370] [cursor=pointer]:
+                        - /url: /SUGGAR-DEPURADOR-SLIM-PRETO-DPS181PT/dp/B0B3SHMB2W/ref=zg_bs_c_appliances_d_sccl_5/140-5235038-8618349?pd_rd_w=FhfZl&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0B3SHMB2W&psc=1
+                        - generic [ref=e1372]: SUGGAR DEPURADOR DE AR SLIM 80CM 3 VEL. PRETO 110V DPS181PT
+                      - link "4,6 de 5 estrelas, 4.300 classificações" [ref=e1375] [cursor=pointer]:
+                        - /url: /product-reviews/B0B3SHMB2W/ref=zg_bs_c_appliances_d_sccl_5_cr/140-5235038-8618349?pd_rd_w=FhfZl&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0B3SHMB2W
+                        - generic [ref=e1377]: 4,6 de 5 estrelas
+                        - text: "4.300"
+                      - link "R$ 385,00" [ref=e1381] [cursor=pointer]:
+                        - /url: /SUGGAR-DEPURADOR-SLIM-PRETO-DPS181PT/dp/B0B3SHMB2W/ref=zg_bs_c_appliances_d_sccl_5/140-5235038-8618349?pd_rd_w=FhfZl&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0B3SHMB2W&psc=1
+                        - generic [ref=e1383]: R$ 385,00
+              - listitem [ref=e1384]:
+                - generic [ref=e1385]:
+                  - generic [ref=e1386]: "#6"
+                  - generic [ref=e1390]:
+                    - link [ref=e1391] [cursor=pointer]:
+                      - /url: /Electrolux-Geladeira-AutoSense-Duplex-TF41/dp/B0FVQ6V9QK/ref=zg_bs_c_appliances_d_sccl_6/140-5235038-8618349?pd_rd_w=FhfZl&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0FVQ6V9QK&psc=1
+                    - generic [ref=e1394]:
+                      - link "Electrolux Geladeira Electrolux Frost Free 380L AutoSense Duplex Branca (TF41) 127V" [ref=e1395] [cursor=pointer]:
+                        - /url: /Electrolux-Geladeira-AutoSense-Duplex-TF41/dp/B0FVQ6V9QK/ref=zg_bs_c_appliances_d_sccl_6/140-5235038-8618349?pd_rd_w=FhfZl&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0FVQ6V9QK&psc=1
+                        - generic [ref=e1397]: Electrolux Geladeira Electrolux Frost Free 380L AutoSense Duplex Branca (TF41) 127V
+                      - link "4,7 de 5 estrelas, 9 classificações" [ref=e1400] [cursor=pointer]:
+                        - /url: /product-reviews/B0FVQ6V9QK/ref=zg_bs_c_appliances_d_sccl_6_cr/140-5235038-8618349?pd_rd_w=FhfZl&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0FVQ6V9QK
+                        - generic [ref=e1402]: 4,7 de 5 estrelas
+                        - text: "9"
+                      - link "R$ 2.665,56" [ref=e1406] [cursor=pointer]:
+                        - /url: /Electrolux-Geladeira-AutoSense-Duplex-TF41/dp/B0FVQ6V9QK/ref=zg_bs_c_appliances_d_sccl_6/140-5235038-8618349?pd_rd_w=FhfZl&content-id=amzn1.sym.550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_p=550666bb-9d24-483d-bc9e-4a297db376ce&pf_rd_r=87BER56YWC87E6WWSH02&pd_rd_wg=7yOrN&pd_rd_r=2770113e-ce95-4939-b1ed-cd8d8a7a922a&pd_rd_i=B0FVQ6V9QK&psc=1
+                        - generic [ref=e1408]: R$ 2.665,56
+          - generic: 
+    - generic [ref=e1412]:
+      - heading "Sobre Mais Vendidos" [level=1] [ref=e1413]
+      - text: Essas listas, atualizadas com frequência, contêm os produtos mais vendidos.
+  - complementary "Itens que você visualizou recentemente e recomendações baseadas em seu histórico:"
+  - generic [ref=e1414]:
+    - button "Voltar ao início" [ref=e1415] [cursor=pointer]:
+      - generic [ref=e1416]: Voltar ao início
+    - generic [ref=e1417]:
+      - generic [ref=e1418]:
+        - heading "Conheça-nos" [level=6] [ref=e1419]
+        - list [ref=e1420]:
+          - listitem [ref=e1421]:
+            - link "Sobre a Amazon" [ref=e1422] [cursor=pointer]:
+              - /url: https://www.aboutamazon.com.br/
+          - listitem [ref=e1423]:
+            - link "Informações corporativas" [ref=e1424] [cursor=pointer]:
+              - /url: /gp/browse.html?node=23490129011&ref_=footer_gw_m_b_corporate
+          - listitem [ref=e1425]:
+            - link "Carreiras" [ref=e1426] [cursor=pointer]:
+              - /url: https://www.amazon.jobs
+          - listitem [ref=e1427]:
+            - link "Comunicados à imprensa" [ref=e1428] [cursor=pointer]:
+              - /url: /gp/browse.html?node=15155858011&ref_=footer_community
+          - listitem [ref=e1429]:
+            - link "Comunidade" [ref=e1430] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16593314011&ref_=footer_community
+          - listitem [ref=e1431]:
+            - link "Acessibilidade" [ref=e1432] [cursor=pointer]:
+              - /url: /gp/browse.html?node=23454858011&ref_=footer_accessibility
+          - listitem [ref=e1433]:
+            - link "Amazon Science" [ref=e1434] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e1436]:
+        - heading "Ganhe dinheiro conosco" [level=6] [ref=e1437]
+        - list [ref=e1438]:
+          - listitem [ref=e1439]:
+            - link "Venda na Amazon" [ref=e1440] [cursor=pointer]:
+              - /url: https://venda.amazon.com.br/?ld=SDBRSOA_footerDesk_T1
+          - listitem [ref=e1441]:
+            - link "Proteja e construa a sua marca" [ref=e1442] [cursor=pointer]:
+              - /url: https://brandservices.amazon.com.br?ref=AOBRABRLGNRFOOT&ld=AOBRABRLGNRFOOT
+          - listitem [ref=e1443]:
+            - link "Forneça para a Amazon" [ref=e1444] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=pt-BR
+          - listitem [ref=e1445]:
+            - link "Publique seus livros" [ref=e1446] [cursor=pointer]:
+              - /url: https://kdp.amazon.com?language=pt_BR
+          - listitem [ref=e1447]:
+            - link "Seja um associado" [ref=e1448] [cursor=pointer]:
+              - /url: https://associados.amazon.com.br
+          - listitem [ref=e1449]:
+            - link "Anuncie seus produtos" [ref=e1450] [cursor=pointer]:
+              - /url: https://advertising.amazon.com/pt-br?ref=footer_advtsing_BR
+      - generic [ref=e1452]:
+        - heading "Pagamento" [level=6] [ref=e1453]
+        - list [ref=e1454]:
+          - listitem [ref=e1455]:
+            - link "Meios de Pagamento" [ref=e1456] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16568920011&ref_=footer_pay_tc
+          - listitem [ref=e1457]:
+            - link "Compre com Pontos" [ref=e1458] [cursor=pointer]:
+              - /url: /gp/browse.html?node=24028636011&ref_=footer_pay_tc
+          - listitem [ref=e1459]:
+            - link "Cartão de crédito Amazon" [ref=e1460] [cursor=pointer]:
+              - /url: /gp/browse.html?node=24434261011&ref_=footer_pay_tc
+      - generic [ref=e1462]:
+        - heading "Deixe-nos ajudar você" [level=6] [ref=e1463]
+        - list [ref=e1464]:
+          - listitem [ref=e1465]:
+            - link "Sua conta" [ref=e1466] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e1467]:
+            - link "Frete e prazo de entrega" [ref=e1468] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201365500&ref_=footer_shiprates
+          - listitem [ref=e1469]:
+            - link "Devoluções e reembolsos" [ref=e1470] [cursor=pointer]:
+              - /url: /gp/orc/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e1471]:
+            - link "Gerencie seu conteúdo e dispositivos" [ref=e1472] [cursor=pointer]:
+              - /url: /hz/mycd/myx?ref_=footer_myk
+          - listitem [ref=e1473]:
+            - link "Recalls e alertas de segurança do produto" [ref=e1474] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e1475]:
+            - link "Ajuda" [ref=e1476] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he
+    - generic [ref=e1478]:
+      - link "Amazon Brazil Home" [ref=e1481] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - button "Escolha um país/região para fazer suas compras. A seleção atual é Brasil." [ref=e1485] [cursor=pointer]:
+        - generic [ref=e1487]: Brasil
+    - generic [ref=e1488]:
+      - list [ref=e1489]:
+        - listitem [ref=e1490]:
+          - link "Condições de Uso" [ref=e1491] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201283910&ref_=footer_cou
+        - listitem [ref=e1492]:
+          - link "Notificação de Privacidade" [ref=e1493] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201283950&ref_=footer_privacy
+        - listitem [ref=e1494]:
+          - link "Cookies" [ref=e1495] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201890250&ref_=footer_cookies
+        - listitem [ref=e1496]:
+          - link "Anúncios Baseados em Interesses" [ref=e1497] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201283970&ref_=footer_iba
+      - generic [ref=e1498]: © 2021-2026 Amazon.com, Inc. ou suas afiliadas
+    - list [ref=e1500]:
+      - listitem [ref=e1501]: Amazon Serviços de Varejo do Brasil Ltda. | CNPJ 15.436.940/0001-03
+    - list [ref=e1503]:
+      - listitem [ref=e1504]:
+        - text: "Av. Juscelino Kubitschek, 2041, Torre E, 18° andar - São Paulo CEP: 04543-011|"
+        - link "Fale conosco" [ref=e1505] [cursor=pointer]:
+          - /url: https://www.amazon.com.br/gp/help/customer/contact-us?ref=footer_gw_m_b_cu
+        - text: "| ajuda-amazon@amazon.com.br"
+    - list [ref=e1507]:
+      - listitem [ref=e1508]: "Formas de pagamento aceitas: cartões de crédito (Visa, MasterCard, Elo e American Express), cartões de débito (Visa e Elo), Boleto e Pix."

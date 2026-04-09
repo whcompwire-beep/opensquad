@@ -1,0 +1,1586 @@
+- generic [ref=e2]:
+  - navigation "Menu de atalhos" [ref=e3]:
+    - heading "Ir para" [level=2] [ref=e4]
+    - list "Ir para" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "conteúdo principal" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Conteúdo principal
+      - listitem [ref=e8]:
+        - link "Sobre este produto" [ref=e9] [cursor=pointer]:
+          - /url: "#featurebullets_feature_div"
+      - listitem [ref=e10]:
+        - link "Pular para as opções de compra" [ref=e11] [cursor=pointer]:
+          - /url: "#buybox"
+          - text: Opções de compra
+      - listitem [ref=e12]:
+        - link "Avaliações" [ref=e13] [cursor=pointer]:
+          - /url: "#customerReviews"
+    - separator [ref=e14]
+    - heading "Atalhos do teclado" [level=2] [ref=e15]
+    - list "Atalhos do teclado" [ref=e16]:
+      - listitem [ref=e17]:
+        - link "Pesquisa, alt, barra para frente" [ref=e18] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e19]:
+            - generic [ref=e20]: Pesquisar
+            - generic [ref=e21]:
+              - generic [ref=e22]: alt
+              - generic [ref=e23]: +
+              - generic [ref=e24]: /
+      - listitem [ref=e25]:
+        - link "Carrinho, shift, alt, c" [ref=e26] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e27]:
+            - generic [ref=e28]: Carrinho
+            - generic [ref=e29]:
+              - generic [ref=e30]: shift
+              - generic [ref=e31]: +
+              - generic [ref=e32]: alt
+              - generic [ref=e33]: +
+              - generic [ref=e34]: C
+      - listitem [ref=e35]:
+        - link "Início, shift, alt, h" [ref=e36] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e37]:
+            - generic [ref=e38]: Página inicial
+            - generic [ref=e39]:
+              - generic [ref=e40]: shift
+              - generic [ref=e41]: +
+              - generic [ref=e42]: alt
+              - generic [ref=e43]: +
+              - generic [ref=e44]: H
+      - listitem [ref=e45]:
+        - link "Seus pedidos, shift, alt, o" [ref=e46] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e47]:
+            - generic [ref=e48]: Seus Pedidos
+            - generic [ref=e49]:
+              - generic [ref=e50]: shift
+              - generic [ref=e51]: +
+              - generic [ref=e52]: alt
+              - generic [ref=e53]: +
+              - generic [ref=e54]: O
+      - listitem [ref=e55]:
+        - button "Adicionar ao carrinho, shift, alt, K" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]:
+            - generic [ref=e58]: Adicionar ao carrinho
+            - generic [ref=e59]:
+              - generic [ref=e60]: shift
+              - generic [ref=e61]: +
+              - generic [ref=e62]: alt
+              - generic [ref=e63]: +
+              - generic [ref=e64]: K
+      - listitem [ref=e65]:
+        - button "Mostrar/ocultar atalhos, shift, alt, z" [ref=e66] [cursor=pointer]:
+          - generic [ref=e67]:
+            - generic [ref=e68]: Mostrar/ocultar atalhos
+            - generic [ref=e69]:
+              - generic [ref=e70]: shift
+              - generic [ref=e71]: +
+              - generic [ref=e72]: alt
+              - generic [ref=e73]: +
+              - generic [ref=e74]: Z
+    - generic [ref=e80]: Para se mover entre os produtos, use as setas para cima ou para baixo do teclado.
+  - banner [ref=e81]:
+    - navigation "Principal" [ref=e82]:
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - link "Amazon.com.br" [ref=e86] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .com.br
+          - button "A entrega será feita em Bela Vista 01319900 Atualizar CEP" [ref=e89] [cursor=pointer]:
+            - generic [ref=e91]:
+              - generic [ref=e92]: A entrega será feita em Bela Vista 01319900
+              - generic [ref=e93]: Atualizar CEP
+        - search [ref=e96]:
+          - generic [ref=e99]:
+            - generic [ref=e101]: Beleza
+            - combobox "Selecione o departamento que deseja pesquisar no" [ref=e103] [cursor=pointer]:
+              - option "Todos os departamentos"
+              - option "Alexa Skills"
+              - option "Alimentos e Bebidas"
+              - option "Amazon Now"
+              - option "Amazon Quase Novo"
+              - option "Apps e Jogos"
+              - option "Audiolivros Audible"
+              - option "Automotivo"
+              - option "Bebês"
+              - option "Beleza" [selected]
+              - option "Beleza de luxo"
+              - option "Bolsas, Malas e Mochilas"
+              - option "Brinquedos e Jogos"
+              - option "Casa"
+              - option "CD e Vinil"
+              - option "Computadores e Informática"
+              - option "Cozinha"
+              - option "Dispositivos Amazon"
+              - option "DVD e Blu-Ray"
+              - option "Eletrodomésticos"
+              - option "Eletrônicos"
+              - option "Esportes e Aventura"
+              - option "Ferramentas e Materiais de Construção"
+              - option "Games"
+              - option "Industrial"
+              - option "Instrumentos Musicais"
+              - option "Jardim e Piscina"
+              - option "Livros"
+              - option "Loja Kindle"
+              - option "Material para Escritório e Papelaria"
+              - option "Móveis e Decoração"
+              - option "Pet Shop"
+              - option "Prime Video"
+              - option "Programe e Poupe"
+              - option "Roupas, Calçados e Joias"
+              - option "Roupas, sapatos e joias femininas"
+              - option "Roupas, sapatos e joias masculinas"
+              - option "Roupas, sapatos e joias para meninas"
+              - option "Roupas, sapatos e joias para meninos"
+              - option "Roupas, sapatos e joias para bebês"
+              - option "Saúde e Cuidados Pessoais"
+          - searchbox "Pesquisar Amazon.com.br" [ref=e106]
+          - generic "Ir" [ref=e109] [cursor=pointer]:
+            - button "Ir" [ref=e110]
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - link "Olá, faça seu login Contas e Listas" [ref=e114] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fdp%2FB07H113TPQ%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e116]: Olá, faça seu login
+              - generic [ref=e117]: Contas e Listas
+            - button "Expandir conta e listas" [ref=e118] [cursor=pointer]
+          - link "Devoluções e Pedidos" [ref=e119] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e120]: Devoluções
+            - generic [ref=e121]: e Pedidos
+          - link "0 itens no carrinho" [ref=e122] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e124]: "0"
+            - generic [ref=e127]: Carrinho
+      - generic [ref=e128]:
+        - button "Abrir o menu Todas as categorias" [ref=e130] [cursor=pointer]:
+          - generic [ref=e132]: Todos
+        - list [ref=e136]:
+          - listitem [ref=e137]:
+            - link "Venda na Amazon" [ref=e139] [cursor=pointer]:
+              - /url: /gp/browse.html?node=17877554011&ld=ASBRSOA_retail_sell_header_t1&ref_=nav_cs_sell
+          - listitem [ref=e140]:
+            - link "Chega em 15 min" [ref=e142] [cursor=pointer]:
+              - /url: /alm/storefront?almBrandId=10zZeC1FBwm&ref_=nav_cs_amnow
+          - listitem [ref=e143]:
+            - link "Ofertas do Dia" [ref=e145] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e146]:
+            - link "Mais Vendidos" [ref=e148] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e149]:
+            - link "Games" [ref=e151] [cursor=pointer]:
+              - /url: /Games-Consoles/b/?ie=UTF8&node=7791985011&ref_=nav_cs_video_games
+          - listitem [ref=e152]:
+            - link "Livros" [ref=e154] [cursor=pointer]:
+              - /url: /Livros/b/?ie=UTF8&node=6740748011&ref_=nav_cs_books
+          - listitem [ref=e155]:
+            - generic [ref=e156]:
+              - link "Prime" [ref=e157] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Detalhes de Prime" [ref=e158] [cursor=pointer]
+          - listitem [ref=e159]:
+            - link "Música" [ref=e161] [cursor=pointer]:
+              - /url: /music/unlimited?ref_=nav_cs_music
+          - listitem [ref=e162]:
+            - link "Casa" [ref=e164] [cursor=pointer]:
+              - /url: /Casa/b/?ie=UTF8&node=16191000011&ref_=nav_cs_home
+          - listitem [ref=e165]:
+            - link "Eletrônicos" [ref=e167] [cursor=pointer]:
+              - /url: /Eletronicos-e-Tecnologia/b/?ie=UTF8&node=16209062011&ref_=nav_cs_electronics
+          - listitem [ref=e168]:
+            - link "Brinquedos e Jogos" [ref=e170] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16194299011&ref_=nav_cs_toys
+          - listitem [ref=e171]:
+            - link "Computadores" [ref=e173] [cursor=pointer]:
+              - /url: /Computadores-Informatica/b/?ie=UTF8&node=16339926011&ref_=nav_cs_pc
+          - listitem [ref=e174]:
+            - link "Beleza" [ref=e176] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16194414011&ref_=nav_cs_beauty
+          - listitem [ref=e177]:
+            - link "Mercado" [ref=e179] [cursor=pointer]:
+              - /url: /fmc/everyday-essentials/?ref_=nav_cs_ee_desktop_disco
+          - listitem [ref=e180]:
+            - link "Cuidados Pessoais" [ref=e182] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16215417011&ref_=nav_cs_hpc
+          - listitem [ref=e183]:
+            - link "Novidades na Amazon" [ref=e185] [cursor=pointer]:
+              - /url: /gp/browse.html?node=207658984011&ref_=nav_cs_mtech
+          - listitem [ref=e186]:
+            - link "Ferramentas e Construção" [ref=e188] [cursor=pointer]:
+              - /url: /Ferramentas-Construcao/b/?ie=UTF8&node=16957182011&ref_=nav_cs_hi
+          - listitem [ref=e189]:
+            - link "Bebês" [ref=e191] [cursor=pointer]:
+              - /url: /gp/browse.html?node=17242603011&ref_=nav_cs_baby
+          - listitem [ref=e192]:
+            - link "Alimentos e Bebidas" [ref=e194] [cursor=pointer]:
+              - /url: /gp/browse.html?node=18991079011&ref_=nav_cs_grocery
+          - listitem [ref=e195]:
+            - link "Amazon Moda" [ref=e197] [cursor=pointer]:
+              - /url: /gp/browse.html?node=17365811011&ref_=nav_cs_fashion
+          - listitem [ref=e198]:
+            - link "Pet Shop" [ref=e200] [cursor=pointer]:
+              - /url: /gp/browse.html?node=18991136011&ref_=nav_cs_pets
+          - listitem [ref=e201]:
+            - link "Automotivos" [ref=e203] [cursor=pointer]:
+              - /url: /gp/browse.html?node=18914209011&ref_=nav_cs_automotive
+          - listitem [ref=e204]:
+            - link "eBooks Kindle" [ref=e206] [cursor=pointer]:
+              - /url: /ebooks-kindle/b/?ie=UTF8&node=5475882011&ref_=nav_cs_kindle_books
+          - listitem [ref=e207]:
+            - link "Atendimento ao Cliente" [ref=e209] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_help
+        - link "Economize mais de 90% na Audible" [ref=e212] [cursor=pointer]:
+          - /url: /hz/audible/mlp/membership/plus/monthly/?_encoding=UTF8&actionCode=AZNOR3861028253537&ref_=nav_swm_undefined&pf_rd_p=26af891d-c3a6-4f2e-8c7f-a1c558bd9582&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A2Q3Y263D00KWC&pf_rd_r=KGRXNPTT1WVJAGK405HQ
+      - generic [ref=e213]:
+        - generic [ref=e214]:
+          - link "Beleza" [ref=e215] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=16194414011&ref_=topnav_storetab_b
+          - link "Mais Vendidos" [ref=e216] [cursor=pointer]:
+            - /url: /gp/bestsellers/beauty/?ie=UTF8&ref_=sv_b_1
+          - link "Ofertas" [ref=e217] [cursor=pointer]:
+            - /url: /gp/goldbox/?ie=UTF8&gb_f_c2xvdC01=dealStates%3AAVAILABLE%252CWAITLIST%252CWAITLISTFULL%252CUPCOMING%252CEXPIRED%252CSOLDOUT%2CsortOrder%3ABY_SCORE%2CenforcedCategories%3A16194414011&ie=UTF8&pf_rd_i=gb_main&pf_rd_m=A1ZZFT5FULY4LN&pf_rd_p=faada73d-e81c-4969-8eeb-7b66099f944c&pf_rd_r=XVNGQF7RG8Y1AVMFQ629&pf_rd_s=slot-5&pf_rd_t=701&ref_=sv_b_2
+          - link "Dermocosméticos" [ref=e218] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=17933265011&ref_=sv_b_3
+          - link "Maquiagem, No momento, você está em um menu suspenso. Para abrir esse menu suspenso, pressione Enter." [ref=e219] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=16754350011&ref_=sv_b_4
+            - text: Maquiagem
+          - link "Perfumes" [ref=e221] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=16754347011&ref_=sv_b_5
+          - link "Cabelos, No momento, você está em um menu suspenso. Para abrir esse menu suspenso, pressione Enter." [ref=e222] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=16754346011&ref_=sv_b_6
+            - text: Cabelos
+          - link "Secadores e Modeladores, No momento, você está em um menu suspenso. Para abrir esse menu suspenso, pressione Enter." [ref=e224] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=16754371011&ref_=sv_b_7
+            - text: Secadores e Modeladores
+          - link "Manicure e Pedicure" [ref=e226] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=16754349011&ref_=sv_b_8
+          - link "Cachos e Ondas" [ref=e227] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=17925336011&ref_=sv_b_9
+          - link "Mais por Menos" [ref=e228] [cursor=pointer]:
+            - /url: /super/?_encoding=UTF8&ref_=sv_b_10
+        - generic [ref=e232]:
+          - link "Faça seu login" [ref=e233] [cursor=pointer]:
+            - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fdp%2FB07H113TPQ%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+            - generic [ref=e234]: Faça seu login
+          - generic [ref=e235]:
+            - text: Cliente novo?
+            - link "Novo na Amazon? Comece aqui para criar uma conta" [ref=e236] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/ap/register?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fdp%2FB07H113TPQ%2F%3F_encoding%3DUTF8%26ref_%3Dnav_custrec_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - text: Comece aqui.
+      - dialog [ref=e241]
+  - generic [ref=e243]:
+    - heading "O resumo do produto apresenta as principais informações do produto Atalho do teclado shift + alt + D" [level=1] [ref=e246]:
+      - button "O resumo do produto apresenta as principais informações do produto" [ref=e247] [cursor=pointer]:
+        - generic [ref=e248]: O resumo do produto apresenta as principais informações do produto
+      - separator [ref=e250]
+      - generic [ref=e251]:
+        - text: Atalho do teclado
+        - generic [ref=e252]: shift + alt + D
+    - main [ref=e253]:
+      - list [ref=e259]:
+        - listitem [ref=e260]:
+          - link "Beleza" [ref=e262] [cursor=pointer]:
+            - /url: /b/ref=dp_bc_1?ie=UTF8&node=16194414011
+        - listitem [ref=e263]: ›
+        - listitem [ref=e264]:
+          - link "Cuidados com o Cabelo" [ref=e266] [cursor=pointer]:
+            - /url: /b/ref=dp_bc_2?ie=UTF8&node=16754346011
+        - listitem [ref=e267]: ›
+        - listitem [ref=e268]:
+          - link "Óleos Capilares" [ref=e270] [cursor=pointer]:
+            - /url: /b/ref=dp_bc_3?ie=UTF8&node=16754521011
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e276]:
+            - img "Logotipo do Amazon Prime" [ref=e278]
+            - generic [ref=e279]: Aproveite frete GRÁTIS e rápido, ofertas exclusivas, Prime Video e muito mais.
+            - button "Assine o Amazon Prime" [ref=e281] [cursor=pointer]
+          - generic [ref=e285]:
+            - group [ref=e288]:
+              - generic [ref=e290]:
+                - button "Compra única R$36,99 mil&iacute;metro por R$&nbsp;0,37" [expanded] [ref=e291]:
+                  - heading "Compra única R$36,99 mil&iacute;metro por R$&nbsp;0,37" [level=5] [ref=e293]:
+                    - generic [ref=e294]: Compra única
+                    - generic [ref=e301]:
+                      - generic [ref=e302]:
+                        - generic [ref=e303]: R$36,99
+                        - generic [ref=e304]:
+                          - text: R$
+                          - generic [ref=e305]:
+                            - text: "36"
+                            - generic [ref=e306]: ","
+                          - text: "99"
+                      - generic [ref=e307]:
+                        - generic [ref=e308]: mil&iacute;metro por R$&nbsp;0,37
+                        - generic [ref=e309]:
+                          - text: (
+                          - generic [ref=e310]:
+                            - generic [ref=e311]: R$0,37
+                            - text: R$0,37
+                          - text: / milímetro)
+                - generic [ref=e316]:
+                  - generic [ref=e318]:
+                    - generic [ref=e321]:
+                      - generic [ref=e323]: "Entrega GRÁTIS: Sábado, 11 de Abril"
+                      - generic [ref=e325]: "Ou entrega mais rápida: Sexta-feira, 10 de Abril. Se pedir dentro de 1 h 33 mins"
+                    - button "Entregando em Bela Vista, 01319900. Atualizar local" [ref=e328] [cursor=pointer]:
+                      - generic [ref=e334]: Entregando em Bela Vista, 01319900. Atualizar local
+                  - generic [ref=e337]: Em estoque
+                  - generic [ref=e345]:
+                    - generic [ref=e346]: "Quantidade:"
+                    - combobox "Quantidade:" [ref=e347]:
+                      - option "1" [selected]
+                      - option "2"
+                      - option "3"
+                      - option "4"
+                      - option "5"
+                      - option "6"
+                      - option "7"
+                      - option "8"
+                      - option "9"
+                      - option "10"
+                    - generic [ref=e350] [cursor=pointer]: Quantidade:1
+                  - generic [ref=e357] [cursor=pointer]:
+                    - button "Adicionar ao carrinho" [ref=e358]
+                    - generic [ref=e359]: Adicionar ao carrinho
+                  - generic [ref=e364] [cursor=pointer]:
+                    - button "Comprar agora" [ref=e365]
+                    - generic [ref=e366]: Comprar agora
+                  - generic [ref=e369]:
+                    - group "Detalhes do vendedor, do frete e da opção de compra" [ref=e371]:
+                      - generic [ref=e372]:
+                        - heading "Enviado / Vendido" [level=4] [ref=e373]:
+                          - generic [ref=e374]: Enviado / Vendido
+                        - generic [ref=e377]: Amazon.com.br
+                      - generic [ref=e378]:
+                        - heading "Devolução" [level=4] [ref=e379]:
+                          - generic [ref=e380]: Devolução
+                        - button "Elegível para Devolução, Reembolso em até 30 dias após o recebimento" [ref=e383] [cursor=pointer]:
+                          - generic [ref=e384]: Elegível para Devolução, Reembolso em até 30 dias após o recebimento
+                      - generic [ref=e387]:
+                        - heading "Pagamento" [level=4] [ref=e388]:
+                          - generic [ref=e389]: Pagamento
+                        - button "Transação segura" [ref=e392] [cursor=pointer]:
+                          - generic [ref=e393]: Transação segura
+                    - button "Ver mais" [ref=e395] [cursor=pointer]: Ver mais
+              - 'button "Programe e Poupe R$35,14 mil&iacute;metro por R$&nbsp;0,35 Entrega GRÁTIS: Sábado, 11 de Abril Enviado / Vendido Amazon.com.br" [ref=e399] [cursor=pointer]':
+                - 'heading "Programe e Poupe R$35,14 mil&iacute;metro por R$&nbsp;0,35 Entrega GRÁTIS: Sábado, 11 de Abril Enviado / Vendido Amazon.com.br" [level=5] [ref=e401]':
+                  - generic [ref=e402]:
+                    - generic [ref=e405]: Programe e Poupe
+                    - generic [ref=e415]:
+                      - generic [ref=e416]:
+                        - generic [ref=e417]: R$35,14
+                        - generic [ref=e418]:
+                          - text: R$
+                          - generic [ref=e419]:
+                            - text: "35"
+                            - generic [ref=e420]: ","
+                          - text: "14"
+                      - generic [ref=e421]:
+                        - generic [ref=e422]: mil&iacute;metro por R$&nbsp;0,35
+                        - generic [ref=e423]:
+                          - text: (
+                          - generic [ref=e424]:
+                            - generic [ref=e425]: R$0,35
+                            - text: R$0,35
+                          - text: / milímetro)
+                    - generic [ref=e430]: "Entrega GRÁTIS: Sábado, 11 de Abril"
+                    - generic [ref=e435]:
+                      - generic [ref=e437]: Enviado / Vendido
+                      - generic [ref=e440]: Amazon.com.br
+            - link "Adicionar à Lista" [ref=e449] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fgp%2Faw%2Fd%2FB07H113TPQ&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=bramazon&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&
+          - generic [ref=e453]:
+            - generic [ref=e454]: Outros vendedores na Amazon
+            - separator [ref=e455]
+            - button "Comparar outras 35 ofertas a partir de R$36,99 & Frete GRÁTIS." [ref=e458] [cursor=pointer]:
+              - text: Comparar outras 35 ofertas a partir de
+              - generic [ref=e459]:
+                - generic [ref=e460]: R$36,99
+                - generic [ref=e461]:
+                  - text: R$
+                  - generic [ref=e462]:
+                    - text: "36"
+                    - generic [ref=e463]: ","
+                  - text: "99"
+              - generic [ref=e464]:
+                - text: "&"
+                - strong [ref=e465]: Frete GRÁTIS
+                - text: .
+        - generic [ref=e468]:
+          - button "Compartilhar" [ref=e469]:
+            - button "Compartilhar" [ref=e470] [cursor=pointer]
+          - generic [ref=e473]:
+            - radiogroup "Miniaturas de imagem" [ref=e475]:
+              - listitem [ref=e476]:
+                - radio [ref=e481] [cursor=pointer]
+              - listitem [ref=e483]:
+                - radio [ref=e488] [cursor=pointer]
+              - listitem [ref=e490]:
+                - radio [ref=e495] [cursor=pointer]
+              - listitem [ref=e497]:
+                - radio [ref=e502] [cursor=pointer]
+              - listitem [ref=e504]:
+                - radio [ref=e509] [cursor=pointer]
+              - listitem [ref=e511]:
+                - generic [ref=e515] [cursor=pointer]:
+                  - radio "3+" [ref=e516]
+                  - generic [ref=e518]: 3+
+              - listitem [ref=e519]:
+                - generic [ref=e521]:
+                  - radio [ref=e524] [cursor=pointer]
+                  - generic [ref=e526]: 2 VÍDEOS
+            - generic [ref=e527]:
+              - generic [ref=e529]:
+                - list
+                - list [ref=e530]:
+                  - listitem [ref=e531] [cursor=pointer]:
+                    - button "L&#39;Oréal Paris Elseve Óleo Extraordinário Finalizador Capilar, Nutrição Profunda com 6 Óleos Preciosos, Anti-Frizz, Proteção Térmica até 230°C, Brilho Intenso para Todos os Tipos de Cabelo, 100ml" [ref=e534]:
+                      - img "L&#39;Oréal Paris Elseve Óleo Extraordinário Finalizador Capilar, Nutrição Profunda com 6 Óleos Preciosos, Anti-Frizz, Proteção Térmica até 230°C, Brilho Intenso para Todos os Tipos de Cabelo, 100ml" [ref=e535]
+                  - text:           
+              - link "Clique para ver a imagem completa" [ref=e539] [cursor=pointer]:
+                - /url: "#"
+          - text:           
+        - generic [ref=e540]:
+          - heading "L'Oréal Paris Elseve Óleo Extraordinário Finalizador Capilar, Nutrição Profunda com 6 Óleos Preciosos, Anti-Frizz, Proteção Térmica até 230°C, Brilho Intenso para Todos os Tipos de Cabelo, 100ml" [level=1] [ref=e543]
+          - link "Visite a loja L'Oreal Paris" [ref=e546] [cursor=pointer]:
+            - /url: /stores/LojaOficialLOr%C3%A9alParis/page/65D5C677-8E40-44B5-B40B-C37C72BE6CA2?lp_asin=B07H113TPQ&ref_=ast_bln
+          - generic [ref=e548]:
+            - generic "4,8 de 5 estrelas" [ref=e550]:
+              - button "4,8 de 5 estrelas" [ref=e552] [cursor=pointer]:
+                - text: 4,8
+                - generic [ref=e554]: 4,8 de 5 estrelas
+            - link "112.294 Análises" [ref=e557] [cursor=pointer]:
+              - /url: "#averageCustomerReviewsAnchor"
+              - text: (112.294)
+          - generic [ref=e562]: Escolha da Amazon
+          - generic [ref=e566]: Mais de 60 mil compras no mês passado
+          - separator [ref=e567]
+          - generic [ref=e572]:
+            - generic [ref=e573]:
+              - generic [ref=e574]:
+                - generic [ref=e575]: R$ 36,99 com 25 por cento de desconto
+                - generic [ref=e576]: "-25%"
+                - generic [ref=e578]:
+                  - text: R$
+                  - generic [ref=e579]:
+                    - text: "36"
+                    - generic [ref=e580]: ","
+                  - text: "99"
+                - generic [ref=e582]:
+                  - generic [ref=e583]: mil&iacute;metro por R$&nbsp;0,37
+                  - generic [ref=e584]:
+                    - text: (
+                    - generic [ref=e585]:
+                      - generic [ref=e586]: R$0,37
+                      - text: R$0,37
+                    - text: / milímetro)
+              - generic [ref=e588]:
+                - generic [ref=e589]:
+                  - generic [ref=e590]: "De: R$ 49,90"
+                  - generic [ref=e591]:
+                    - text: "De:"
+                    - generic [ref=e592]:
+                      - generic [ref=e593]: R$49,90
+                      - text: R$49,90
+                - link "Saiba mais sobre preços e descontos da Amazon" [ref=e596] [cursor=pointer]:
+                  - /url: "#"
+                  - img "Saiba mais sobre preços e descontos da Amazon" [ref=e597]
+            - generic:
+              - table
+            - generic [ref=e602]:
+              - generic [ref=e604]:
+                - text: Faça login para resgatar.
+                - generic [ref=e605] [cursor=pointer]: R$20
+                - generic [ref=e606]:
+                  - text: off. Insira o código COMPRANOAPP na hora do pagamento. Na sua primeira compra na Amazon. Válido somente no app
+                  - link "Termos" [ref=e609] [cursor=pointer]:
+                    - /url: "#"
+              - generic [ref=e611]:
+                - generic [ref=e612] [cursor=pointer]: Economize 20%
+                - generic [ref=e613]:
+                  - text: ao comprar R$99 dos itens selecionados
+                  - link "Comprar itens elegíveis" [ref=e615] [cursor=pointer]:
+                    - /url: /promotion/psp/A2FBLP0HH8E3K0?ref=psp_external&redirectAsin=B07H113TPQ&redirectMerchantId=A1ZZFT5FULY4LN&ref=cxcw_psp_A2FBLP0HH8E3K0&source=dp_cxcw
+              - generic [ref=e617]:
+                - text: Faça login para resgatar.
+                - generic [ref=e618] [cursor=pointer]: R$20
+                - generic [ref=e619]:
+                  - text: off. Insira o código VEMNOAPP na hora do pagamento. Válido na sua primeira compra no app
+                  - link "Termos" [ref=e622] [cursor=pointer]:
+                    - /url: "#"
+              - generic [ref=e624]:
+                - generic [ref=e625] [cursor=pointer]: "Mais por Menos: 10%"
+                - generic [ref=e626]:
+                  - text: off em 10+ itens
+                  - link "Comprar itens elegíveis" [ref=e628] [cursor=pointer]:
+                    - /url: /fmc/everyday-essentials-category?node=206762043011&ref=cxcw_bxgx_alt_A22PDIX9XDC9EZ&source=dp_cxcw
+          - button "Ver opções de pagamento" [ref=e633] [cursor=pointer]: Ver opções de pagamento
+          - generic [ref=e641]:
+            - button "Pagamentos e Segurança" [ref=e645] [cursor=pointer]
+            - button "Enviado pela Amazon" [ref=e649] [cursor=pointer]
+            - button "Política de devolução" [ref=e654] [cursor=pointer]
+          - generic [ref=e660]: "Estilo: L'Oréal Paris Óleo Extraordinário"
+          - list [ref=e663]:
+            - rowgroup [ref=e664]:
+              - listitem [ref=e665]: Vantagens do produto Alto brilho, Controle de dano, Controle de frizz, Controle de quebra, Tratamento de pontas duplas
+              - listitem [ref=e666]: Tipo de cabelo Todos os tipos de cabelos
+              - listitem [ref=e667]: Tipo de material livre Sem ftalato
+              - listitem [ref=e668]: Aroma Sem perfume
+              - listitem [ref=e669]: Volume líquido 100 Mililitros
+          - generic [ref=e671]:
+            - separator [ref=e672]
+            - heading "Sobre este item" [level=1] [ref=e673]
+            - list [ref=e674]:
+              - listitem [ref=e675]: Tratamento capilar intensivo com 6 óleos de flores preciosas para nutrição profunda e transformação visível em todos os tipos de cabelo.
+              - listitem [ref=e676]: Ação anti-frizz que disciplina fios rebeldes e oferece proteção térmica de até 230 °C contra danos de secadores e chapinhas.
+              - listitem [ref=e677]: Fórmula leve e não oleosa que nutre sem pesar, deixando os cabelos macios, brilhantes e com movimento natural.
+              - listitem [ref=e678]: "Uso versátil: como leave-in protetor em cabelos úmidos ou finalizador em cabelos secos para brilho intenso e controle extra."
+              - listitem [ref=e679]: "Contém: 1 x L'Oréal Paris Elseve Óleo Extraordinário Finalizador Capilar, 100 ml."
+            - generic [ref=e680]:
+              - text: ›
+              - link "Ver mais detalhes do produto" [ref=e681] [cursor=pointer]:
+                - /url: "#productDetails"
+          - link "Relatar um problema com este produto" [ref=e687] [cursor=pointer]:
+            - /url: "#"
+            - text: Relatar um problema com este produto
+        - generic [ref=e690]:
+          - separator [ref=e691]
+          - generic [ref=e693]:
+            - generic:
+              - link:
+                - /url: /b?rw_useCurrentProtocol=1&ie=UTF8&node=16215417011&ref_=amb_link_QWbDXMHMTzW0mhtaIhNE6g_1
+            - text: Loja de Cuidados Pessoais
+            - text: Encontre tudo para o seu dia a dia.
+            - link "Confira." [ref=e694] [cursor=pointer]:
+              - /url: /b?rw_useCurrentProtocol=1&ie=UTF8&node=16215417011&ref_=amb_link_QWbDXMHMTzW0mhtaIhNE6g_3
+      - generic [ref=e699]:
+        - separator [ref=e700]
+        - heading "Frequentemente comprados juntos" [level=2] [ref=e701]
+        - generic [ref=e702]:
+          - group "Frequentemente comprados juntos" [ref=e703]:
+            - generic [ref=e704]:
+              - generic [ref=e705]:
+                - 'checkbox "Este item: L''Oréal Paris Elseve Óleo Extraordinário Finalizador Capilar, Nutrição Profunda com 6 Óleos Preciosos, Anti-Frizz, Proteção Térmica até 230°C, Brilho Intenso para Todos os Tipos de Cabelo, 100ml" [checked] [ref=e711]'
+                - generic [ref=e716]:
+                  - generic [ref=e718]: "Este item: L'Oréal Paris Elseve Óleo Extraordinário Finalizador Capilar, Nutrição Profunda com 6 Óleos Preciosos, Anti-Frizz, Proteção Térmica até 230°C, Brilho Intenso para Todos os Tipos de Cabelo, 100ml"
+                  - generic [ref=e724]:
+                    - generic [ref=e725]:
+                      - generic [ref=e726]: R$36,99
+                      - generic [ref=e727]:
+                        - text: R$
+                        - generic [ref=e728]:
+                          - text: "36"
+                          - generic [ref=e729]: ","
+                        - text: "99"
+                    - text: (R$ 0,37/milímetro)
+              - generic [ref=e730]:
+                - generic [ref=e731]:
+                  - generic [ref=e732]: +
+                  - checkbox "Leave-In L'Oréal Paris Elseve Reparação Total 5 Cicatri Renov, Reparação Instantânea, Desembaraço Imediato, Repara os Danos Fio a Fio, Para Todos os Tipos de Cabelo 100ml" [checked] [ref=e736]
+                  - link "Leave-In L'Oréal Paris Elseve Reparação Total 5 Cicatri Renov, Reparação Instantânea, Desembaraço Imediato, Repara os Danos F" [ref=e740] [cursor=pointer]:
+                    - /url: /Leave-LOr%C3%A9al-Paris-Repara%C3%A7%C3%A3o-Cicatri/dp/B0CTTVR415/ref=pd_bxgy_thbs_d_sccl_1/140-5235038-8618349?pd_rd_w=8WbZq&content-id=amzn1.sym.ea5263f5-901f-4a74-9b73-3fc0e530788d&pf_rd_p=ea5263f5-901f-4a74-9b73-3fc0e530788d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0CTTVR415&psc=1
+                    - img "Leave-In L'Oréal Paris Elseve Reparação Total 5 Cicatri Renov, Reparação Instantânea, Desembaraço Imediato, Repara os Danos F" [ref=e741]
+                - generic [ref=e742]:
+                  - link "Leave-In L'Oréal Paris Elseve Reparação Total 5 Cicatri Renov, Reparação Instantânea, Desembaraço Imediato, Repara os Danos Fio a Fio, Para Todos os Tipos de Cabelo 100ml" [ref=e744] [cursor=pointer]:
+                    - /url: /Leave-LOr%C3%A9al-Paris-Repara%C3%A7%C3%A3o-Cicatri/dp/B0CTTVR415/ref=pd_bxgy_d_sccl_1/140-5235038-8618349?pd_rd_w=8WbZq&content-id=amzn1.sym.ea5263f5-901f-4a74-9b73-3fc0e530788d&pf_rd_p=ea5263f5-901f-4a74-9b73-3fc0e530788d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0CTTVR415&psc=1
+                    - generic [ref=e745]: Leave-In L'Oréal Paris Elseve Reparação Total 5 Cicatri Renov, Reparação Instantânea, Desembaraço Imediato, Repara os Danos Fio a Fio, Para Todos os Tipos de Cabelo 100ml
+                  - generic [ref=e751]:
+                    - generic [ref=e752]:
+                      - generic [ref=e753]: R$30,68
+                      - generic [ref=e754]:
+                        - text: R$
+                        - generic [ref=e755]:
+                          - text: "30"
+                          - generic [ref=e756]: ","
+                        - text: "68"
+                    - text: (R$ 0,31/Mililitros)
+              - generic [ref=e757]:
+                - generic [ref=e758]:
+                  - generic [ref=e759]: +
+                  - checkbox "Argan Óleo Reparador 50ml , Lola Cosmetics" [checked] [ref=e763]
+                  - link "Argan Óleo Reparador 50ml , Lola Cosmetics" [ref=e767] [cursor=pointer]:
+                    - /url: /Argan-Oil-Novo-Lola-Cosmetics/dp/B07SBXMSGB/ref=pd_bxgy_thbs_d_sccl_2/140-5235038-8618349?pd_rd_w=8WbZq&content-id=amzn1.sym.ea5263f5-901f-4a74-9b73-3fc0e530788d&pf_rd_p=ea5263f5-901f-4a74-9b73-3fc0e530788d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B07SBXMSGB&psc=1
+                    - img "Argan Óleo Reparador 50ml , Lola Cosmetics" [ref=e768]
+                - generic [ref=e769]:
+                  - link "Argan Óleo Reparador 50ml , Lola Cosmetics" [ref=e771] [cursor=pointer]:
+                    - /url: /Argan-Oil-Novo-Lola-Cosmetics/dp/B07SBXMSGB/ref=pd_bxgy_d_sccl_2/140-5235038-8618349?pd_rd_w=8WbZq&content-id=amzn1.sym.ea5263f5-901f-4a74-9b73-3fc0e530788d&pf_rd_p=ea5263f5-901f-4a74-9b73-3fc0e530788d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B07SBXMSGB&psc=1
+                    - generic [ref=e772]: Argan Óleo Reparador 50ml , Lola Cosmetics
+                  - generic [ref=e778]:
+                    - generic [ref=e779]:
+                      - generic [ref=e780]: R$17,58
+                      - generic [ref=e781]:
+                        - text: R$
+                        - generic [ref=e782]:
+                          - text: "17"
+                          - generic [ref=e783]: ","
+                        - text: "58"
+                    - text: (R$ 351,60/l)
+          - generic [ref=e785]:
+            - generic [ref=e787]:
+              - text: "Preço total:"
+              - generic [ref=e788]:
+                - generic [ref=e789]: R$ 85.25
+                - generic [ref=e790]:
+                  - text: R$
+                  - generic [ref=e791]: 85,
+                  - text: "25"
+            - generic [ref=e797] [cursor=pointer]:
+              - button "Adicionar todos os 3 ao carrinho, L'Oréal Paris Elseve Óleo Extraordinário Finalizador Capilar, Nutrição Profunda com 6 Óleos Preciosos, Anti-Frizz, Proteção Térmica até 230°C, Brilho Intenso para Todos os Tipos de Cabelo, 100ml" [ref=e798]
+              - generic [ref=e799]: Adicionar todos os 3 ao carrinho
+      - generic [ref=e804]:
+        - separator [ref=e805]
+        - group [ref=e808]:
+          - heading "Clientes que visualizaram este item também visualizaram" [level=2] [ref=e813]
+          - group [ref=e818]:
+            - list [ref=e819]:
+              - listitem [ref=e820]:
+                - generic [ref=e822]:
+                  - link [ref=e823] [cursor=pointer]:
+                    - /url: /Argan-Oil-Novo-Lola-Cosmetics/dp/B07SBXMSGB/ref=pd_sbs_d_sccl_2_1/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B07SBXMSGB&psc=1
+                    - img [ref=e825]
+                  - generic [ref=e827]:
+                    - link "Argan Óleo Reparador 50ml , Lola Cosmetics" [ref=e828] [cursor=pointer]:
+                      - /url: /Argan-Oil-Novo-Lola-Cosmetics/dp/B07SBXMSGB/ref=pd_sbs_d_sccl_2_1/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B07SBXMSGB&psc=1
+                      - generic [ref=e830]: Argan Óleo Reparador 50ml , Lola Cosmetics
+                    - link "4,8 de 5 estrelas, 41.026 classificações" [ref=e833] [cursor=pointer]:
+                      - /url: /product-reviews/B07SBXMSGB/ref=pd_sbs_d_sccl_2_1_cr/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B07SBXMSGB
+                      - generic [ref=e835]: 4,8 de 5 estrelas
+                      - text: "41.026"
+                    - generic [ref=e838]:
+                      - link:
+                        - /url: /Argan-Oil-Novo-Lola-Cosmetics/dp/B07SBXMSGB/ref=pd_sbs_d_sccl_2_1/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B07SBXMSGB&psc=1
+                      - generic [ref=e839]:
+                        - link "R$17,58" [ref=e840] [cursor=pointer]:
+                          - /url: /Argan-Oil-Novo-Lola-Cosmetics/dp/B07SBXMSGB/ref=pd_sbs_d_sccl_2_1/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B07SBXMSGB&psc=1
+                          - generic [ref=e841]:
+                            - generic [ref=e842]: R$17,58
+                            - generic [ref=e843]:
+                              - text: R$
+                              - generic [ref=e844]: 17,
+                              - text: "58"
+                        - link "(R$ 351,60/l)" [ref=e845] [cursor=pointer]:
+                          - /url: /Argan-Oil-Novo-Lola-Cosmetics/dp/B07SBXMSGB/ref=pd_sbs_d_sccl_2_1/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B07SBXMSGB&psc=1
+              - listitem [ref=e846]:
+                - generic [ref=e848]:
+                  - link [ref=e849] [cursor=pointer]:
+                    - /url: /Leave-LOr%C3%A9al-Paris-Repara%C3%A7%C3%A3o-Cicatri/dp/B0CTTVR415/ref=pd_sbs_d_sccl_2_2/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0CTTVR415&psc=1
+                    - img [ref=e851]
+                  - generic [ref=e853]:
+                    - link "Leave-In L'Oréal Paris Elseve Reparação Total 5 Cicatri Renov, Reparação Instantânea, Desembaraço Imediato, Repara os Danos Fio a Fio, Para Todos os Tipos de Cabelo 100ml" [ref=e854] [cursor=pointer]:
+                      - /url: /Leave-LOr%C3%A9al-Paris-Repara%C3%A7%C3%A3o-Cicatri/dp/B0CTTVR415/ref=pd_sbs_d_sccl_2_2/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0CTTVR415&psc=1
+                      - generic [ref=e856]: Leave-In L'Oréal Paris Elseve Reparação Total 5 Cicatri Renov, Reparação Instantânea, Desembaraço Imediato, Repara os Danos Fio a Fio, Para Todos os Tipos de Cabelo 100ml
+                    - link "4,8 de 5 estrelas, 6.799 classificações" [ref=e859] [cursor=pointer]:
+                      - /url: /product-reviews/B0CTTVR415/ref=pd_sbs_d_sccl_2_2_cr/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0CTTVR415
+                      - generic [ref=e861]: 4,8 de 5 estrelas
+                      - text: "6.799"
+                    - generic [ref=e862]:
+                      - link "1º mais vendido":
+                        - /url: /gp/bestsellers/beauty/23623497011/ref=zg_b_bs_23623497011_1/ref=pd_sbs_d_sccl_2_2_bsb/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0CTTVR415
+                        - generic [ref=e866] [cursor=pointer]: 1º mais vendido
+                    - generic [ref=e867]:
+                      - generic [ref=e869]:
+                        - link:
+                          - /url: /Leave-LOr%C3%A9al-Paris-Repara%C3%A7%C3%A3o-Cicatri/dp/B0CTTVR415/ref=pd_sbs_d_sccl_2_2/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0CTTVR415&psc=1
+                        - generic [ref=e870]:
+                          - link "R$30,68" [ref=e871] [cursor=pointer]:
+                            - /url: /Leave-LOr%C3%A9al-Paris-Repara%C3%A7%C3%A3o-Cicatri/dp/B0CTTVR415/ref=pd_sbs_d_sccl_2_2/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0CTTVR415&psc=1
+                            - generic [ref=e872]:
+                              - generic [ref=e873]: R$30,68
+                              - generic [ref=e874]:
+                                - text: R$
+                                - generic [ref=e875]: 30,
+                                - text: "68"
+                          - link "(R$ 0,31/Mililitros)" [ref=e876] [cursor=pointer]:
+                            - /url: /Leave-LOr%C3%A9al-Paris-Repara%C3%A7%C3%A3o-Cicatri/dp/B0CTTVR415/ref=pd_sbs_d_sccl_2_2/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0CTTVR415&psc=1
+                      - generic [ref=e878]: Receba até sábado, abril 11
+                    - text: Opção de frete GRÁTIS disponível
+              - listitem [ref=e879]:
+                - generic [ref=e881]:
+                  - link [ref=e882] [cursor=pointer]:
+                    - /url: /DANOS-VORAZES-REPARADOR-Lola-Cosmetics/dp/B09GHN14FP/ref=pd_sbs_d_sccl_2_3/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B09GHN14FP&psc=1
+                    - img [ref=e884]
+                  - generic [ref=e886]:
+                    - link "Danos Vorazes Óleo Reparador 50ml , Lola Cosmetics" [ref=e887] [cursor=pointer]:
+                      - /url: /DANOS-VORAZES-REPARADOR-Lola-Cosmetics/dp/B09GHN14FP/ref=pd_sbs_d_sccl_2_3/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B09GHN14FP&psc=1
+                      - generic [ref=e889]: Danos Vorazes Óleo Reparador 50ml , Lola Cosmetics
+                    - link "4,8 de 5 estrelas, 15.588 classificações" [ref=e892] [cursor=pointer]:
+                      - /url: /product-reviews/B09GHN14FP/ref=pd_sbs_d_sccl_2_3_cr/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B09GHN14FP
+                      - generic [ref=e894]: 4,8 de 5 estrelas
+                      - text: "15.588"
+                    - generic [ref=e897]:
+                      - link:
+                        - /url: /DANOS-VORAZES-REPARADOR-Lola-Cosmetics/dp/B09GHN14FP/ref=pd_sbs_d_sccl_2_3/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B09GHN14FP&psc=1
+                      - generic [ref=e898]:
+                        - link "R$15,21" [ref=e899] [cursor=pointer]:
+                          - /url: /DANOS-VORAZES-REPARADOR-Lola-Cosmetics/dp/B09GHN14FP/ref=pd_sbs_d_sccl_2_3/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B09GHN14FP&psc=1
+                          - generic [ref=e900]:
+                            - generic [ref=e901]: R$15,21
+                            - generic [ref=e902]:
+                              - text: R$
+                              - generic [ref=e903]: 15,
+                              - text: "21"
+                        - link "(R$ 15,21/unidade)" [ref=e904] [cursor=pointer]:
+                          - /url: /DANOS-VORAZES-REPARADOR-Lola-Cosmetics/dp/B09GHN14FP/ref=pd_sbs_d_sccl_2_3/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B09GHN14FP&psc=1
+              - listitem [ref=e905]:
+                - generic [ref=e907]:
+                  - link [ref=e908] [cursor=pointer]:
+                    - /url: /S%C3%A9rum-LOr%C3%A9al-Paris-Elseve-Sonhos/dp/B0DV1JZFXS/ref=pd_sbs_d_sccl_2_4/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0DV1JZFXS&psc=1
+                    - img [ref=e910]
+                  - generic [ref=e912]:
+                    - link "L'Oréal Paris Elseve Liso dos Sonhos, Sérum Leave-in com Tecnologia Ativada por Calor para Efeito Liso por 1 Semana, Antifrizz, Protetor Térmico e Barreira Contra Umidade, 100ml" [ref=e913] [cursor=pointer]:
+                      - /url: /S%C3%A9rum-LOr%C3%A9al-Paris-Elseve-Sonhos/dp/B0DV1JZFXS/ref=pd_sbs_d_sccl_2_4/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0DV1JZFXS&psc=1
+                      - generic [ref=e915]: L'Oréal Paris Elseve Liso dos Sonhos, Sérum Leave-in com Tecnologia Ativada por Calor para Efeito Liso por 1 Semana, Antifrizz, Protetor Térmico e Barreira Contra Umidade, 100ml
+                    - link "4,7 de 5 estrelas, 6.885 classificações" [ref=e918] [cursor=pointer]:
+                      - /url: /product-reviews/B0DV1JZFXS/ref=pd_sbs_d_sccl_2_4_cr/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0DV1JZFXS
+                      - generic [ref=e920]: 4,7 de 5 estrelas
+                      - text: "6.885"
+                    - generic [ref=e921]:
+                      - generic [ref=e923]:
+                        - link:
+                          - /url: /S%C3%A9rum-LOr%C3%A9al-Paris-Elseve-Sonhos/dp/B0DV1JZFXS/ref=pd_sbs_d_sccl_2_4/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0DV1JZFXS&psc=1
+                        - generic [ref=e924]:
+                          - link "R$39,36" [ref=e925] [cursor=pointer]:
+                            - /url: /S%C3%A9rum-LOr%C3%A9al-Paris-Elseve-Sonhos/dp/B0DV1JZFXS/ref=pd_sbs_d_sccl_2_4/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0DV1JZFXS&psc=1
+                            - generic [ref=e926]:
+                              - generic [ref=e927]: R$39,36
+                              - generic [ref=e928]:
+                                - text: R$
+                                - generic [ref=e929]: 39,
+                                - text: "36"
+                          - link "(R$ 0,39/Mililitros)" [ref=e930] [cursor=pointer]:
+                            - /url: /S%C3%A9rum-LOr%C3%A9al-Paris-Elseve-Sonhos/dp/B0DV1JZFXS/ref=pd_sbs_d_sccl_2_4/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0DV1JZFXS&psc=1
+                      - generic [ref=e932]: Receba até sábado, abril 11
+                    - text: Opção de frete GRÁTIS disponível
+              - listitem [ref=e933]:
+                - generic [ref=e935]:
+                  - link [ref=e936] [cursor=pointer]:
+                    - /url: /Pantene-Miracles-Queratina-Capilar-Milagroso/dp/B0CVXT2K1S/ref=pd_sbs_d_sccl_2_5/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0CVXT2K1S&psc=1
+                    - img [ref=e938]
+                  - generic [ref=e940]:
+                    - link "Pantene Pro-V Miracles Óleo Capilar Milagroso Queratina Nutrição, Brilho E Proteção 95ml" [ref=e941] [cursor=pointer]:
+                      - /url: /Pantene-Miracles-Queratina-Capilar-Milagroso/dp/B0CVXT2K1S/ref=pd_sbs_d_sccl_2_5/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0CVXT2K1S&psc=1
+                      - generic [ref=e943]: Pantene Pro-V Miracles Óleo Capilar Milagroso Queratina Nutrição, Brilho E Proteção 95ml
+                    - link "4,8 de 5 estrelas, 9.371 classificações" [ref=e946] [cursor=pointer]:
+                      - /url: /product-reviews/B0CVXT2K1S/ref=pd_sbs_d_sccl_2_5_cr/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0CVXT2K1S
+                      - generic [ref=e948]: 4,8 de 5 estrelas
+                      - text: "9.371"
+                    - generic [ref=e949]:
+                      - generic [ref=e951]:
+                        - link:
+                          - /url: /Pantene-Miracles-Queratina-Capilar-Milagroso/dp/B0CVXT2K1S/ref=pd_sbs_d_sccl_2_5/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0CVXT2K1S&psc=1
+                        - generic [ref=e952]:
+                          - link "R$27,99" [ref=e953] [cursor=pointer]:
+                            - /url: /Pantene-Miracles-Queratina-Capilar-Milagroso/dp/B0CVXT2K1S/ref=pd_sbs_d_sccl_2_5/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0CVXT2K1S&psc=1
+                            - generic [ref=e954]:
+                              - generic [ref=e955]: R$27,99
+                              - generic [ref=e956]:
+                                - text: R$
+                                - generic [ref=e957]: 27,
+                                - text: "99"
+                          - link "(R$ 0,29/Mililitros)" [ref=e958] [cursor=pointer]:
+                            - /url: /Pantene-Miracles-Queratina-Capilar-Milagroso/dp/B0CVXT2K1S/ref=pd_sbs_d_sccl_2_5/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0CVXT2K1S&psc=1
+                      - generic [ref=e960]: Receba até sábado, abril 11
+                    - text: Opção de frete GRÁTIS disponível
+              - listitem [ref=e961]:
+                - generic [ref=e963]:
+                  - link [ref=e964] [cursor=pointer]:
+                    - /url: /Elseve-Capilar-Prolongador-Glycolic-Dura%C3%A7%C3%A3o/dp/B0CQKB4VMG/ref=pd_sbs_d_sccl_2_6/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0CQKB4VMG&psc=1
+                    - img [ref=e966]
+                  - generic [ref=e968]:
+                    - link "L'Oréal Paris Elseve Sérum Capilar Elixir Prolongador de Gloss Glycolic Gloss, 72 Horas de Duração, Sela Intensamente os Fios, Filtro UV e Proteção Térmica, 100ml" [ref=e969] [cursor=pointer]:
+                      - /url: /Elseve-Capilar-Prolongador-Glycolic-Dura%C3%A7%C3%A3o/dp/B0CQKB4VMG/ref=pd_sbs_d_sccl_2_6/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0CQKB4VMG&psc=1
+                      - generic [ref=e971]: L'Oréal Paris Elseve Sérum Capilar Elixir Prolongador de Gloss Glycolic Gloss, 72 Horas de Duração, Sela Intensamente os Fios, Filtro UV e Proteção Térmica, 100ml
+                    - link "4,7 de 5 estrelas, 5.868 classificações" [ref=e974] [cursor=pointer]:
+                      - /url: /product-reviews/B0CQKB4VMG/ref=pd_sbs_d_sccl_2_6_cr/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0CQKB4VMG
+                      - generic [ref=e976]: 4,7 de 5 estrelas
+                      - text: "5.868"
+                    - generic [ref=e977]:
+                      - generic [ref=e979]:
+                        - link:
+                          - /url: /Elseve-Capilar-Prolongador-Glycolic-Dura%C3%A7%C3%A3o/dp/B0CQKB4VMG/ref=pd_sbs_d_sccl_2_6/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0CQKB4VMG&psc=1
+                        - generic [ref=e980]:
+                          - link "R$32,31" [ref=e981] [cursor=pointer]:
+                            - /url: /Elseve-Capilar-Prolongador-Glycolic-Dura%C3%A7%C3%A3o/dp/B0CQKB4VMG/ref=pd_sbs_d_sccl_2_6/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0CQKB4VMG&psc=1
+                            - generic [ref=e982]:
+                              - generic [ref=e983]: R$32,31
+                              - generic [ref=e984]:
+                                - text: R$
+                                - generic [ref=e985]: 32,
+                                - text: "31"
+                          - link "(R$ 0,32/Mililitros)" [ref=e986] [cursor=pointer]:
+                            - /url: /Elseve-Capilar-Prolongador-Glycolic-Dura%C3%A7%C3%A3o/dp/B0CQKB4VMG/ref=pd_sbs_d_sccl_2_6/140-5235038-8618349?pd_rd_w=iQOae&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=KGRXNPTT1WVJAGK405HQ&pd_rd_wg=gG8xR&pd_rd_r=1a6555ba-34e2-41df-b640-86e12b7fdec8&pd_rd_i=B0CQKB4VMG&psc=1
+                      - generic [ref=e988]: Receba até sábado, abril 11
+                    - text: Opção de frete GRÁTIS disponível
+      - generic [ref=e992]:
+        - heading "Informações importantes" [level=2] [ref=e993]
+        - generic [ref=e994]:
+          - heading "Informações de segurança" [level=4] [ref=e995]
+          - paragraph
+          - paragraph [ref=e996]: Apenas para uso Externo.
+          - paragraph
+        - generic [ref=e997]:
+          - heading "Indicações" [level=4] [ref=e998]
+          - paragraph
+          - paragraph [ref=e999]: Não
+          - paragraph
+        - generic [ref=e1000]:
+          - heading "Ingredientes" [level=4] [ref=e1001]
+          - paragraph
+          - paragraph [ref=e1002]: 6 óleos de flores preciosas
+          - paragraph
+        - generic [ref=e1003]:
+          - heading "Instruções" [level=4] [ref=e1004]
+          - paragraph
+          - paragraph [ref=e1005]: Aplique 3 a 4 pressões do Óleo Extraordinário em todo o cabelo, podendo ser usado tanto em cabelos molhados quanto secos. Use antes da escova para nutrir os fios, como finalizador para dar forma à fibra capilar ou a qualquer momento do dia para disciplinar o frizz e realçar o brilho dos cabelos. Escolha sua maneira de usar e impressione com a beleza extraordinária dos seus cabelos!
+          - paragraph
+      - generic [ref=e1008]:
+        - heading "Descrição do produto" [level=2] [ref=e1011]
+        - paragraph [ref=e1013]: Descubra o poder transformador do Óleo Extraordinário Elseve de L'Oréal Paris, enriquecido com 6 óleos de flores preciosas que nutrem profundamente todos os tipos de cabelo. Sua fórmula leve e não gordurosa penetra nas fibras capilares sem deixar resíduos ou pesar nos fios, proporcionando hidratação intensa e brilho extraordinário desde a primeira aplicação. Com proteção térmica de até 230°C, este finalizador defende seus cabelos contra danos de secadores, chapinhas e babyliss, enquanto sua poderosa ação anti-frizz disciplina os fios rebeldes instantaneamente, mesmo em dias úmidos. A textura sedosa desliza suavemente pelos fios, garantindo cabelos disciplinados por muito mais tempo. Versátil e prático, pode ser aplicado em cabelos úmidos como leave-in protetor antes da escova para facilitar o penteado, ou em cabelos secos como finalizador para um toque de brilho intenso e controle adicional do frizz. Permite múltiplas aplicações ao longo do dia sempre que seus cabelos precisarem de um cuidado extra. Transforme seus cabelos com nutrição profunda e revele toda sua beleza natural. O Óleo Extraordinário Elseve é o segredo para cabelos extraordinariamente macios, brilhantes e saudáveis todos os dias.
+      - generic [ref=e1015]:
+        - separator [ref=e1016]
+        - heading "Do fabricante" [level=2] [ref=e1017]
+        - generic [ref=e1020]:
+          - img "Fundo dourado e modelo cacheada e todos os produtos da Linha Elseve Óleo Extraordinário em destaque" [ref=e1025]
+          - generic [ref=e1028]:
+            - region "Carrossel de conteúdo em destaque" [ref=e1029]:
+              - list [ref=e1034]:
+                - listitem [ref=e1035]:
+                  - img "Cabelos antes e depois do uso da Linha Elseve Óleo Extraordinário com resultados comprovados" [ref=e1037]
+                - listitem [ref=e1038]:
+                  - img "Moléculas de Óleo de Argan e Marula sobre fundo dourado com setas apontando seus benefícios" [ref=e1040]
+                - listitem [ref=e1041]:
+                  - img "Mulher de cabelos ruivos com as mãos sobre os cabelos com benefícios da linha em destaque" [ref=e1043]
+                - listitem [ref=e1044]:
+                  - img "Toda a Linha Óleo Extraordinário lado a lado em fundo roxo com setas apontando seus benefícios" [ref=e1046]
+            - tablist "tablist section" [ref=e1047]:
+              - tab "Antes e Depois" [selected] [ref=e1048] [cursor=pointer]
+              - tab "Ingredientes" [ref=e1049] [cursor=pointer]
+              - tab "Benefícios" [ref=e1050] [cursor=pointer]
+              - tab "Linha Completa" [ref=e1051] [cursor=pointer]
+          - generic [ref=e1054]:
+            - img "Óleo Capilar Elseve Óleo Extraordinário LOréal Paris" [ref=e1056]
+            - generic [ref=e1057]:
+              - heading "Tratamento capilar profissional para cabelos extraordinários" [level=3] [ref=e1058]
+              - paragraph [ref=e1059]: Revele fios revitalizados, nutridos e radiantes em todos os ângulos com o Óleo Extraordinário Elseve. Com 6 preciosos óleos de flores, sua fórmula leve penetra profundamente nas fibras, proporcionando nutrição intensa e brilho instantâneo.
+              - paragraph [ref=e1060]: O Óleo Extraordinário protege do frizz e do calor da chapinha até 230°C, deixando os cabelos macios, sedosos e sem pesar. Basta algumas pressões nos fios molhados ou secos, antes ou depois da escova, para nutrir, modelar e disciplinar com um único produto!
+          - generic [ref=e1063]:
+            - region "Carrossel de conteúdo em destaque" [ref=e1064]:
+              - list [ref=e1069]:
+                - listitem [ref=e1070]:
+                  - 'img "Rotina Completa: Shampoo,Condicionador,Máscara,Creme 3 em 1,Creme para Pentear,Creme Noturno." [ref=e1072]'
+                - listitem [ref=e1073]:
+                  - img "Creme 3 em 1 e Máscara Elseve Óleo Extraordinário sobre fundo marrom com seus benefícios destacados" [ref=e1075]
+                - listitem [ref=e1076]:
+                  - img "Óleo Capilar Elseve Extraordinário sobre fundo roxo marrom com setas apontando seus benefícios" [ref=e1078]
+            - tablist "tablist section" [ref=e1079]:
+              - tab "Rotina" [selected] [ref=e1080] [cursor=pointer]
+              - tab "Tratamentos" [ref=e1081] [cursor=pointer]
+              - tab "Finalizador - Óleo" [ref=e1082] [cursor=pointer]
+          - generic [ref=e1084]:
+            - heading "Linha Completa Óleo Extraordinário" [level=3] [ref=e1085]
+            - table [ref=e1088]:
+              - rowgroup [ref=e1089]:
+                - row "SHAMPOO Adicionar ao carrinho CONDICIONADOR Adicionar ao carrinho CREME PARA PENTEAR Adicionar ao carrinho CREME DE TRATAMENTO Adicionar ao carrinho CÁPSULA DE TRATAMENTO Opções de compra ÓLEO CAPILAR Adicionar ao carrinho" [ref=e1090]:
+                  - cell [ref=e1091]
+                  - columnheader "SHAMPOO Adicionar ao carrinho" [ref=e1092]:
+                    - link "SHAMPOO" [ref=e1093] [cursor=pointer]:
+                      - /url: /dp/B07DKFTMD9?ref=emc_p_m_5_i_atc
+                      - paragraph [ref=e1094]: SHAMPOO
+                    - generic [ref=e1098] [cursor=pointer]:
+                      - button "Adicionar ao carrinho" [ref=e1099]
+                      - generic [ref=e1100]: Adicionar ao carrinho
+                  - columnheader "CONDICIONADOR Adicionar ao carrinho" [ref=e1101]:
+                    - link "CONDICIONADOR" [ref=e1102] [cursor=pointer]:
+                      - /url: /dp/B07DKY824X?ref=emc_p_m_5_i_atc
+                      - paragraph [ref=e1103]: CONDICIONADOR
+                    - generic [ref=e1107] [cursor=pointer]:
+                      - button "Adicionar ao carrinho" [ref=e1108]
+                      - generic [ref=e1109]: Adicionar ao carrinho
+                  - columnheader "CREME PARA PENTEAR Adicionar ao carrinho" [ref=e1110]:
+                    - link "CREME PARA PENTEAR" [ref=e1111] [cursor=pointer]:
+                      - /url: /dp/B07DKLQJ5X?ref=emc_p_m_5_i_atc
+                      - paragraph [ref=e1112]: CREME PARA PENTEAR
+                    - generic [ref=e1116] [cursor=pointer]:
+                      - button "Adicionar ao carrinho" [ref=e1117]
+                      - generic [ref=e1118]: Adicionar ao carrinho
+                  - columnheader "CREME DE TRATAMENTO Adicionar ao carrinho" [ref=e1119]:
+                    - link "CREME DE TRATAMENTO" [ref=e1120] [cursor=pointer]:
+                      - /url: /dp/B07DKKQ1TN?ref=emc_p_m_5_i_atc
+                      - paragraph [ref=e1121]: CREME DE TRATAMENTO
+                    - generic [ref=e1125] [cursor=pointer]:
+                      - button "Adicionar ao carrinho" [ref=e1126]
+                      - generic [ref=e1127]: Adicionar ao carrinho
+                  - columnheader "CÁPSULA DE TRATAMENTO Opções de compra" [ref=e1128]:
+                    - link "CÁPSULA DE TRATAMENTO" [ref=e1129] [cursor=pointer]:
+                      - /url: /dp/B08G9GDK6Y?ref=emc_p_m_5_i_atc
+                      - paragraph [ref=e1130]: CÁPSULA DE TRATAMENTO
+                    - link "Opções de compra" [ref=e1134] [cursor=pointer]:
+                      - /url: /dp/B08G9GDK6Y?ref=emc_p_m_5_i_atc
+                  - columnheader "ÓLEO CAPILAR Adicionar ao carrinho" [ref=e1135]:
+                    - link "ÓLEO CAPILAR" [ref=e1136] [cursor=pointer]:
+                      - /url: /dp/B07H113TPQ?ref=emc_p_m_5_i_atc
+                      - paragraph [ref=e1137]: ÓLEO CAPILAR
+                    - generic [ref=e1141] [cursor=pointer]:
+                      - button "Adicionar ao carrinho" [ref=e1142]
+                      - generic [ref=e1143]: Adicionar ao carrinho
+                - row "Avaliações de clientes 4,8 de 5 estrelas 2.169 4,8 de 5 estrelas 2.018 4,8 de 5 estrelas 889 4,8 de 5 estrelas 5.845 4,5 de 5 estrelas 112 4,8 de 5 estrelas 112.294" [ref=e1144]:
+                  - cell "Avaliações de clientes" [ref=e1145]:
+                    - generic [ref=e1146]: Avaliações de clientes
+                  - cell "4,8 de 5 estrelas 2.169" [ref=e1147]:
+                    - generic [ref=e1149]:
+                      - generic [ref=e1151]: 4,8 de 5 estrelas
+                      - text: "2.169"
+                  - cell "4,8 de 5 estrelas 2.018" [ref=e1152]:
+                    - generic [ref=e1154]:
+                      - generic [ref=e1156]: 4,8 de 5 estrelas
+                      - text: "2.018"
+                  - cell "4,8 de 5 estrelas 889" [ref=e1157]:
+                    - generic [ref=e1159]:
+                      - generic [ref=e1161]: 4,8 de 5 estrelas
+                      - text: "889"
+                  - cell "4,8 de 5 estrelas 5.845" [ref=e1162]:
+                    - generic [ref=e1164]:
+                      - generic [ref=e1166]: 4,8 de 5 estrelas
+                      - text: "5.845"
+                  - cell "4,5 de 5 estrelas 112" [ref=e1167]:
+                    - generic [ref=e1169]:
+                      - generic [ref=e1171]: 4,5 de 5 estrelas
+                      - text: "112"
+                  - cell "4,8 de 5 estrelas 112.294" [ref=e1172]:
+                    - generic [ref=e1174]:
+                      - generic [ref=e1176]: 4,8 de 5 estrelas
+                      - text: "112.294"
+                - row "Preço R$ 30,68 R$ 32,99 R$ 20,99 R$ 28,99 — R$ 36,99" [ref=e1177]:
+                  - cell "Preço" [ref=e1178]:
+                    - generic [ref=e1179]: Preço
+                  - cell "R$ 30,68" [ref=e1180]:
+                    - generic [ref=e1182]:
+                      - generic [ref=e1183]: R$ 30,68
+                      - generic [ref=e1184]:
+                        - text: R$
+                        - generic [ref=e1185]:
+                          - text: "30"
+                          - generic [ref=e1186]: ","
+                        - text: "68"
+                  - cell "R$ 32,99" [ref=e1187]:
+                    - generic [ref=e1189]:
+                      - generic [ref=e1190]: R$ 32,99
+                      - generic [ref=e1191]:
+                        - text: R$
+                        - generic [ref=e1192]:
+                          - text: "32"
+                          - generic [ref=e1193]: ","
+                        - text: "99"
+                  - cell "R$ 20,99" [ref=e1194]:
+                    - generic [ref=e1196]:
+                      - generic [ref=e1197]: R$ 20,99
+                      - generic [ref=e1198]:
+                        - text: R$
+                        - generic [ref=e1199]:
+                          - text: "20"
+                          - generic [ref=e1200]: ","
+                        - text: "99"
+                  - cell "R$ 28,99" [ref=e1201]:
+                    - generic [ref=e1203]:
+                      - generic [ref=e1204]: R$ 28,99
+                      - generic [ref=e1205]:
+                        - text: R$
+                        - generic [ref=e1206]:
+                          - text: "28"
+                          - generic [ref=e1207]: ","
+                        - text: "99"
+                  - cell "—" [ref=e1208]
+                  - cell "R$ 36,99" [ref=e1209]:
+                    - generic [ref=e1211]:
+                      - generic [ref=e1212]: R$ 36,99
+                      - generic [ref=e1213]:
+                        - text: R$
+                        - generic [ref=e1214]:
+                          - text: "36"
+                          - generic [ref=e1215]: ","
+                        - text: "99"
+                - row "Tipo de produto Limpa e nutre Desembaraça e sela 24h de brilho Nutrição intensa Tratamento turbinado Controla o frizz e protege" [ref=e1216]:
+                  - cell "Tipo de produto" [ref=e1217]:
+                    - generic [ref=e1218]: Tipo de produto
+                  - cell "Limpa e nutre" [ref=e1219]
+                  - cell "Desembaraça e sela" [ref=e1220]
+                  - cell "24h de brilho" [ref=e1221]
+                  - cell "Nutrição intensa" [ref=e1222]
+                  - cell "Tratamento turbinado" [ref=e1223]
+                  - cell "Controla o frizz e protege" [ref=e1224]
+                - row "Quando usar Todos os dias Todos os dias Após o banho ou durante o dia De 2 a 3x por semana De 2 a 3x por semana Com o cabelo úmido ou seco" [ref=e1225]:
+                  - cell "Quando usar" [ref=e1226]:
+                    - generic [ref=e1227]: Quando usar
+                  - cell "Todos os dias" [ref=e1228]
+                  - cell "Todos os dias" [ref=e1229]
+                  - cell "Após o banho ou durante o dia" [ref=e1230]
+                  - cell "De 2 a 3x por semana" [ref=e1231]
+                  - cell "De 2 a 3x por semana" [ref=e1232]
+                  - cell "Com o cabelo úmido ou seco" [ref=e1233]
+                - row "Tipo de cabelo Cabelos secos Cabelos secos Cabelos secos Cabelos secos Cabelos secos Cabelos secos" [ref=e1234]:
+                  - cell "Tipo de cabelo" [ref=e1235]:
+                    - generic [ref=e1236]: Tipo de cabelo
+                  - cell "Cabelos secos" [ref=e1237]
+                  - cell "Cabelos secos" [ref=e1238]
+                  - cell "Cabelos secos" [ref=e1239]
+                  - cell "Cabelos secos" [ref=e1240]
+                  - cell "Cabelos secos" [ref=e1241]
+                  - cell "Cabelos secos" [ref=e1242]
+                - row "Resultado Limpeza profunda e hidratação Desembaraço dos fios Remove as pontas duplas Nutre os fios intensamente Nutre o cabelo danificado Controla o frizz e protege" [ref=e1243]:
+                  - cell "Resultado" [ref=e1244]:
+                    - generic [ref=e1245]: Resultado
+                  - cell "Limpeza profunda e hidratação" [ref=e1246]
+                  - cell "Desembaraço dos fios" [ref=e1247]
+                  - cell "Remove as pontas duplas" [ref=e1248]
+                  - cell "Nutre os fios intensamente" [ref=e1249]
+                  - cell "Nutre o cabelo danificado" [ref=e1250]
+                  - cell "Controla o frizz e protege" [ref=e1251]
+                - row "Resultado no 1º Uso? ✔ ✔ ✔ ✔ ✔ ✔" [ref=e1252]:
+                  - cell "Resultado no 1º Uso?" [ref=e1253]:
+                    - generic [ref=e1254]: Resultado no 1º Uso?
+                  - cell "✔" [ref=e1255]
+                  - cell "✔" [ref=e1256]
+                  - cell "✔" [ref=e1257]
+                  - cell "✔" [ref=e1258]
+                  - cell "✔" [ref=e1259]
+                  - cell "✔" [ref=e1260]
+          - list [ref=e1264]:
+            - listitem [ref=e1265] [cursor=pointer]:
+              - heading "Q Para que serve o Óleo Extraordinário Elseve? Clique para abrir ou fechar o bloco de Perguntas e respostas" [level=3] [ref=e1266]:
+                - button "Q Para que serve o Óleo Extraordinário Elseve? Clique para abrir ou fechar o bloco de Perguntas e respostas" [ref=e1267]:
+                  - paragraph [ref=e1268]: Q Para que serve o Óleo Extraordinário Elseve?
+                  - generic "Clique para abrir ou fechar o bloco de Perguntas e respostas" [ref=e1269]
+            - listitem [ref=e1270] [cursor=pointer]:
+              - heading "Q Para quais tipos de cabelo o Óleo Extraordinário Elseve é recomendado? Clique para abrir ou fechar o bloco de Perguntas e respostas" [level=3] [ref=e1271]:
+                - button "Q Para quais tipos de cabelo o Óleo Extraordinário Elseve é recomendado? Clique para abrir ou fechar o bloco de Perguntas e respostas" [ref=e1272]:
+                  - paragraph [ref=e1273]: Q Para quais tipos de cabelo o Óleo Extraordinário Elseve é recomendado?
+                  - generic "Clique para abrir ou fechar o bloco de Perguntas e respostas" [ref=e1274]
+            - listitem [ref=e1275] [cursor=pointer]:
+              - heading "Q Pode fazer umectação com Óleo Extraordinário Elseve? Clique para abrir ou fechar o bloco de Perguntas e respostas" [level=3] [ref=e1276]:
+                - button "Q Pode fazer umectação com Óleo Extraordinário Elseve? Clique para abrir ou fechar o bloco de Perguntas e respostas" [ref=e1277]:
+                  - paragraph [ref=e1278]: Q Pode fazer umectação com Óleo Extraordinário Elseve?
+                  - generic "Clique para abrir ou fechar o bloco de Perguntas e respostas" [ref=e1279]
+            - listitem [ref=e1280] [cursor=pointer]:
+              - heading "Q Pode usar óleo Elséve como protetor térmico? Clique para abrir ou fechar o bloco de Perguntas e respostas" [level=3] [ref=e1281]:
+                - button "Q Pode usar óleo Elséve como protetor térmico? Clique para abrir ou fechar o bloco de Perguntas e respostas" [ref=e1282]:
+                  - paragraph [ref=e1283]: Q Pode usar óleo Elséve como protetor térmico?
+                  - generic "Clique para abrir ou fechar o bloco de Perguntas e respostas" [ref=e1284]
+      - generic:
+        - navigation:
+          - navigation "Navigate within the product detail page":
+            - navigation "Back to top jump link":
+              - generic:
+                - generic: topo
+            - navigation "About this item widget jump link":
+              - generic:
+                - generic: Sobre este produto
+            - navigation "Similar widget jump link":
+              - generic:
+                - generic: Semelhante
+            - navigation "Product information widget jump link":
+              - generic:
+                - generic: Informações do produto
+            - navigation "From the brand widget jump link":
+              - generic:
+                - generic: Da marca
+            - navigation "Customer reviews widget jump link":
+              - generic:
+                - generic: Avaliações
+          - navigation "Back to top Image jump link":
+            - img "L'Oréal Paris Elseve Óleo Extraordinário Finalizador Capilar, Nutrição Profunda com 6 Óleos Preciosos, Anti-Frizz, Proteção Térmica até 230°C, Brilho Intenso para Todos os Tipos de Cabelo, 100ml"
+          - navigation "Back to top title jump link":
+            - generic: L'Oréal Paris Elseve Óleo Extraordinário Finalizador Capilar, Nutrição Profunda com 6 Óleos Preciosos, Anti-Frizz, Proteção Térmica até 230°C, Brilho Intenso para Todos os Tipos de Cabelo, 100ml
+      - generic [ref=e1285]:
+        - separator [ref=e1286]
+        - generic [ref=e1288]:
+          - heading "Especificações do produto" [level=1] [ref=e1289]
+          - generic [ref=e1293]:
+            - generic [ref=e1296]:
+              - button "Características e Especificações" [ref=e1299] [cursor=pointer]:
+                - heading "Características e Especificações" [level=5] [ref=e1301]
+              - button "Detalhes do Produto" [ref=e1304] [cursor=pointer]:
+                - heading "Detalhes do Produto" [level=5] [ref=e1306]
+            - generic [ref=e1310]:
+              - button "Medidas" [ref=e1313] [cursor=pointer]:
+                - heading "Medidas" [level=5] [ref=e1315]
+              - button "Detalhes Adicionais" [ref=e1318] [cursor=pointer]:
+                - heading "Detalhes Adicionais" [level=5] [ref=e1320]
+      - generic [ref=e1322]:
+        - separator [ref=e1323]
+        - heading "Detalhes do produto" [level=2] [ref=e1324]
+        - list [ref=e1326]:
+          - listitem [ref=e1327]:
+            - generic [ref=e1328]: "Dimensões do produto ‏ : ‎ 5 x 3 x 15 cm; 100 g"
+          - listitem [ref=e1329]:
+            - generic [ref=e1330]: "Fabricante ‏ : ‎ LOREAL BRASIL COMERCIAL DE COSM LTD"
+          - listitem [ref=e1331]:
+            - generic [ref=e1332]: "ASIN ‏ : ‎ B07H113TPQ"
+          - listitem [ref=e1333]:
+            - generic [ref=e1334]: "Número do modelo ‏ : ‎ 112755611"
+          - listitem [ref=e1335]:
+            - generic [ref=e1336]: "País de origem ‏ : ‎ Brasil"
+          - listitem [ref=e1337]:
+            - generic [ref=e1338]: "Departamento ‏ : ‎ Mulheres"
+          - listitem [ref=e1339]:
+            - generic [ref=e1340]:
+              - text: "Avaliações dos clientes:"
+              - generic [ref=e1341]:
+                - generic "4,8 de 5 estrelas" [ref=e1343]:
+                  - button "4,8 de 5 estrelas" [ref=e1345] [cursor=pointer]:
+                    - text: 4,8
+                    - generic [ref=e1347]: 4,8 de 5 estrelas
+                - link "112.294 Análises" [ref=e1350] [cursor=pointer]:
+                  - /url: "#averageCustomerReviewsAnchor"
+                  - text: (112.294)
+      - generic "Melhores avaliações" [ref=e1353]:
+        - separator [ref=e1354]
+        - generic [ref=e1356]:
+          - generic [ref=e1357]:
+            - generic [ref=e1362]:
+              - heading "Avaliações de clientes" [level=2] [ref=e1364]
+              - generic [ref=e1366]:
+                - generic [ref=e1369]: 4,8 de 5 estrelas
+                - generic [ref=e1372]: 4,8 de 5
+              - generic [ref=e1373]: 112.294 avaliações globais
+              - list [ref=e1377]:
+                - listitem [ref=e1378]:
+                  - link "90 por cento das avaliações têm 5 estrelas" [ref=e1380] [cursor=pointer]:
+                    - /url: /product-reviews/B07H113TPQ/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar
+                    - generic [ref=e1381]: 5 estrelas
+                    - progressbar [ref=e1383]
+                    - generic [ref=e1384]: 90%
+                - listitem [ref=e1385]:
+                  - link "7 por cento das avaliações têm 4 estrelas" [ref=e1387] [cursor=pointer]:
+                    - /url: /product-reviews/B07H113TPQ/ref=acr_dp_hist_4?ie=UTF8&filterByStar=four_star&reviewerType=all_reviews#reviews-filter-bar
+                    - generic [ref=e1388]: 4 estrelas
+                    - progressbar [ref=e1390]
+                    - generic [ref=e1391]: 7%
+                - listitem [ref=e1392]:
+                  - link "2 por cento das avaliações têm 3 estrelas" [ref=e1394] [cursor=pointer]:
+                    - /url: /product-reviews/B07H113TPQ/ref=acr_dp_hist_3?ie=UTF8&filterByStar=three_star&reviewerType=all_reviews#reviews-filter-bar
+                    - generic [ref=e1395]: 3 estrelas
+                    - progressbar [ref=e1397]
+                    - generic [ref=e1398]: 2%
+                - listitem [ref=e1399]:
+                  - generic "0 por cento das avaliações têm 2 estrelas" [ref=e1401]:
+                    - generic [ref=e1402]: 2 estrelas
+                    - progressbar [ref=e1404]
+                    - generic [ref=e1405]: 0%
+                - listitem [ref=e1406]:
+                  - link "1 por cento das avaliações têm 1 estrelas" [ref=e1408] [cursor=pointer]:
+                    - /url: /product-reviews/B07H113TPQ/ref=acr_dp_hist_1?ie=UTF8&filterByStar=one_star&reviewerType=all_reviews#reviews-filter-bar
+                    - generic [ref=e1409]: 1 estrela
+                    - progressbar [ref=e1411]
+                    - generic [ref=e1412]: 1%
+              - button "Como as avaliações e classificações de clientes funcionam" [ref=e1417] [cursor=pointer]: Como as avaliações e classificações de clientes funcionam
+            - separator [ref=e1419]
+            - separator [ref=e1420]
+          - generic [ref=e1424]:
+            - generic [ref=e1427]:
+              - group [ref=e1429]:
+                - generic [ref=e1430]:
+                  - heading "Avaliações com imagens" [level=3] [ref=e1432]
+                  - link "Ver todas as fotos" [ref=e1435] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - group [ref=e1439]:
+                  - list [ref=e1440]:
+                    - listitem [ref=e1441]:
+                      - button "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1442] [cursor=pointer]:
+                        - img "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1443]
+                    - listitem [ref=e1445]:
+                      - button "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1446] [cursor=pointer]:
+                        - img "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1447]
+                    - listitem [ref=e1449]:
+                      - button "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1450] [cursor=pointer]:
+                        - img "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1451]
+                    - listitem [ref=e1453]:
+                      - button "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1454] [cursor=pointer]:
+                        - img "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1455]
+                    - listitem [ref=e1457]:
+                      - button "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1458] [cursor=pointer]:
+                        - img "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1459]
+                    - listitem [ref=e1461]:
+                      - button "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1462] [cursor=pointer]:
+                        - img "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1463]
+                    - listitem [ref=e1465]:
+                      - button "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1466] [cursor=pointer]:
+                        - img "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1467]
+                    - listitem [ref=e1469]:
+                      - button "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1470] [cursor=pointer]:
+                        - img "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1471]
+                    - listitem [ref=e1473]:
+                      - button "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1474] [cursor=pointer]:
+                        - img "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1475]
+                    - listitem [ref=e1477]:
+                      - button "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1478] [cursor=pointer]:
+                        - img "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1479]
+                    - listitem [ref=e1481]:
+                      - button "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1482] [cursor=pointer]:
+                        - img "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1483]
+                    - listitem [ref=e1485]:
+                      - button "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1486] [cursor=pointer]:
+                        - img "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1487]
+              - separator [ref=e1489]
+            - generic [ref=e1493]:
+              - heading "Principais avaliações do Brasil" [level=3] [ref=e1495]
+              - list [ref=e1498]:
+                - listitem [ref=e1499]:
+                  - generic [ref=e1502]:
+                    - link "Angélica Alves" [ref=e1504] [cursor=pointer]:
+                      - /url: /gp/profile/amzn1.account.AH23JGEFHNSGTWOBP45XHUGTXZYQ
+                      - img [ref=e1507]
+                      - generic [ref=e1508]: Angélica Alves
+                    - heading "5,0 de 5 estrelas Leve e cheiroso" [level=5] [ref=e1510]:
+                      - link "5,0 de 5 estrelas Leve e cheiroso" [ref=e1511] [cursor=pointer]:
+                        - /url: /gp/customer-reviews/RFO2UPIO2WDE0/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                        - generic [ref=e1513]: 5,0 de 5 estrelas
+                        - text: Leve e cheiroso
+                    - heading "Avaliado no Brasil em 4 de abril de 2026" [level=6] [ref=e1514]
+                    - generic [ref=e1515]:
+                      - text: "Estilo: L'Oréal Paris Óleo Extraordinário"
+                      - img [ref=e1516]
+                      - 'link "Compra verificada: Saiba mais sobre como as avaliações de clientes funcionam na Amazon" [ref=e1517] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                    - generic [ref=e1522]: Uito bom. Cheiroso e Não pesa no cabelo.
+                    - generic [ref=e1523]:
+                      - generic [ref=e1524]:
+                        - generic [ref=e1525]: 1 pessoa achou isso útil
+                        - link "Marcar avaliação como útil" [ref=e1529] [cursor=pointer]:
+                          - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fdp%2FB07H113TPQ%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhNHs7lTDe%25252BiYPXRwudy%25252F%25252FC1BuPMja6kVx2AcXxrl8q3bAAAAAGnXAGMAAAAB%26reviewId%3DRFO2UPIO2WDE0%23RFO2UPIO2WDE0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&marketPlaceId=A2Q3Y263D00KWC&language=pt&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                          - generic [ref=e1530]: Útil
+                      - generic [ref=e1532]:
+                        - img [ref=e1533]
+                        - link "Análise do relatório por Angélica Alves" [ref=e1535] [cursor=pointer]:
+                          - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hNHs7lTDe%2BiYPXRwudy%2F%2FC1BuPMja6kVx2AcXxrl8q3bAAAAAGnXAGMAAAAB&reviewId=RFO2UPIO2WDE0
+                          - text: Denunciar
+                - listitem [ref=e1536]:
+                  - generic [ref=e1539]:
+                    - link "Rebeca Maia" [ref=e1541] [cursor=pointer]:
+                      - /url: /gp/profile/amzn1.account.AFKJQYUSST7CC74LIJ6J4F2IJ55Q
+                      - img [ref=e1544]
+                      - generic [ref=e1545]: Rebeca Maia
+                    - heading "5,0 de 5 estrelas Oleo extraordinário L'Oréal" [level=5] [ref=e1547]:
+                      - link "5,0 de 5 estrelas Oleo extraordinário L'Oréal" [ref=e1548] [cursor=pointer]:
+                        - /url: /gp/customer-reviews/R129UVFPIDW1CT/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                        - generic [ref=e1550]: 5,0 de 5 estrelas
+                        - text: Oleo extraordinário L'Oréal
+                    - heading "Avaliado no Brasil em 1 de abril de 2026" [level=6] [ref=e1551]
+                    - generic [ref=e1552]:
+                      - text: "Estilo: L'Oréal Paris Óleo Extraordinário"
+                      - img [ref=e1553]
+                      - 'link "Compra verificada: Saiba mais sobre como as avaliações de clientes funcionam na Amazon" [ref=e1554] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                    - generic [ref=e1559]: Excelente produto. Preço bom, boa entrega.
+                    - generic [ref=e1560]:
+                      - link "Marcar avaliação como útil" [ref=e1564] [cursor=pointer]:
+                        - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fdp%2FB07H113TPQ%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhDKmr4Wqdd8q2alkMr9Aq4A%25252FwK5bViuICCQccBnIPMiOAAAAAGnXAGMAAAAB%26reviewId%3DR129UVFPIDW1CT%23R129UVFPIDW1CT&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&marketPlaceId=A2Q3Y263D00KWC&language=pt&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                        - generic [ref=e1565]: Útil
+                      - generic [ref=e1567]:
+                        - img [ref=e1568]
+                        - link "Análise do relatório por Rebeca Maia" [ref=e1570] [cursor=pointer]:
+                          - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hDKmr4Wqdd8q2alkMr9Aq4A%2FwK5bViuICCQccBnIPMiOAAAAAGnXAGMAAAAB&reviewId=R129UVFPIDW1CT
+                          - text: Denunciar
+                - listitem [ref=e1571]:
+                  - generic [ref=e1574]:
+                    - link "Fernanda Martins" [ref=e1576] [cursor=pointer]:
+                      - /url: /gp/profile/amzn1.account.AGXNJMYRZIHK556UZOAUYZS7WCAQ
+                      - img [ref=e1579]
+                      - generic [ref=e1580]: Fernanda Martins
+                    - heading "5,0 de 5 estrelas Ótimo." [level=5] [ref=e1582]:
+                      - link "5,0 de 5 estrelas Ótimo." [ref=e1583] [cursor=pointer]:
+                        - /url: /gp/customer-reviews/RW77F6ZJ0WUT2/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                        - generic [ref=e1585]: 5,0 de 5 estrelas
+                        - text: Ótimo.
+                    - heading "Avaliado no Brasil em 4 de abril de 2026" [level=6] [ref=e1586]
+                    - generic [ref=e1587]:
+                      - text: "Estilo: L'Oréal Paris Óleo Extraordinário"
+                      - img [ref=e1588]
+                      - 'link "Compra verificada: Saiba mais sobre como as avaliações de clientes funcionam na Amazon" [ref=e1589] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                    - generic [ref=e1594]: Esse óleo é incrível. Deixa o cabelo maravilhoso. Compro sempre.
+                    - generic [ref=e1595]:
+                      - link "Marcar avaliação como útil" [ref=e1599] [cursor=pointer]:
+                        - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fdp%2FB07H113TPQ%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhJgjyhvKdB2SuH%25252FRVe%25252B3Ay5WAdWSCo76VoQ4Zws3eV9cAAAAAGnXAGMAAAAB%26reviewId%3DRW77F6ZJ0WUT2%23RW77F6ZJ0WUT2&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&marketPlaceId=A2Q3Y263D00KWC&language=pt&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                        - generic [ref=e1600]: Útil
+                      - generic [ref=e1602]:
+                        - img [ref=e1603]
+                        - link "Análise do relatório por Fernanda Martins" [ref=e1605] [cursor=pointer]:
+                          - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hJgjyhvKdB2SuH%2FRVe%2B3Ay5WAdWSCo76VoQ4Zws3eV9cAAAAAGnXAGMAAAAB&reviewId=RW77F6ZJ0WUT2
+                          - text: Denunciar
+                - listitem [ref=e1606]:
+                  - generic [ref=e1609]:
+                    - link "Mônica Manoelita" [ref=e1611] [cursor=pointer]:
+                      - /url: /gp/profile/amzn1.account.AFUFAQQPIWMUWUUPCS2H3CH2POBQ
+                      - img [ref=e1614]
+                      - generic [ref=e1615]: Mônica Manoelita
+                    - heading "5,0 de 5 estrelas Produto com tecnologia" [level=5] [ref=e1617]:
+                      - link "5,0 de 5 estrelas Produto com tecnologia" [ref=e1618] [cursor=pointer]:
+                        - /url: /gp/customer-reviews/RU7037F5GNGPZ/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                        - generic [ref=e1620]: 5,0 de 5 estrelas
+                        - text: Produto com tecnologia
+                    - heading "Avaliado no Brasil em 5 de abril de 2026" [level=6] [ref=e1621]
+                    - generic [ref=e1622]:
+                      - text: "Estilo: L'Oréal Paris Óleo Extraordinário"
+                      - img [ref=e1623]
+                      - 'link "Compra verificada: Saiba mais sobre como as avaliações de clientes funcionam na Amazon" [ref=e1624] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                    - generic [ref=e1629]: Produto ótimo, hidrata e da brilho
+                    - generic [ref=e1630]:
+                      - link "Marcar avaliação como útil" [ref=e1634] [cursor=pointer]:
+                        - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fdp%2FB07H113TPQ%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhDifuJ1lJlyZ6qZWegYHZb0GuZxOillPiq3Z%25252BUy5G5mIAAAAAGnXAGMAAAAB%26reviewId%3DRU7037F5GNGPZ%23RU7037F5GNGPZ&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&marketPlaceId=A2Q3Y263D00KWC&language=pt&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                        - generic [ref=e1635]: Útil
+                      - generic [ref=e1637]:
+                        - img [ref=e1638]
+                        - link "Análise do relatório por Mônica Manoelita" [ref=e1640] [cursor=pointer]:
+                          - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hDifuJ1lJlyZ6qZWegYHZb0GuZxOillPiq3Z%2BUy5G5mIAAAAAGnXAGMAAAAB&reviewId=RU7037F5GNGPZ
+                          - text: Denunciar
+                - listitem [ref=e1641]:
+                  - generic [ref=e1644]:
+                    - link "Jane da Silveira Ribeiro" [ref=e1646] [cursor=pointer]:
+                      - /url: /gp/profile/amzn1.account.AE4R5YCHGFVTVINPGKG3UJHS7NEA
+                      - img [ref=e1649]
+                      - generic [ref=e1650]: Jane da Silveira Ribeiro
+                    - heading "5,0 de 5 estrelas Vale a pena" [level=5] [ref=e1652]:
+                      - link "5,0 de 5 estrelas Vale a pena" [ref=e1653] [cursor=pointer]:
+                        - /url: /gp/customer-reviews/R2KMXGM6F90ESJ/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                        - generic [ref=e1655]: 5,0 de 5 estrelas
+                        - text: Vale a pena
+                    - heading "Avaliado no Brasil em 4 de abril de 2026" [level=6] [ref=e1656]
+                    - generic [ref=e1657]:
+                      - text: "Estilo: L'Oréal Paris Óleo Extraordinário"
+                      - img [ref=e1658]
+                      - 'link "Compra verificada: Saiba mais sobre como as avaliações de clientes funcionam na Amazon" [ref=e1659] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                    - generic [ref=e1664]: Deixa o cabelo muito sedosos e dar brilho perfeito e rende bastante e é cheiroso
+                    - list [ref=e1666]:
+                      - listitem [ref=e1667]:
+                        - button "Imagem do cliente" [ref=e1669] [cursor=pointer]:
+                          - img "Imagem do cliente" [ref=e1670]
+                      - listitem [ref=e1671]:
+                        - button "Imagem do cliente" [ref=e1673] [cursor=pointer]:
+                          - img "Imagem do cliente" [ref=e1674]
+                    - generic [ref=e1675]:
+                      - link "Marcar avaliação como útil" [ref=e1679] [cursor=pointer]:
+                        - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fdp%2FB07H113TPQ%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhIsGrIdGR02UIOmilJlpOFKTB6tT3gA3I%25252B87h2y%25252Fo3GuAAAAAGnXAGMAAAAB%26reviewId%3DR2KMXGM6F90ESJ%23R2KMXGM6F90ESJ&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&marketPlaceId=A2Q3Y263D00KWC&language=pt&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                        - generic [ref=e1680]: Útil
+                      - generic [ref=e1682]:
+                        - img [ref=e1683]
+                        - link "Análise do relatório por Jane da Silveira Ribeiro" [ref=e1685] [cursor=pointer]:
+                          - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hIsGrIdGR02UIOmilJlpOFKTB6tT3gA3I%2B87h2y%2Fo3GuAAAAAGnXAGMAAAAB&reviewId=R2KMXGM6F90ESJ
+                          - text: Denunciar
+                - listitem [ref=e1686]:
+                  - generic [ref=e1689]:
+                    - link "Mateus Pascoa" [ref=e1691] [cursor=pointer]:
+                      - /url: /gp/profile/amzn1.account.AHAGAKQIY3YTWN3S44RJQ5L6WOMQ
+                      - img [ref=e1694]
+                      - generic [ref=e1695]: Mateus Pascoa
+                    - heading "5,0 de 5 estrelas Muito bom o produto" [level=5] [ref=e1697]:
+                      - link "5,0 de 5 estrelas Muito bom o produto" [ref=e1698] [cursor=pointer]:
+                        - /url: /gp/customer-reviews/R35ZRE9VCNQT7J/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                        - generic [ref=e1700]: 5,0 de 5 estrelas
+                        - text: Muito bom o produto
+                    - heading "Avaliado no Brasil em 1 de abril de 2026" [level=6] [ref=e1701]
+                    - generic [ref=e1702]:
+                      - text: "Estilo: L'Oréal Paris Óleo Extraordinário"
+                      - img [ref=e1703]
+                      - 'link "Compra verificada: Saiba mais sobre como as avaliações de clientes funcionam na Amazon" [ref=e1704] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                    - generic [ref=e1709]: Óleo cheiroso e transformador. Funciona como protetor térmico também, achei ótimo para usar tanto antes como depois da difusão.
+                    - generic [ref=e1710]:
+                      - link "Marcar avaliação como útil" [ref=e1714] [cursor=pointer]:
+                        - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fdp%2FB07H113TPQ%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhMSkb%25252BOU4qegVwEARg0b5W4foEp4wvT0AYC68nP5SOUtAAAAAGnXAGMAAAAB%26reviewId%3DR35ZRE9VCNQT7J%23R35ZRE9VCNQT7J&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&marketPlaceId=A2Q3Y263D00KWC&language=pt&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                        - generic [ref=e1715]: Útil
+                      - generic [ref=e1717]:
+                        - img [ref=e1718]
+                        - link "Análise do relatório por Mateus Pascoa" [ref=e1720] [cursor=pointer]:
+                          - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hMSkb%2BOU4qegVwEARg0b5W4foEp4wvT0AYC68nP5SOUtAAAAAGnXAGMAAAAB&reviewId=R35ZRE9VCNQT7J
+                          - text: Denunciar
+                - listitem [ref=e1721]:
+                  - generic [ref=e1724]:
+                    - link "Eduarda Kalenny" [ref=e1726] [cursor=pointer]:
+                      - /url: /gp/profile/amzn1.account.AFAWCZO2TSB6XUF6LCDH6T3R5E5A
+                      - img [ref=e1729]
+                      - generic [ref=e1730]: Eduarda Kalenny
+                    - heading "5,0 de 5 estrelas Ótimo óleo" [level=5] [ref=e1732]:
+                      - link "5,0 de 5 estrelas Ótimo óleo" [ref=e1733] [cursor=pointer]:
+                        - /url: /gp/customer-reviews/R2DSIFG2G5VNYM/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                        - generic [ref=e1735]: 5,0 de 5 estrelas
+                        - text: Ótimo óleo
+                    - heading "Avaliado no Brasil em 4 de abril de 2026" [level=6] [ref=e1736]
+                    - generic [ref=e1737]:
+                      - text: "Estilo: L'Oréal Paris Óleo Extraordinário"
+                      - img [ref=e1738]
+                      - 'link "Compra verificada: Saiba mais sobre como as avaliações de clientes funcionam na Amazon" [ref=e1739] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                    - generic [ref=e1744]: Bom óleo mas o cheiro é pessimo
+                    - generic [ref=e1745]:
+                      - link "Marcar avaliação como útil" [ref=e1749] [cursor=pointer]:
+                        - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fdp%2FB07H113TPQ%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhHqjzpkkhHt9vCpfEOh2KfFLL1Mlq6h8inIR%25252FLCkQUy4AAAAAGnXAGMAAAAB%26reviewId%3DR2DSIFG2G5VNYM%23R2DSIFG2G5VNYM&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&marketPlaceId=A2Q3Y263D00KWC&language=pt&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                        - generic [ref=e1750]: Útil
+                      - generic [ref=e1752]:
+                        - img [ref=e1753]
+                        - link "Análise do relatório por Eduarda Kalenny" [ref=e1755] [cursor=pointer]:
+                          - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hHqjzpkkhHt9vCpfEOh2KfFLL1Mlq6h8inIR%2FLCkQUy4AAAAAGnXAGMAAAAB&reviewId=R2DSIFG2G5VNYM
+                          - text: Denunciar
+                - listitem [ref=e1756]:
+                  - generic [ref=e1759]:
+                    - link "Karoline de lima farias de arruda" [ref=e1761] [cursor=pointer]:
+                      - /url: /gp/profile/amzn1.account.AEGAVFO5D5HAAAAQFCICXNMZJO4Q
+                      - img [ref=e1764]
+                      - generic [ref=e1765]: Karoline de lima farias de arruda
+                    - heading "5,0 de 5 estrelas Excelente" [level=5] [ref=e1767]:
+                      - link "5,0 de 5 estrelas Excelente" [ref=e1768] [cursor=pointer]:
+                        - /url: /gp/customer-reviews/R3DGE92J3H28R/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                        - generic [ref=e1770]: 5,0 de 5 estrelas
+                        - text: Excelente
+                    - heading "Avaliado no Brasil em 26 de março de 2026" [level=6] [ref=e1771]
+                    - generic [ref=e1772]:
+                      - text: "Estilo: L'Oréal Paris Óleo Extraordinário"
+                      - img [ref=e1773]
+                      - 'link "Compra verificada: Saiba mais sobre como as avaliações de clientes funcionam na Amazon" [ref=e1774] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                    - generic [ref=e1779]:
+                      - text: O melhor q tem, deixa o cabelo muito macio, pode ser usado 3x ao dia ou quando sentir necessidade, não pesa o cabelo, no meu caso é o único óleo q meu cabelo aceita, o preço tá muito bom pq em farmácia ele custa até o dobro!
+                      - text: Só o cheirinho q não é muito bom, mais pelo tanto de qualidades isso nem faz diferença, ele nutre e deixa muito macio, excelente pra quem tem as pontas do cabelo ressecadas!
+                    - generic [ref=e1780]:
+                      - generic [ref=e1781]:
+                        - generic [ref=e1782]: 4 pessoas acharam isso útil
+                        - link "Marcar avaliação como útil" [ref=e1786] [cursor=pointer]:
+                          - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fdp%2FB07H113TPQ%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhP01g9RBV9bAEvDzzkHzgGRiNOsCsbDMEQsnati9vhZyAAAAAGnXAGMAAAAB%26reviewId%3DR3DGE92J3H28R%23R3DGE92J3H28R&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&marketPlaceId=A2Q3Y263D00KWC&language=pt&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                          - generic [ref=e1787]: Útil
+                      - generic [ref=e1789]:
+                        - img [ref=e1790]
+                        - link "Análise do relatório por Karoline de lima farias de arruda" [ref=e1792] [cursor=pointer]:
+                          - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hP01g9RBV9bAEvDzzkHzgGRiNOsCsbDMEQsnati9vhZyAAAAAGnXAGMAAAAB&reviewId=R3DGE92J3H28R
+                          - text: Denunciar
+              - generic [ref=e1794]:
+                - separator [ref=e1795]
+                - link "Veja mais avaliações" [ref=e1796] [cursor=pointer]:
+                  - /url: /product-reviews/B07H113TPQ/ref=cm_cr_dp_d_show_all_btm?ie=UTF8
+  - complementary "Itens que você visualizou recentemente e recomendações baseadas em seu histórico:"
+  - generic [ref=e1801]:
+    - button "Voltar ao início" [ref=e1802] [cursor=pointer]:
+      - generic [ref=e1803]: Voltar ao início
+    - generic [ref=e1804]:
+      - generic [ref=e1805]:
+        - heading "Conheça-nos" [level=6] [ref=e1806]
+        - list [ref=e1807]:
+          - listitem [ref=e1808]:
+            - link "Sobre a Amazon" [ref=e1809] [cursor=pointer]:
+              - /url: https://www.aboutamazon.com.br/
+          - listitem [ref=e1810]:
+            - link "Informações corporativas" [ref=e1811] [cursor=pointer]:
+              - /url: /gp/browse.html?node=23490129011&ref_=footer_gw_m_b_corporate
+          - listitem [ref=e1812]:
+            - link "Carreiras" [ref=e1813] [cursor=pointer]:
+              - /url: https://www.amazon.jobs
+          - listitem [ref=e1814]:
+            - link "Comunicados à imprensa" [ref=e1815] [cursor=pointer]:
+              - /url: /gp/browse.html?node=15155858011&ref_=footer_community
+          - listitem [ref=e1816]:
+            - link "Comunidade" [ref=e1817] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16593314011&ref_=footer_community
+          - listitem [ref=e1818]:
+            - link "Acessibilidade" [ref=e1819] [cursor=pointer]:
+              - /url: /gp/browse.html?node=23454858011&ref_=footer_accessibility
+          - listitem [ref=e1820]:
+            - link "Amazon Science" [ref=e1821] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e1823]:
+        - heading "Ganhe dinheiro conosco" [level=6] [ref=e1824]
+        - list [ref=e1825]:
+          - listitem [ref=e1826]:
+            - link "Venda na Amazon" [ref=e1827] [cursor=pointer]:
+              - /url: https://venda.amazon.com.br/?ld=SDBRSOA_footerDesk_T1
+          - listitem [ref=e1828]:
+            - link "Proteja e construa a sua marca" [ref=e1829] [cursor=pointer]:
+              - /url: https://brandservices.amazon.com.br?ref=AOBRABRLGNRFOOT&ld=AOBRABRLGNRFOOT
+          - listitem [ref=e1830]:
+            - link "Forneça para a Amazon" [ref=e1831] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=pt-BR
+          - listitem [ref=e1832]:
+            - link "Publique seus livros" [ref=e1833] [cursor=pointer]:
+              - /url: https://kdp.amazon.com?language=pt_BR
+          - listitem [ref=e1834]:
+            - link "Seja um associado" [ref=e1835] [cursor=pointer]:
+              - /url: https://associados.amazon.com.br
+          - listitem [ref=e1836]:
+            - link "Anuncie seus produtos" [ref=e1837] [cursor=pointer]:
+              - /url: https://advertising.amazon.com/pt-br?ref=footer_advtsing_BR
+      - generic [ref=e1839]:
+        - heading "Pagamento" [level=6] [ref=e1840]
+        - list [ref=e1841]:
+          - listitem [ref=e1842]:
+            - link "Meios de Pagamento" [ref=e1843] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16568920011&ref_=footer_pay_tc
+          - listitem [ref=e1844]:
+            - link "Compre com Pontos" [ref=e1845] [cursor=pointer]:
+              - /url: /gp/browse.html?node=24028636011&ref_=footer_pay_tc
+          - listitem [ref=e1846]:
+            - link "Cartão de crédito Amazon" [ref=e1847] [cursor=pointer]:
+              - /url: /gp/browse.html?node=24434261011&ref_=footer_pay_tc
+      - generic [ref=e1849]:
+        - heading "Deixe-nos ajudar você" [level=6] [ref=e1850]
+        - list [ref=e1851]:
+          - listitem [ref=e1852]:
+            - link "Sua conta" [ref=e1853] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e1854]:
+            - link "Frete e prazo de entrega" [ref=e1855] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201365500&ref_=footer_shiprates
+          - listitem [ref=e1856]:
+            - link "Devoluções e reembolsos" [ref=e1857] [cursor=pointer]:
+              - /url: /gp/orc/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e1858]:
+            - link "Gerencie seu conteúdo e dispositivos" [ref=e1859] [cursor=pointer]:
+              - /url: /hz/mycd/myx?ref_=footer_myk
+          - listitem [ref=e1860]:
+            - link "Recalls e alertas de segurança do produto" [ref=e1861] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e1862]:
+            - link "Ajuda" [ref=e1863] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he
+    - generic [ref=e1865]:
+      - link "Amazon Brazil Home" [ref=e1868] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - button "Escolha um país/região para fazer suas compras. A seleção atual é Brasil." [ref=e1872] [cursor=pointer]:
+        - generic [ref=e1874]: Brasil
+    - generic [ref=e1875]:
+      - list [ref=e1876]:
+        - listitem [ref=e1877]:
+          - link "Condições de Uso" [ref=e1878] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201283910&ref_=footer_cou
+        - listitem [ref=e1879]:
+          - link "Notificação de Privacidade" [ref=e1880] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201283950&ref_=footer_privacy
+        - listitem [ref=e1881]:
+          - link "Cookies" [ref=e1882] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201890250&ref_=footer_cookies
+        - listitem [ref=e1883]:
+          - link "Anúncios Baseados em Interesses" [ref=e1884] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201283970&ref_=footer_iba
+      - generic [ref=e1885]: © 2021-2026 Amazon.com, Inc. ou suas afiliadas
+    - list [ref=e1887]:
+      - listitem [ref=e1888]: Amazon Serviços de Varejo do Brasil Ltda. | CNPJ 15.436.940/0001-03
+    - list [ref=e1890]:
+      - listitem [ref=e1891]:
+        - text: "Av. Juscelino Kubitschek, 2041, Torre E, 18° andar - São Paulo CEP: 04543-011|"
+        - link "Fale conosco" [ref=e1892] [cursor=pointer]:
+          - /url: https://www.amazon.com.br/gp/help/customer/contact-us?ref=footer_gw_m_b_cu
+        - text: "| ajuda-amazon@amazon.com.br"
+    - list [ref=e1894]:
+      - listitem [ref=e1895]: "Formas de pagamento aceitas: cartões de crédito (Visa, MasterCard, Elo e American Express), cartões de débito (Visa e Elo), Boleto e Pix."

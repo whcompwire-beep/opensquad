@@ -1,0 +1,11 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: Story 1/5
+  - generic [ref=e3]: 🍂
+  - generic [ref=e4]: Outono 2026
+  - paragraph [ref=e5]:
+    - text: Uma coisa sobre
+    - text: o outono que ninguém
+    - text: fala sobre
+    - text: a sua pele
+  - generic [ref=e6]: 👇
+  - generic [ref=e7]: "@lais_esteticista"

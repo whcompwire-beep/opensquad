@@ -1,0 +1,17 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]: A solução
+  - paragraph [ref=e4]:
+    - text: A radiofrequência
+    - text: ativa o colágeno
+    - text: de
+    - emphasis [ref=e5]: dentro pra fora
+    - text: —
+    - text: exatamente o que
+    - text: a pele precisa agora.
+  - generic [ref=e6]:
+    - paragraph [ref=e7]: 📩 Caixa de perguntas
+    - paragraph [ref=e8]:
+      - text: Me manda sua dúvida
+      - text: sobre radiofrequência
+    - generic [ref=e9]: 💬
+  - generic [ref=e10]: "@lais_esteticista"

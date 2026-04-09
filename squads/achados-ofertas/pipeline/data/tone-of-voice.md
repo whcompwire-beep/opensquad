@@ -17,7 +17,7 @@ Uso: Produtos com apelo visual, inovadores, ou que surpreendem pelo custo-benef�
 - Reação genuína ("não acreditei quando vi", "surpreendeu demais")
 - Validação pessoal ("aprovado", "comprei aqui", "essa valeu muito")
 - Energia alta, mas não exagerada — entusiasmo real, não forçado
-- Emojis funcionais (3-4 máximo): 😱 🔥 ✅ 👑
+- Emojis funcionais (3–4 máximo): 😱 🔥 ✅ 👑
 
 **Exemplo:**
 > Minha gaveta estava uma vergonha… esse organizador por R$29 mudou minha vida em 5 minutos 😱
@@ -96,9 +96,11 @@ Uso: Produtos com muitas avaliações, bestsellers, clássicos do nicho.
 | Assinatura | 👑 (coroa do Achados RioMafra) |
 
 **Limites:**
-- Reels/Feed: máximo 3-4 emojis por legenda
-- WhatsApp: máximo 1-2 emojis no corpo
-- Stories: 1-2 emojis, funcional > decorativo
+- Reels/Feed: máximo 3–4 emojis por legenda
+- WhatsApp: máximo 1–2 emojis no corpo
+- Stories: 1–2 emojis, funcional > decorativo
+- Facebook: máximo 3–4 emojis (mesmo que IG)
+- TikTok: 1–2 emojis na legenda
 
 ---
 
@@ -124,6 +126,21 @@ Tom dominante: Conversa 1-a-1, íntimo
 Energia: Média (não grite no WhatsApp)
 Formato: Saudação → achado → dados → CTA
 
+### Facebook
+Tom dominante: Descoberta + Review
+Energia: Média (público mais velho, menos impulsivo que IG)
+Formato: Hook + contexto mais detalhado + preço + link nos comentários
+Particularidade: Caption pode ser mais longa que no Instagram — o público 35+ lê mais. Link do afiliado vai nos COMENTÁRIOS do post (não no corpo), para evitar penalização de alcance.
+CTA no Facebook: "Link nos comentários 👇" ou "Comenta QUERO que coloco o link direto"
+
+### TikTok
+Tom dominante: Entretenimento + Descoberta
+Energia: Alta (hook nos primeiros 3 segundos — dentro do vídeo, não na legenda)
+Formato: Caption curtíssima — emoji + produto + 1 linha + hashtags
+Particularidade: Link só na bio — a conversão acontece via link na bio → WhatsApp/grupo.
+CTA no TikTok: "Grupo de ofertas na bio 👆" ou "Link na bio pra pegar o link"
+Música: Usar áudios trending quando o produto permite. Som aumenta alcance.
+
 ---
 
 ## Assinatura Padrão
@@ -133,4 +150,9 @@ WhatsApp sempre finaliza com:
 — Achados RioMafra 👑
 ```
 
-Feed/Reels: assinatura implícita no perfil, não repetir na legenda.
+Facebook pode finalizar com:
+```
+— Achados RioMafra 👑 | Mafra-SC e Rio Negro-PR
+```
+
+Feed/Reels/TikTok: assinatura implícita no perfil, não repetir na legenda.

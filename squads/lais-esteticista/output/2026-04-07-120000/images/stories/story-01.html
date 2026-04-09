@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1080px; height: 1920px; overflow: hidden;
+      background: #FDFAF7;
+      font-family: 'Lato', sans-serif;
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: center;
+      padding: 100px 80px;
+      position: relative;
+    }
+    .tag {
+      font-size: 24px; font-weight: 700; color: #AA9176;
+      letter-spacing: 5px; text-transform: uppercase;
+      margin-bottom: 28px; text-align: center; width: 100%;
+    }
+    .accent-line { width: 60px; height: 3px; background: #BDA78D; margin: 0 auto 48px; }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 58px; font-weight: 700;
+      color: #2C2C2C; line-height: 1.2;
+      margin-bottom: 48px; text-align: center; width: 100%;
+    }
+    .list {
+      width: 100%; background: #FFFFFF;
+      border-radius: 20px; padding: 52px 60px;
+      box-shadow: 0 2px 20px rgba(170,145,118,0.10);
+    }
+    .item {
+      font-size: 38px; font-weight: 500;
+      color: #2C2C2C; line-height: 1.5;
+      padding: 20px 0;
+      border-bottom: 1px solid #EDE5DB;
+      display: flex; align-items: flex-start; gap: 20px;
+    }
+    .item:last-child { border-bottom: none; }
+    .check { color: #AA9176; font-weight: 700; flex-shrink: 0; font-size: 42px; }
+    .brand {
+      position: absolute; bottom: 52px; left: 0; right: 0;
+      text-align: center; font-size: 28px; font-weight: 500;
+      color: #BDA78D; letter-spacing: 2px;
+    }
+  </style>
+</head>
+<body>
+  <div class="tag">Drenagem Linfática</div>
+  <div class="accent-line"></div>
+  <h2>O que a drenagem linfática<br>pode fazer no lipedema:</h2>
+  <div class="list">
+    <div class="item"><span class="check">✓</span> Reduzir a sensação de peso e pressão nos membros</div>
+    <div class="item"><span class="check">✓</span> Ajudar a controlar a inflamação local</div>
+    <div class="item"><span class="check">✓</span> Aliviar o desconforto ao toque</div>
+    <div class="item"><span class="check">✓</span> Melhorar a circulação linfática com continuidade</div>
+  </div>
+  <span class="brand">@lais_esteticista</span>
+</body>
+</html>

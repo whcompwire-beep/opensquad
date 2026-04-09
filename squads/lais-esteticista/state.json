@@ -1,20 +1,23 @@
 {
   "squad": "lais-esteticista",
-  "status": "running",
-  "step": { "current": 6, "total": 10, "label": "revisao" },
+  "status": "done",
+  "step": { "current": 14, "total": 14, "label": "concluido" },
   "agents": [
     { "id": "estrategista", "name": "Estrategista de Beleza", "icon": "🎯", "status": "done", "deliverTo": null, "desk": { "col": 1, "row": 1 } },
-    { "id": "redatora", "name": "Redatora Criativa", "icon": "✍️", "status": "done", "deliverTo": null, "desk": { "col": 2, "row": 1 } },
-    { "id": "revisora", "name": "Revisora de Qualidade", "icon": "🔍", "status": "working", "deliverTo": null, "desk": { "col": 3, "row": 1 } },
-    { "id": "designer", "name": "Designer Visual", "icon": "🎨", "status": "idle", "deliverTo": null, "desk": { "col": 1, "row": 2 } },
-    { "id": "analista", "name": "Analista de Qualidade Final", "icon": "📊", "status": "idle", "deliverTo": null, "desk": { "col": 2, "row": 2 } }
+    { "id": "pesquisadora", "name": "Pesquisadora de Tendências", "icon": "🔍", "status": "done", "deliverTo": null, "desk": { "col": 2, "row": 1 } },
+    { "id": "redatora", "name": "Redatora Criativa", "icon": "✍️", "status": "done", "deliverTo": null, "desk": { "col": 3, "row": 1 } },
+    { "id": "revisora", "name": "Revisora de Qualidade", "icon": "🔎", "status": "done", "deliverTo": null, "desk": { "col": 1, "row": 2 } },
+    { "id": "designer", "name": "Designer Visual", "icon": "🎨", "status": "done", "deliverTo": null, "desk": { "col": 2, "row": 2 } },
+    { "id": "analista", "name": "Analista de Qualidade Final", "icon": "📊", "status": "done", "deliverTo": null, "desk": { "col": 3, "row": 2 } },
+    { "id": "especialista-ads", "name": "Especialista em Tráfego Pago", "icon": "📣", "status": "done", "deliverTo": null, "desk": { "col": 1, "row": 3 } }
   ],
   "handoff": {
-    "from": "redatora",
-    "to": "revisora",
-    "message": "Conteúdo aprovado pelo usuário — passando para revisão de qualidade.",
-    "completedAt": "2026-04-06T12:14:00.000Z"
+    "from": "checkpoint-ads",
+    "to": null,
+    "message": "Rodada concluída. Impulsionar: carrossel + stories. Reel e feed: orgânico.",
+    "completedAt": "2026-04-08T01:45:00Z"
   },
-  "startedAt": "2026-04-06T12:00:00.000Z",
-  "updatedAt": "2026-04-06T12:14:00.000Z"
+  "startedAt": "2026-04-07T21:36:15Z",
+  "updatedAt": "2026-04-08T01:45:00Z",
+  "completedAt": "2026-04-08T01:45:00Z"
 }

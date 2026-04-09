@@ -1,0 +1,19 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: Drenagem Linfática
+  - heading "O que a drenagem linfática pode fazer no lipedema:" [level=2] [ref=e4]:
+    - text: O que a drenagem linfática
+    - text: "pode fazer no lipedema:"
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]: ✓
+      - text: Reduzir a sensação de peso e pressão nos membros
+    - generic [ref=e8]:
+      - generic [ref=e9]: ✓
+      - text: Ajudar a controlar a inflamação local
+    - generic [ref=e10]:
+      - generic [ref=e11]: ✓
+      - text: Aliviar o desconforto ao toque
+    - generic [ref=e12]:
+      - generic [ref=e13]: ✓
+      - text: Melhorar a circulação linfática com continuidade
+  - generic [ref=e14]: "@lais_esteticista"

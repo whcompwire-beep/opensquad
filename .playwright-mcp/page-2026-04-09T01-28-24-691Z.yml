@@ -1,0 +1,2028 @@
+- generic [ref=e2]:
+  - navigation "Menu de atalhos" [ref=e3]:
+    - heading "Ir para" [level=2] [ref=e4]
+    - list "Ir para" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "conteúdo principal" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Conteúdo principal
+      - listitem [ref=e8]:
+        - link "Resultados" [ref=e9] [cursor=pointer]:
+          - /url: .s-asin a:has(h2)
+          - text: Resultados de busca
+    - separator [ref=e10]
+    - heading "Atalhos do teclado" [level=2] [ref=e11]
+    - list "Atalhos do teclado" [ref=e12]:
+      - listitem [ref=e13]:
+        - link "Pesquisa, alt, barra para frente" [ref=e14] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e15]:
+            - generic [ref=e16]: Pesquisar
+            - generic [ref=e17]:
+              - generic [ref=e18]: alt
+              - generic [ref=e19]: +
+              - generic [ref=e20]: /
+      - listitem [ref=e21]:
+        - link "Carrinho, shift, alt, c" [ref=e22] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e23]:
+            - generic [ref=e24]: Carrinho
+            - generic [ref=e25]:
+              - generic [ref=e26]: shift
+              - generic [ref=e27]: +
+              - generic [ref=e28]: alt
+              - generic [ref=e29]: +
+              - generic [ref=e30]: C
+      - listitem [ref=e31]:
+        - link "Início, shift, alt, h" [ref=e32] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e33]:
+            - generic [ref=e34]: Página inicial
+            - generic [ref=e35]:
+              - generic [ref=e36]: shift
+              - generic [ref=e37]: +
+              - generic [ref=e38]: alt
+              - generic [ref=e39]: +
+              - generic [ref=e40]: H
+      - listitem [ref=e41]:
+        - link "Seus pedidos, shift, alt, o" [ref=e42] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e43]:
+            - generic [ref=e44]: Seus Pedidos
+            - generic [ref=e45]:
+              - generic [ref=e46]: shift
+              - generic [ref=e47]: +
+              - generic [ref=e48]: alt
+              - generic [ref=e49]: +
+              - generic [ref=e50]: O
+      - listitem [ref=e51]:
+        - button "Mostrar/ocultar atalhos, shift, alt, z" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]:
+            - generic [ref=e54]: Mostrar/ocultar atalhos
+            - generic [ref=e55]:
+              - generic [ref=e56]: shift
+              - generic [ref=e57]: +
+              - generic [ref=e58]: alt
+              - generic [ref=e59]: +
+              - generic [ref=e60]: Z
+    - generic [ref=e66]: Para se mover entre os produtos, use as setas para cima ou para baixo do teclado.
+  - banner [ref=e67]:
+    - navigation "Principal" [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - link "Amazon.com.br" [ref=e72] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .com.br
+          - button "A entrega será feita em Bela Vista 01319900 Atualizar CEP" [ref=e75] [cursor=pointer]:
+            - generic [ref=e77]:
+              - generic [ref=e78]: A entrega será feita em Bela Vista 01319900
+              - generic [ref=e79]: Atualizar CEP
+        - search [ref=e82]:
+          - generic [ref=e85]:
+            - generic [ref=e87]: Cozinha
+            - combobox "Selecione o departamento que deseja pesquisar no" [ref=e89] [cursor=pointer]:
+              - option "Todos os departamentos"
+              - option "Alexa Skills"
+              - option "Alimentos e Bebidas"
+              - option "Amazon Now"
+              - option "Amazon Quase Novo"
+              - option "Apps e Jogos"
+              - option "Audiolivros Audible"
+              - option "Automotivo"
+              - option "Bebês"
+              - option "Beleza"
+              - option "Beleza de luxo"
+              - option "Bolsas, Malas e Mochilas"
+              - option "Brinquedos e Jogos"
+              - option "Casa"
+              - option "CD e Vinil"
+              - option "Computadores e Informática"
+              - option "Cozinha" [selected]
+              - option "Dispositivos Amazon"
+              - option "DVD e Blu-Ray"
+              - option "Eletrodomésticos"
+              - option "Eletrônicos"
+              - option "Esportes e Aventura"
+              - option "Ferramentas e Materiais de Construção"
+              - option "Games"
+              - option "Industrial"
+              - option "Instrumentos Musicais"
+              - option "Jardim e Piscina"
+              - option "Livros"
+              - option "Loja Kindle"
+              - option "Material para Escritório e Papelaria"
+              - option "Móveis e Decoração"
+              - option "Pet Shop"
+              - option "Prime Video"
+              - option "Programe e Poupe"
+              - option "Roupas, Calçados e Joias"
+              - option "Roupas, sapatos e joias femininas"
+              - option "Roupas, sapatos e joias masculinas"
+              - option "Roupas, sapatos e joias para meninas"
+              - option "Roupas, sapatos e joias para meninos"
+              - option "Roupas, sapatos e joias para bebês"
+              - option "Saúde e Cuidados Pessoais"
+          - searchbox "Pesquisar Amazon.com.br" [ref=e92]: electrolux kit 12 potes hermeticos retangular
+          - generic "Ir" [ref=e95] [cursor=pointer]:
+            - button "Ir" [ref=e96]
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - link "Olá, faça seu login Contas e Listas" [ref=e100] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fs%3Fk%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangulares%26i%3Dkitchen%26ref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e102]: Olá, faça seu login
+              - generic [ref=e103]: Contas e Listas
+            - button "Expandir conta e listas" [ref=e104] [cursor=pointer]
+          - link "Devoluções e Pedidos" [ref=e105] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e106]: Devoluções
+            - generic [ref=e107]: e Pedidos
+          - link "0 itens no carrinho" [ref=e108] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e110]: "0"
+            - generic [ref=e113]: Carrinho
+      - generic [ref=e114]:
+        - button "Abrir o menu Todas as categorias" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]: Todos
+        - list [ref=e122]:
+          - listitem [ref=e123]:
+            - link "Venda na Amazon" [ref=e125] [cursor=pointer]:
+              - /url: /gp/browse.html?node=17877554011&ld=ASBRSOA_retail_sell_header_t1&ref_=nav_cs_sell
+          - listitem [ref=e126]:
+            - link "Chega em 15 min" [ref=e128] [cursor=pointer]:
+              - /url: /alm/storefront?almBrandId=10zZeC1FBwm&ref_=nav_cs_amnow
+          - listitem [ref=e129]:
+            - link "Ofertas do Dia" [ref=e131] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e132]:
+            - link "Mais Vendidos" [ref=e134] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e135]:
+            - link "Games" [ref=e137] [cursor=pointer]:
+              - /url: /Games-Consoles/b/?ie=UTF8&node=7791985011&ref_=nav_cs_video_games
+          - listitem [ref=e138]:
+            - link "Livros" [ref=e140] [cursor=pointer]:
+              - /url: /Livros/b/?ie=UTF8&node=6740748011&ref_=nav_cs_books
+          - listitem [ref=e141]:
+            - generic [ref=e142]:
+              - link "Prime" [ref=e143] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Detalhes de Prime" [ref=e144] [cursor=pointer]
+          - listitem [ref=e145]:
+            - link "Música" [ref=e147] [cursor=pointer]:
+              - /url: /music/unlimited?ref_=nav_cs_music
+          - listitem [ref=e148]:
+            - link "Casa" [ref=e150] [cursor=pointer]:
+              - /url: /Casa/b/?ie=UTF8&node=16191000011&ref_=nav_cs_home
+          - listitem [ref=e151]:
+            - link "Eletrônicos" [ref=e153] [cursor=pointer]:
+              - /url: /Eletronicos-e-Tecnologia/b/?ie=UTF8&node=16209062011&ref_=nav_cs_electronics
+          - listitem [ref=e154]:
+            - link "Brinquedos e Jogos" [ref=e156] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16194299011&ref_=nav_cs_toys
+          - listitem [ref=e157]:
+            - link "Computadores" [ref=e159] [cursor=pointer]:
+              - /url: /Computadores-Informatica/b/?ie=UTF8&node=16339926011&ref_=nav_cs_pc
+          - listitem [ref=e160]:
+            - link "Beleza" [ref=e162] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16194414011&ref_=nav_cs_beauty
+          - listitem [ref=e163]:
+            - link "Mercado" [ref=e165] [cursor=pointer]:
+              - /url: /fmc/everyday-essentials/?ref_=nav_cs_ee_desktop_disco
+          - listitem [ref=e166]:
+            - link "Cuidados Pessoais" [ref=e168] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16215417011&ref_=nav_cs_hpc
+          - listitem [ref=e169]:
+            - link "Novidades na Amazon" [ref=e171] [cursor=pointer]:
+              - /url: /gp/browse.html?node=207658984011&ref_=nav_cs_mtech
+          - listitem [ref=e172]:
+            - link "Ferramentas e Construção" [ref=e174] [cursor=pointer]:
+              - /url: /Ferramentas-Construcao/b/?ie=UTF8&node=16957182011&ref_=nav_cs_hi
+          - listitem [ref=e175]:
+            - link "Bebês" [ref=e177] [cursor=pointer]:
+              - /url: /gp/browse.html?node=17242603011&ref_=nav_cs_baby
+          - listitem [ref=e178]:
+            - link "Alimentos e Bebidas" [ref=e180] [cursor=pointer]:
+              - /url: /gp/browse.html?node=18991079011&ref_=nav_cs_grocery
+          - listitem [ref=e181]:
+            - link "Amazon Moda" [ref=e183] [cursor=pointer]:
+              - /url: /gp/browse.html?node=17365811011&ref_=nav_cs_fashion
+          - listitem [ref=e184]:
+            - link "Pet Shop" [ref=e186] [cursor=pointer]:
+              - /url: /gp/browse.html?node=18991136011&ref_=nav_cs_pets
+          - listitem [ref=e187]:
+            - link "Automotivos" [ref=e189] [cursor=pointer]:
+              - /url: /gp/browse.html?node=18914209011&ref_=nav_cs_automotive
+          - listitem [ref=e190]:
+            - link "eBooks Kindle" [ref=e192] [cursor=pointer]:
+              - /url: /ebooks-kindle/b/?ie=UTF8&node=5475882011&ref_=nav_cs_kindle_books
+          - listitem [ref=e193]:
+            - link "Atendimento ao Cliente" [ref=e195] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_help
+        - link "Séries e filmes | Incluído com Prime" [ref=e198] [cursor=pointer]:
+          - /url: /r/?_encoding=UTF8&aid=bWJaNZATS7SW2guwOsqEwg&dest=https%3A%2F%2Fwww.primevideo.com%2Fregion%2Fna%2Foffers%2Fnonprimehomepage%2Fref%3Ddvm_crs_nav_br_s_swm_eg_al_np&ref_=nav_swm_undefined&pf_rd_p=fc6b1e21-e992-4ec0-9bd9-958b3379d838&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A2Q3Y263D00KWC&pf_rd_r=52T2YHH3N32H3RGQCAB3
+      - generic [ref=e199]:
+        - generic [ref=e200]:
+          - link "Cozinha" [ref=e201] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=16957125011&ref_=topnav_storetab_b
+          - link "Mais Vendidos" [ref=e202] [cursor=pointer]:
+            - /url: /gp/bestsellers/kitchen/?ie=UTF8&ref_=sv_b_1
+          - link "Ofertas" [ref=e203] [cursor=pointer]:
+            - /url: /deals/?_encoding=UTF8&bubble-id=deals-collection-kitchen&ref_=sv_b_2
+          - link "Eletrodomésticos" [ref=e204] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=16522082011&ref_=sv_b_3
+          - link "Eletroportáteis" [ref=e205] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=18327766011&ref_=sv_b_4
+          - link "Panelas" [ref=e206] [cursor=pointer]:
+            - /url: /Panelas-e-Utens%C3%ADlios-para-Cozinhar/b/?ie=UTF8&node=24417675011&ref_=sv_b_5
+          - link "Café, Chá e Espresso" [ref=e207] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=17124716011&ref_=sv_b_6
+          - link "Louças e Talheres" [ref=e208] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=17124723011&ref_=sv_b_7
+          - link "Utensílios" [ref=e209] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=17124724011&ref_=sv_b_8
+          - link "Tudo em Casa" [ref=e210] [cursor=pointer]:
+            - /url: /Casa/b/?ie=UTF8&node=16191000011&ref_=sv_b_9
+        - generic [ref=e214]:
+          - link "Faça seu login" [ref=e215] [cursor=pointer]:
+            - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fs%3Fk%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangulares%26i%3Dkitchen%26ref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+            - generic [ref=e216]: Faça seu login
+          - generic [ref=e217]:
+            - text: Cliente novo?
+            - link "Novo na Amazon? Comece aqui para criar uma conta" [ref=e218] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/ap/register?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fs%2F%3F_encoding%3DUTF8%26i%3Dkitchen%26k%3Delectrolux%2520kit%252012%2520potes%2520hermeticos%2520retangulares%26ref_%3Dnav_custrec_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - text: Comece aqui.
+      - dialog [ref=e223]
+  - generic [ref=e225]:
+    - 'heading "1-16 de mais de 2.000 resultados para \"electrolux kit 12 potes hermeticos retangular\" Classificar por: Em destaque" [level=1] [ref=e228]':
+      - generic [ref=e229]:
+        - heading "1-16 de mais de 2.000 resultados para \"electrolux kit 12 potes hermeticos retangular\"" [level=2] [ref=e234]
+        - generic [ref=e239]:
+          - generic [ref=e240]: "Classificar por:"
+          - combobox "Classificar por:" [ref=e241]:
+            - option "Em destaque" [selected]
+            - 'option "Preço: Do menor para o maior"'
+            - 'option "Preço: Do maior para o menor"'
+            - option "Méd. Avaliações de clientes"
+            - option "Lançamentos mais novos"
+            - option "Mais vendidos"
+          - generic [ref=e244] [cursor=pointer]: Classificar por:Em destaque
+    - generic [ref=e246]:
+      - generic [ref=e248]:
+        - generic [ref=e250]:
+          - generic [ref=e254]:
+            - text: Exibindo resultados para electrolux kit 12 potes hermeticos retangular
+            - link "Em vez disso, procurar por electrolux kit 12 potes hermeticos retangulares" [ref=e255] [cursor=pointer]:
+              - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangulares&i=kitchen&dc&ref=a9_asc_1
+          - generic [ref=e257]:
+            - generic [ref=e260]:
+              - heading "Resultados" [level=2] [ref=e261]
+              - generic [ref=e262]: Consulte as páginas dos produtos para ver outras opções de compra. O preço e outros detalhes variam de acordo com o tamanho e a cor do produto.
+            - generic:
+              - list:
+                - listitem [ref=e263]:
+                  - generic [ref=e271]:
+                    - link [ref=e277] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToxNTc4MzY1NjU0NjgwNDM2OjE3NzU2OTgxMDM6c3BfYXRmOjMwMTE4MDg5MzE5NjkwMjo6MDo6&url=%2FKit-Potes-Herm%25C3%25A9ticos-Organizadores-Empilh%25C3%25A1veis%2Fdp%2FB0FJCBJDBT%2Fref%3Dsr_1_1_sspa%3Fdib%3DeyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY%26dib_tag%3Dse%26keywords%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangular%26qid%3D1775698103%26s%3Dkitchen%26sr%3D1-1-spons%26ufe%3Dapp_do%253Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1
+                      - img [ref=e279]
+                    - generic [ref=e282]:
+                      - generic [ref=e283]:
+                        - button "Ver informações patrocinadas ou deixar feedback sobre o anúncio" [ref=e286] [cursor=pointer]:
+                          - generic [ref=e287]: Patrocinado
+                        - link "Anúncio patrocinado – Kit 10 Potes Herméticos Organizadores Empilháveis para Mantimentos - Pote Hermético BPA Free - Utensílios para Cozinha, Armário, Alimentos, Porta Mantimentos, Empilhável" [ref=e289] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNTc4MzY1NjU0NjgwNDM2OjE3NzU2OTgxMDM6c3BfYXRmOjMwMTE4MDg5MzE5NjkwMjo6MDo6&url=%2FKit-Potes-Herm%25C3%25A9ticos-Organizadores-Empilh%25C3%25A1veis%2Fdp%2FB0FJCBJDBT%2Fref%3Dsr_1_1_sspa%3Fdib%3DeyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY%26dib_tag%3Dse%26keywords%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangular%26qid%3D1775698103%26s%3Dkitchen%26sr%3D1-1-spons%26ufe%3Dapp_do%253Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1
+                          - heading "Anúncio patrocinado – Kit 10 Potes Herméticos Organizadores Empilháveis para Mantimentos - Pote Hermético BPA Free - Utensílios para Cozinha, Armário, Alimentos, Porta Mantimentos, Empilhável" [level=2] [ref=e290]: Kit 10 Potes Herméticos Organizadores Empilháveis para Mantimentos - Pote Hermético BPA Free - Utensílios para Cozinha, Armário, Alimentos, Porta Mantimentos, Empilhável
+                      - generic [ref=e291]:
+                        - generic [ref=e292]:
+                          - text: 4,7
+                          - button "4,7 de 5 estrelas, detalhes da classificação" [ref=e294] [cursor=pointer]:
+                            - generic [ref=e296]: 4,7 de 5 estrelas
+                          - link "118 classificações" [ref=e298] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNTc4MzY1NjU0NjgwNDM2OjE3NzU2OTgxMDM6c3BfYXRmOjMwMTE4MDg5MzE5NjkwMjo6MDo6&url=%2FKit-Potes-Herm%25C3%25A9ticos-Organizadores-Empilh%25C3%25A1veis%2Fdp%2FB0FJCBJDBT%2Fref%3Dsr_1_1_sspa%3Fdib%3DeyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY%26dib_tag%3Dse%26keywords%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangular%26qid%3D1775698103%26s%3Dkitchen%26sr%3D1-1-spons%26ufe%3Dapp_do%253Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1#customerReviews
+                            - text: (118)
+                        - generic [ref=e299]: Mais de 600 compras no mês passado
+                      - generic [ref=e302]:
+                        - generic [ref=e303]:
+                          - generic [ref=e305]:
+                            - link "R$ 123,40 R$ 129,90" [ref=e306] [cursor=pointer]:
+                              - /url: /sspa/click?ie=UTF8&spc=MToxNTc4MzY1NjU0NjgwNDM2OjE3NzU2OTgxMDM6c3BfYXRmOjMwMTE4MDg5MzE5NjkwMjo6MDo6&url=%2FKit-Potes-Herm%25C3%25A9ticos-Organizadores-Empilh%25C3%25A1veis%2Fdp%2FB0FJCBJDBT%2Fref%3Dsr_1_1_sspa%3Fdib%3DeyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY%26dib_tag%3Dse%26keywords%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangular%26qid%3D1775698103%26s%3Dkitchen%26sr%3D1-1-spons%26ufe%3Dapp_do%253Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1
+                              - generic [ref=e307]:
+                                - generic [ref=e308]: R$ 123,40
+                                - generic [ref=e309]:
+                                  - text: R$
+                                  - generic [ref=e310]:
+                                    - text: "123"
+                                    - generic [ref=e311]: ","
+                                  - text: "40"
+                              - generic [ref=e312]:
+                                - generic [ref=e313]: R$ 129,90
+                                - text: R$129,90
+                            - text: à vista no Pix ou em até 4x de
+                            - generic [ref=e314]:
+                              - generic [ref=e315]: R$ 32,47
+                              - text: R$32,47
+                            - text: sem juros
+                          - generic [ref=e316]: R$ 20,00 off
+                        - generic [ref=e323]: "Entrega GRÁTIS: sáb., 11 de abr."
+                        - button "Adicionar ao carrinho" [ref=e337] [cursor=pointer]
+                - listitem [ref=e340]:
+                  - generic [ref=e348]:
+                    - link [ref=e354] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToxNTc4MzY1NjU0NjgwNDM2OjE3NzU2OTgxMDM6c3BfYXRmOjMwMTE2NDg2MDE3NzQwMjo6MDo6&url=%2FHerm%25C3%25A9tico-Alimentos-Mantimentos-Kit-15-Vers%25C3%25A3o%2Fdp%2FB0FD3CVQNJ%2Fref%3Dsr_1_2_sspa%3Fdib%3DeyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY%26dib_tag%3Dse%26keywords%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangular%26qid%3D1775698103%26s%3Dkitchen%26sr%3D1-2-spons%26ufe%3Dapp_do%253Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1
+                      - img [ref=e356]
+                    - generic [ref=e359]:
+                      - generic [ref=e360]:
+                        - button "Ver informações patrocinadas ou deixar feedback sobre o anúncio" [ref=e363] [cursor=pointer]:
+                          - generic [ref=e364]: Patrocinado
+                        - link "Anúncio patrocinado – Potes Tampa Hermético Porta Alimentos Mantimentos Armário Cozinha (Kit 15-Versão)" [ref=e366] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNTc4MzY1NjU0NjgwNDM2OjE3NzU2OTgxMDM6c3BfYXRmOjMwMTE2NDg2MDE3NzQwMjo6MDo6&url=%2FHerm%25C3%25A9tico-Alimentos-Mantimentos-Kit-15-Vers%25C3%25A3o%2Fdp%2FB0FD3CVQNJ%2Fref%3Dsr_1_2_sspa%3Fdib%3DeyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY%26dib_tag%3Dse%26keywords%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangular%26qid%3D1775698103%26s%3Dkitchen%26sr%3D1-2-spons%26ufe%3Dapp_do%253Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1
+                          - heading "Anúncio patrocinado – Potes Tampa Hermético Porta Alimentos Mantimentos Armário Cozinha (Kit 15-Versão)" [level=2] [ref=e367]: Potes Tampa Hermético Porta Alimentos Mantimentos Armário Cozinha (Kit 15-Versão)
+                      - generic [ref=e368]:
+                        - generic [ref=e369]:
+                          - text: 4,6
+                          - button "4,6 de 5 estrelas, detalhes da classificação" [ref=e371] [cursor=pointer]:
+                            - generic [ref=e373]: 4,6 de 5 estrelas
+                          - link "3.364 classificações" [ref=e375] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MToxNTc4MzY1NjU0NjgwNDM2OjE3NzU2OTgxMDM6c3BfYXRmOjMwMTE2NDg2MDE3NzQwMjo6MDo6&url=%2FHerm%25C3%25A9tico-Alimentos-Mantimentos-Kit-15-Vers%25C3%25A3o%2Fdp%2FB0FD3CVQNJ%2Fref%3Dsr_1_2_sspa%3Fdib%3DeyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY%26dib_tag%3Dse%26keywords%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangular%26qid%3D1775698103%26s%3Dkitchen%26sr%3D1-2-spons%26ufe%3Dapp_do%253Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1#customerReviews
+                            - text: (3,3 mil)
+                        - generic [ref=e376]: Mais de 300 compras no mês passado
+                      - generic [ref=e379]:
+                        - generic [ref=e380]:
+                          - generic [ref=e381]:
+                            - generic [ref=e382]:
+                              - generic [ref=e383]: Preço, página do produto
+                              - link "R$ 129,99" [ref=e384] [cursor=pointer]:
+                                - /url: /sspa/click?ie=UTF8&spc=MToxNTc4MzY1NjU0NjgwNDM2OjE3NzU2OTgxMDM6c3BfYXRmOjMwMTE2NDg2MDE3NzQwMjo6MDo6&url=%2FHerm%25C3%25A9tico-Alimentos-Mantimentos-Kit-15-Vers%25C3%25A3o%2Fdp%2FB0FD3CVQNJ%2Fref%3Dsr_1_2_sspa%3Fdib%3DeyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY%26dib_tag%3Dse%26keywords%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangular%26qid%3D1775698103%26s%3Dkitchen%26sr%3D1-2-spons%26ufe%3Dapp_do%253Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1
+                                - generic [ref=e385]:
+                                  - generic [ref=e386]: R$ 129,99
+                                  - generic [ref=e387]:
+                                    - text: R$
+                                    - generic [ref=e388]:
+                                      - text: "129"
+                                      - generic [ref=e389]: ","
+                                    - text: "99"
+                            - generic [ref=e390]:
+                              - text: em até 4x de
+                              - generic [ref=e391]:
+                                - generic [ref=e392]: R$ 32,49
+                                - text: R$32,49
+                              - text: sem juros
+                          - generic [ref=e393]: R$ 20,00 off
+                        - generic [ref=e400]: "Entrega GRÁTIS: sáb., 11 de abr."
+                        - button "Adicionar ao carrinho" [ref=e414] [cursor=pointer]
+                - listitem [ref=e417]:
+                  - generic [ref=e423]:
+                    - generic [ref=e425]:
+                      - group "Mais vendidoem Jogos de Armazenamento e Organização de Cozinha" [ref=e431]:
+                        - generic "Mais vendido" [ref=e433]
+                      - link [ref=e437] [cursor=pointer]:
+                        - /url: /Kit-Potes-Herm%C3%A9ticos-Pl%C3%A1stico-Electrolux/dp/B09XJL4B9H/ref=sr_1_3?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-3&ufe=app_do%3Aamzn1.fos.b07885ca-1112-4aa2-9643-2c998a360229
+                        - img [ref=e439]
+                    - generic [ref=e442]:
+                      - link "Electrolux Kit 12 Potes Herméticos de Plástico Retangulares, Multiuso, Vedação Silicone, BPA Free, Porta Mantimentos" [ref=e444] [cursor=pointer]:
+                        - /url: /Kit-Potes-Herm%C3%A9ticos-Pl%C3%A1stico-Electrolux/dp/B09XJL4B9H/ref=sr_1_3?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-3&ufe=app_do%3Aamzn1.fos.b07885ca-1112-4aa2-9643-2c998a360229
+                        - heading "Electrolux Kit 12 Potes Herméticos de Plástico Retangulares, Multiuso, Vedação Silicone, BPA Free, Porta Mantimentos" [level=2] [ref=e445]
+                      - generic [ref=e446]:
+                        - generic [ref=e447]:
+                          - text: 4,9
+                          - button "4,9 de 5 estrelas, detalhes da classificação" [ref=e449] [cursor=pointer]:
+                            - generic [ref=e451]: 4,9 de 5 estrelas
+                          - link "50.584 classificações" [ref=e453] [cursor=pointer]:
+                            - /url: /Kit-Potes-Herm%C3%A9ticos-Pl%C3%A1stico-Electrolux/dp/B09XJL4B9H/ref=sr_1_3?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-3&ufe=app_do%3Aamzn1.fos.b07885ca-1112-4aa2-9643-2c998a360229#customerReviews
+                            - text: (50,5 mil)
+                        - generic [ref=e454]: Mais de 10 mil compras no mês passado
+                      - generic [ref=e457]:
+                        - generic [ref=e458]:
+                          - generic [ref=e460]:
+                            - link "R$ 88,10 R$ 129,90" [ref=e461] [cursor=pointer]:
+                              - /url: /Kit-Potes-Herm%C3%A9ticos-Pl%C3%A1stico-Electrolux/dp/B09XJL4B9H/ref=sr_1_3?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-3&ufe=app_do%3Aamzn1.fos.b07885ca-1112-4aa2-9643-2c998a360229
+                              - generic [ref=e462]:
+                                - generic [ref=e463]: R$ 88,10
+                                - generic [ref=e464]:
+                                  - text: R$
+                                  - generic [ref=e465]:
+                                    - text: "88"
+                                    - generic [ref=e466]: ","
+                                  - text: "10"
+                              - generic [ref=e467]:
+                                - generic [ref=e468]: R$ 129,90
+                                - text: R$129,90
+                            - text: à vista no Pix ou NuPay Limite Adicional ou em até 2x de
+                            - generic [ref=e469]:
+                              - generic [ref=e470]: R$ 44,95
+                              - text: R$44,95
+                            - text: sem juros
+                          - generic [ref=e471]: R$ 20,00 off
+                        - generic [ref=e478]: "Entrega GRÁTIS: sex., 10 de abr."
+                        - button "Adicionar ao carrinho" [ref=e492] [cursor=pointer]
+                - listitem [ref=e495]:
+                  - generic [ref=e501]:
+                    - link [ref=e507] [cursor=pointer]:
+                      - /url: /Electrolux-Herm%C3%A9ticos-Pl%C3%A1stico-Retangular-Mantimentos/dp/B0FVJWQ3PX/ref=sr_1_4?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-4&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74
+                      - img [ref=e509]
+                    - generic [ref=e512]:
+                      - link "Electrolux Kit 16 Potes Herméticos de Plástico Retangular, Multiuso, Vedação Silicone, BPA Free, Porta Mantimentos" [ref=e514] [cursor=pointer]:
+                        - /url: /Electrolux-Herm%C3%A9ticos-Pl%C3%A1stico-Retangular-Mantimentos/dp/B0FVJWQ3PX/ref=sr_1_4?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-4&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74
+                        - heading "Electrolux Kit 16 Potes Herméticos de Plástico Retangular, Multiuso, Vedação Silicone, BPA Free, Porta Mantimentos" [level=2] [ref=e515]
+                      - generic [ref=e516]:
+                        - generic [ref=e517]:
+                          - text: 5,0
+                          - button "5,0 de 5 estrelas, detalhes da classificação" [ref=e519] [cursor=pointer]:
+                            - generic [ref=e521]: 5,0 de 5 estrelas
+                          - link "222 classificações" [ref=e523] [cursor=pointer]:
+                            - /url: /Electrolux-Herm%C3%A9ticos-Pl%C3%A1stico-Retangular-Mantimentos/dp/B0FVJWQ3PX/ref=sr_1_4?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-4&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74#customerReviews
+                            - text: (222)
+                        - generic [ref=e524]: Mais de 600 compras no mês passado
+                      - generic [ref=e527]:
+                        - generic [ref=e528]:
+                          - generic [ref=e529]:
+                            - generic [ref=e530]:
+                              - generic [ref=e531]: Preço, página do produto
+                              - link "R$ 138,43" [ref=e532] [cursor=pointer]:
+                                - /url: /Electrolux-Herm%C3%A9ticos-Pl%C3%A1stico-Retangular-Mantimentos/dp/B0FVJWQ3PX/ref=sr_1_4?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-4&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74
+                                - generic [ref=e533]:
+                                  - generic [ref=e534]: R$ 138,43
+                                  - generic [ref=e535]:
+                                    - text: R$
+                                    - generic [ref=e536]:
+                                      - text: "138"
+                                      - generic [ref=e537]: ","
+                                    - text: "43"
+                            - generic [ref=e538]:
+                              - text: em até 4x de
+                              - generic [ref=e539]:
+                                - generic [ref=e540]: R$ 34,60
+                                - text: R$34,60
+                              - text: sem juros
+                          - generic [ref=e541]: R$ 20,00 off
+                        - generic [ref=e548]: "Entrega GRÁTIS: sáb., 11 de abr."
+                        - button "Adicionar ao carrinho" [ref=e562] [cursor=pointer]
+                - listitem [ref=e565]:
+                  - generic [ref=e571]:
+                    - generic [ref=e573]:
+                      - group "Mais vendidoem Jogos de Armazenamento e Organização de Cozinha" [ref=e579]:
+                        - generic "Mais vendido" [ref=e581]
+                      - link [ref=e585] [cursor=pointer]:
+                        - /url: /Kit-Potes-para-Alimentos-Electrolux/dp/B0784CLYGQ/ref=sr_1_5?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-5
+                        - img [ref=e587]
+                    - generic [ref=e590]:
+                      - link "Electrolux Kit 10 Potes Herméticos de Plástico Quadrados e Retangulares, Vedação Silicone, BPA Free, Porta Mantimentos" [ref=e592] [cursor=pointer]:
+                        - /url: /Kit-Potes-para-Alimentos-Electrolux/dp/B0784CLYGQ/ref=sr_1_5?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-5
+                        - heading "Electrolux Kit 10 Potes Herméticos de Plástico Quadrados e Retangulares, Vedação Silicone, BPA Free, Porta Mantimentos" [level=2] [ref=e593]
+                      - generic [ref=e594]:
+                        - generic [ref=e595]: N.º 1 entre os melhores avaliados
+                        - generic [ref=e596]:
+                          - text: 4,9
+                          - button "4,9 de 5 estrelas, detalhes da classificação" [ref=e598] [cursor=pointer]:
+                            - generic [ref=e600]: 4,9 de 5 estrelas
+                          - link "50.584 classificações" [ref=e602] [cursor=pointer]:
+                            - /url: /Kit-Potes-para-Alimentos-Electrolux/dp/B0784CLYGQ/ref=sr_1_5?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-5#customerReviews
+                            - text: (50,5 mil)
+                        - generic [ref=e603]: Mais de 1 mil compras no mês passado
+                      - generic [ref=e606]:
+                        - generic [ref=e607]:
+                          - generic [ref=e609]:
+                            - link "R$ 78,29 R$ 85,90" [ref=e610] [cursor=pointer]:
+                              - /url: /Kit-Potes-para-Alimentos-Electrolux/dp/B0784CLYGQ/ref=sr_1_5?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-5
+                              - generic [ref=e611]:
+                                - generic [ref=e612]: R$ 78,29
+                                - generic [ref=e613]:
+                                  - text: R$
+                                  - generic [ref=e614]:
+                                    - text: "78"
+                                    - generic [ref=e615]: ","
+                                  - text: "29"
+                              - generic [ref=e616]:
+                                - generic [ref=e617]: R$ 85,90
+                                - text: R$85,90
+                            - text: à vista no Pix ou NuPay Limite Adicional
+                          - generic [ref=e618]: R$ 20,00 off
+                        - generic [ref=e625]: "Entrega GRÁTIS: sáb., 11 de abr."
+                        - button "Adicionar ao carrinho" [ref=e639] [cursor=pointer]
+                - listitem [ref=e642]:
+                  - generic [ref=e648]:
+                    - link [ref=e654] [cursor=pointer]:
+                      - /url: /Kit-Potes-Herm%C3%A9ticos-Pl%C3%A1stico-Electrolux/dp/B09XJK1XS1/ref=sr_1_6?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-6
+                      - img [ref=e656]
+                    - generic [ref=e659]:
+                      - link "Electrolux Kit 8 Potes Herméticos de Plástico Retangulares, Multiuso, Vedação Silicone, BPA Free, Porta Mantimentos" [ref=e661] [cursor=pointer]:
+                        - /url: /Kit-Potes-Herm%C3%A9ticos-Pl%C3%A1stico-Electrolux/dp/B09XJK1XS1/ref=sr_1_6?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-6
+                        - heading "Electrolux Kit 8 Potes Herméticos de Plástico Retangulares, Multiuso, Vedação Silicone, BPA Free, Porta Mantimentos" [level=2] [ref=e662]
+                      - generic [ref=e663]:
+                        - generic [ref=e664]:
+                          - text: 4,8
+                          - button "4,8 de 5 estrelas, detalhes da classificação" [ref=e666] [cursor=pointer]:
+                            - generic [ref=e668]: 4,8 de 5 estrelas
+                          - link "2.887 classificações" [ref=e670] [cursor=pointer]:
+                            - /url: /Kit-Potes-Herm%C3%A9ticos-Pl%C3%A1stico-Electrolux/dp/B09XJK1XS1/ref=sr_1_6?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-6#customerReviews
+                            - text: (2,8 mil)
+                        - generic [ref=e671]: Mais de 700 compras no mês passado
+                      - generic [ref=e674]:
+                        - generic [ref=e675]:
+                          - generic [ref=e677]:
+                            - generic [ref=e678]: Preço, página do produto
+                            - 'link "R$ 63,70 De: R$ 89,90 De: R$ 89,90" [ref=e679] [cursor=pointer]':
+                              - /url: /Kit-Potes-Herm%C3%A9ticos-Pl%C3%A1stico-Electrolux/dp/B09XJK1XS1/ref=sr_1_6?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-6
+                              - generic [ref=e680]:
+                                - generic [ref=e681]: R$ 63,70
+                                - generic [ref=e682]:
+                                  - text: R$
+                                  - generic [ref=e683]:
+                                    - text: "63"
+                                    - generic [ref=e684]: ","
+                                  - text: "70"
+                              - generic [ref=e685]: "De: R$ 89,90"
+                              - generic [ref=e686]:
+                                - text: "De:"
+                                - generic [ref=e687]:
+                                  - generic [ref=e688]: R$ 89,90
+                                  - text: R$89,90
+                          - generic [ref=e689]: R$ 20,00 off
+                        - generic [ref=e692]:
+                          - generic [ref=e696]: "Entrega GRÁTIS: sáb., 11 de abr."
+                          - generic [ref=e698]: "Ou entrega mais rápida: sex., 10 de abr."
+                        - button "Adicionar ao carrinho" [ref=e712] [cursor=pointer]
+                - listitem [ref=e715]:
+                  - generic [ref=e721]:
+                    - generic [ref=e723]:
+                      - group "Mais vendidoem Potes e Porta-Mantimentos" [ref=e729]:
+                        - generic "Mais vendido" [ref=e731]
+                      - link [ref=e735] [cursor=pointer]:
+                        - /url: /Potes-Vidro-Retangular-Tampa-Herm%C3%A9tica/dp/B08CPW5BR2/ref=sr_1_7?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-7&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9
+                        - img [ref=e737]
+                    - generic [ref=e740]:
+                      - link "Gato Panda KIT 5 Potes de Vidro Retangular com Tampa Hermética 640ml Branco ou Azul" [ref=e742] [cursor=pointer]:
+                        - /url: /Potes-Vidro-Retangular-Tampa-Herm%C3%A9tica/dp/B08CPW5BR2/ref=sr_1_7?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-7&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9
+                        - heading "Gato Panda KIT 5 Potes de Vidro Retangular com Tampa Hermética 640ml Branco ou Azul" [level=2] [ref=e743]
+                      - generic [ref=e744]:
+                        - generic [ref=e745]:
+                          - text: 4,8
+                          - button "4,8 de 5 estrelas, detalhes da classificação" [ref=e747] [cursor=pointer]:
+                            - generic [ref=e749]: 4,8 de 5 estrelas
+                          - link "1.181 classificações" [ref=e751] [cursor=pointer]:
+                            - /url: /Potes-Vidro-Retangular-Tampa-Herm%C3%A9tica/dp/B08CPW5BR2/ref=sr_1_7?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-7&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9#customerReviews
+                            - text: (1,1 mil)
+                        - generic [ref=e752]: Mais de 10 mil compras no mês passado
+                      - generic [ref=e755]:
+                        - generic [ref=e756]:
+                          - generic [ref=e757]:
+                            - generic [ref=e758]:
+                              - generic [ref=e759]: Preço, página do produto
+                              - 'link "R$ 71,00 De: R$ 99,00 De: R$ 99,00" [ref=e760] [cursor=pointer]':
+                                - /url: /Potes-Vidro-Retangular-Tampa-Herm%C3%A9tica/dp/B08CPW5BR2/ref=sr_1_7?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-7&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9
+                                - generic [ref=e761]:
+                                  - generic [ref=e762]: R$ 71,00
+                                  - generic [ref=e763]:
+                                    - text: R$
+                                    - generic [ref=e764]:
+                                      - text: "71"
+                                      - generic [ref=e765]: ","
+                                    - text: "00"
+                                - generic [ref=e766]: "De: R$ 99,00"
+                                - generic [ref=e767]:
+                                  - text: "De:"
+                                  - generic [ref=e768]:
+                                    - generic [ref=e769]: R$ 99,00
+                                    - text: R$99,00
+                            - generic [ref=e770]:
+                              - text: em até 2x de
+                              - generic [ref=e771]:
+                                - generic [ref=e772]: R$ 35,50
+                                - text: R$35,50
+                              - text: sem juros
+                          - generic [ref=e773]: R$ 20,00 off
+                        - generic [ref=e780]: "Entrega GRÁTIS: Amanhã, 9 de abr."
+                        - button "Adicionar ao carrinho" [ref=e794] [cursor=pointer]
+                        - generic [ref=e796]:
+                          - text: Mais opções de compra
+                          - text: R$ 69,00
+                          - link "(2 ofertas de novos)" [ref=e798] [cursor=pointer]:
+                            - /url: /gp/offer-listing/B08CPW5BR2/ref=sr_1_7_olp?s=kitchen&keywords=electrolux+kit+12+potes+hermeticos+retangular&dib_tag=se&dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&qid=1775698103&sr=1-7
+                - listitem [ref=e801]:
+                  - generic [ref=e807]:
+                    - link [ref=e813] [cursor=pointer]:
+                      - /url: /Potes-Herm%C3%A9ticos-Porta-Mantimentos-Tampa-Electrolux/dp/B084CV7BT5/ref=sr_1_8?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-8
+                      - img [ref=e815]
+                    - generic [ref=e818]:
+                      - link "Electrolux Kit 4 Potes de Vidro Herméticos Porta-Mantimentos com Tampa em Inox" [ref=e820] [cursor=pointer]:
+                        - /url: /Potes-Herm%C3%A9ticos-Porta-Mantimentos-Tampa-Electrolux/dp/B084CV7BT5/ref=sr_1_8?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-8
+                        - heading "Electrolux Kit 4 Potes de Vidro Herméticos Porta-Mantimentos com Tampa em Inox" [level=2] [ref=e821]
+                      - generic [ref=e822]:
+                        - generic [ref=e823]: N.º 1 entre os melhores avaliados
+                        - generic [ref=e824]:
+                          - text: 4,8
+                          - button "4,8 de 5 estrelas, detalhes da classificação" [ref=e826] [cursor=pointer]:
+                            - generic [ref=e828]: 4,8 de 5 estrelas
+                          - link "11.694 classificações" [ref=e830] [cursor=pointer]:
+                            - /url: /Potes-Herm%C3%A9ticos-Porta-Mantimentos-Tampa-Electrolux/dp/B084CV7BT5/ref=sr_1_8?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-8#customerReviews
+                            - text: (11,6 mil)
+                        - generic [ref=e831]: Mais de 500 compras no mês passado
+                      - generic [ref=e834]:
+                        - generic [ref=e835]:
+                          - generic [ref=e837]:
+                            - generic [ref=e838]: Preço, página do produto
+                            - 'link "R$ 85,00 De: R$ 119,90 De: R$ 119,90" [ref=e839] [cursor=pointer]':
+                              - /url: /Potes-Herm%C3%A9ticos-Porta-Mantimentos-Tampa-Electrolux/dp/B084CV7BT5/ref=sr_1_8?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-8
+                              - generic [ref=e840]:
+                                - generic [ref=e841]: R$ 85,00
+                                - generic [ref=e842]:
+                                  - text: R$
+                                  - generic [ref=e843]:
+                                    - text: "85"
+                                    - generic [ref=e844]: ","
+                                  - text: "00"
+                              - generic [ref=e845]: "De: R$ 119,90"
+                              - generic [ref=e846]:
+                                - text: "De:"
+                                - generic [ref=e847]:
+                                  - generic [ref=e848]: R$ 119,90
+                                  - text: R$119,90
+                          - generic [ref=e849]: R$ 20,00 off
+                        - generic [ref=e850]:
+                          - generic [ref=e856]: "Entrega GRÁTIS: ter., 14 de abr."
+                          - generic "Somente 5 em estoque." [ref=e858]
+                        - button "Adicionar ao carrinho" [ref=e872] [cursor=pointer]
+                - listitem [ref=e875]:
+                  - generic [ref=e881]:
+                    - link [ref=e887] [cursor=pointer]:
+                      - /url: /GATO-PANDA-Retangulares-Herm%C3%A9tica-Borossilicato/dp/B0FQPJSWRW/ref=sr_1_9?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-9&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e
+                      - img [ref=e889]
+                    - generic [ref=e892]:
+                      - link "GATO PANDA Potes de Vidro Retangulares com Tampa Hermética, 640ml, Vidro Borossilicato, Kit com 4, 5, 6, 10 ou 12 Unidades (Azul)" [ref=e894] [cursor=pointer]:
+                        - /url: /GATO-PANDA-Retangulares-Herm%C3%A9tica-Borossilicato/dp/B0FQPJSWRW/ref=sr_1_9?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-9&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e
+                        - heading "GATO PANDA Potes de Vidro Retangulares com Tampa Hermética, 640ml, Vidro Borossilicato, Kit com 4, 5, 6, 10 ou 12 Unidades (Azul)" [level=2] [ref=e895]
+                      - generic [ref=e896]:
+                        - generic [ref=e897]:
+                          - text: 4,7
+                          - button "4,7 de 5 estrelas, detalhes da classificação" [ref=e899] [cursor=pointer]:
+                            - generic [ref=e901]: 4,7 de 5 estrelas
+                          - link "3.284 classificações" [ref=e903] [cursor=pointer]:
+                            - /url: /GATO-PANDA-Retangulares-Herm%C3%A9tica-Borossilicato/dp/B0FQPJSWRW/ref=sr_1_9?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-9&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e#customerReviews
+                            - text: (3,2 mil)
+                        - generic [ref=e904]: Mais de 100 compras no mês passado
+                      - generic [ref=e907]:
+                        - generic [ref=e908]:
+                          - generic [ref=e909]:
+                            - generic [ref=e910]:
+                              - generic [ref=e911]: Preço, página do produto
+                              - link "R$ 149,00" [ref=e912] [cursor=pointer]:
+                                - /url: /GATO-PANDA-Retangulares-Herm%C3%A9tica-Borossilicato/dp/B0FQPJSWRW/ref=sr_1_9?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-9&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e
+                                - generic [ref=e913]:
+                                  - generic [ref=e914]: R$ 149,00
+                                  - generic [ref=e915]:
+                                    - text: R$
+                                    - generic [ref=e916]:
+                                      - text: "149"
+                                      - generic [ref=e917]: ","
+                                    - text: "00"
+                            - generic [ref=e918]:
+                              - text: em até 12x de
+                              - generic [ref=e919]:
+                                - generic [ref=e920]: R$ 13,90
+                                - text: R$13,90
+                              - text: com juros
+                          - generic [ref=e921]: R$ 20,00 off
+                        - generic [ref=e928]: "Entrega GRÁTIS: sáb., 11 de abr."
+                        - button "Adicionar ao carrinho" [ref=e942] [cursor=pointer]
+                - listitem [ref=e945]:
+                  - generic [ref=e951]:
+                    - link [ref=e957] [cursor=pointer]:
+                      - /url: /Potes-Plastico-Hermeticos-Electrolux-Pecas/dp/B0D2WDQW8X/ref=sr_1_10?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-10&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12
+                      - img [ref=e959]
+                    - generic [ref=e962]:
+                      - link "Kit Potes Plastico Hermeticos Electrolux 12 Pecas" [ref=e964] [cursor=pointer]:
+                        - /url: /Potes-Plastico-Hermeticos-Electrolux-Pecas/dp/B0D2WDQW8X/ref=sr_1_10?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-10&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12
+                        - heading "Kit Potes Plastico Hermeticos Electrolux 12 Pecas" [level=2] [ref=e965]
+                      - generic [ref=e967]:
+                        - text: 5,0
+                        - button "5,0 de 5 estrelas, detalhes da classificação" [ref=e969] [cursor=pointer]:
+                          - generic [ref=e971]: 5,0 de 5 estrelas
+                        - link "3 classificações" [ref=e973] [cursor=pointer]:
+                          - /url: /Potes-Plastico-Hermeticos-Electrolux-Pecas/dp/B0D2WDQW8X/ref=sr_1_10?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-10&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12#customerReviews
+                          - text: (3)
+                      - generic [ref=e976]:
+                        - generic [ref=e977]:
+                          - generic [ref=e978]:
+                            - generic [ref=e979]:
+                              - generic [ref=e980]: Preço, página do produto
+                              - link "R$ 158,14" [ref=e981] [cursor=pointer]:
+                                - /url: /Potes-Plastico-Hermeticos-Electrolux-Pecas/dp/B0D2WDQW8X/ref=sr_1_10?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-10&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12
+                                - generic [ref=e982]:
+                                  - generic [ref=e983]: R$ 158,14
+                                  - generic [ref=e984]:
+                                    - text: R$
+                                    - generic [ref=e985]:
+                                      - text: "158"
+                                      - generic [ref=e986]: ","
+                                    - text: "14"
+                            - generic [ref=e987]:
+                              - text: em até 5x de
+                              - generic [ref=e988]:
+                                - generic [ref=e989]: R$ 31,62
+                                - text: R$31,62
+                              - text: sem juros
+                          - generic [ref=e990]: R$ 20,00 off
+                        - generic [ref=e997]: "Entrega GRÁTIS: 16 - 20 de abr."
+                        - button "Adicionar ao carrinho" [ref=e1011] [cursor=pointer]
+                - listitem [ref=e1014]:
+                  - generic [ref=e1022]:
+                    - link [ref=e1028] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToxNTc4MzY1NjU0NjgwNDM2OjE3NzU2OTgxMDM6c3BfbXRmOjMwMTIwMDU3MDc1NjIwMjo6MDo6&url=%2FPotes-Herm%25C3%25A9ticos-Mantimentos-Quadrado-Cozinha%2Fdp%2FB0GRCS3F72%2Fref%3Dsr_1_11_sspa%3Fdib%3DeyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY%26dib_tag%3Dse%26keywords%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangular%26qid%3D1775698103%26s%3Dkitchen%26sr%3D1-11-spons%26ufe%3Dapp_do%253Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1
+                      - img [ref=e1030]
+                    - generic [ref=e1033]:
+                      - generic [ref=e1034]:
+                        - button "Ver informações patrocinadas ou deixar feedback sobre o anúncio" [ref=e1037] [cursor=pointer]:
+                          - generic [ref=e1038]: Patrocinado
+                        - link "Anúncio patrocinado – Kit 12 Potes Herméticos Porta Mantimentos Quadrado Cozinha" [ref=e1040] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNTc4MzY1NjU0NjgwNDM2OjE3NzU2OTgxMDM6c3BfbXRmOjMwMTIwMDU3MDc1NjIwMjo6MDo6&url=%2FPotes-Herm%25C3%25A9ticos-Mantimentos-Quadrado-Cozinha%2Fdp%2FB0GRCS3F72%2Fref%3Dsr_1_11_sspa%3Fdib%3DeyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY%26dib_tag%3Dse%26keywords%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangular%26qid%3D1775698103%26s%3Dkitchen%26sr%3D1-11-spons%26ufe%3Dapp_do%253Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1
+                          - heading "Anúncio patrocinado – Kit 12 Potes Herméticos Porta Mantimentos Quadrado Cozinha" [level=2] [ref=e1041]: Kit 12 Potes Herméticos Porta Mantimentos Quadrado Cozinha
+                      - generic [ref=e1043]:
+                        - text: 2,0
+                        - button "2,0 de 5 estrelas, detalhes da classificação" [ref=e1045] [cursor=pointer]:
+                          - generic [ref=e1047]: 2,0 de 5 estrelas
+                        - link "1 classificações" [ref=e1049] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNTc4MzY1NjU0NjgwNDM2OjE3NzU2OTgxMDM6c3BfbXRmOjMwMTIwMDU3MDc1NjIwMjo6MDo6&url=%2FPotes-Herm%25C3%25A9ticos-Mantimentos-Quadrado-Cozinha%2Fdp%2FB0GRCS3F72%2Fref%3Dsr_1_11_sspa%3Fdib%3DeyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY%26dib_tag%3Dse%26keywords%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangular%26qid%3D1775698103%26s%3Dkitchen%26sr%3D1-11-spons%26ufe%3Dapp_do%253Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1#customerReviews
+                          - text: (1)
+                      - generic [ref=e1052]:
+                        - generic [ref=e1053]:
+                          - generic [ref=e1054]:
+                            - generic [ref=e1055]:
+                              - generic [ref=e1056]: Preço, página do produto
+                              - link "R$ 134,90" [ref=e1057] [cursor=pointer]:
+                                - /url: /sspa/click?ie=UTF8&spc=MToxNTc4MzY1NjU0NjgwNDM2OjE3NzU2OTgxMDM6c3BfbXRmOjMwMTIwMDU3MDc1NjIwMjo6MDo6&url=%2FPotes-Herm%25C3%25A9ticos-Mantimentos-Quadrado-Cozinha%2Fdp%2FB0GRCS3F72%2Fref%3Dsr_1_11_sspa%3Fdib%3DeyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY%26dib_tag%3Dse%26keywords%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangular%26qid%3D1775698103%26s%3Dkitchen%26sr%3D1-11-spons%26ufe%3Dapp_do%253Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1
+                                - generic [ref=e1058]:
+                                  - generic [ref=e1059]: R$ 134,90
+                                  - generic [ref=e1060]:
+                                    - text: R$
+                                    - generic [ref=e1061]:
+                                      - text: "134"
+                                      - generic [ref=e1062]: ","
+                                    - text: "90"
+                            - generic [ref=e1063]:
+                              - text: em até 4x de
+                              - generic [ref=e1064]:
+                                - generic [ref=e1065]: R$ 33,72
+                                - text: R$33,72
+                              - text: sem juros
+                          - generic [ref=e1066]: R$ 20,00 off
+                        - generic [ref=e1073]: "Entrega GRÁTIS: sáb., 11 de abr."
+                        - button "Adicionar ao carrinho" [ref=e1087] [cursor=pointer]
+                - listitem [ref=e1090]:
+                  - generic [ref=e1098]:
+                    - link [ref=e1104] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToxNTc4MzY1NjU0NjgwNDM2OjE3NzU2OTgxMDM6c3BfbXRmOjMwMDE2MjQyMzcyMjMwMjo6MDo6&url=%2FConjunto-Potes-Herm%25C3%25A9ticos-Trava-Plas%25C3%25BAtil%2Fdp%2FB0CTWH41JN%2Fref%3Dsr_1_12_sspa%3Fdib%3DeyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY%26dib_tag%3Dse%26keywords%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangular%26qid%3D1775698103%26s%3Dkitchen%26sr%3D1-12-spons%26ufe%3Dapp_do%253Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1
+                      - img [ref=e1106]
+                    - generic [ref=e1109]:
+                      - generic [ref=e1110]:
+                        - button "Ver informações patrocinadas ou deixar feedback sobre o anúncio" [ref=e1113] [cursor=pointer]:
+                          - generic [ref=e1114]: Patrocinado
+                        - link "Anúncio patrocinado – Conjunto de 12 Potes Herméticos Trava Mais, Plasútil" [ref=e1116] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNTc4MzY1NjU0NjgwNDM2OjE3NzU2OTgxMDM6c3BfbXRmOjMwMDE2MjQyMzcyMjMwMjo6MDo6&url=%2FConjunto-Potes-Herm%25C3%25A9ticos-Trava-Plas%25C3%25BAtil%2Fdp%2FB0CTWH41JN%2Fref%3Dsr_1_12_sspa%3Fdib%3DeyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY%26dib_tag%3Dse%26keywords%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangular%26qid%3D1775698103%26s%3Dkitchen%26sr%3D1-12-spons%26ufe%3Dapp_do%253Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1
+                          - heading "Anúncio patrocinado – Conjunto de 12 Potes Herméticos Trava Mais, Plasútil" [level=2] [ref=e1117]: Conjunto de 12 Potes Herméticos Trava Mais, Plasútil
+                      - generic [ref=e1119]:
+                        - text: 4,7
+                        - button "4,7 de 5 estrelas, detalhes da classificação" [ref=e1121] [cursor=pointer]:
+                          - generic [ref=e1123]: 4,7 de 5 estrelas
+                        - link "154 classificações" [ref=e1125] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNTc4MzY1NjU0NjgwNDM2OjE3NzU2OTgxMDM6c3BfbXRmOjMwMDE2MjQyMzcyMjMwMjo6MDo6&url=%2FConjunto-Potes-Herm%25C3%25A9ticos-Trava-Plas%25C3%25BAtil%2Fdp%2FB0CTWH41JN%2Fref%3Dsr_1_12_sspa%3Fdib%3DeyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY%26dib_tag%3Dse%26keywords%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangular%26qid%3D1775698103%26s%3Dkitchen%26sr%3D1-12-spons%26ufe%3Dapp_do%253Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1#customerReviews
+                          - text: (154)
+                      - generic [ref=e1128]:
+                        - generic [ref=e1129]:
+                          - generic [ref=e1131]:
+                            - link "R$ 115,80 R$ 139,90" [ref=e1132] [cursor=pointer]:
+                              - /url: /sspa/click?ie=UTF8&spc=MToxNTc4MzY1NjU0NjgwNDM2OjE3NzU2OTgxMDM6c3BfbXRmOjMwMDE2MjQyMzcyMjMwMjo6MDo6&url=%2FConjunto-Potes-Herm%25C3%25A9ticos-Trava-Plas%25C3%25BAtil%2Fdp%2FB0CTWH41JN%2Fref%3Dsr_1_12_sspa%3Fdib%3DeyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY%26dib_tag%3Dse%26keywords%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangular%26qid%3D1775698103%26s%3Dkitchen%26sr%3D1-12-spons%26ufe%3Dapp_do%253Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1
+                              - generic [ref=e1133]:
+                                - generic [ref=e1134]: R$ 115,80
+                                - generic [ref=e1135]:
+                                  - text: R$
+                                  - generic [ref=e1136]:
+                                    - text: "115"
+                                    - generic [ref=e1137]: ","
+                                  - text: "80"
+                              - generic [ref=e1138]:
+                                - generic [ref=e1139]: R$ 139,90
+                                - text: R$139,90
+                            - text: à vista no Pix ou NuPay Limite Adicional ou em até 4x de
+                            - generic [ref=e1140]:
+                              - generic [ref=e1141]: R$ 30,47
+                              - text: R$30,47
+                            - text: sem juros
+                          - generic [ref=e1142]: R$ 20,00 off
+                        - generic [ref=e1149]: "Entrega GRÁTIS: sáb., 11 de abr."
+                        - button "Adicionar ao carrinho" [ref=e1163] [cursor=pointer]
+                - listitem [ref=e1166]:
+                  - generic [ref=e1172]:
+                    - link [ref=e1178] [cursor=pointer]:
+                      - /url: /Potes-Vidro-Retangular-Tampa-Herm%C3%A9tica/dp/B08CPFRKZ4/ref=sr_1_13?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-13&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e
+                      - img [ref=e1180]
+                    - generic [ref=e1183]:
+                      - link "GATO PANDA Potes de Vidro Retangulares com Tampa Hermética, 640ml, Vidro Borossilicato, Kit com 4, 5, 6, 10 ou 12 Unidades (Branco)" [ref=e1185] [cursor=pointer]:
+                        - /url: /Potes-Vidro-Retangular-Tampa-Herm%C3%A9tica/dp/B08CPFRKZ4/ref=sr_1_13?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-13&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e
+                        - heading "GATO PANDA Potes de Vidro Retangulares com Tampa Hermética, 640ml, Vidro Borossilicato, Kit com 4, 5, 6, 10 ou 12 Unidades (Branco)" [level=2] [ref=e1186]
+                      - generic [ref=e1187]:
+                        - generic [ref=e1188]:
+                          - text: 4,7
+                          - button "4,7 de 5 estrelas, detalhes da classificação" [ref=e1190] [cursor=pointer]:
+                            - generic [ref=e1192]: 4,7 de 5 estrelas
+                          - link "3.284 classificações" [ref=e1194] [cursor=pointer]:
+                            - /url: /Potes-Vidro-Retangular-Tampa-Herm%C3%A9tica/dp/B08CPFRKZ4/ref=sr_1_13?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-13&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e#customerReviews
+                            - text: (3,2 mil)
+                        - generic [ref=e1195]: Mais de 200 compras no mês passado
+                      - generic [ref=e1198]:
+                        - generic [ref=e1199]:
+                          - generic [ref=e1200]:
+                            - generic [ref=e1201]:
+                              - generic [ref=e1202]: Preço, página do produto
+                              - link "R$ 148,93" [ref=e1203] [cursor=pointer]:
+                                - /url: /Potes-Vidro-Retangular-Tampa-Herm%C3%A9tica/dp/B08CPFRKZ4/ref=sr_1_13?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-13&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e
+                                - generic [ref=e1204]:
+                                  - generic [ref=e1205]: R$ 148,93
+                                  - generic [ref=e1206]:
+                                    - text: R$
+                                    - generic [ref=e1207]:
+                                      - text: "148"
+                                      - generic [ref=e1208]: ","
+                                    - text: "93"
+                            - generic [ref=e1209]:
+                              - text: em até 12x de
+                              - generic [ref=e1210]:
+                                - generic [ref=e1211]: R$ 13,90
+                                - text: R$13,90
+                              - text: com juros
+                          - generic [ref=e1212]: R$ 20,00 off
+                        - generic [ref=e1219]: "Entrega GRÁTIS: Amanhã, 9 de abr."
+                        - button "Adicionar ao carrinho" [ref=e1233] [cursor=pointer]
+                        - generic [ref=e1235]:
+                          - text: Mais opções de compra
+                          - text: R$ 139,99
+                          - link "(4 ofertas de novos)" [ref=e1237] [cursor=pointer]:
+                            - /url: /gp/offer-listing/B08CPFRKZ4/ref=sr_1_13_olp?s=kitchen&keywords=electrolux+kit+12+potes+hermeticos+retangular&dib_tag=se&dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&qid=1775698103&sr=1-13
+                - listitem [ref=e1240]:
+                  - generic [ref=e1246]:
+                    - link [ref=e1252] [cursor=pointer]:
+                      - /url: /GATO-PANDA-Retangulares-Herm%C3%A9tica-Borossilicato/dp/B0FQPNCC66/ref=sr_1_14?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-14&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9
+                      - img [ref=e1254]
+                    - generic [ref=e1257]:
+                      - link "GATO PANDA Potes de Vidro Retangulares com Tampa Hermética, 640ml, Vidro Borossilicato, Kit com 4, 5, 6, 10 ou 12 Unidades (Kit 6 Azul)" [ref=e1259] [cursor=pointer]:
+                        - /url: /GATO-PANDA-Retangulares-Herm%C3%A9tica-Borossilicato/dp/B0FQPNCC66/ref=sr_1_14?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-14&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9
+                        - heading "GATO PANDA Potes de Vidro Retangulares com Tampa Hermética, 640ml, Vidro Borossilicato, Kit com 4, 5, 6, 10 ou 12 Unidades (Kit 6 Azul)" [level=2] [ref=e1260]
+                      - generic [ref=e1262]:
+                        - text: 4,7
+                        - button "4,7 de 5 estrelas, detalhes da classificação" [ref=e1264] [cursor=pointer]:
+                          - generic [ref=e1266]: 4,7 de 5 estrelas
+                        - link "3.284 classificações" [ref=e1268] [cursor=pointer]:
+                          - /url: /GATO-PANDA-Retangulares-Herm%C3%A9tica-Borossilicato/dp/B0FQPNCC66/ref=sr_1_14?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-14&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9#customerReviews
+                          - text: (3,2 mil)
+                      - generic [ref=e1271]:
+                        - generic [ref=e1272]:
+                          - generic [ref=e1273]:
+                            - generic [ref=e1274]:
+                              - generic [ref=e1275]: Preço, página do produto
+                              - link "R$ 73,00" [ref=e1276] [cursor=pointer]:
+                                - /url: /GATO-PANDA-Retangulares-Herm%C3%A9tica-Borossilicato/dp/B0FQPNCC66/ref=sr_1_14?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-14&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9
+                                - generic [ref=e1277]:
+                                  - generic [ref=e1278]: R$ 73,00
+                                  - generic [ref=e1279]:
+                                    - text: R$
+                                    - generic [ref=e1280]:
+                                      - text: "73"
+                                      - generic [ref=e1281]: ","
+                                    - text: "00"
+                            - generic [ref=e1282]:
+                              - text: em até 2x de
+                              - generic [ref=e1283]:
+                                - generic [ref=e1284]: R$ 36,50
+                                - text: R$36,50
+                              - text: sem juros
+                          - generic [ref=e1285]: R$ 20,00 off
+                        - generic [ref=e1292]: "Entrega GRÁTIS: sáb., 11 de abr."
+                        - button "Adicionar ao carrinho" [ref=e1306] [cursor=pointer]
+                - listitem [ref=e1309]:
+                  - generic [ref=e1315]:
+                    - link [ref=e1321] [cursor=pointer]:
+                      - /url: /Kit-Potes-Vidro-Herm%C3%A9ticos-Borossilicato/dp/B0G4DVN73R/ref=sr_1_15?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-15&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12
+                      - img [ref=e1323]
+                    - generic [ref=e1326]:
+                      - link "Kit com 12 Potes de Vidro Herméticos 640 ml – Borossilicato – Tampa com Vedação de Silicone – Livre de BPA – Para Micro-ondas, Freezer e Geladeira (Verde, Kit 12)" [ref=e1328] [cursor=pointer]:
+                        - /url: /Kit-Potes-Vidro-Herm%C3%A9ticos-Borossilicato/dp/B0G4DVN73R/ref=sr_1_15?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-15&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12
+                        - heading "Kit com 12 Potes de Vidro Herméticos 640 ml – Borossilicato – Tampa com Vedação de Silicone – Livre de BPA – Para Micro-ondas, Freezer e Geladeira (Verde, Kit 12)" [level=2] [ref=e1329]
+                      - generic [ref=e1331]:
+                        - text: 5,0
+                        - button "5,0 de 5 estrelas, detalhes da classificação" [ref=e1333] [cursor=pointer]:
+                          - generic [ref=e1335]: 5,0 de 5 estrelas
+                        - link "20 classificações" [ref=e1337] [cursor=pointer]:
+                          - /url: /Kit-Potes-Vidro-Herm%C3%A9ticos-Borossilicato/dp/B0G4DVN73R/ref=sr_1_15?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-15&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12#customerReviews
+                          - text: (20)
+                      - generic [ref=e1340]:
+                        - generic [ref=e1341]:
+                          - generic [ref=e1343]:
+                            - link "R$ 155,16 R$ 163,33" [ref=e1344] [cursor=pointer]:
+                              - /url: /Kit-Potes-Vidro-Herm%C3%A9ticos-Borossilicato/dp/B0G4DVN73R/ref=sr_1_15?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-15&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12
+                              - generic [ref=e1345]:
+                                - generic [ref=e1346]: R$ 155,16
+                                - generic [ref=e1347]:
+                                  - text: R$
+                                  - generic [ref=e1348]:
+                                    - text: "155"
+                                    - generic [ref=e1349]: ","
+                                  - text: "16"
+                              - generic [ref=e1350]:
+                                - generic [ref=e1351]: R$ 163,33
+                                - text: R$163,33
+                            - text: à vista no Pix ou em até 5x de
+                            - generic [ref=e1352]:
+                              - generic [ref=e1353]: R$ 32,66
+                              - text: R$32,66
+                            - text: sem juros
+                          - generic [ref=e1354]: R$ 20,00 off
+                        - generic [ref=e1355]:
+                          - generic [ref=e1361]: "Entrega GRÁTIS: sáb., 11 de abr."
+                          - generic "Somente 3 em estoque." [ref=e1363]
+                        - button "Adicionar ao carrinho" [ref=e1377] [cursor=pointer]
+                - listitem [ref=e1380]:
+                  - generic [ref=e1386]:
+                    - link [ref=e1392] [cursor=pointer]:
+                      - /url: /Conjunto-Potes-Vidro-Herm%C3%A9ticos-Electrolux/dp/B0CLSTLZ4W/ref=sr_1_16?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-16
+                      - img [ref=e1394]
+                    - generic [ref=e1397]:
+                      - link "Electrolux Kit 4 Potes Herméticos de Vidro com Tampa de Plástico com Silicone, 0,35L, 0,50L e 0,80L" [ref=e1399] [cursor=pointer]:
+                        - /url: /Conjunto-Potes-Vidro-Herm%C3%A9ticos-Electrolux/dp/B0CLSTLZ4W/ref=sr_1_16?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-16
+                        - heading "Electrolux Kit 4 Potes Herméticos de Vidro com Tampa de Plástico com Silicone, 0,35L, 0,50L e 0,80L" [level=2] [ref=e1400]
+                      - generic [ref=e1401]:
+                        - generic [ref=e1402]:
+                          - text: 4,7
+                          - button "4,7 de 5 estrelas, detalhes da classificação" [ref=e1404] [cursor=pointer]:
+                            - generic [ref=e1406]: 4,7 de 5 estrelas
+                          - link "587 classificações" [ref=e1408] [cursor=pointer]:
+                            - /url: /Conjunto-Potes-Vidro-Herm%C3%A9ticos-Electrolux/dp/B0CLSTLZ4W/ref=sr_1_16?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-16#customerReviews
+                            - text: (587)
+                        - generic [ref=e1409]: Mais de 100 compras no mês passado
+                      - generic [ref=e1412]:
+                        - generic [ref=e1413]:
+                          - generic [ref=e1415]:
+                            - generic [ref=e1416]: Preço, página do produto
+                            - 'link "R$ 89,90 De: R$ 119,90 De: R$ 119,90" [ref=e1417] [cursor=pointer]':
+                              - /url: /Conjunto-Potes-Vidro-Herm%C3%A9ticos-Electrolux/dp/B0CLSTLZ4W/ref=sr_1_16?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-16
+                              - generic [ref=e1418]:
+                                - generic [ref=e1419]: R$ 89,90
+                                - generic [ref=e1420]:
+                                  - text: R$
+                                  - generic [ref=e1421]:
+                                    - text: "89"
+                                    - generic [ref=e1422]: ","
+                                  - text: "90"
+                              - generic [ref=e1423]: "De: R$ 119,90"
+                              - generic [ref=e1424]:
+                                - text: "De:"
+                                - generic [ref=e1425]:
+                                  - generic [ref=e1426]: R$ 119,90
+                                  - text: R$119,90
+                          - generic [ref=e1427]: R$ 20,00 off
+                        - generic [ref=e1434]: "Entrega GRÁTIS: sex., 10 de abr."
+                        - button "Adicionar ao carrinho" [ref=e1448] [cursor=pointer]
+                - listitem [ref=e1451]:
+                  - generic [ref=e1457]:
+                    - link [ref=e1463] [cursor=pointer]:
+                      - /url: /Herm%C3%A9ticos-Mantimentos-Organizador-Alimentos-Transparente/dp/B0DCD11MMM/ref=sr_1_17?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-17&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74
+                      - img [ref=e1465]
+                    - generic [ref=e1468]:
+                      - link "Potes Herméticos Porta Mantimentos Kit 12 Organizador Alimentos Armário Despensa Cozinha Transparente" [ref=e1470] [cursor=pointer]:
+                        - /url: /Herm%C3%A9ticos-Mantimentos-Organizador-Alimentos-Transparente/dp/B0DCD11MMM/ref=sr_1_17?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-17&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74
+                        - heading "Potes Herméticos Porta Mantimentos Kit 12 Organizador Alimentos Armário Despensa Cozinha Transparente" [level=2] [ref=e1471]
+                      - generic [ref=e1473]:
+                        - text: 4,3
+                        - button "4,3 de 5 estrelas, detalhes da classificação" [ref=e1475] [cursor=pointer]:
+                          - generic [ref=e1477]: 4,3 de 5 estrelas
+                        - link "7 classificações" [ref=e1479] [cursor=pointer]:
+                          - /url: /Herm%C3%A9ticos-Mantimentos-Organizador-Alimentos-Transparente/dp/B0DCD11MMM/ref=sr_1_17?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-17&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74#customerReviews
+                          - text: (7)
+                      - generic [ref=e1482]:
+                        - generic [ref=e1483]:
+                          - link "Menor preço em 365 dias" [ref=e1485] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e1488]: Menor preço em 365 dias
+                          - generic [ref=e1490]:
+                            - link "R$ 117,69 R$ 144,90" [ref=e1491] [cursor=pointer]:
+                              - /url: /Herm%C3%A9ticos-Mantimentos-Organizador-Alimentos-Transparente/dp/B0DCD11MMM/ref=sr_1_17?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-17&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74
+                              - generic [ref=e1492]:
+                                - generic [ref=e1493]: R$ 117,69
+                                - generic [ref=e1494]:
+                                  - text: R$
+                                  - generic [ref=e1495]:
+                                    - text: "117"
+                                    - generic [ref=e1496]: ","
+                                  - text: "69"
+                              - generic [ref=e1497]:
+                                - generic [ref=e1498]: R$ 144,90
+                                - text: R$144,90
+                            - text: à vista no Pix ou em até 4x de
+                            - generic [ref=e1499]:
+                              - generic [ref=e1500]: R$ 30,97
+                              - text: R$30,97
+                            - text: sem juros
+                          - generic [ref=e1501]: R$ 20,00 off
+                        - generic [ref=e1508]: "Entrega GRÁTIS: dom., 12 de abr."
+                        - button "Pequenas empresas" [ref=e1515] [cursor=pointer]:
+                          - generic [ref=e1516]: Pequenas empresas
+                        - button "Adicionar ao carrinho" [ref=e1531] [cursor=pointer]
+                - listitem [ref=e1534]:
+                  - generic [ref=e1540]:
+                    - link [ref=e1546] [cursor=pointer]:
+                      - /url: /Herm%C3%A9ticos-Marmitas-Conserva%C3%A7%C3%A3o-Alimentos-Refrat%C3%A1rio/dp/B0GSH6DCCJ/ref=sr_1_18?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-18&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d
+                      - img [ref=e1548]
+                    - generic [ref=e1551]:
+                      - link "Kit 10 Potes de Vidro Herméticos 640ml com 4 Travas Ideal para Marmitas e Conservação de Alimentos, Vedação Total, Refratário para Forno e Freezer" [ref=e1553] [cursor=pointer]:
+                        - /url: /Herm%C3%A9ticos-Marmitas-Conserva%C3%A7%C3%A3o-Alimentos-Refrat%C3%A1rio/dp/B0GSH6DCCJ/ref=sr_1_18?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-18&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d
+                        - heading "Kit 10 Potes de Vidro Herméticos 640ml com 4 Travas Ideal para Marmitas e Conservação de Alimentos, Vedação Total, Refratário para Forno e Freezer" [level=2] [ref=e1554]
+                      - generic [ref=e1556]:
+                        - text: 4,2
+                        - button "4,2 de 5 estrelas, detalhes da classificação" [ref=e1558] [cursor=pointer]:
+                          - generic [ref=e1560]: 4,2 de 5 estrelas
+                        - link "15 classificações" [ref=e1562] [cursor=pointer]:
+                          - /url: /Herm%C3%A9ticos-Marmitas-Conserva%C3%A7%C3%A3o-Alimentos-Refrat%C3%A1rio/dp/B0GSH6DCCJ/ref=sr_1_18?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-18&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d#customerReviews
+                          - text: (15)
+                      - generic [ref=e1565]:
+                        - generic [ref=e1566]:
+                          - generic [ref=e1567]:
+                            - generic [ref=e1568]:
+                              - generic [ref=e1569]: Preço, página do produto
+                              - link "R$ 104,99" [ref=e1570] [cursor=pointer]:
+                                - /url: /Herm%C3%A9ticos-Marmitas-Conserva%C3%A7%C3%A3o-Alimentos-Refrat%C3%A1rio/dp/B0GSH6DCCJ/ref=sr_1_18?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-18&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d
+                                - generic [ref=e1571]:
+                                  - generic [ref=e1572]: R$ 104,99
+                                  - generic [ref=e1573]:
+                                    - text: R$
+                                    - generic [ref=e1574]:
+                                      - text: "104"
+                                      - generic [ref=e1575]: ","
+                                    - text: "99"
+                            - generic [ref=e1576]:
+                              - text: em até 3x de
+                              - generic [ref=e1577]:
+                                - generic [ref=e1578]: R$ 34,99
+                                - text: R$34,99
+                              - text: sem juros
+                          - generic [ref=e1579]: R$ 20,00 off
+                        - generic [ref=e1586]: "Entrega GRÁTIS: sáb., 11 de abr."
+                        - button "Adicionar ao carrinho" [ref=e1600] [cursor=pointer]
+                - listitem [ref=e1603]:
+                  - generic [ref=e1609]:
+                    - link [ref=e1615] [cursor=pointer]:
+                      - /url: /Kit-Potes-para-Alimentos-Electrolux/dp/B077PXCJ9T/ref=sr_1_19?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-19&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9
+                      - img [ref=e1617]
+                    - generic [ref=e1620]:
+                      - link "Electrolux Kit 4 Potes Herméticos de Plástico Quadrados, Multiuso, Vedação Silicone, BPA Free, Porta Mantimentos" [ref=e1622] [cursor=pointer]:
+                        - /url: /Kit-Potes-para-Alimentos-Electrolux/dp/B077PXCJ9T/ref=sr_1_19?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-19&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9
+                        - heading "Electrolux Kit 4 Potes Herméticos de Plástico Quadrados, Multiuso, Vedação Silicone, BPA Free, Porta Mantimentos" [level=2] [ref=e1623]
+                      - generic [ref=e1624]:
+                        - generic [ref=e1625]:
+                          - text: 4,8
+                          - button "4,8 de 5 estrelas, detalhes da classificação" [ref=e1627] [cursor=pointer]:
+                            - generic [ref=e1629]: 4,8 de 5 estrelas
+                          - link "4.559 classificações" [ref=e1631] [cursor=pointer]:
+                            - /url: /Kit-Potes-para-Alimentos-Electrolux/dp/B077PXCJ9T/ref=sr_1_19?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-19&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9#customerReviews
+                            - text: (4,5 mil)
+                        - generic [ref=e1632]: Mais de 200 compras no mês passado
+                      - generic [ref=e1635]:
+                        - generic [ref=e1636]:
+                          - generic [ref=e1637]:
+                            - generic [ref=e1638]:
+                              - generic [ref=e1639]: Preço, página do produto
+                              - link "R$ 40,59" [ref=e1640] [cursor=pointer]:
+                                - /url: /Kit-Potes-para-Alimentos-Electrolux/dp/B077PXCJ9T/ref=sr_1_19?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-19&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9
+                                - generic [ref=e1641]:
+                                  - generic [ref=e1642]: R$ 40,59
+                                  - generic [ref=e1643]:
+                                    - text: R$
+                                    - generic [ref=e1644]:
+                                      - text: "40"
+                                      - generic [ref=e1645]: ","
+                                    - text: "59"
+                            - generic [ref=e1646]:
+                              - text: em até 2x de
+                              - generic [ref=e1647]:
+                                - generic [ref=e1648]: R$ 20,29
+                                - text: R$20,29
+                              - text: sem juros
+                          - generic [ref=e1649]: R$ 20,00 off
+                        - generic [ref=e1656]: "Entrega GRÁTIS: Amanhã, 9 de abr."
+                        - button "Adicionar ao carrinho" [ref=e1670] [cursor=pointer]
+                        - generic [ref=e1672]:
+                          - text: Mais opções de compra
+                          - text: R$ 35,90
+                          - link "(12 ofertas de novos)" [ref=e1674] [cursor=pointer]:
+                            - /url: /gp/offer-listing/B077PXCJ9T/ref=sr_1_19_olp?s=kitchen&keywords=electrolux+kit+12+potes+hermeticos+retangular&dib_tag=se&dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&qid=1775698103&sr=1-19
+                - listitem [ref=e1677]:
+                  - generic [ref=e1683]:
+                    - link [ref=e1689] [cursor=pointer]:
+                      - /url: /Potes-Vidro-Retangular-Tampa-Herm%C3%A9tica/dp/B0F9M3TQQ2/ref=sr_1_20?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-20&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74
+                      - img [ref=e1691]
+                    - generic [ref=e1694]:
+                      - 'link "KIT 12 Potes de Vidro Retangular com Tampa Hermética 370ml Cor: Transparente" [ref=e1696] [cursor=pointer]':
+                        - /url: /Potes-Vidro-Retangular-Tampa-Herm%C3%A9tica/dp/B0F9M3TQQ2/ref=sr_1_20?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-20&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74
+                        - 'heading "KIT 12 Potes de Vidro Retangular com Tampa Hermética 370ml Cor: Transparente" [level=2] [ref=e1697]'
+                      - generic [ref=e1699]:
+                        - text: 4,6
+                        - button "4,6 de 5 estrelas, detalhes da classificação" [ref=e1701] [cursor=pointer]:
+                          - generic [ref=e1703]: 4,6 de 5 estrelas
+                        - link "3 classificações" [ref=e1705] [cursor=pointer]:
+                          - /url: /Potes-Vidro-Retangular-Tampa-Herm%C3%A9tica/dp/B0F9M3TQQ2/ref=sr_1_20?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-20&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74#customerReviews
+                          - text: (3)
+                      - generic [ref=e1708]:
+                        - generic [ref=e1709]:
+                          - generic [ref=e1710]:
+                            - generic [ref=e1711]:
+                              - generic [ref=e1712]: Preço, página do produto
+                              - link "R$ 136,90" [ref=e1713] [cursor=pointer]:
+                                - /url: /Potes-Vidro-Retangular-Tampa-Herm%C3%A9tica/dp/B0F9M3TQQ2/ref=sr_1_20?dib=eyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY&dib_tag=se&keywords=electrolux+kit+12+potes+hermeticos+retangular&qid=1775698103&s=kitchen&sr=1-20&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74
+                                - generic [ref=e1714]:
+                                  - generic [ref=e1715]: R$ 136,90
+                                  - generic [ref=e1716]:
+                                    - text: R$
+                                    - generic [ref=e1717]:
+                                      - text: "136"
+                                      - generic [ref=e1718]: ","
+                                    - text: "90"
+                            - generic [ref=e1719]:
+                              - text: em até 4x de
+                              - generic [ref=e1720]:
+                                - generic [ref=e1721]: R$ 34,22
+                                - text: R$34,22
+                              - text: sem juros
+                          - generic [ref=e1722]: R$ 20,00 off
+                        - generic [ref=e1729]: "Entrega GRÁTIS: sáb., 11 de abr."
+                        - button "Adicionar ao carrinho" [ref=e1743] [cursor=pointer]
+                - listitem [ref=e1746]:
+                  - generic [ref=e1754]:
+                    - link [ref=e1760] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToxNTc4MzY1NjU0NjgwNDM2OjE3NzU2OTgxMDM6c3BfYnRmOjMwMDUwNDYxMDg0OTIwMjo6MDo6&url=%2Fpotes-herm%25C3%25A9ticos-retangular-encaix%25C3%25A1vel-empilh%25C3%25A1vel%2Fdp%2FB0CDXGHLMS%2Fref%3Dsr_1_21_sspa%3Fdib%3DeyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY%26dib_tag%3Dse%26keywords%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangular%26qid%3D1775698103%26s%3Dkitchen%26sr%3D1-21-spons%26ufe%3Dapp_do%253Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1
+                      - img [ref=e1762]
+                    - generic [ref=e1765]:
+                      - generic [ref=e1766]:
+                        - button "Ver informações patrocinadas ou deixar feedback sobre o anúncio" [ref=e1769] [cursor=pointer]:
+                          - generic [ref=e1770]: Patrocinado
+                        - link "Anúncio patrocinado – Kit 5 potes herméticos retangular encaixável e empilhável Lock&Lock" [ref=e1772] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNTc4MzY1NjU0NjgwNDM2OjE3NzU2OTgxMDM6c3BfYnRmOjMwMDUwNDYxMDg0OTIwMjo6MDo6&url=%2Fpotes-herm%25C3%25A9ticos-retangular-encaix%25C3%25A1vel-empilh%25C3%25A1vel%2Fdp%2FB0CDXGHLMS%2Fref%3Dsr_1_21_sspa%3Fdib%3DeyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY%26dib_tag%3Dse%26keywords%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangular%26qid%3D1775698103%26s%3Dkitchen%26sr%3D1-21-spons%26ufe%3Dapp_do%253Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1
+                          - heading "Anúncio patrocinado – Kit 5 potes herméticos retangular encaixável e empilhável Lock&Lock" [level=2] [ref=e1773]: Kit 5 potes herméticos retangular encaixável e empilhável Lock&Lock
+                      - generic [ref=e1775]:
+                        - text: 4,7
+                        - button "4,7 de 5 estrelas, detalhes da classificação" [ref=e1777] [cursor=pointer]:
+                          - generic [ref=e1779]: 4,7 de 5 estrelas
+                        - link "23 classificações" [ref=e1781] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNTc4MzY1NjU0NjgwNDM2OjE3NzU2OTgxMDM6c3BfYnRmOjMwMDUwNDYxMDg0OTIwMjo6MDo6&url=%2Fpotes-herm%25C3%25A9ticos-retangular-encaix%25C3%25A1vel-empilh%25C3%25A1vel%2Fdp%2FB0CDXGHLMS%2Fref%3Dsr_1_21_sspa%3Fdib%3DeyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY%26dib_tag%3Dse%26keywords%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangular%26qid%3D1775698103%26s%3Dkitchen%26sr%3D1-21-spons%26ufe%3Dapp_do%253Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1#customerReviews
+                          - text: (23)
+                      - generic [ref=e1784]:
+                        - generic [ref=e1785]:
+                          - generic [ref=e1786]:
+                            - generic [ref=e1787]:
+                              - generic [ref=e1788]: Preço, página do produto
+                              - link "R$ 165,71" [ref=e1789] [cursor=pointer]:
+                                - /url: /sspa/click?ie=UTF8&spc=MToxNTc4MzY1NjU0NjgwNDM2OjE3NzU2OTgxMDM6c3BfYnRmOjMwMDUwNDYxMDg0OTIwMjo6MDo6&url=%2Fpotes-herm%25C3%25A9ticos-retangular-encaix%25C3%25A1vel-empilh%25C3%25A1vel%2Fdp%2FB0CDXGHLMS%2Fref%3Dsr_1_21_sspa%3Fdib%3DeyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY%26dib_tag%3Dse%26keywords%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangular%26qid%3D1775698103%26s%3Dkitchen%26sr%3D1-21-spons%26ufe%3Dapp_do%253Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1
+                                - generic [ref=e1790]:
+                                  - generic [ref=e1791]: R$ 165,71
+                                  - generic [ref=e1792]:
+                                    - text: R$
+                                    - generic [ref=e1793]:
+                                      - text: "165"
+                                      - generic [ref=e1794]: ","
+                                    - text: "71"
+                            - generic [ref=e1795]:
+                              - text: em até 12x de
+                              - generic [ref=e1796]:
+                                - generic [ref=e1797]: R$ 15,46
+                                - text: R$15,46
+                              - text: com juros
+                          - generic [ref=e1800]:
+                            - generic [ref=e1801]: Economize 6%
+                            - text: com o cupom
+                        - generic [ref=e1802]:
+                          - generic [ref=e1808]: "Entrega GRÁTIS: sáb., 11 de abr."
+                          - generic "Somente 2 em estoque." [ref=e1810]
+                        - button "Adicionar ao carrinho" [ref=e1824] [cursor=pointer]
+                - listitem [ref=e1827]:
+                  - generic [ref=e1835]:
+                    - link [ref=e1841] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToxNTc4MzY1NjU0NjgwNDM2OjE3NzU2OTgxMDM6c3BfYnRmOjMwMDc4Nzg1MDEwNzgwMjo6MDo6&url=%2Fherm%25C3%25A9ticos-travas-multiuso-retangular-LocknLock%2Fdp%2FB0F9XJSG1Y%2Fref%3Dsr_1_22_sspa%3Fdib%3DeyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY%26dib_tag%3Dse%26keywords%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangular%26qid%3D1775698103%26s%3Dkitchen%26sr%3D1-22-spons%26ufe%3Dapp_do%253Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1
+                      - img [ref=e1843]
+                    - generic [ref=e1846]:
+                      - generic [ref=e1847]:
+                        - button "Ver informações patrocinadas ou deixar feedback sobre o anúncio" [ref=e1850] [cursor=pointer]:
+                          - generic [ref=e1851]: Patrocinado
+                        - link "Anúncio patrocinado – Kit 6 potes herméticos com tampa 4 travas multiuso retangular LocknLock - 470mL" [ref=e1853] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNTc4MzY1NjU0NjgwNDM2OjE3NzU2OTgxMDM6c3BfYnRmOjMwMDc4Nzg1MDEwNzgwMjo6MDo6&url=%2Fherm%25C3%25A9ticos-travas-multiuso-retangular-LocknLock%2Fdp%2FB0F9XJSG1Y%2Fref%3Dsr_1_22_sspa%3Fdib%3DeyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY%26dib_tag%3Dse%26keywords%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangular%26qid%3D1775698103%26s%3Dkitchen%26sr%3D1-22-spons%26ufe%3Dapp_do%253Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1
+                          - heading "Anúncio patrocinado – Kit 6 potes herméticos com tampa 4 travas multiuso retangular LocknLock - 470mL" [level=2] [ref=e1854]: Kit 6 potes herméticos com tampa 4 travas multiuso retangular LocknLock - 470mL
+                      - generic [ref=e1856]:
+                        - text: 5,0
+                        - button "5,0 de 5 estrelas, detalhes da classificação" [ref=e1858] [cursor=pointer]:
+                          - generic [ref=e1860]: 5,0 de 5 estrelas
+                        - link "2 classificações" [ref=e1862] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToxNTc4MzY1NjU0NjgwNDM2OjE3NzU2OTgxMDM6c3BfYnRmOjMwMDc4Nzg1MDEwNzgwMjo6MDo6&url=%2Fherm%25C3%25A9ticos-travas-multiuso-retangular-LocknLock%2Fdp%2FB0F9XJSG1Y%2Fref%3Dsr_1_22_sspa%3Fdib%3DeyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY%26dib_tag%3Dse%26keywords%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangular%26qid%3D1775698103%26s%3Dkitchen%26sr%3D1-22-spons%26ufe%3Dapp_do%253Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1#customerReviews
+                          - text: (2)
+                      - generic [ref=e1865]:
+                        - generic [ref=e1866]:
+                          - generic [ref=e1867]:
+                            - generic [ref=e1868]:
+                              - generic [ref=e1869]: Preço, página do produto
+                              - link "R$ 138,41" [ref=e1870] [cursor=pointer]:
+                                - /url: /sspa/click?ie=UTF8&spc=MToxNTc4MzY1NjU0NjgwNDM2OjE3NzU2OTgxMDM6c3BfYnRmOjMwMDc4Nzg1MDEwNzgwMjo6MDo6&url=%2Fherm%25C3%25A9ticos-travas-multiuso-retangular-LocknLock%2Fdp%2FB0F9XJSG1Y%2Fref%3Dsr_1_22_sspa%3Fdib%3DeyJ2IjoiMSJ9.Kn5MU3ByEB343MtWjCp4mgnhsUUmWt8IYUKgjqjTx9tlm6AJrNLIEhe01RmvE0j-SS6ol0AF7Pey2rVtgrRQ0DUQjo6xiWeQs5JbMXlUVLUhZ9IN57YUt5O4zoTkil5w4duDS85qrOImcsYWcxt8zlCn_hmrddzSPZxzk6dWFI0tDlow8C89Pme6zv_yogyP8NIDEiTZdlDAYnNoSu94mI6eXU8SzC_WCqZSzQkvFhw.6lQBZJfz4ZwQSdHVD9q1rYPvecz3jGJHdly_XysxUcY%26dib_tag%3Dse%26keywords%3Delectrolux%2Bkit%2B12%2Bpotes%2Bhermeticos%2Bretangular%26qid%3D1775698103%26s%3Dkitchen%26sr%3D1-22-spons%26ufe%3Dapp_do%253Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1
+                                - generic [ref=e1871]:
+                                  - generic [ref=e1872]: R$ 138,41
+                                  - generic [ref=e1873]:
+                                    - text: R$
+                                    - generic [ref=e1874]:
+                                      - text: "138"
+                                      - generic [ref=e1875]: ","
+                                    - text: "41"
+                            - generic [ref=e1876]:
+                              - text: em até 12x de
+                              - generic [ref=e1877]:
+                                - generic [ref=e1878]: R$ 12,91
+                                - text: R$12,91
+                              - text: com juros
+                          - generic [ref=e1881]:
+                            - generic [ref=e1882]: Economize 6%
+                            - text: com o cupom
+                        - generic [ref=e1883]:
+                          - generic [ref=e1889]: "Entrega GRÁTIS: sáb., 11 de abr."
+                          - generic "Somente 9 em estoque." [ref=e1891]
+                        - button "Adicionar ao carrinho" [ref=e1905] [cursor=pointer]
+          - navigation "pagination" [ref=e1910]:
+            - list [ref=e1912]:
+              - listitem [ref=e1913]:
+                - button "Anterior" [disabled] [ref=e1915]:
+                  - img [ref=e1916]
+                  - text: Anterior
+              - listitem [ref=e1918]:
+                - button "Página 1" [ref=e1920]: "1"
+              - listitem [ref=e1921]:
+                - button "Ir para a página 2" [ref=e1923] [cursor=pointer]: "2"
+              - listitem [ref=e1924]:
+                - button "Ir para a página 3" [ref=e1926] [cursor=pointer]: "3"
+              - button [disabled] [ref=e1927]:
+                - img [ref=e1928]: ...
+              - button "173" [disabled] [ref=e1930]
+              - listitem [ref=e1931]:
+                - button "Ir para a próxima página, página 2" [ref=e1933] [cursor=pointer]:
+                  - text: Próximo
+                  - img [ref=e1934]
+          - generic [ref=e1941]:
+            - heading "Precisa de ajuda?" [level=2] [ref=e1944]
+            - generic [ref=e1945]:
+              - link "Consulte a seção de ajuda" [ref=e1946] [cursor=pointer]:
+                - /url: /gp/help/customer/display.html?nodeId=201366230
+              - text: ou
+              - link "entre em contato conosco" [ref=e1947] [cursor=pointer]:
+                - /url: /gp/help/customer/contact-us
+        - link "Voltar ao menu de filtragem" [ref=e1948] [cursor=pointer]:
+          - /url: "#s-skipLinkTargetForFilterOptions"
+      - dialog "Filtros" [ref=e1949]:
+        - generic [ref=e1950]:
+          - link "Pular para os resultados principais da pesquisa" [ref=e1951] [cursor=pointer]:
+            - /url: "#s-skipLinkTargetForMainSearchResults"
+          - generic [ref=e1957]:
+            - group "Elegível a Frete Grátis" [ref=e1958]:
+              - heading "Elegível a Frete Grátis" [level=2] [ref=e1959]
+              - list "Elegível a Frete Grátis" [ref=e1960]:
+                - listitem [ref=e1961]:
+                  - link "Aplique o filtro Frete Grátis em envios pela Amazon para restringir os resultados" [ref=e1963] [cursor=pointer]:
+                    - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_free_shipping_eligible%3A19171733011&dc&qid=1775698103&rnid=19171732011&ref=sr_nr_p_n_free_shipping_eligible_1&ds=v1%3AVXq%2FgEtPJqKDOboBNpGCg5K%2BC%2BtRREczx4i%2BArgKStc
+                    - checkbox [ref=e1966]
+                    - text: Frete Grátis em envios pela Amazon
+                    - generic [ref=e1968]: Frete GRÁTIS em produtos elegíveis enviados pela Amazon
+            - group "Departamento" [ref=e1969]:
+              - heading "Departamento" [level=2] [ref=e1970]
+              - list "Departamento" [ref=e1971]:
+                - listitem [ref=e1972]:
+                  - link "Qualquer departamento" [ref=e1974] [cursor=pointer]:
+                    - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&dc&qid=1775698103&ref=sr_ex_n_0&ds=v1%3AS9CJ%2FUgVJ%2BEY5eyHIW582U5%2B3tKUWhGKLxu6Qyw0Y9g
+                    - text: Qualquer departamento
+                - list
+                - listitem [ref=e1976]:
+                  - generic [ref=e1977]: Cozinha
+                - list [ref=e1978]:
+                  - listitem [ref=e1979]:
+                    - link "Assadeiras, Formas e Recipientes de Forno" [ref=e1981] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cn%3A17124715011&dc&qid=1775698103&rnid=16957125011&ref=sr_nr_n_1&ds=v1%3ACNKB21DnGGN1JHkbD5Rehz5KMX9kkQqk%2BZFRNcLWPWk
+                  - list
+                  - listitem [ref=e1982]:
+                    - link "Café, Chá e Expresso" [ref=e1984] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cn%3A17124716011&dc&qid=1775698103&rnid=16957125011&ref=sr_nr_n_2&ds=v1%3AnYffde9r0J9yGUzX0%2FQq99oYyiNrgKyWNdib5qkcYLE
+                  - list
+                  - listitem [ref=e1985]:
+                    - link "Eletroportáteis" [ref=e1987] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cn%3A17124722011&dc&qid=1775698103&rnid=16957125011&ref=sr_nr_n_3&ds=v1%3AAET9V24X1CumGiKB1Yf2U7s20yvEobdO%2Bt0AiRFDOPU
+                  - list
+                  - listitem [ref=e1988]:
+                    - link "Fabricação Caseira de Cerveja e Vinho" [ref=e1990] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cn%3A17124720011&dc&qid=1775698103&rnid=16957125011&ref=sr_nr_n_4&ds=v1%3ApcoaMjYTDZbmrf%2BwtMSm92M8at9XQc6Ll0EFET7kcik
+                  - list
+                  - listitem [ref=e1991]:
+                    - link "Filtros, Bebedouros e Refrigeradores de Água" [ref=e1993] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cn%3A17124726011&dc&qid=1775698103&rnid=16957125011&ref=sr_nr_n_5&ds=v1%3Azsnj4vAF4Ei1bX9UGMruxwI5RV%2FPzCyyM5J0y9n1VLM
+                  - list
+                  - listitem [ref=e1994]:
+                    - link "Louça, Copos e Talheres" [ref=e1996] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cn%3A17124723011&dc&qid=1775698103&rnid=16957125011&ref=sr_nr_n_6&ds=v1%3A2pDjFWOy8NTgsqZKR3sWPylOGp4HyRGv%2FYWUbQsriBY
+                  - list
+                  - listitem [ref=e1997]:
+                    - link "Organização" [ref=e1999] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cn%3A17124717011&dc&qid=1775698103&rnid=16957125011&ref=sr_nr_n_7&ds=v1%3ARjHlJFl0ZzXN8qFFpSdMKpOxad4W%2BWpR7v3QSa3zHFE
+                  - list
+                  - listitem [ref=e2000]:
+                    - link "Panelas e Utensílios para Cozinhar" [ref=e2002] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cn%3A24417675011&dc&qid=1775698103&rnid=16957125011&ref=sr_nr_n_8&ds=v1%3AAT8S1zCH0rSeRuj9hwrchyiEhLu2RUcPTo1lE2SBiBc
+                  - list
+                  - listitem [ref=e2003]:
+                    - link "Utensílios Domésticos" [ref=e2005] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cn%3A17124724011&dc&qid=1775698103&rnid=16957125011&ref=sr_nr_n_9&ds=v1%3AVzGKBpufwYnRARBqY%2BA4rBVlBhYUNed44xZkzIFgD3s
+                  - list
+            - group "Avaliação dos Clientes" [ref=e2006]:
+              - heading "Avaliação dos Clientes" [level=2] [ref=e2007]
+              - list "Avaliação dos Clientes" [ref=e2008]:
+                - listitem [ref=e2009]:
+                  - link "Aplique o filtro Quatro estrelas e acima para restringir os resultados" [ref=e2012] [cursor=pointer]:
+                    - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_72%3A17833786011&dc&qid=1775698103&rnid=5560472011&ref=sr_nr_p_72_1&ds=v1%3AqtniYPbbEJC4H29l8y8B%2BzpEBNotS3QpaTGoeiFWhbU
+                    - generic [ref=e2014]: 4 Stars
+                    - text: e acima
+            - group "Marcas" [ref=e2015]:
+              - heading "Marcas" [level=2] [ref=e2016]
+              - list "Marcas" [ref=e2017]:
+                - listitem [ref=e2018]:
+                  - link "Aplique o filtro Electrolux para restringir os resultados" [ref=e2020] [cursor=pointer]:
+                    - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_123%3A46632&dc&qid=1775698103&rnid=119962938011&ref=sr_nr_p_123_1&ds=v1%3AB5OSsxh7BbZ5gDplh%2FR8kHLiU8FWadrk8fDaYsrSG84
+                    - checkbox [ref=e2023]
+                    - text: Electrolux
+                - listitem [ref=e2025]:
+                  - link "Aplique o filtro GATO PANDA para restringir os resultados" [ref=e2027] [cursor=pointer]:
+                    - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_123%3A6740151&dc&qid=1775698103&rnid=119962938011&ref=sr_nr_p_123_2&ds=v1%3APkjX5z%2BGsMwPyr2uhGAGFupRzTPy0D6xMz%2BZK01OyIk
+                    - checkbox [ref=e2030]
+                    - text: GATO PANDA
+                - listitem [ref=e2032]:
+                  - link "Aplique o filtro Lyor para restringir os resultados" [ref=e2034] [cursor=pointer]:
+                    - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_123%3A2703114&dc&qid=1775698103&rnid=119962938011&ref=sr_nr_p_123_3&ds=v1%3AKGn7Pr4bT0KoQSRmgJj%2Fbnt6NrZ2DWs3yHTWEAr2Zo0
+                    - checkbox [ref=e2037]
+                    - text: Lyor
+                - listitem [ref=e2039]:
+                  - link "Aplique o filtro OIKOS para restringir os resultados" [ref=e2041] [cursor=pointer]:
+                    - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_123%3A1821923&dc&qid=1775698103&rnid=119962938011&ref=sr_nr_p_123_4&ds=v1%3A2nY3te%2FRxQXe1uAxY4BRSMwfGvqc0c9%2FKuaufuERK3E
+                    - checkbox [ref=e2044]
+                    - text: OIKOS
+                - listitem [ref=e2046]:
+                  - link "Aplique o filtro Casa Linda para restringir os resultados" [ref=e2048] [cursor=pointer]:
+                    - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_123%3A779485&dc&qid=1775698103&rnid=119962938011&ref=sr_nr_p_123_5&ds=v1%3ALFeJbZe%2BeOi83AqHVJeqVzN%2Fk72SQUX3lZMkUgZ5Jp8
+                    - checkbox [ref=e2051]
+                    - text: Casa Linda
+                - listitem [ref=e2053]:
+                  - link "Aplique o filtro PLASUTIL para restringir os resultados" [ref=e2055] [cursor=pointer]:
+                    - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_123%3A764406&dc&qid=1775698103&rnid=119962938011&ref=sr_nr_p_123_6&ds=v1%3APyeakOW1qMtq8BoAEUuOr8qIsz8s1%2F%2F7EJfhDO4cEiE
+                    - checkbox [ref=e2058]
+                    - text: PLASUTIL
+                - listitem [ref=e2060]:
+                  - link "Aplique o filtro Sanremo para restringir os resultados" [ref=e2062] [cursor=pointer]:
+                    - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_123%3A501915&dc&qid=1775698103&rnid=119962938011&ref=sr_nr_p_123_7&ds=v1%3AfvUVIr85FVQwV7NdQLG70rRtLhxBJrlsZkVeUC3vIqk
+                    - checkbox [ref=e2065]
+                    - text: Sanremo
+                - listitem [ref=e2067]:
+                  - button "Ver mais, Marcas" [ref=e2070] [cursor=pointer]: Ver mais
+            - group [ref=e2072]:
+              - generic [ref=e2073]:
+                - generic [ref=e2074]: Preço
+                - generic [ref=e2077]:
+                  - generic [ref=e2078]:
+                    - generic [ref=e2079]: R$4
+                    - generic [ref=e2080]: –
+                    - generic [ref=e2081]: R$1.550 e mais
+                  - generic [ref=e2083]:
+                    - generic:
+                      - slider "Preço mínimo": "0"
+                    - generic [ref=e2084]:
+                      - slider "Preço máximo": "146"
+              - list [ref=e2085]:
+                - listitem [ref=e2086]:
+                  - link "Até R$90" [ref=e2088] [cursor=pointer]:
+                    - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=p_36%3A-9000&dc&qid=1775698103&rnid=16254006011&ref=sr_nr_p_36_1&ds=v1%3AZGCGmPtFjnGCjg9eHD4QyaXlFSZkS03IOpNBmAN%2Bghk
+                - listitem [ref=e2089]:
+                  - link "R$90 a R$150" [ref=e2091] [cursor=pointer]:
+                    - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=p_36%3A9000-15000&dc&qid=1775698103&rnid=16254006011&ref=sr_nr_p_36_2&ds=v1%3Au3MaytOzg7TuSIqhSy9ad4maWQb9M%2F6di73k4FPHG9Y
+                - listitem [ref=e2092]:
+                  - link "Mais de R$150" [ref=e2094] [cursor=pointer]:
+                    - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=p_36%3A15000-&dc&qid=1775698103&rnid=16254006011&ref=sr_nr_p_36_3&ds=v1%3ApEoEKRnxAEZlTPiPH7ogdSVqzmEGu6Tb8umPcmXO4fk
+              - heading "Ofertas e Descontos" [level=2] [ref=e2095]
+              - list "Ofertas e Descontos" [ref=e2096]:
+                - listitem [ref=e2097]:
+                  - link "Ofertas do Dia" [ref=e2099] [cursor=pointer]:
+                    - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_deal_type%3A23565492011&dc&qid=1775698103&rnid=23565491011&ref=sr_nr_p_n_deal_type_1&ds=v1%3AefyVo2NyWI1S2FOA53qGfACoEUNgqOdgm0k%2FR98aVyw
+                - listitem [ref=e2100]:
+                  - link "Todos os descontos" [ref=e2102] [cursor=pointer]:
+                    - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_deal_type%3A23565493011&dc&qid=1775698103&rnid=23565491011&ref=sr_nr_p_n_deal_type_2&ds=v1%3AKQgU1DL1LTFZJB9d7yLr8t1b4AO0eqGhLvYCNQuwxJ8
+            - generic [ref=e2103]:
+              - group "Condição" [ref=e2104]:
+                - heading "Condição" [level=2] [ref=e2105]
+                - list "Condição" [ref=e2106]:
+                  - listitem [ref=e2107]:
+                    - link "Aplique o filtro Novo para restringir os resultados" [ref=e2109] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_condition-type%3A13862762011&dc&qid=1775698103&rnid=13862761011&ref=sr_nr_p_n_condition-type_1&ds=v1%3APW76JN6R0Jii2eOEpTZLoFGa4F%2FMR1%2F99jgB65N%2BfoU
+                      - checkbox [ref=e2112]
+                      - text: Novo
+                  - listitem [ref=e2114]:
+                    - link "Aplique o filtro Usado para restringir os resultados" [ref=e2116] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_condition-type%3A13862763011&dc&qid=1775698103&rnid=13862761011&ref=sr_nr_p_n_condition-type_2&ds=v1%3Ap%2Fzi59%2Fceu9PqRReXtzgc%2FgHsFPlUi4a2o0GTYmkxYI
+                      - checkbox [ref=e2119]
+                      - text: Usado
+              - group "Instruções de cuidados" [ref=e2121]:
+                - heading "Instruções de cuidados" [level=2] [ref=e2122]
+                - list "Instruções de cuidados" [ref=e2123]:
+                  - listitem [ref=e2124]:
+                    - link "Aplique o filtro Seguro para lava-louças para restringir os resultados" [ref=e2126] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015436554111%3A122198926011&dc&qid=1775698103&rnid=122198920011&ref=sr_nr_p_n_g-101015436554111_1&ds=v1%3Ayv1JI92lVB7uGlr3COipgh7fzUPDX8Fb86bv4hedhik
+                      - checkbox [ref=e2129]
+                      - text: Seguro para lava-louças
+                  - listitem [ref=e2131]:
+                    - link "Aplique o filtro Seguro para geladeira para restringir os resultados" [ref=e2133] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015436554111%3A122198921011&dc&qid=1775698103&rnid=122198920011&ref=sr_nr_p_n_g-101015436554111_2&ds=v1%3ArnqAQlGwYA1BtqLs8fz7eXc40Awh3ClFjbvRGqbsbPQ
+                      - checkbox [ref=e2136]
+                      - text: Seguro para geladeira
+                  - listitem [ref=e2138]:
+                    - link "Aplique o filtro Apenas lavagem à mão para restringir os resultados" [ref=e2140] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015436554111%3A122198925011&dc&qid=1775698103&rnid=122198920011&ref=sr_nr_p_n_g-101015436554111_3&ds=v1%3AMLZ0W8vdv91mdw3sgF%2F5ock0dE%2BiRTDptFf5W7V07xI
+                      - checkbox [ref=e2143]
+                      - text: Apenas lavagem à mão
+              - group "Tamanho da Embalagem" [ref=e2145]:
+                - heading "Tamanho da Embalagem" [level=2] [ref=e2146]
+                - list "Tamanho da Embalagem" [ref=e2147]:
+                  - listitem [ref=e2148]:
+                    - link "Aplique o filtro 1 para restringir os resultados" [ref=e2150] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015448258111%3A122264079011&dc&qid=1775698103&rnid=122264073011&ref=sr_nr_p_n_g-101015448258111_1&ds=v1%3AWEzuBDqh%2FCHLUjRJX0m%2B%2BOcv9k1m0yK%2B8r6V22mbQl0
+                      - checkbox [ref=e2153]
+                      - text: "1"
+                  - listitem [ref=e2155]:
+                    - link "Aplique o filtro 2 para restringir os resultados" [ref=e2157] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015448258111%3A122264078011&dc&qid=1775698103&rnid=122264073011&ref=sr_nr_p_n_g-101015448258111_2&ds=v1%3ArTYPxHHeCpBLSW7zzqRrfBi59cA1hjSP2eDTIpC8v8k
+                      - checkbox [ref=e2160]
+                      - text: "2"
+                  - listitem [ref=e2162]:
+                    - link "Aplique o filtro 3 ou mais para restringir os resultados" [ref=e2164] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015448258111%3A122264077011&dc&qid=1775698103&rnid=122264073011&ref=sr_nr_p_n_g-101015448258111_3&ds=v1%3Aoohwu%2FdjLHLjJU%2F1dXzf6w6JwUBRp1swqqb2MhMWFo4
+                      - checkbox [ref=e2167]
+                      - text: 3 ou mais
+              - group "Livre de" [ref=e2169]:
+                - heading "Livre de" [level=2] [ref=e2170]
+                - list "Livre de" [ref=e2171]:
+                  - listitem [ref=e2172]:
+                    - link "Aplique o filtro Sem BPA para restringir os resultados" [ref=e2174] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015498392111%3A122268539011&dc&qid=1775698103&rnid=122268524011&ref=sr_nr_p_n_g-101015498392111_1&ds=v1%3Aq8Sm8PrTY11UF%2BP57JkStIAB4MF4WYEuStfyaPAcKI8
+                      - checkbox [ref=e2177]
+                      - text: Sem BPA
+                  - listitem [ref=e2179]:
+                    - link "Aplique o filtro Sem chumbo para restringir os resultados" [ref=e2181] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015498392111%3A122268536011&dc&qid=1775698103&rnid=122268524011&ref=sr_nr_p_n_g-101015498392111_2&ds=v1%3A719%2BqIxT3PYc6pYrTNKVVgt2JlWTki8L%2BWETLl6auKI
+                      - checkbox [ref=e2184]
+                      - text: Sem chumbo
+                  - listitem [ref=e2186]:
+                    - link "Aplique o filtro Sem PVC para restringir os resultados" [ref=e2188] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015498392111%3A122268535011&dc&qid=1775698103&rnid=122268524011&ref=sr_nr_p_n_g-101015498392111_3&ds=v1%3AlV21IR90jEGf%2BRHMHrMiAiMkZeAJzSj753TVWPZkRig
+                      - checkbox [ref=e2191]
+                      - text: Sem PVC
+                  - listitem [ref=e2193]:
+                    - link "Aplique o filtro Sem ftalato para restringir os resultados" [ref=e2195] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015498392111%3A122268541011&dc&qid=1775698103&rnid=122268524011&ref=sr_nr_p_n_g-101015498392111_4&ds=v1%3AXEYhLD8bBIXYUQXLseVGYUZ66UMKF%2FJH143NhB4NczA
+                      - checkbox [ref=e2198]
+                      - text: Sem ftalato
+                  - listitem [ref=e2200]:
+                    - link "Aplique o filtro Sem látex para restringir os resultados" [ref=e2202] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015498392111%3A122268538011&dc&qid=1775698103&rnid=122268524011&ref=sr_nr_p_n_g-101015498392111_5&ds=v1%3A%2BsnvcGZrvHPHc6MXv8qeWfypKwbxWS9uqFV82zZ2jns
+                      - checkbox [ref=e2205]
+                      - text: Sem látex
+                  - listitem [ref=e2207]:
+                    - link "Aplique o filtro Sem nitrosamina para restringir os resultados" [ref=e2209] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015498392111%3A122268537011&dc&qid=1775698103&rnid=122268524011&ref=sr_nr_p_n_g-101015498392111_6&ds=v1%3A0MFGLVMQrTTdoXMDmVe95N5CIuMzuDX0%2F7rhya9l1Mw
+                      - checkbox [ref=e2212]
+                      - text: Sem nitrosamina
+                  - listitem [ref=e2214]:
+                    - link "Aplique o filtro Sem petróleo para restringir os resultados" [ref=e2216] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015498392111%3A122268540011&dc&qid=1775698103&rnid=122268524011&ref=sr_nr_p_n_g-101015498392111_7&ds=v1%3ASxBf2N%2Ffdxw2MiQYYC8AskDOFc6Z18pWo7YfEG3%2Fwq0
+                      - checkbox [ref=e2219]
+                      - text: Sem petróleo
+              - group "Forma" [ref=e2221]:
+                - heading "Forma" [level=2] [ref=e2222]
+                - list "Forma" [ref=e2223]:
+                  - listitem [ref=e2224]:
+                    - link "Aplique o filtro Caixa para restringir os resultados" [ref=e2226] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015497733111%3A122268544011&dc&qid=1775698103&rnid=122268525011&ref=sr_nr_p_n_g-101015497733111_1&ds=v1%3AIAnY%2Bkyvkd1h9fXnSby5fohq5L%2FFHbF3f2Le5NxVsg8
+                      - checkbox [ref=e2229]
+                      - text: Caixa
+                  - listitem [ref=e2231]:
+                    - link "Aplique o filtro Frasco para restringir os resultados" [ref=e2233] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015497733111%3A122268547011&dc&qid=1775698103&rnid=122268525011&ref=sr_nr_p_n_g-101015497733111_2&ds=v1%3AdqFj9s5ClkHeRU1wOCc0ulFmF8OZc%2FG4VworR0ctvxs
+                      - checkbox [ref=e2236]
+                      - text: Frasco
+                  - listitem [ref=e2238]:
+                    - link "Aplique o filtro Jarro para restringir os resultados" [ref=e2240] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015497733111%3A122268545011&dc&qid=1775698103&rnid=122268525011&ref=sr_nr_p_n_g-101015497733111_3&ds=v1%3A4IaMZecFVRh0z8CPLQWpaJJ6F5z1DeFdSbUGCmxcJd0
+                      - checkbox [ref=e2243]
+                      - text: Jarro
+                  - listitem [ref=e2245]:
+                    - link "Aplique o filtro Balde para restringir os resultados" [ref=e2247] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015497733111%3A122268546011&dc&qid=1775698103&rnid=122268525011&ref=sr_nr_p_n_g-101015497733111_4&ds=v1%3AGJduVCoHEcYy12F72PMfTrZKaTIC89qlbNkeki3SwWg
+                      - checkbox [ref=e2250]
+                      - text: Balde
+                  - listitem [ref=e2252]:
+                    - link "Aplique o filtro Garrafa para restringir os resultados" [ref=e2254] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015497733111%3A122268542011&dc&qid=1775698103&rnid=122268525011&ref=sr_nr_p_n_g-101015497733111_5&ds=v1%3AVtQLaN7l7my1dU6sERv%2B3FhVK34mE7GpKswQokqPEHA
+                      - checkbox [ref=e2257]
+                      - text: Garrafa
+                  - listitem [ref=e2259]:
+                    - link "Aplique o filtro Recipiente Graduado para restringir os resultados" [ref=e2261] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015497733111%3A204224096011&dc&qid=1775698103&rnid=122268525011&ref=sr_nr_p_n_g-101015497733111_6&ds=v1%3AZgU2WkscK7ulcBhTv5MOihroIAgXWuNqgo5HIADZ4rY
+                      - checkbox [ref=e2264]
+                      - text: Recipiente Graduado
+                  - listitem [ref=e2266]:
+                    - link "Aplique o filtro Tigela para restringir os resultados" [ref=e2268] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015497733111%3A216970390011&dc&qid=1775698103&rnid=122268525011&ref=sr_nr_p_n_g-101015497733111_7&ds=v1%3AOdgwluh7SiPboAifWx2I6ZP4g1kujDZzKddeVji3OWo
+                      - checkbox [ref=e2271]
+                      - text: Tigela
+              - group "Comprimento" [ref=e2273]:
+                - heading "Comprimento" [level=2] [ref=e2274]
+                - list "Comprimento" [ref=e2275]:
+                  - listitem [ref=e2276]:
+                    - link "Aplique o filtro Até 4,9 cm para restringir os resultados" [ref=e2278] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015507078111%3A122272556011&dc&qid=1775698103&rnid=122272550011&ref=sr_nr_p_n_g-101015507078111_1&ds=v1%3ApsZGDy0LOFFb7cjMz1x2QONMv8Xu39ktfgWR8mrb%2B3E
+                      - checkbox [ref=e2281]
+                      - text: Até 4,9 cm
+                  - listitem [ref=e2283]:
+                    - link "Aplique o filtro 5 a 9,9 cm para restringir os resultados" [ref=e2285] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015507078111%3A122272559011&dc&qid=1775698103&rnid=122272550011&ref=sr_nr_p_n_g-101015507078111_2&ds=v1%3ALkoglyfiaEY7WIqAi90WG%2F%2BnAMZG3vkgfeoIqyTTCkI
+                      - checkbox [ref=e2288]
+                      - text: 5 a 9,9 cm
+                  - listitem [ref=e2290]:
+                    - link "Aplique o filtro 10 a 14,9 cm para restringir os resultados" [ref=e2292] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015507078111%3A122272557011&dc&qid=1775698103&rnid=122272550011&ref=sr_nr_p_n_g-101015507078111_3&ds=v1%3AGnxiujQsL6xsYnaohrTFpJBnGI5ter%2B4vX%2FF5%2BJ4J6Q
+                      - checkbox [ref=e2295]
+                      - text: 10 a 14,9 cm
+                  - listitem [ref=e2297]:
+                    - link "Aplique o filtro 15 a 19,9 cm para restringir os resultados" [ref=e2299] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015507078111%3A122272558011&dc&qid=1775698103&rnid=122272550011&ref=sr_nr_p_n_g-101015507078111_4&ds=v1%3AWTj07EuCYsuS7Fxv44DjOpBsg9nESBneY2xJLfJg5aA
+                      - checkbox [ref=e2302]
+                      - text: 15 a 19,9 cm
+                  - listitem [ref=e2304]:
+                    - link "Aplique o filtro 20 cm ou mais para restringir os resultados" [ref=e2306] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015507078111%3A122272555011&dc&qid=1775698103&rnid=122272550011&ref=sr_nr_p_n_g-101015507078111_5&ds=v1%3ApIc%2FKIZctYGPGq2JbYHRM3J6j%2F7QWfdJB44%2B1Q%2FxV%2FE
+                      - checkbox [ref=e2309]
+                      - text: 20 cm ou mais
+              - group "Altura" [ref=e2311]:
+                - heading "Altura" [level=2] [ref=e2312]
+                - list "Altura" [ref=e2313]:
+                  - listitem [ref=e2314]:
+                    - link "Aplique o filtro Até 7,9 cm para restringir os resultados" [ref=e2316] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015506873111%3A122272563011&dc&qid=1775698103&rnid=122272551011&ref=sr_nr_p_n_g-101015506873111_1&ds=v1%3AAVLbJTc9vIzEgvqG2RjNYPz%2BqKqtaTYR2YB3x%2FXBcO0
+                      - checkbox [ref=e2319]
+                      - text: Até 7,9 cm
+                  - listitem [ref=e2321]:
+                    - link "Aplique o filtro 8 a 9,9 cm para restringir os resultados" [ref=e2323] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015506873111%3A122272561011&dc&qid=1775698103&rnid=122272551011&ref=sr_nr_p_n_g-101015506873111_2&ds=v1%3AxbxCFWm1i75rQEsKpvctQF6k0fEP9NHjssHmzZXIPNo
+                      - checkbox [ref=e2326]
+                      - text: 8 a 9,9 cm
+                  - listitem [ref=e2328]:
+                    - link "Aplique o filtro 10 a 12,9 cm para restringir os resultados" [ref=e2330] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015506873111%3A122272564011&dc&qid=1775698103&rnid=122272551011&ref=sr_nr_p_n_g-101015506873111_3&ds=v1%3AKXdBQLAX50sbeZo1%2FlYAo5fasLpelT3q9B1oiLXZRmI
+                      - checkbox [ref=e2333]
+                      - text: 10 a 12,9 cm
+                  - listitem [ref=e2335]:
+                    - link "Aplique o filtro 13 a 14,9 cm para restringir os resultados" [ref=e2337] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015506873111%3A122272565011&dc&qid=1775698103&rnid=122272551011&ref=sr_nr_p_n_g-101015506873111_4&ds=v1%3ApB%2B4TqWa05WuxKy0Zdc993hDzJih1yNYAGA5%2BUXvQrs
+                      - checkbox [ref=e2340]
+                      - text: 13 a 14,9 cm
+                  - listitem [ref=e2342]:
+                    - link "Aplique o filtro 15 a 17,9 cm para restringir os resultados" [ref=e2344] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015506873111%3A122272562011&dc&qid=1775698103&rnid=122272551011&ref=sr_nr_p_n_g-101015506873111_5&ds=v1%3AO51vg0dSVBuqXTq0N2yrbp6Lj%2Fw0iic3DXh4PG38X%2FI
+                      - checkbox [ref=e2347]
+                      - text: 15 a 17,9 cm
+                  - listitem [ref=e2349]:
+                    - link "Aplique o filtro 18 cm ou mais para restringir os resultados" [ref=e2351] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015506873111%3A122272560011&dc&qid=1775698103&rnid=122272551011&ref=sr_nr_p_n_g-101015506873111_6&ds=v1%3AZzvlo%2B4gen2vNpYyuj1yJDVocB2RyjlcmxeJlMci7es
+                      - checkbox [ref=e2354]
+                      - text: 18 cm ou mais
+              - group "Largura" [ref=e2356]:
+                - heading "Largura" [level=2] [ref=e2357]
+                - list "Largura" [ref=e2358]:
+                  - listitem [ref=e2359]:
+                    - link "Aplique o filtro Até 7,9 cm para restringir os resultados" [ref=e2361] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015506783111%3A122272566011&dc&qid=1775698103&rnid=122272552011&ref=sr_nr_p_n_g-101015506783111_1&ds=v1%3AOB%2BLGnHESWloSAg7QZGRUZ52YBZTKS9RJwukYgtYcQ8
+                      - checkbox [ref=e2364]
+                      - text: Até 7,9 cm
+                  - listitem [ref=e2366]:
+                    - link "Aplique o filtro 8 a 9,9 cm para restringir os resultados" [ref=e2368] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015506783111%3A122272570011&dc&qid=1775698103&rnid=122272552011&ref=sr_nr_p_n_g-101015506783111_2&ds=v1%3AO49cDlo32eYg24aVcf7Vr1gsgyFfCufJtPJMHfMI918
+                      - checkbox [ref=e2371]
+                      - text: 8 a 9,9 cm
+                  - listitem [ref=e2373]:
+                    - link "Aplique o filtro 10 a 12,9 cm para restringir os resultados" [ref=e2375] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015506783111%3A122272569011&dc&qid=1775698103&rnid=122272552011&ref=sr_nr_p_n_g-101015506783111_3&ds=v1%3Am%2BfK9IKObjt4I2Af2N%2FG74LFLozQe59eGy8RWvYpDQw
+                      - checkbox [ref=e2378]
+                      - text: 10 a 12,9 cm
+                  - listitem [ref=e2380]:
+                    - link "Aplique o filtro 13 a 14,9 cm para restringir os resultados" [ref=e2382] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015506783111%3A122272568011&dc&qid=1775698103&rnid=122272552011&ref=sr_nr_p_n_g-101015506783111_4&ds=v1%3AMt5RKXIjpkRIeTXYA%2FIBQnhFL2Z39wZkdZp2pMTzyDY
+                      - checkbox [ref=e2385]
+                      - text: 13 a 14,9 cm
+                  - listitem [ref=e2387]:
+                    - link "Aplique o filtro 15 cm ou mais para restringir os resultados" [ref=e2389] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101015506783111%3A122272567011&dc&qid=1775698103&rnid=122272552011&ref=sr_nr_p_n_g-101015506783111_5&ds=v1%3AHi9RaHpJkwEbCauoKIn5LhNSvPsaXzv%2FWhujd65AvOo
+                      - checkbox [ref=e2392]
+                      - text: 15 cm ou mais
+              - group "Vendido por" [ref=e2394]:
+                - heading "Vendido por" [level=2] [ref=e2395]
+                - list "Vendido por" [ref=e2396]:
+                  - listitem [ref=e2397]:
+                    - link "Aplique o filtro Amazon.com.br para restringir os resultados" [ref=e2399] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_6%3AA1ZZFT5FULY4LN&dc&qid=1775698103&rnid=15137643011&ref=sr_nr_p_6_1&ds=v1%3AC54CLYe%2Fzfw4GD6%2BSbACN0MqkQh8A%2Fd2z%2FA9TFi3Kp0
+                      - checkbox [ref=e2402]
+                      - text: Amazon.com.br
+                  - listitem [ref=e2404]:
+                    - link "Aplique o filtro U4HOME BRASIL para restringir os resultados" [ref=e2406] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_6%3AA3LOAUW8QJ70SI&dc&qid=1775698103&rnid=15137643011&ref=sr_nr_p_6_2&ds=v1%3AwGITfJ%2FdyizInLkAXy5J6mXsQ7pXrdd%2FlxqDmaxO3Z0
+                      - checkbox [ref=e2409]
+                      - text: U4HOME BRASIL
+                  - listitem [ref=e2411]:
+                    - button "Ver mais, Vendido por" [ref=e2414] [cursor=pointer]: Ver mais
+              - group "Disponibilidade" [ref=e2416]:
+                - heading "Disponibilidade" [level=2] [ref=e2417]
+                - list "Disponibilidade" [ref=e2418]:
+                  - listitem [ref=e2419]:
+                    - link "Aplique o filtro Exibir Itens sem Estoque para restringir os resultados" [ref=e2421] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_availability%3A16254085011&dc&qid=1775698103&rnid=16254083011&ref=sr_nr_p_n_availability_2&ds=v1%3AqnCZF5jzJ2ekF62cVhSOXIg7vSVuGG26sHALkBL7nQY
+                      - checkbox [ref=e2424]
+                      - text: Exibir Itens sem Estoque
+              - group "Lançamentos" [ref=e2426]:
+                - heading "Lançamentos" [level=2] [ref=e2427]
+                - list "Lançamentos" [ref=e2428]:
+                  - listitem [ref=e2429]:
+                    - link "Últimos 30 dias" [ref=e2431] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_date%3A17833788011&dc&qid=1775698103&rnid=17833767011&ref=sr_nr_p_n_date_1&ds=v1%3Aw88ZG7tDeovGf9openC7zsRMND3UzaV3FyBI14nT%2BVg
+                  - listitem [ref=e2432]:
+                    - link "Últimos 90 dias" [ref=e2434] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_date%3A17833789011&dc&qid=1775698103&rnid=17833767011&ref=sr_nr_p_n_date_2&ds=v1%3AseQNVOBjsKX7cltFnUnAWgeJXpydMeB3waM1NlaO%2Fu4
+              - group "Capacidade" [ref=e2435]:
+                - heading "Capacidade" [level=2] [ref=e2436]
+                - list "Capacidade" [ref=e2437]:
+                  - listitem [ref=e2438]:
+                    - link "Aplique o filtro Até 399 mL para restringir os resultados" [ref=e2440] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_feature_browse-bin%3A212243051011&dc&qid=1775698103&rnid=212243049011&ref=sr_nr_p_n_feature_browse-bin_1&ds=v1%3AeNnecsk2vgV5%2BV%2FNgnsAVqL%2BQyBQDSmyWR9p3oscJ2A
+                      - checkbox [ref=e2443]
+                      - text: Até 399 mL
+                  - listitem [ref=e2445]:
+                    - link "Aplique o filtro 400 a 749 mL para restringir os resultados" [ref=e2447] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_feature_browse-bin%3A212243050011&dc&qid=1775698103&rnid=212243049011&ref=sr_nr_p_n_feature_browse-bin_2&ds=v1%3A4uFo7yagwReWw4xm5R49UHcRxQTfXjHhpwvxxlWDWJA
+                      - checkbox [ref=e2450]
+                      - text: 400 a 749 mL
+                  - listitem [ref=e2452]:
+                    - link "Aplique o filtro 750 a 999 mL para restringir os resultados" [ref=e2454] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_feature_browse-bin%3A212243055011&dc&qid=1775698103&rnid=212243049011&ref=sr_nr_p_n_feature_browse-bin_3&ds=v1%3AxWM5sRzY6FRhRJPr6OCayFevu7p35d%2FM1p8lPuiUHLE
+                      - checkbox [ref=e2457]
+                      - text: 750 a 999 mL
+                  - listitem [ref=e2459]:
+                    - link "Aplique o filtro 1.000 mL ou mais para restringir os resultados" [ref=e2461] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_feature_browse-bin%3A212243054011&dc&qid=1775698103&rnid=212243049011&ref=sr_nr_p_n_feature_browse-bin_4&ds=v1%3AOAg40XjXSPndTT%2BgBvPq1HZBfdeQ6IAd1gg9Vk6LGnQ
+                      - checkbox [ref=e2464]
+                      - text: 1.000 mL ou mais
+              - group "Usa" [ref=e2466]:
+                - heading "Usa" [level=2] [ref=e2467]
+                - list "Usa" [ref=e2468]:
+                  - listitem [ref=e2469]:
+                    - link "Aplique o filtro Arroz para restringir os resultados" [ref=e2471] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003400592111%3A24036836011&dc&qid=1775698103&rnid=24036672011&ref=sr_nr_p_n_g-1003400592111_1&ds=v1%3AfVVWwnORYWVBmoDmark4OaUkCx6RUx235jejL6pB31A
+                      - checkbox [ref=e2474]
+                      - text: Arroz
+                  - listitem [ref=e2476]:
+                    - link "Aplique o filtro Biscoitos para restringir os resultados" [ref=e2478] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003400592111%3A24036838011&dc&qid=1775698103&rnid=24036672011&ref=sr_nr_p_n_g-1003400592111_2&ds=v1%3A34%2B4y65WIJXvTANNJBYpxoiEJ8qgpdaNMvka80MNnKs
+                      - checkbox [ref=e2481]
+                      - text: Biscoitos
+                  - listitem [ref=e2483]:
+                    - link "Aplique o filtro Macarrão para restringir os resultados" [ref=e2485] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003400592111%3A24036841011&dc&qid=1775698103&rnid=24036672011&ref=sr_nr_p_n_g-1003400592111_3&ds=v1%3AiYmeLZobA6v7qH2i3iCYMOx3wfpQdIHRgfDgUSPKUXg
+                      - checkbox [ref=e2488]
+                      - text: Macarrão
+                  - listitem [ref=e2490]:
+                    - link "Aplique o filtro Açúcar para restringir os resultados" [ref=e2492] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003400592111%3A207195127011&dc&qid=1775698103&rnid=24036672011&ref=sr_nr_p_n_g-1003400592111_4&ds=v1%3AbLh38EWWYsGGKBZXgjt8r2XufOEfw6iH47Iu5Y8Vx6I
+                      - checkbox [ref=e2495]
+                      - text: Açúcar
+                  - listitem [ref=e2497]:
+                    - link "Aplique o filtro Bolinho para restringir os resultados" [ref=e2499] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003400592111%3A207195129011&dc&qid=1775698103&rnid=24036672011&ref=sr_nr_p_n_g-1003400592111_5&ds=v1%3AYYJcLdKrbfNAWSbgjm3sjl2Efq6YaqYIJwMCiizv%2FDA
+                      - checkbox [ref=e2502]
+                      - text: Bolinho
+                  - listitem [ref=e2504]:
+                    - link "Aplique o filtro Bolo para restringir os resultados" [ref=e2506] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003400592111%3A24036837011&dc&qid=1775698103&rnid=24036672011&ref=sr_nr_p_n_g-1003400592111_6&ds=v1%3AWhQNpKWOmAcgxCdAW6miN6MMlLK5W5Z94WoDA1WxHiE
+                      - checkbox [ref=e2509]
+                      - text: Bolo
+                  - listitem [ref=e2511]:
+                    - link "Aplique o filtro Café para restringir os resultados" [ref=e2513] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003400592111%3A207195122011&dc&qid=1775698103&rnid=24036672011&ref=sr_nr_p_n_g-1003400592111_7&ds=v1%3A%2FRUlRpKNk58oY%2Be2sjtzLuE2x8bGZlyTc9KhBusxJiQ
+                      - checkbox [ref=e2516]
+                      - text: Café
+                  - listitem [ref=e2518]:
+                    - button "Ver mais, Usa" [ref=e2521] [cursor=pointer]: Ver mais
+              - group "Forma do recipiente" [ref=e2523]:
+                - heading "Forma do recipiente" [level=2] [ref=e2524]
+                - list "Forma do recipiente" [ref=e2525]:
+                  - listitem [ref=e2526]:
+                    - link "Aplique o filtro Retangular para restringir os resultados" [ref=e2528] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003409921111%3A24042862011&dc&qid=1775698103&rnid=24042856011&ref=sr_nr_p_n_g-1003409921111_1&ds=v1%3AM3BiQuoiFTXhXt3ZuoKAkjXR0GozApJTAIvu9K8oeRQ
+                      - checkbox [ref=e2531]
+                      - text: Retangular
+                  - listitem [ref=e2533]:
+                    - link "Aplique o filtro Quadrado para restringir os resultados" [ref=e2535] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003409921111%3A24042863011&dc&qid=1775698103&rnid=24042856011&ref=sr_nr_p_n_g-1003409921111_2&ds=v1%3AUW8%2BakrBvcc66%2FfrxywjAJsbeQRIOBlyxLOU6gIDJGk
+                      - checkbox [ref=e2538]
+                      - text: Quadrado
+                  - listitem [ref=e2540]:
+                    - link "Aplique o filtro Redonda para restringir os resultados" [ref=e2542] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003409921111%3A24042861011&dc&qid=1775698103&rnid=24042856011&ref=sr_nr_p_n_g-1003409921111_3&ds=v1%3A8CZE1q9j%2FTSGB2bDlpBTw9AcFxt1quswG1WP%2BbrwVeA
+                      - checkbox [ref=e2545]
+                      - text: Redonda
+              - group "Características do material" [ref=e2547]:
+                - heading "Características do material" [level=2] [ref=e2548]
+                - list "Características do material" [ref=e2549]:
+                  - listitem [ref=e2550]:
+                    - link "Aplique o filtro Seguro para micro-ondas para restringir os resultados" [ref=e2552] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003418876111%3A24083601011&dc&qid=1775698103&rnid=24083593011&ref=sr_nr_p_n_g-1003418876111_1&ds=v1%3AtsfsmqLDICasoSfsuY90f2zAhv3oCOJCU9epwSvTdEk
+                      - checkbox [ref=e2555]
+                      - text: Seguro para micro-ondas
+                  - listitem [ref=e2557]:
+                    - link "Aplique o filtro Reutilizável para restringir os resultados" [ref=e2559] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003418876111%3A24083598011&dc&qid=1775698103&rnid=24083593011&ref=sr_nr_p_n_g-1003418876111_2&ds=v1%3ASb6YycdjygYMX%2FcTz%2Fhkaku66jXul0noBECAeU758gQ
+                      - checkbox [ref=e2562]
+                      - text: Reutilizável
+                  - listitem [ref=e2564]:
+                    - link "Aplique o filtro Seguro para forno para restringir os resultados" [ref=e2566] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003418876111%3A24083600011&dc&qid=1775698103&rnid=24083593011&ref=sr_nr_p_n_g-1003418876111_3&ds=v1%3AnLMUAehmekyopi6fuhzLoMpX%2FL7swFPHNUlvfkhrfXo
+                      - checkbox [ref=e2569]
+                      - text: Seguro para forno
+                  - listitem [ref=e2571]:
+                    - link "Aplique o filtro Seguro para freezer para restringir os resultados" [ref=e2573] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003418876111%3A24083596011&dc&qid=1775698103&rnid=24083593011&ref=sr_nr_p_n_g-1003418876111_4&ds=v1%3AmDF4nyBPFhjPqPczQzWCTFuheR%2FheivY17ubrcxPJsU
+                      - checkbox [ref=e2576]
+                      - text: Seguro para freezer
+                  - listitem [ref=e2578]:
+                    - link "Aplique o filtro Biodegradável para restringir os resultados" [ref=e2580] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003418876111%3A24083595011&dc&qid=1775698103&rnid=24083593011&ref=sr_nr_p_n_g-1003418876111_5&ds=v1%3AmOHoNX2z30Uns2JakI6AGS7ObQJJRqyyHVgTqIP%2BIs0
+                      - checkbox [ref=e2583]
+                      - text: Biodegradável
+                  - listitem [ref=e2585]:
+                    - link "Aplique o filtro Descartável para restringir os resultados" [ref=e2587] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003418876111%3A24083599011&dc&qid=1775698103&rnid=24083593011&ref=sr_nr_p_n_g-1003418876111_6&ds=v1%3ARaqFpv4E1UtJci8tj6046K9lqTxi93HG2oAwgRJlt2k
+                      - checkbox [ref=e2590]
+                      - text: Descartável
+                  - listitem [ref=e2592]:
+                    - link "Aplique o filtro Grau alimentar para restringir os resultados" [ref=e2594] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003418876111%3A87886251011&dc&qid=1775698103&rnid=24083593011&ref=sr_nr_p_n_g-1003418876111_7&ds=v1%3Am2v2IQi19afj5BLBcKs4vrcwI0Fo0IIUm%2FOmGvDgZac
+                      - checkbox [ref=e2597]
+                      - text: Grau alimentar
+                  - listitem [ref=e2599]:
+                    - button "Ver mais, Características do material" [ref=e2602] [cursor=pointer]: Ver mais
+              - group "Recursos" [ref=e2604]:
+                - heading "Recursos" [level=2] [ref=e2605]
+                - list "Recursos" [ref=e2606]:
+                  - listitem [ref=e2607]:
+                    - link "Aplique o filtro Hermético para restringir os resultados" [ref=e2609] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101013577223111%3A72479122011&dc&qid=1775698103&rnid=72479118011&ref=sr_nr_p_n_g-101013577223111_1&ds=v1%3AqZoSITSg%2Be57o%2BM8Zv%2Flcm%2BmMc9Ns380f9STKP7aVcI
+                      - checkbox [ref=e2612]
+                      - text: Hermético
+                  - listitem [ref=e2614]:
+                    - link "Aplique o filtro Empilhável para restringir os resultados" [ref=e2616] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101013577223111%3A72479120011&dc&qid=1775698103&rnid=72479118011&ref=sr_nr_p_n_g-101013577223111_2&ds=v1%3AxModVzd101GiGNnp2PbryENQ7aFXov9%2BWp6t5jyjeGI
+                      - checkbox [ref=e2619]
+                      - text: Empilhável
+                  - listitem [ref=e2621]:
+                    - link "Aplique o filtro Resistente a vazamentos para restringir os resultados" [ref=e2623] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101013577223111%3A78759312011&dc&qid=1775698103&rnid=72479118011&ref=sr_nr_p_n_g-101013577223111_3&ds=v1%3ArRARnKFQATF5qiivpzeylRzF8F1IyYPBpvxOWFSU1UY
+                      - checkbox [ref=e2626]
+                      - text: Resistente a vazamentos
+                  - listitem [ref=e2628]:
+                    - link "Aplique o filtro Durável para restringir os resultados" [ref=e2630] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101013577223111%3A78759305011&dc&qid=1775698103&rnid=72479118011&ref=sr_nr_p_n_g-101013577223111_4&ds=v1%3AzR36Ddp1orRGsaFgVayZltwh4Ebbjekc9zUFX2qeM6s
+                      - checkbox [ref=e2633]
+                      - text: Durável
+                  - listitem [ref=e2635]:
+                    - link "Aplique o filtro Inquebrável para restringir os resultados" [ref=e2637] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101013577223111%3A78759296011&dc&qid=1775698103&rnid=72479118011&ref=sr_nr_p_n_g-101013577223111_5&ds=v1%3AoCVEBRpiK3R5YKO5S86oLNTJ2aFARqASZyaODH7rkPk
+                      - checkbox [ref=e2640]
+                      - text: Inquebrável
+                  - listitem [ref=e2642]:
+                    - link "Aplique o filtro Base antiderrapante para restringir os resultados" [ref=e2644] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101013577223111%3A122182658011&dc&qid=1775698103&rnid=72479118011&ref=sr_nr_p_n_g-101013577223111_6&ds=v1%3A%2BsMWRy9%2B2lqO3eAPEScoRZ3n8gjT5QsMi2aKIvoF13Q
+                      - checkbox [ref=e2647]
+                      - text: Base antiderrapante
+                  - listitem [ref=e2649]:
+                    - link "Aplique o filtro Desmontável para restringir os resultados" [ref=e2651] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101013577223111%3A72479121011&dc&qid=1775698103&rnid=72479118011&ref=sr_nr_p_n_g-101013577223111_7&ds=v1%3AYTUF72EEJI0RlI9%2F9dpzHRdzMmi%2Bl8RlJ%2FEOfdpIYuw
+                      - checkbox [ref=e2654]
+                      - text: Desmontável
+                  - listitem [ref=e2656]:
+                    - link "Aplique o filtro Isolado para restringir os resultados" [ref=e2658] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101013577223111%3A78759300011&dc&qid=1775698103&rnid=72479118011&ref=sr_nr_p_n_g-101013577223111_8&ds=v1%3A6aCcibgZUJitrFcVfoB8KMB0KIJq78axQw5LFxHv%2Fco
+                      - checkbox [ref=e2661]
+                      - text: Isolado
+                  - listitem [ref=e2663]:
+                    - link "Aplique o filtro Leve para restringir os resultados" [ref=e2665] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101013577223111%3A78759303011&dc&qid=1775698103&rnid=72479118011&ref=sr_nr_p_n_g-101013577223111_9&ds=v1%3ADginorie7ipE6Xb251upBU5%2BCA%2FAXA7RtRUlQ%2FU7qSY
+                      - checkbox [ref=e2668]
+                      - text: Leve
+                  - listitem [ref=e2670]:
+                    - link "Aplique o filtro Portátil para restringir os resultados" [ref=e2672] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101013577223111%3A78759306011&dc&qid=1775698103&rnid=72479118011&ref=sr_nr_p_n_g-101013577223111_10&ds=v1%3A7luC1DsBDXLfpkzFTcIgnx7LVN5GQAF50HJyzdyzu9c
+                      - checkbox [ref=e2675]
+                      - text: Portátil
+                  - listitem [ref=e2677]:
+                    - link "Aplique o filtro Resistente a arranhões para restringir os resultados" [ref=e2679] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101013577223111%3A78759308011&dc&qid=1775698103&rnid=72479118011&ref=sr_nr_p_n_g-101013577223111_11&ds=v1%3AsewUu8uA7N8UfOBfNkdhM28q99ugpE962JAxYYpdH1A
+                      - checkbox [ref=e2682]
+                      - text: Resistente a arranhões
+                  - listitem [ref=e2684]:
+                    - link "Aplique o filtro Resistente à ferrugem para restringir os resultados" [ref=e2686] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101013577223111%3A122182660011&dc&qid=1775698103&rnid=72479118011&ref=sr_nr_p_n_g-101013577223111_12&ds=v1%3AFGyAOhbG%2Fm%2BIXVOMOjOrmDsJMLH26TZam298ry6Cs1U
+                      - checkbox [ref=e2689]
+                      - text: Resistente à ferrugem
+                  - listitem [ref=e2691]:
+                    - link "Aplique o filtro Resistente a manchas para restringir os resultados" [ref=e2693] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101013577223111%3A122182659011&dc&qid=1775698103&rnid=72479118011&ref=sr_nr_p_n_g-101013577223111_13&ds=v1%3APwlPTGIu8vFwD3rBdxSuE3V4MA0m3bZrYfk6yd0cUqw
+                      - checkbox [ref=e2696]
+                      - text: Resistente a manchas
+                  - listitem [ref=e2698]:
+                    - link "Aplique o filtro Resistente a odores para restringir os resultados" [ref=e2700] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101013577223111%3A122182657011&dc&qid=1775698103&rnid=72479118011&ref=sr_nr_p_n_g-101013577223111_14&ds=v1%3An15U5jVuOecz1jdArnZJ7qjHaagvpI4fhsQggwWubpc
+                      - checkbox [ref=e2703]
+                      - text: Resistente a odores
+                  - listitem [ref=e2705]:
+                    - link "Aplique o filtro Robusto para restringir os resultados" [ref=e2707] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101013577223111%3A78759310011&dc&qid=1775698103&rnid=72479118011&ref=sr_nr_p_n_g-101013577223111_15&ds=v1%3AVNZTcaEzjaSTwLNCanlQlU4lpW4NwmV0q8iL2arl2DE
+                      - checkbox [ref=e2710]
+                      - text: Robusto
+                  - listitem [ref=e2712]:
+                    - link "Aplique o filtro Transparente para restringir os resultados" [ref=e2714] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-101013577223111%3A204224233011&dc&qid=1775698103&rnid=72479118011&ref=sr_nr_p_n_g-101013577223111_16&ds=v1%3AjobMB0RbTpSTgo%2Bkclkxt0gRuZ6Bk7hg05DRognXkaw
+                      - checkbox [ref=e2717]
+                      - text: Transparente
+              - group "Fechamento" [ref=e2719]:
+                - heading "Fechamento" [level=2] [ref=e2720]
+                - list "Fechamento" [ref=e2721]:
+                  - listitem [ref=e2722]:
+                    - link "Aplique o filtro Estalar para restringir os resultados" [ref=e2724] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003400524111%3A78724341011&dc&qid=1775698103&rnid=24036673011&ref=sr_nr_p_n_g-1003400524111_1&ds=v1%3AEhPn2cNUoZBSjAKggoRWoM6W6WRdj64lXFPHlHfkirQ
+                      - checkbox [ref=e2727]
+                      - text: Estalar
+                  - listitem [ref=e2729]:
+                    - link "Aplique o filtro Twist Lock para restringir os resultados" [ref=e2731] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003400524111%3A78724345011&dc&qid=1775698103&rnid=24036673011&ref=sr_nr_p_n_g-1003400524111_2&ds=v1%3Aie4PHZQ2VpaXvNSXI9hgsc%2Fsw44WCzy0d0D82ocLpDo
+                      - checkbox [ref=e2734]
+                      - text: Twist Lock
+                  - listitem [ref=e2736]:
+                    - link "Aplique o filtro Trinco para restringir os resultados" [ref=e2738] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003400524111%3A24036851011&dc&qid=1775698103&rnid=24036673011&ref=sr_nr_p_n_g-1003400524111_3&ds=v1%3A3JW%2BxkLegct4FBP5Pj9ietWkQS4T8dEnpkvESIZXymg
+                      - checkbox [ref=e2741]
+                      - text: Trinco
+                  - listitem [ref=e2743]:
+                    - link "Aplique o filtro Fecho de clipe para restringir os resultados" [ref=e2745] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003400524111%3A24036850011&dc&qid=1775698103&rnid=24036673011&ref=sr_nr_p_n_g-1003400524111_4&ds=v1%3ASt7KuThoB8GJHn9ACBXC38cnyJ7KbCVRlykfPdnqH2k
+                      - checkbox [ref=e2748]
+                      - text: Fecho de clipe
+                  - listitem [ref=e2750]:
+                    - link "Aplique o filtro Topo de virar para restringir os resultados" [ref=e2752] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003400524111%3A24036847011&dc&qid=1775698103&rnid=24036673011&ref=sr_nr_p_n_g-1003400524111_5&ds=v1%3A3TQZkIT%2Fl1Uv1mw1AtYJZ8DtWaIwv4VHFBQfPocrIAo
+                      - checkbox [ref=e2755]
+                      - text: Topo de virar
+                  - listitem [ref=e2757]:
+                    - link "Aplique o filtro Zíper para restringir os resultados" [ref=e2759] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003400524111%3A78724343011&dc&qid=1775698103&rnid=24036673011&ref=sr_nr_p_n_g-1003400524111_6&ds=v1%3AoMQ8esdepfS60qTxeFP35ZIrcAekzKrX6pgka71M1eg
+                      - checkbox [ref=e2762]
+                      - text: Zíper
+                  - listitem [ref=e2764]:
+                    - link "Aplique o filtro Asa de gaivota para restringir os resultados" [ref=e2766] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003400524111%3A24036849011&dc&qid=1775698103&rnid=24036673011&ref=sr_nr_p_n_g-1003400524111_7&ds=v1%3AzwQOw0eR%2F9v2Pm1QBS6Yz8%2BsjllzJFb4F%2Bpx4qGOQTA
+                      - checkbox [ref=e2769]
+                      - text: Asa de gaivota
+                  - listitem [ref=e2771]:
+                    - link "Aplique o filtro Botão de pressão para restringir os resultados" [ref=e2773] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003400524111%3A122266025011&dc&qid=1775698103&rnid=24036673011&ref=sr_nr_p_n_g-1003400524111_8&ds=v1%3ArlaLRMM5UUvSiCPHTpZjePvgvepZtFkmTzEsvlK3kEM
+                      - checkbox [ref=e2776]
+                      - text: Botão de pressão
+                  - listitem [ref=e2778]:
+                    - link "Aplique o filtro Magnético para restringir os resultados" [ref=e2780] [cursor=pointer]:
+                      - /url: /s?k=electrolux+kit+12+potes+hermeticos+retangular&i=kitchen&rh=n%3A16957125011%2Cp_n_g-1003400524111%3A24036848011&dc&qid=1775698103&rnid=24036673011&ref=sr_nr_p_n_g-1003400524111_9&ds=v1%3AUDA4E%2BDaOqMtp32iG2SnRtzd%2F0G1i4Dpo4xbhqF8bkk
+                      - checkbox [ref=e2783]
+                      - text: Magnético
+  - complementary "Itens que você visualizou recentemente e recomendações baseadas em seu histórico:"
+  - generic [ref=e2785]:
+    - button "Voltar ao início" [ref=e2786] [cursor=pointer]:
+      - generic [ref=e2787]: Voltar ao início
+    - generic [ref=e2788]:
+      - generic [ref=e2789]:
+        - heading "Conheça-nos" [level=6] [ref=e2790]
+        - list [ref=e2791]:
+          - listitem [ref=e2792]:
+            - link "Sobre a Amazon" [ref=e2793] [cursor=pointer]:
+              - /url: https://www.aboutamazon.com.br/
+          - listitem [ref=e2794]:
+            - link "Informações corporativas" [ref=e2795] [cursor=pointer]:
+              - /url: /gp/browse.html?node=23490129011&ref_=footer_gw_m_b_corporate
+          - listitem [ref=e2796]:
+            - link "Carreiras" [ref=e2797] [cursor=pointer]:
+              - /url: https://www.amazon.jobs
+          - listitem [ref=e2798]:
+            - link "Comunicados à imprensa" [ref=e2799] [cursor=pointer]:
+              - /url: /gp/browse.html?node=15155858011&ref_=footer_community
+          - listitem [ref=e2800]:
+            - link "Comunidade" [ref=e2801] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16593314011&ref_=footer_community
+          - listitem [ref=e2802]:
+            - link "Acessibilidade" [ref=e2803] [cursor=pointer]:
+              - /url: /gp/browse.html?node=23454858011&ref_=footer_accessibility
+          - listitem [ref=e2804]:
+            - link "Amazon Science" [ref=e2805] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e2807]:
+        - heading "Ganhe dinheiro conosco" [level=6] [ref=e2808]
+        - list [ref=e2809]:
+          - listitem [ref=e2810]:
+            - link "Venda na Amazon" [ref=e2811] [cursor=pointer]:
+              - /url: https://venda.amazon.com.br/?ld=SDBRSOA_footerDesk_T1
+          - listitem [ref=e2812]:
+            - link "Proteja e construa a sua marca" [ref=e2813] [cursor=pointer]:
+              - /url: https://brandservices.amazon.com.br?ref=AOBRABRLGNRFOOT&ld=AOBRABRLGNRFOOT
+          - listitem [ref=e2814]:
+            - link "Forneça para a Amazon" [ref=e2815] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=pt-BR
+          - listitem [ref=e2816]:
+            - link "Publique seus livros" [ref=e2817] [cursor=pointer]:
+              - /url: https://kdp.amazon.com?language=pt_BR
+          - listitem [ref=e2818]:
+            - link "Seja um associado" [ref=e2819] [cursor=pointer]:
+              - /url: https://associados.amazon.com.br
+          - listitem [ref=e2820]:
+            - link "Anuncie seus produtos" [ref=e2821] [cursor=pointer]:
+              - /url: https://advertising.amazon.com/pt-br?ref=footer_advtsing_BR
+      - generic [ref=e2823]:
+        - heading "Pagamento" [level=6] [ref=e2824]
+        - list [ref=e2825]:
+          - listitem [ref=e2826]:
+            - link "Meios de Pagamento" [ref=e2827] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16568920011&ref_=footer_pay_tc
+          - listitem [ref=e2828]:
+            - link "Compre com Pontos" [ref=e2829] [cursor=pointer]:
+              - /url: /gp/browse.html?node=24028636011&ref_=footer_pay_tc
+          - listitem [ref=e2830]:
+            - link "Cartão de crédito Amazon" [ref=e2831] [cursor=pointer]:
+              - /url: /gp/browse.html?node=24434261011&ref_=footer_pay_tc
+      - generic [ref=e2833]:
+        - heading "Deixe-nos ajudar você" [level=6] [ref=e2834]
+        - list [ref=e2835]:
+          - listitem [ref=e2836]:
+            - link "Sua conta" [ref=e2837] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e2838]:
+            - link "Frete e prazo de entrega" [ref=e2839] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201365500&ref_=footer_shiprates
+          - listitem [ref=e2840]:
+            - link "Devoluções e reembolsos" [ref=e2841] [cursor=pointer]:
+              - /url: /gp/orc/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e2842]:
+            - link "Gerencie seu conteúdo e dispositivos" [ref=e2843] [cursor=pointer]:
+              - /url: /hz/mycd/myx?ref_=footer_myk
+          - listitem [ref=e2844]:
+            - link "Recalls e alertas de segurança do produto" [ref=e2845] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e2846]:
+            - link "Ajuda" [ref=e2847] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he
+    - generic [ref=e2849]:
+      - link "Amazon Brazil Home" [ref=e2852] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - button "Escolha um país/região para fazer suas compras. A seleção atual é Brasil." [ref=e2856] [cursor=pointer]:
+        - generic [ref=e2858]: Brasil
+    - generic [ref=e2859]:
+      - list [ref=e2860]:
+        - listitem [ref=e2861]:
+          - link "Condições de Uso" [ref=e2862] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201283910&ref_=footer_cou
+        - listitem [ref=e2863]:
+          - link "Notificação de Privacidade" [ref=e2864] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201283950&ref_=footer_privacy
+        - listitem [ref=e2865]:
+          - link "Cookies" [ref=e2866] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201890250&ref_=footer_cookies
+        - listitem [ref=e2867]:
+          - link "Anúncios Baseados em Interesses" [ref=e2868] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201283970&ref_=footer_iba
+      - generic [ref=e2869]: © 2021-2026 Amazon.com, Inc. ou suas afiliadas
+    - list [ref=e2871]:
+      - listitem [ref=e2872]: Amazon Serviços de Varejo do Brasil Ltda. | CNPJ 15.436.940/0001-03
+    - list [ref=e2874]:
+      - listitem [ref=e2875]:
+        - text: "Av. Juscelino Kubitschek, 2041, Torre E, 18° andar - São Paulo CEP: 04543-011|"
+        - link "Fale conosco" [ref=e2876] [cursor=pointer]:
+          - /url: https://www.amazon.com.br/gp/help/customer/contact-us?ref=footer_gw_m_b_cu
+        - text: "| ajuda-amazon@amazon.com.br"
+    - list [ref=e2878]:
+      - listitem [ref=e2879]: "Formas de pagamento aceitas: cartões de crédito (Visa, MasterCard, Elo e American Express), cartões de débito (Visa e Elo), Boleto e Pix."

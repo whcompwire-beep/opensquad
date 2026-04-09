@@ -1,16 +1,16 @@
-# Step 03 — Criação de Conteúdo (Copy)
+# Step 04 — Criação de Conteúdo (Copy)
 
 ## Metadata
 - **Agent:** Copywriter de Ofertas
 - **Input:** Mapa de conteúdo do Estrategista + dados do produto do Garimpeiro
 - **Output:** Conteúdo completo por plataforma para cada produto aprovado
-- **Tempo esperado:** 15-20 minutos
+- **Tempo esperado:** 15–25 minutos
 
 ---
 
 ## Objetivo
 
-O Copywriter transforma o briefing do Estrategista em conteúdo pronto para publicação em cada plataforma: Instagram Reels, Instagram Feed (carrossel), Instagram Stories e WhatsApp Broadcast.
+O Copywriter transforma o briefing do Estrategista em conteúdo pronto para publicação em cada plataforma: Instagram Reels, Instagram Feed, Instagram Stories, WhatsApp Broadcast, Facebook Post e TikTok Caption.
 
 ---
 
@@ -19,40 +19,32 @@ O Copywriter transforma o briefing do Estrategista em conteúdo pronto para publ
 ### 1. Ler o Briefing Completo
 Antes de escrever uma palavra, confirmar:
 - [ ] Ângulo definido para cada produto?
-- [ ] Keyword-CTA de cada produto?
+- [ ] Keyword-CTA do Instagram para cada produto?
+- [ ] Estratégia de link para Facebook (comentários)?
+- [ ] Estratégia de link para TikTok (bio)?
 - [ ] Plataformas e formatos solicitados?
 - [ ] Tom de voz desta rodada? (consultar `pipeline/data/tone-of-voice.md`)
 - [ ] Variantes A/B necessárias para algum produto?
 
 ### 2. Escrever o Hook Primeiro
-Para cada produto, escrever o hook ANTES do resto da legenda.
-O hook deve:
-- Ter máximo 125 caracteres (o que aparece antes do "ver mais")
+Para cada produto, escrever o hook ANTES do resto da legenda:
+- Máximo 125 caracteres
 - NÃO começar com o nome do produto
 - Usar a estrutura de hook indicada pelo Estrategista
 
-**Estruturas disponíveis:**
-- **Curiosidade/Subversão:** situação inusitada que resolve com o produto
-- **Reação Entusiasta:** reação genuína + veredicto imediato
-- **Urgência/Flash Deal:** produto em maiúsculas + preço + cupom
-- **Descoberta:** "achei" + onde + gatilho de curiosidade
-- **Comparação:** preço que pagava vs. preço atual
-- **Presente:** sugestão de presente + como buscar
-
 ### 3. Escrever por Plataforma
-Para cada plataforma definida no briefing, usar o template correto:
 
 #### Instagram Reels
 ```
 [HOOK — 1 linha, máx 125 chars]
-[BENEFÍCIO/CONTEXTO — 1-2 linhas]
+[BENEFÍCIO/CONTEXTO — 1–2 linhas]
 [PREÇO + CUPOM se disponível]
 Comenta [KEYWORD] que mando o link! 👇
 Ainda não está no grupo? Comenta GRUPO!
 #[tag1] #[tag2] #[tag3] (máx 5 hashtags)
 ```
 
-#### Instagram Feed (Carrossel)
+#### Instagram Feed (imagem única ou carrossel)
 ```
 SLIDE 1 (HOOK): Frase de impacto + emoji
 SLIDE 2: Produto + principal benefício
@@ -62,7 +54,7 @@ SLIDE 5: CTA final + keyword-CTA
 
 LEGENDA:
 [Hook — máx 125 chars]
-[1-2 linhas de contexto]
+[1–2 linhas de contexto]
 Comenta [KEYWORD] que mando o link! 👇
 Ainda não está no grupo? Comenta GRUPO!
 [máx 5 hashtags]
@@ -84,7 +76,7 @@ Oi! 👋
 
 [PRODUTO]: R$[X] [na Shopee/ML] — [desconto]% OFF
 Avaliação: [X.X] ⭐ | [N.NNN] compradores
-[Frete grátis / Entrega em X dias]
+[Frete grátis | Entrega em X dias úteis]
 
 [Instrução de compra — 1 linha]
 Comenta QUERO que mando o link direto 👇
@@ -93,22 +85,52 @@ Comenta QUERO que mando o link direto 👇
 ```
 Máximo 300 caracteres. Tom de conversa 1-a-1.
 
-### 4. Criar Variantes A/B (se solicitado)
-Para o produto principal:
-- **Versão A:** Hook de curiosidade/subversão
-- **Versão B:** Hook de urgência/preço direto
+#### Facebook Post
+```
+[HOOK — emoção/curiosidade/urgência — pode ter 2–3 linhas]
+
+[PRODUTO] — R$[X] [desconto]% OFF [na Shopee/ML/Amazon]
+[Avaliação: X.X ⭐ | N.XXX avaliações]
+[Frete grátis | Chegando em X dias úteis]
+
+[Como comprar — 1 linha clara]
+👇 Link nos comentários!
+
+[Opcional: Manda pra quem vai curtir! ❤️]
+
+— Achados RioMafra 👑
+```
+> **Regra crítica:** O link do afiliado vai NO PRIMEIRO COMENTÁRIO (não no corpo do post).
+> Preparar o link separado, com instrução clara: "colar como primeiro comentário logo após publicar".
+> Caption mais longa que Instagram é aceitável — público 35+ do interior lê mais.
+> Mencionar frete e prazo — diferencial importante para quem mora em cidade menor.
+
+#### TikTok Caption
+```
+[emoji do produto] [nome curto do produto] [emoji]
+[1 linha de contexto — máx 80 chars — opcional]
+#achados #[marketplace] #[categoria] #fyp
+```
+> **Regra crítica:** Legenda curtíssima — o storytelling está no vídeo, não na legenda.
+> Link NUNCA na legenda — sempre na bio.
+> Máximo 5 hashtags: #achados + #[marketplace] + #[categoria] + #fyp + 1 opcional.
+
+### 4. Variantes A/B (produto principal)
+- **Versão A:** Hook curiosidade/subversão
+- **Versão B:** Hook urgência/preço direto
 
 ### 5. Checklist de Revisão (obrigatório antes de entregar)
-- [ ] O hook começa sem o nome do produto?
-- [ ] Tem keyword-CTA no post de Feed/Reels?
-- [ ] Código/link NÃO está na legenda (está nos comentários ou Stories)?
-- [ ] Tem CTA de grupo em alguma plataforma?
+- [ ] Hook começa sem o nome do produto?
+- [ ] Instagram: keyword-CTA presente em Feed e Reels?
+- [ ] Código/link NÃO está na legenda do Instagram?
+- [ ] Facebook: link do afiliado preparado separado para colar nos comentários?
+- [ ] TikTok: legenda curtíssima (máx 2 linhas + hashtags)?
+- [ ] CTA de grupo WhatsApp incluso em alguma plataforma?
 - [ ] WhatsApp abaixo de 300 caracteres?
 - [ ] Stories abaixo de 3 linhas?
-- [ ] Máximo 5 hashtags em cada post?
+- [ ] Instagram: máximo 5 hashtags?
 - [ ] Tom alinhado com `pipeline/data/tone-of-voice.md`?
-- [ ] Preço e cupom explícitos quando disponíveis?
-- [ ] Variantes A/B entregues para o produto principal?
+- [ ] Frete e prazo de entrega mencionados?
 
 ---
 
@@ -117,7 +139,7 @@ Para o produto principal:
 ```
 ═══════════════════════════════════════
 CONTEÚDO — [PRODUTO] — [DATA]
-Keyword-CTA: [KEYWORD]
+Keyword-CTA (Instagram): [KEYWORD]
 ═══════════════════════════════════════
 
 📱 INSTAGRAM REELS
@@ -125,13 +147,13 @@ Keyword-CTA: [KEYWORD]
 [legenda completa]
 ---
 
-🖼 INSTAGRAM FEED (Carrossel)
+🖼 INSTAGRAM FEED
 ---
-SLIDE 1: [texto do slide]
-SLIDE 2: [texto do slide]
-SLIDE 3: [texto do slide]
-SLIDE 4: [texto do slide]
-SLIDE 5: [texto do slide]
+SLIDE 1: [texto]
+SLIDE 2: [texto]
+SLIDE 3: [texto]
+SLIDE 4: [texto]
+SLIDE 5: [texto]
 
 LEGENDA:
 [legenda completa]
@@ -147,36 +169,51 @@ LEGENDA:
 [mensagem completa]
 ---
 
+📘 FACEBOOK POST
+---
+[corpo do post]
+
+⬇️ PRIMEIRO COMENTÁRIO (colar logo após publicar):
+[link do afiliado aqui]
+---
+
+🎵 TIKTOK CAPTION
+---
+[legenda curtíssima + hashtags]
+⚠️ Lembrete: atualizar link na bio antes de publicar
+---
+
 🔄 VARIANTE A/B (produto principal):
 Hook A: [texto]
 Hook B: [texto]
 
 ✅ CHECKLIST DE CONFORMIDADE:
 - Hook sem nome do produto: [✅/❌]
-- Keyword-CTA presente: [✅/❌]
-- Sem URL na legenda: [✅/❌]
+- Instagram keyword-CTA presente: [✅/❌]
+- Sem URL na legenda Instagram: [✅/❌]
+- Facebook: link preparado para comentários: [✅/❌]
+- TikTok: legenda curtíssima: [✅/❌]
 - CTA de grupo incluso: [✅/❌]
-- Máx 5 hashtags: [✅/❌]
-- WhatsApp < 300 chars: [✅/❌]
+- Frete/prazo mencionados: [✅/❌]
 ═══════════════════════════════════════
 ```
 
 ---
 
-## Critérios de Qualidade (Checklist de Saída)
+## Critérios de Qualidade
 
-- [ ] Hook ≤ 125 caracteres em todos os posts?
-- [ ] Keyword-CTA presente em 100% dos posts de Feed e Reels?
+- [ ] Hook ≤ 125 caracteres em posts de Instagram?
+- [ ] TikTok: legenda ≤ 2 linhas + hashtags?
+- [ ] Keyword-CTA presente em 100% dos posts de Instagram Feed e Reels?
+- [ ] Facebook: link do afiliado preparado para o primeiro comentário?
 - [ ] Mínimo 2 plataformas cobertas por produto?
 - [ ] Variantes A/B entregues para o produto principal?
-- [ ] Nenhuma URL na legenda do Instagram?
 - [ ] Checklist interna preenchida?
 
 ---
 
 ## Entrega
 
-Entregar para: **Revisor de Qualidade** (próximo passo: 04-revisao)
+Entregar para: **Revisor de Qualidade** (próximo passo: 05-revisao)
 
-O conteúdo deve ser salvo em:
-`squads/achados-ofertas/output/[DATA]-conteudo.md`
+Salvar em: `squads/achados-ofertas/output/{run_id}/v1/conteudo.md`

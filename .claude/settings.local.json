@@ -45,7 +45,11 @@
       "Bash(cmd /c \"python --version\")",
       "Bash(cmd /c \"node -e \\\\\"console.log\\('node ok'\\)\\\\\"\")",
       "Bash(echo \"exit: $?\")",
-      "Bash(powershell -Command \"Write-Output 'test'\")"
+      "Bash(powershell -Command \"Write-Output 'test'\")",
+      "Bash(pkill -f \"python -m http.server 7720\")",
+      "Bash(python -m http.server 7721)",
+      "Bash(python -m http.server 8765)",
+      "mcp__playwright__browser_evaluate"
     ]
   },
   "outputStyle": "default"

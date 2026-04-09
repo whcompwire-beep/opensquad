@@ -1,0 +1,1030 @@
+- generic [ref=e2]:
+  - navigation "Menu de atalhos" [ref=e3]:
+    - heading "Ir para" [level=2] [ref=e4]
+    - list "Ir para" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "conteúdo principal" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Conteúdo principal
+    - separator [ref=e8]
+    - heading "Atalhos do teclado" [level=2] [ref=e9]
+    - list "Atalhos do teclado" [ref=e10]:
+      - listitem [ref=e11]:
+        - link "Pesquisa, alt, barra para frente" [ref=e12] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e13]:
+            - generic [ref=e14]: Pesquisar
+            - generic [ref=e15]:
+              - generic [ref=e16]: alt
+              - generic [ref=e17]: +
+              - generic [ref=e18]: /
+      - listitem [ref=e19]:
+        - link "Carrinho, shift, alt, c" [ref=e20] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e21]:
+            - generic [ref=e22]: Carrinho
+            - generic [ref=e23]:
+              - generic [ref=e24]: shift
+              - generic [ref=e25]: +
+              - generic [ref=e26]: alt
+              - generic [ref=e27]: +
+              - generic [ref=e28]: C
+      - listitem [ref=e29]:
+        - link "Início, shift, alt, h" [ref=e30] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e31]:
+            - generic [ref=e32]: Página inicial
+            - generic [ref=e33]:
+              - generic [ref=e34]: shift
+              - generic [ref=e35]: +
+              - generic [ref=e36]: alt
+              - generic [ref=e37]: +
+              - generic [ref=e38]: H
+      - listitem [ref=e39]:
+        - link "Seus pedidos, shift, alt, o" [ref=e40] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e41]:
+            - generic [ref=e42]: Seus Pedidos
+            - generic [ref=e43]:
+              - generic [ref=e44]: shift
+              - generic [ref=e45]: +
+              - generic [ref=e46]: alt
+              - generic [ref=e47]: +
+              - generic [ref=e48]: O
+      - listitem [ref=e49]:
+        - button "Mostrar/ocultar atalhos, shift, alt, z" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]:
+            - generic [ref=e52]: Mostrar/ocultar atalhos
+            - generic [ref=e53]:
+              - generic [ref=e54]: shift
+              - generic [ref=e55]: +
+              - generic [ref=e56]: alt
+              - generic [ref=e57]: +
+              - generic [ref=e58]: Z
+    - generic [ref=e64]: Para se mover entre os produtos, use as setas para cima ou para baixo do teclado.
+  - banner [ref=e65]:
+    - navigation "Principal" [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - link "Amazon.com.br" [ref=e70] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .com.br
+          - button "A entrega será feita em Bela Vista 01319900 Atualizar CEP" [ref=e73] [cursor=pointer]:
+            - generic [ref=e75]:
+              - generic [ref=e76]: A entrega será feita em Bela Vista 01319900
+              - generic [ref=e77]: Atualizar CEP
+        - search [ref=e80]:
+          - generic [ref=e83]:
+            - generic [ref=e85]: Casa
+            - combobox "Selecione o departamento que deseja pesquisar no" [ref=e87] [cursor=pointer]:
+              - option "Todos os departamentos"
+              - option "Alexa Skills"
+              - option "Alimentos e Bebidas"
+              - option "Amazon Now"
+              - option "Amazon Quase Novo"
+              - option "Apps e Jogos"
+              - option "Audiolivros Audible"
+              - option "Automotivo"
+              - option "Bebês"
+              - option "Beleza"
+              - option "Beleza de luxo"
+              - option "Bolsas, Malas e Mochilas"
+              - option "Brinquedos e Jogos"
+              - option "Casa" [selected]
+              - option "CD e Vinil"
+              - option "Computadores e Informática"
+              - option "Cozinha"
+              - option "Dispositivos Amazon"
+              - option "DVD e Blu-Ray"
+              - option "Eletrodomésticos"
+              - option "Eletrônicos"
+              - option "Esportes e Aventura"
+              - option "Ferramentas e Materiais de Construção"
+              - option "Games"
+              - option "Industrial"
+              - option "Instrumentos Musicais"
+              - option "Jardim e Piscina"
+              - option "Livros"
+              - option "Loja Kindle"
+              - option "Material para Escritório e Papelaria"
+              - option "Móveis e Decoração"
+              - option "Pet Shop"
+              - option "Prime Video"
+              - option "Programe e Poupe"
+              - option "Roupas, Calçados e Joias"
+              - option "Roupas, sapatos e joias femininas"
+              - option "Roupas, sapatos e joias masculinas"
+              - option "Roupas, sapatos e joias para meninas"
+              - option "Roupas, sapatos e joias para meninos"
+              - option "Roupas, sapatos e joias para bebês"
+              - option "Saúde e Cuidados Pessoais"
+          - searchbox "Pesquisar Amazon.com.br" [ref=e90]
+          - generic "Ir" [ref=e93] [cursor=pointer]:
+            - button "Ir" [ref=e94]
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - link "Olá, faça seu login Contas e Listas" [ref=e98] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fgp%2Fbestsellers%2Fhome%2F%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e100]: Olá, faça seu login
+              - generic [ref=e101]: Contas e Listas
+            - button "Expandir conta e listas" [ref=e102] [cursor=pointer]
+          - link "Devoluções e Pedidos" [ref=e103] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e104]: Devoluções
+            - generic [ref=e105]: e Pedidos
+          - link "0 itens no carrinho" [ref=e106] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e108]: "0"
+            - generic [ref=e111]: Carrinho
+      - generic [ref=e112]:
+        - button "Abrir o menu Todas as categorias" [ref=e114] [cursor=pointer]:
+          - generic [ref=e116]: Todos
+        - list [ref=e120]:
+          - listitem [ref=e121]:
+            - link "Venda na Amazon" [ref=e123] [cursor=pointer]:
+              - /url: /gp/browse.html?node=17877554011&ld=ASBRSOA_retail_sell_header_t1&ref_=nav_cs_sell
+          - listitem [ref=e124]:
+            - link "Chega em 15 min" [ref=e126] [cursor=pointer]:
+              - /url: /alm/storefront?almBrandId=10zZeC1FBwm&ref_=nav_cs_amnow
+          - listitem [ref=e127]:
+            - link "Ofertas do Dia" [ref=e129] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e130]:
+            - link "Mais Vendidos" [ref=e132] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e133]:
+            - link "Games" [ref=e135] [cursor=pointer]:
+              - /url: /Games-Consoles/b/?ie=UTF8&node=7791985011&ref_=nav_cs_video_games
+          - listitem [ref=e136]:
+            - link "Livros" [ref=e138] [cursor=pointer]:
+              - /url: /Livros/b/?ie=UTF8&node=6740748011&ref_=nav_cs_books
+          - listitem [ref=e139]:
+            - generic [ref=e140]:
+              - link "Prime" [ref=e141] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Detalhes de Prime" [ref=e142] [cursor=pointer]
+          - listitem [ref=e143]:
+            - link "Música" [ref=e145] [cursor=pointer]:
+              - /url: /music/unlimited?ref_=nav_cs_music
+          - listitem [ref=e146]:
+            - link "Casa" [ref=e148] [cursor=pointer]:
+              - /url: /Casa/b/?ie=UTF8&node=16191000011&ref_=nav_cs_home
+          - listitem [ref=e149]:
+            - link "Eletrônicos" [ref=e151] [cursor=pointer]:
+              - /url: /Eletronicos-e-Tecnologia/b/?ie=UTF8&node=16209062011&ref_=nav_cs_electronics
+          - listitem [ref=e152]:
+            - link "Brinquedos e Jogos" [ref=e154] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16194299011&ref_=nav_cs_toys
+          - listitem [ref=e155]:
+            - link "Computadores" [ref=e157] [cursor=pointer]:
+              - /url: /Computadores-Informatica/b/?ie=UTF8&node=16339926011&ref_=nav_cs_pc
+          - listitem [ref=e158]:
+            - link "Beleza" [ref=e160] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16194414011&ref_=nav_cs_beauty
+          - listitem [ref=e161]:
+            - link "Mercado" [ref=e163] [cursor=pointer]:
+              - /url: /fmc/everyday-essentials/?ref_=nav_cs_ee_desktop_disco
+          - listitem [ref=e164]:
+            - link "Cuidados Pessoais" [ref=e166] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16215417011&ref_=nav_cs_hpc
+          - listitem [ref=e167]:
+            - link "Novidades na Amazon" [ref=e169] [cursor=pointer]:
+              - /url: /gp/browse.html?node=207658984011&ref_=nav_cs_mtech
+          - listitem [ref=e170]:
+            - link "Ferramentas e Construção" [ref=e172] [cursor=pointer]:
+              - /url: /Ferramentas-Construcao/b/?ie=UTF8&node=16957182011&ref_=nav_cs_hi
+          - listitem [ref=e173]:
+            - link "Bebês" [ref=e175] [cursor=pointer]:
+              - /url: /gp/browse.html?node=17242603011&ref_=nav_cs_baby
+          - listitem [ref=e176]:
+            - link "Alimentos e Bebidas" [ref=e178] [cursor=pointer]:
+              - /url: /gp/browse.html?node=18991079011&ref_=nav_cs_grocery
+          - listitem [ref=e179]:
+            - link "Amazon Moda" [ref=e181] [cursor=pointer]:
+              - /url: /gp/browse.html?node=17365811011&ref_=nav_cs_fashion
+          - listitem [ref=e182]:
+            - link "Pet Shop" [ref=e184] [cursor=pointer]:
+              - /url: /gp/browse.html?node=18991136011&ref_=nav_cs_pets
+          - listitem [ref=e185]:
+            - link "Automotivos" [ref=e187] [cursor=pointer]:
+              - /url: /gp/browse.html?node=18914209011&ref_=nav_cs_automotive
+          - listitem [ref=e188]:
+            - link "eBooks Kindle" [ref=e190] [cursor=pointer]:
+              - /url: /ebooks-kindle/b/?ie=UTF8&node=5475882011&ref_=nav_cs_kindle_books
+          - listitem [ref=e191]:
+            - link "Atendimento ao Cliente" [ref=e193] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_help
+        - link "Séries e filmes | Incluído com Prime" [ref=e196] [cursor=pointer]:
+          - /url: /r/?_encoding=UTF8&aid=bWJaNZATS7SW2guwOsqEwg&dest=https%3A%2F%2Fwww.primevideo.com%2Fregion%2Fna%2Foffers%2Fnonprimehomepage%2Fref%3Ddvm_crs_nav_br_s_swm_eg_al_np&ref_=nav_swm_undefined&pf_rd_p=fc6b1e21-e992-4ec0-9bd9-958b3379d838&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A2Q3Y263D00KWC&pf_rd_r=TM3Z1GDM0VE976ZWQWGE
+      - generic [ref=e197]:
+        - generic [ref=e198]:
+          - link "Casa" [ref=e199] [cursor=pointer]:
+            - /url: /Casa/b/?ie=UTF8&node=16191000011&ref_=topnav_storetab_b
+          - link "Mais Vendidos" [ref=e200] [cursor=pointer]:
+            - /url: /gp/bestsellers/home/?ie=UTF8&ref_=sv_b_1
+          - link "Ofertas" [ref=e201] [cursor=pointer]:
+            - /url: /deals/?_encoding=UTF8&bubble-id=deals-collection-home&ref_=sv_b_2
+          - link "Ambientes" [ref=e202] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=18079983011&ref_=sv_b_3
+          - link "Ar e Ventilação" [ref=e203] [cursor=pointer]:
+            - /url: /Ventilacao-Aquecimento/b/?ie=UTF8&node=17124719011&ref_=sv_b_4
+          - link "Cama, Mesa e Banho" [ref=e204] [cursor=pointer]:
+            - /url: /Cama-Mesa-Banho/b/?ie=UTF8&node=17100532011&ref_=sv_b_5
+          - link "Casa Inteligente" [ref=e205] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=19948920011&ref_=sv_b_6
+          - link "Eletroportáteis do Lar" [ref=e206] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=18327764011&ref_=sv_b_7
+          - link "Cuidados com o Chão" [ref=e207] [cursor=pointer]:
+            - /url: /Aspiradores-Po/b/?ie=UTF8&node=17124725011&ref_=sv_b_8
+          - link "Móveis" [ref=e208] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=17100530011&ref_=sv_b_9
+          - link "Organização" [ref=e209] [cursor=pointer]:
+            - /url: /Organizacao-Armazenamento/b/?ie=UTF8&node=17100533011&ref_=sv_b_10
+          - link "Decoração" [ref=e210] [cursor=pointer]:
+            - /url: /Decoracao-Casa/b/?ie=UTF8&node=17100531011&ref_=sv_b_11
+          - link "Tudo em Cozinha" [ref=e211] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=16957125011&ref_=sv_b_12
+        - generic [ref=e215]:
+          - link "Faça seu login" [ref=e216] [cursor=pointer]:
+            - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fgp%2Fbestsellers%2Fhome%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+            - generic [ref=e217]: Faça seu login
+          - generic [ref=e218]:
+            - text: Cliente novo?
+            - link "Novo na Amazon? Comece aqui para criar uma conta" [ref=e219] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/ap/register?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fgp%2Fbestsellers%2Fhome%2F%3Fie%3DUTF8%26ref_%3Dnav_custrec_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - text: Comece aqui.
+      - dialog [ref=e224]
+  - generic [ref=e226]:
+    - generic [ref=e230]:
+      - heading "Mais vendidos" [level=1] [ref=e231]
+      - paragraph [ref=e232]:
+        - generic [ref=e233]: Nossos produtos mais populares com base nas vendas. Atualizado com frequência.
+    - generic [ref=e234]:
+      - group [ref=e237]:
+        - list [ref=e238]:
+          - listitem "Árvore de navegação" [ref=e239]:
+            - text: ‹
+            - link "Qualquer departamento" [ref=e240] [cursor=pointer]:
+              - /url: /gp/bestsellers/ref=zg_bs_unv_home_0_1
+          - listitem [ref=e241]:
+            - list [ref=e242]:
+              - listitem [ref=e243]:
+                - generic [ref=e244]:
+                  - text: Casa
+                  - generic [ref=e245]: (Current)
+              - listitem [ref=e246]:
+                - list [ref=e247]:
+                  - listitem [ref=e248]:
+                    - link "Ar e Ventilação" [ref=e249] [cursor=pointer]:
+                      - /url: /gp/bestsellers/home/17124719011/ref=zg_bs_nav_home_1
+                  - listitem [ref=e250]:
+                    - link "Banho" [ref=e251] [cursor=pointer]:
+                      - /url: /gp/bestsellers/home/17100528011/ref=zg_bs_nav_home_1
+                  - listitem [ref=e252]:
+                    - link "Cama, Mesa e Banho" [ref=e253] [cursor=pointer]:
+                      - /url: /gp/bestsellers/home/17100532011/ref=zg_bs_nav_home_1
+                  - listitem [ref=e254]:
+                    - link "Cozinha" [ref=e255] [cursor=pointer]:
+                      - /url: /gp/bestsellers/home/23783015011/ref=zg_bs_nav_home_1
+                  - listitem [ref=e256]:
+                    - link "Decoração para Casa" [ref=e257] [cursor=pointer]:
+                      - /url: /gp/bestsellers/home/17100531011/ref=zg_bs_nav_home_1
+                  - listitem [ref=e258]:
+                    - link "Ferros, Vaporizadores e Acessórios" [ref=e259] [cursor=pointer]:
+                      - /url: /gp/bestsellers/home/17124721011/ref=zg_bs_nav_home_1
+                  - listitem [ref=e260]:
+                    - link "Iluminação" [ref=e261] [cursor=pointer]:
+                      - /url: /gp/bestsellers/home/17406462011/ref=zg_bs_nav_home_1
+                  - listitem [ref=e262]:
+                    - link "Móveis" [ref=e263] [cursor=pointer]:
+                      - /url: /gp/bestsellers/home/furniture/ref=zg_bs_nav_home_1
+                  - listitem [ref=e264]:
+                    - link "Organização e Armazenamento" [ref=e265] [cursor=pointer]:
+                      - /url: /gp/bestsellers/home/17100533011/ref=zg_bs_nav_home_1
+                  - listitem [ref=e266]:
+                    - link "Produtos de Limpeza" [ref=e267] [cursor=pointer]:
+                      - /url: /gp/bestsellers/home/17100529011/ref=zg_bs_nav_home_1
+                  - listitem [ref=e268]:
+                    - link "Quadros e Obras de Arte" [ref=e269] [cursor=pointer]:
+                      - /url: /gp/bestsellers/home/17100527011/ref=zg_bs_nav_home_1
+      - generic [ref=e272]:
+        - heading "Mais Vendidos em Casa" [level=1] [ref=e274]
+        - generic [ref=e275]:
+          - list [ref=e277]:
+            - listitem [ref=e278]:
+              - generic [ref=e282]:
+                - generic [ref=e283]: "#1"
+                - generic [ref=e287] [cursor=pointer]:
+                  - link [ref=e288]:
+                    - /url: /Secante-Finish-Abrilhantador-M%C3%A1quina-Lavar/dp/B07FGYQCKM/ref=zg_bs_g_home_d_sccl_1/140-5235038-8618349?psc=1
+                    - img [ref=e290]
+                  - generic [ref=e292]:
+                    - link "Secante para Lava-Louças Finish Abrilhantador 250ml" [ref=e293]:
+                      - /url: /Secante-Finish-Abrilhantador-M%C3%A1quina-Lavar/dp/B07FGYQCKM/ref=zg_bs_g_home_d_sccl_1/140-5235038-8618349?psc=1
+                      - generic [ref=e295]: Secante para Lava-Louças Finish Abrilhantador 250ml
+                    - link "4,8 de 5 estrelas, 24.529 classificações" [ref=e298]:
+                      - /url: /product-reviews/B07FGYQCKM/ref=zg_bs_g_home_d_sccl_1_cr/140-5235038-8618349
+                      - generic [ref=e300]: 4,8 de 5 estrelas
+                      - text: "24.529"
+                    - link "R$ 30,74" [ref=e304]:
+                      - /url: /Secante-Finish-Abrilhantador-M%C3%A1quina-Lavar/dp/B07FGYQCKM/ref=zg_bs_g_home_d_sccl_1/140-5235038-8618349?psc=1
+                      - generic [ref=e306]: R$ 30,74
+                - button "Assistir ao vídeo" [ref=e308] [cursor=pointer]:
+                  - img "Assistir ao vídeo" [ref=e310]
+            - listitem [ref=e316]:
+              - generic [ref=e320]:
+                - generic [ref=e321]: "#2"
+                - generic [ref=e325] [cursor=pointer]:
+                  - link [ref=e326]:
+                    - /url: /Detergente-Para-Lou%C3%A7as-Finish-Advanced/dp/B07VRYJWPB/ref=zg_bs_g_home_d_sccl_2/140-5235038-8618349?psc=1
+                    - img [ref=e328]
+                  - generic [ref=e330]:
+                    - link "Finish Advanced Detergente para Lava Louças em Pó, Sabão Limpeza Profunda, 2,5kg" [ref=e331]:
+                      - /url: /Detergente-Para-Lou%C3%A7as-Finish-Advanced/dp/B07VRYJWPB/ref=zg_bs_g_home_d_sccl_2/140-5235038-8618349?psc=1
+                      - generic [ref=e333]: Finish Advanced Detergente para Lava Louças em Pó, Sabão Limpeza Profunda, 2,5kg
+                    - link "4,8 de 5 estrelas, 21.520 classificações" [ref=e336]:
+                      - /url: /product-reviews/B07VRYJWPB/ref=zg_bs_g_home_d_sccl_2_cr/140-5235038-8618349
+                      - generic [ref=e338]: 4,8 de 5 estrelas
+                      - text: "21.520"
+                    - link "R$ 119,19" [ref=e342]:
+                      - /url: /Detergente-Para-Lou%C3%A7as-Finish-Advanced/dp/B07VRYJWPB/ref=zg_bs_g_home_d_sccl_2/140-5235038-8618349?psc=1
+                      - generic [ref=e344]: R$ 119,19
+            - listitem [ref=e345]:
+              - generic [ref=e349]:
+                - generic [ref=e350]: "#3"
+                - generic [ref=e354] [cursor=pointer]:
+                  - link [ref=e355]:
+                    - /url: /Finish-P%C3%B3-Power-Powder/dp/B07DZ8VXQN/ref=zg_bs_g_home_d_sccl_3/140-5235038-8618349?psc=1
+                    - img [ref=e357]
+                  - generic [ref=e359]:
+                    - link "Advanced Detergente Em Pó Para Lava Louças 1Kg, Finish" [ref=e360]:
+                      - /url: /Finish-P%C3%B3-Power-Powder/dp/B07DZ8VXQN/ref=zg_bs_g_home_d_sccl_3/140-5235038-8618349?psc=1
+                      - generic [ref=e362]: Advanced Detergente Em Pó Para Lava Louças 1Kg, Finish
+                    - link "4,8 de 5 estrelas, 21.563 classificações" [ref=e365]:
+                      - /url: /product-reviews/B07DZ8VXQN/ref=zg_bs_g_home_d_sccl_3_cr/140-5235038-8618349
+                      - generic [ref=e367]: 4,8 de 5 estrelas
+                      - text: "21.563"
+                    - link "R$ 49,90" [ref=e371]:
+                      - /url: /Finish-P%C3%B3-Power-Powder/dp/B07DZ8VXQN/ref=zg_bs_g_home_d_sccl_3/140-5235038-8618349?psc=1
+                      - generic [ref=e373]: R$ 49,90
+                - button "Assistir ao vídeo" [ref=e375] [cursor=pointer]:
+                  - img "Assistir ao vídeo" [ref=e377]
+            - listitem [ref=e383]:
+              - generic [ref=e387]:
+                - generic [ref=e388]: "#4"
+                - generic [ref=e392] [cursor=pointer]:
+                  - link [ref=e393]:
+                    - /url: /Limpador-Cremoso-Original-500-Cif/dp/B07DTNB6SY/ref=zg_bs_g_home_d_sccl_4/140-5235038-8618349?psc=1
+                    - img [ref=e395]
+                  - generic [ref=e397]:
+                    - link "Cif Cremoso Limpeza Milagrosa Remove 100% Da Sujeira 450 Ml" [ref=e398]:
+                      - /url: /Limpador-Cremoso-Original-500-Cif/dp/B07DTNB6SY/ref=zg_bs_g_home_d_sccl_4/140-5235038-8618349?psc=1
+                      - generic [ref=e400]: Cif Cremoso Limpeza Milagrosa Remove 100% Da Sujeira 450 Ml
+                    - link "4,9 de 5 estrelas, 17.089 classificações" [ref=e403]:
+                      - /url: /product-reviews/B07DTNB6SY/ref=zg_bs_g_home_d_sccl_4_cr/140-5235038-8618349
+                      - generic [ref=e405]: 4,9 de 5 estrelas
+                      - text: "17.089"
+                    - link "R$ 16,99" [ref=e409]:
+                      - /url: /Limpador-Cremoso-Original-500-Cif/dp/B07DTNB6SY/ref=zg_bs_g_home_d_sccl_4/140-5235038-8618349?psc=1
+                      - generic [ref=e411]: R$ 16,99
+                - button "Assistir ao vídeo" [ref=e413] [cursor=pointer]:
+                  - img "Assistir ao vídeo" [ref=e415]
+            - listitem [ref=e421]:
+              - generic [ref=e425]:
+                - generic [ref=e426]: "#5"
+                - generic [ref=e430] [cursor=pointer]:
+                  - link [ref=e431]:
+                    - /url: /Detergente-para-Lavar-Lou%C3%A7as-Finish/dp/B0BZWZ2385/ref=zg_bs_g_home_d_sccl_5/140-5235038-8618349?psc=1
+                    - img [ref=e433]
+                  - generic [ref=e435]:
+                    - link "Finish Advanced Detergente para Lava Louças em Pó, Limpeza Profunda, Refil 700g" [ref=e436]:
+                      - /url: /Detergente-para-Lavar-Lou%C3%A7as-Finish/dp/B0BZWZ2385/ref=zg_bs_g_home_d_sccl_5/140-5235038-8618349?psc=1
+                      - generic [ref=e438]: Finish Advanced Detergente para Lava Louças em Pó, Limpeza Profunda, Refil 700g
+                    - link "4,8 de 5 estrelas, 3.288 classificações" [ref=e441]:
+                      - /url: /product-reviews/B0BZWZ2385/ref=zg_bs_g_home_d_sccl_5_cr/140-5235038-8618349
+                      - generic [ref=e443]: 4,8 de 5 estrelas
+                      - text: "3.288"
+                    - link "R$ 25,70" [ref=e447]:
+                      - /url: /Detergente-para-Lavar-Lou%C3%A7as-Finish/dp/B0BZWZ2385/ref=zg_bs_g_home_d_sccl_5/140-5235038-8618349?psc=1
+                      - generic [ref=e449]: R$ 25,70
+            - listitem [ref=e450]:
+              - generic [ref=e454]:
+                - generic [ref=e455]: "#6"
+                - generic [ref=e459] [cursor=pointer]:
+                  - link [ref=e460]:
+                    - /url: /L%C3%A2mpada-Inteligente-Elgin-compat%C3%ADvel-Google/dp/B0BDZXLS77/ref=zg_bs_g_home_d_sccl_6/140-5235038-8618349?psc=1
+                    - img [ref=e462]
+                  - generic [ref=e464]:
+                    - link "Lâmpada Inteligente Mais Potente 15W Smart Color RGB Wifi Elgin compatível com Alexa e Google Home" [ref=e465]:
+                      - /url: /L%C3%A2mpada-Inteligente-Elgin-compat%C3%ADvel-Google/dp/B0BDZXLS77/ref=zg_bs_g_home_d_sccl_6/140-5235038-8618349?psc=1
+                      - generic [ref=e467]: Lâmpada Inteligente Mais Potente 15W Smart Color RGB Wifi Elgin compatível com Alexa e Google Home
+                    - link "4,7 de 5 estrelas, 71.665 classificações" [ref=e470]:
+                      - /url: /product-reviews/B0BDZXLS77/ref=zg_bs_g_home_d_sccl_6_cr/140-5235038-8618349
+                      - generic [ref=e472]: 4,7 de 5 estrelas
+                      - text: "71.665"
+                    - link "R$ 38,12" [ref=e476]:
+                      - /url: /L%C3%A2mpada-Inteligente-Elgin-compat%C3%ADvel-Google/dp/B0BDZXLS77/ref=zg_bs_g_home_d_sccl_6/140-5235038-8618349?psc=1
+                      - generic [ref=e478]: R$ 38,12
+                - button "Assistir ao vídeo" [ref=e480] [cursor=pointer]:
+                  - img "Assistir ao vídeo" [ref=e482]
+            - listitem [ref=e488]:
+              - list [ref=e489]:
+                - listitem [ref=e490]:
+                  - link "Novidades na Amazon em Casa" [ref=e492] [cursor=pointer]:
+                    - /url: /gp/new-releases/home/ref=zg_bs_tab_t_home_bsnr
+                    - generic [ref=e497]:
+                      - text: Novidades na Amazon
+                      - text: em Casa
+                - listitem [ref=e498]:
+                  - link "Produtos em alta em Casa" [ref=e500] [cursor=pointer]:
+                    - /url: /gp/movers-and-shakers/home/ref=zg_bs_tab_t_home_bsms
+                    - generic [ref=e505]:
+                      - text: Produtos em alta
+                      - text: em Casa
+            - listitem [ref=e506]:
+              - generic [ref=e510]:
+                - generic [ref=e511]: "#7"
+                - generic [ref=e515] [cursor=pointer]:
+                  - link [ref=e516]:
+                    - /url: /Yp%C3%AA-Detergente-para-M%C3%A1quina-1Kg/dp/B0CSYPRC2Q/ref=zg_bs_g_home_d_sccl_7/140-5235038-8618349?psc=1
+                    - img [ref=e518]
+                  - generic [ref=e520]:
+                    - link "Ypê Detergente em Pó para Máquina 1Kg" [ref=e521]:
+                      - /url: /Yp%C3%AA-Detergente-para-M%C3%A1quina-1Kg/dp/B0CSYPRC2Q/ref=zg_bs_g_home_d_sccl_7/140-5235038-8618349?psc=1
+                      - generic [ref=e523]: Ypê Detergente em Pó para Máquina 1Kg
+                    - link "4,8 de 5 estrelas, 3.762 classificações" [ref=e526]:
+                      - /url: /product-reviews/B0CSYPRC2Q/ref=zg_bs_g_home_d_sccl_7_cr/140-5235038-8618349
+                      - generic [ref=e528]: 4,8 de 5 estrelas
+                      - text: "3.762"
+                    - link "R$ 48,28" [ref=e532]:
+                      - /url: /Yp%C3%AA-Detergente-para-M%C3%A1quina-1Kg/dp/B0CSYPRC2Q/ref=zg_bs_g_home_d_sccl_7/140-5235038-8618349?psc=1
+                      - generic [ref=e534]: R$ 48,28
+            - listitem [ref=e535]:
+              - generic [ref=e539]:
+                - generic [ref=e540]: "#8"
+                - generic [ref=e544] [cursor=pointer]:
+                  - link [ref=e545]:
+                    - /url: /Aspirador-Vertical-1300W-STK15-127V/dp/B094X2N4HV/ref=zg_bs_g_home_d_sccl_8/140-5235038-8618349?psc=1
+                    - img [ref=e547]
+                  - generic [ref=e549]:
+                    - link "Electrolux, Aspirador pó vertical com fio portátil de mão 2 em 1 potente 1450W cabo 6m capacidade 1,6L filtro HEPA Electrolux STK15 127V Cinza Urban Grey STK" [ref=e550]:
+                      - /url: /Aspirador-Vertical-1300W-STK15-127V/dp/B094X2N4HV/ref=zg_bs_g_home_d_sccl_8/140-5235038-8618349?psc=1
+                      - generic [ref=e552]: Electrolux, Aspirador pó vertical com fio portátil de mão 2 em 1 potente 1450W cabo 6m capacidade 1,6L filtro HEPA Electrolux STK15 127V Cinza Urban Grey STK
+                    - link "4,7 de 5 estrelas, 21.231 classificações" [ref=e555]:
+                      - /url: /product-reviews/B094X2N4HV/ref=zg_bs_g_home_d_sccl_8_cr/140-5235038-8618349
+                      - generic [ref=e557]: 4,7 de 5 estrelas
+                      - text: "21.231"
+                    - link "R$ 189,90" [ref=e561]:
+                      - /url: /Aspirador-Vertical-1300W-STK15-127V/dp/B094X2N4HV/ref=zg_bs_g_home_d_sccl_8/140-5235038-8618349?psc=1
+                      - generic [ref=e563]: R$ 189,90
+                - button "Assistir ao vídeo" [ref=e565] [cursor=pointer]:
+                  - img "Assistir ao vídeo" [ref=e567]
+            - listitem [ref=e573]:
+              - generic [ref=e577]:
+                - generic [ref=e578]: "#9"
+                - generic [ref=e582] [cursor=pointer]:
+                  - link [ref=e583]:
+                    - /url: /Percarbonato-Biodegrad%C3%A1vel-Coloridas-Dom%C3%A9stica-Calisul/dp/B0FWCTHSWQ/ref=zg_bs_g_home_d_sccl_9/140-5235038-8618349?psc=1
+                    - img [ref=e585]
+                  - generic [ref=e587]:
+                    - link "Percarbonato de Sódio 1kg 100% Puro Tira Manchas em Pó Sem Cloro, Biodegradável e Seguro para Roupas Brancas, Coloridas e Limpeza Doméstica Calisul" [ref=e588]:
+                      - /url: /Percarbonato-Biodegrad%C3%A1vel-Coloridas-Dom%C3%A9stica-Calisul/dp/B0FWCTHSWQ/ref=zg_bs_g_home_d_sccl_9/140-5235038-8618349?psc=1
+                      - generic [ref=e590]: Percarbonato de Sódio 1kg 100% Puro Tira Manchas em Pó Sem Cloro, Biodegradável e Seguro para Roupas Brancas, Coloridas e Limpeza Doméstica Calisul
+                    - link "4,8 de 5 estrelas, 1.168 classificações" [ref=e593]:
+                      - /url: /product-reviews/B0FWCTHSWQ/ref=zg_bs_g_home_d_sccl_9_cr/140-5235038-8618349
+                      - generic [ref=e595]: 4,8 de 5 estrelas
+                      - text: "1.168"
+                    - link "R$ 32,90" [ref=e599]:
+                      - /url: /Percarbonato-Biodegrad%C3%A1vel-Coloridas-Dom%C3%A9stica-Calisul/dp/B0FWCTHSWQ/ref=zg_bs_g_home_d_sccl_9/140-5235038-8618349?psc=1
+                      - generic [ref=e601]: R$ 32,90
+            - listitem [ref=e602]:
+              - generic [ref=e606]:
+                - generic [ref=e607]: "#10"
+                - generic [ref=e611] [cursor=pointer]:
+                  - link [ref=e612]:
+                    - /url: /Desinfetante-Sanit%C3%A1rio-L%C3%ADquido-Desodorizador-Harpic/dp/B095ZN8T88/ref=zg_bs_g_home_d_sccl_10/140-5235038-8618349?psc=1
+                    - img [ref=e614]
+                  - generic [ref=e616]:
+                    - link "Harpic Cloro Forte, Desinfetante e Desodorizador Sanitário, 200ml" [ref=e617]:
+                      - /url: /Desinfetante-Sanit%C3%A1rio-L%C3%ADquido-Desodorizador-Harpic/dp/B095ZN8T88/ref=zg_bs_g_home_d_sccl_10/140-5235038-8618349?psc=1
+                      - generic [ref=e619]: Harpic Cloro Forte, Desinfetante e Desodorizador Sanitário, 200ml
+                    - link "4,6 de 5 estrelas, 5.843 classificações" [ref=e622]:
+                      - /url: /product-reviews/B095ZN8T88/ref=zg_bs_g_home_d_sccl_10_cr/140-5235038-8618349
+                      - generic [ref=e624]: 4,6 de 5 estrelas
+                      - text: "5.843"
+                    - link "R$ 6,19" [ref=e628]:
+                      - /url: /Desinfetante-Sanit%C3%A1rio-L%C3%ADquido-Desodorizador-Harpic/dp/B095ZN8T88/ref=zg_bs_g_home_d_sccl_10/140-5235038-8618349?psc=1
+                      - generic [ref=e630]: R$ 6,19
+            - listitem [ref=e631]:
+              - generic [ref=e635]:
+                - generic [ref=e636]: "#11"
+                - generic [ref=e640] [cursor=pointer]:
+                  - link [ref=e641]:
+                    - /url: /Finish-Tabs-30-Branco-pacote/dp/B07BSRM75G/ref=zg_bs_g_home_d_sccl_11/140-5235038-8618349?psc=1
+                    - img [ref=e643]
+                  - generic [ref=e645]:
+                    - link "Finish Powerball Detergente para Lava Louças, Tabletes com Secante, 30 Tabletes" [ref=e646]:
+                      - /url: /Finish-Tabs-30-Branco-pacote/dp/B07BSRM75G/ref=zg_bs_g_home_d_sccl_11/140-5235038-8618349?psc=1
+                      - generic [ref=e648]: Finish Powerball Detergente para Lava Louças, Tabletes com Secante, 30 Tabletes
+                    - link "4,9 de 5 estrelas, 7.422 classificações" [ref=e651]:
+                      - /url: /product-reviews/B07BSRM75G/ref=zg_bs_g_home_d_sccl_11_cr/140-5235038-8618349
+                      - generic [ref=e653]: 4,9 de 5 estrelas
+                      - text: "7.422"
+                    - link "R$ 48,64" [ref=e657]:
+                      - /url: /Finish-Tabs-30-Branco-pacote/dp/B07BSRM75G/ref=zg_bs_g_home_d_sccl_11/140-5235038-8618349?psc=1
+                      - generic [ref=e659]: R$ 48,64
+            - listitem [ref=e660]:
+              - generic [ref=e664]:
+                - generic [ref=e665]: "#12"
+                - generic [ref=e669] [cursor=pointer]:
+                  - link [ref=e670]:
+                    - /url: /%C3%81gua-Sanit%C3%A1ria-Yp%C3%AA-5-Litros/dp/B07HZNJJCD/ref=zg_bs_g_home_d_sccl_12/140-5235038-8618349?psc=1
+                    - img [ref=e672]
+                  - generic [ref=e674]:
+                    - link "Ypê Água Sanitária 5L" [ref=e675]:
+                      - /url: /%C3%81gua-Sanit%C3%A1ria-Yp%C3%AA-5-Litros/dp/B07HZNJJCD/ref=zg_bs_g_home_d_sccl_12/140-5235038-8618349?psc=1
+                      - generic [ref=e677]: Ypê Água Sanitária 5L
+                    - link "4,8 de 5 estrelas, 5.684 classificações" [ref=e680]:
+                      - /url: /product-reviews/B07HZNJJCD/ref=zg_bs_g_home_d_sccl_12_cr/140-5235038-8618349
+                      - generic [ref=e682]: 4,8 de 5 estrelas
+                      - text: "5.684"
+                    - link "R$ 19,41" [ref=e686]:
+                      - /url: /%C3%81gua-Sanit%C3%A1ria-Yp%C3%AA-5-Litros/dp/B07HZNJJCD/ref=zg_bs_g_home_d_sccl_12/140-5235038-8618349?psc=1
+                      - generic [ref=e688]: R$ 19,41
+            - listitem [ref=e689]:
+              - generic [ref=e693]:
+                - generic [ref=e694]: "#13"
+                - generic [ref=e698] [cursor=pointer]:
+                  - link [ref=e699]:
+                    - /url: /Ventilador-Mesa-MONDIAL-Super-Power/dp/B09B16LRD1/ref=zg_bs_g_home_d_sccl_13/140-5235038-8618349?psc=1
+                    - img [ref=e701]
+                  - generic [ref=e703]:
+                    - link "MONDIAL Ventilador de Mesa 110V, 30cm, 6 pás, Super Power - VSP-30-B" [ref=e704]:
+                      - /url: /Ventilador-Mesa-MONDIAL-Super-Power/dp/B09B16LRD1/ref=zg_bs_g_home_d_sccl_13/140-5235038-8618349?psc=1
+                      - generic [ref=e706]: MONDIAL Ventilador de Mesa 110V, 30cm, 6 pás, Super Power - VSP-30-B
+                    - link "4,6 de 5 estrelas, 32.068 classificações" [ref=e709]:
+                      - /url: /product-reviews/B09B16LRD1/ref=zg_bs_g_home_d_sccl_13_cr/140-5235038-8618349
+                      - generic [ref=e711]: 4,6 de 5 estrelas
+                      - text: "32.068"
+                    - link "R$ 114,90" [ref=e715]:
+                      - /url: /Ventilador-Mesa-MONDIAL-Super-Power/dp/B09B16LRD1/ref=zg_bs_g_home_d_sccl_13/140-5235038-8618349?psc=1
+                      - generic [ref=e717]: R$ 114,90
+                - button "Assistir ao vídeo" [ref=e719] [cursor=pointer]:
+                  - img "Assistir ao vídeo" [ref=e721]
+            - listitem [ref=e727]:
+              - generic [ref=e731]:
+                - generic [ref=e732]: "#14"
+                - generic [ref=e736] [cursor=pointer]:
+                  - link [ref=e737]:
+                    - /url: /Vinagre-Alcool-Castelo-6-5L/dp/B084BXFGJN/ref=zg_bs_g_home_d_sccl_14/140-5235038-8618349?psc=1
+                    - img [ref=e739]
+                  - generic [ref=e741]:
+                    - link "Vinagre de Álcool Concentrado 6% Castelo 5l" [ref=e742]:
+                      - /url: /Vinagre-Alcool-Castelo-6-5L/dp/B084BXFGJN/ref=zg_bs_g_home_d_sccl_14/140-5235038-8618349?psc=1
+                      - generic [ref=e744]: Vinagre de Álcool Concentrado 6% Castelo 5l
+                    - link "4,8 de 5 estrelas, 6.003 classificações" [ref=e747]:
+                      - /url: /product-reviews/B084BXFGJN/ref=zg_bs_g_home_d_sccl_14_cr/140-5235038-8618349
+                      - generic [ref=e749]: 4,8 de 5 estrelas
+                      - text: "6.003"
+                    - link "R$ 31,45" [ref=e753]:
+                      - /url: /Vinagre-Alcool-Castelo-6-5L/dp/B084BXFGJN/ref=zg_bs_g_home_d_sccl_14/140-5235038-8618349?psc=1
+                      - generic [ref=e755]: R$ 31,45
+                - button "Assistir ao vídeo" [ref=e757] [cursor=pointer]:
+                  - img "Assistir ao vídeo" [ref=e759]
+            - listitem [ref=e765]:
+              - generic [ref=e769]:
+                - generic [ref=e770]: "#15"
+                - generic [ref=e774] [cursor=pointer]:
+                  - link [ref=e775]:
+                    - /url: /WAP-FLOW-TURBO-Ventilador-Velocidades/dp/B0BT4Z9LZB/ref=zg_bs_g_home_d_sccl_15/140-5235038-8618349?psc=1
+                    - img [ref=e777]
+                  - generic [ref=e779]:
+                    - link "WAP Ventilador de Mesa e Parede 50cm FLOW TURBO, Tecnologia Silenciosa e Econômica, 8 Pás e 3 Velocidades, 180W 127V" [ref=e780]:
+                      - /url: /WAP-FLOW-TURBO-Ventilador-Velocidades/dp/B0BT4Z9LZB/ref=zg_bs_g_home_d_sccl_15/140-5235038-8618349?psc=1
+                      - generic [ref=e782]: WAP Ventilador de Mesa e Parede 50cm FLOW TURBO, Tecnologia Silenciosa e Econômica, 8 Pás e 3 Velocidades, 180W 127V
+                    - link "4,5 de 5 estrelas, 11.707 classificações" [ref=e785]:
+                      - /url: /product-reviews/B0BT4Z9LZB/ref=zg_bs_g_home_d_sccl_15_cr/140-5235038-8618349
+                      - generic [ref=e787]: 4,5 de 5 estrelas
+                      - text: "11.707"
+                    - link "R$ 169,00" [ref=e791]:
+                      - /url: /WAP-FLOW-TURBO-Ventilador-Velocidades/dp/B0BT4Z9LZB/ref=zg_bs_g_home_d_sccl_15/140-5235038-8618349?psc=1
+                      - generic [ref=e793]: R$ 169,00
+                - button "Assistir ao vídeo" [ref=e795] [cursor=pointer]:
+                  - img "Assistir ao vídeo" [ref=e797]
+            - listitem [ref=e803]:
+              - generic [ref=e807]:
+                - generic [ref=e808]: "#16"
+                - generic [ref=e812] [cursor=pointer]:
+                  - link [ref=e813]:
+                    - /url: /Veja-Limpador-Perfumes-Flores-Sonhos/dp/B07DZ7JP8L/ref=zg_bs_g_home_d_sccl_16/140-5235038-8618349?psc=1
+                    - img [ref=e815]
+                  - generic [ref=e817]:
+                    - link "Limpador Perfumado Veja Buquê do Cerrado 2L" [ref=e818]:
+                      - /url: /Veja-Limpador-Perfumes-Flores-Sonhos/dp/B07DZ7JP8L/ref=zg_bs_g_home_d_sccl_16/140-5235038-8618349?psc=1
+                      - generic [ref=e820]: Limpador Perfumado Veja Buquê do Cerrado 2L
+                    - link "4,8 de 5 estrelas, 4.754 classificações" [ref=e823]:
+                      - /url: /product-reviews/B07DZ7JP8L/ref=zg_bs_g_home_d_sccl_16_cr/140-5235038-8618349
+                      - generic [ref=e825]: 4,8 de 5 estrelas
+                      - text: "4.754"
+                    - link "R$ 12,56" [ref=e829]:
+                      - /url: /Veja-Limpador-Perfumes-Flores-Sonhos/dp/B07DZ7JP8L/ref=zg_bs_g_home_d_sccl_16/140-5235038-8618349?psc=1
+                      - generic [ref=e831]: R$ 12,56
+            - listitem [ref=e832]:
+              - generic [ref=e836]:
+                - generic [ref=e837]: "#17"
+                - generic [ref=e841] [cursor=pointer]:
+                  - link [ref=e842]:
+                    - /url: /Desodorizador-Adesivo-Marine-Discos-Pato/dp/B07FPT3MSD/ref=zg_bs_g_home_d_sccl_17/140-5235038-8618349?psc=1
+                    - img [ref=e844]
+                  - generic [ref=e846]:
+                    - link "Pato Desodorizador Sanitário Gel Adesivo 2 Refis Marine, Limpeza Banheiro, 12 Discos" [ref=e847]:
+                      - /url: /Desodorizador-Adesivo-Marine-Discos-Pato/dp/B07FPT3MSD/ref=zg_bs_g_home_d_sccl_17/140-5235038-8618349?psc=1
+                      - generic [ref=e849]: Pato Desodorizador Sanitário Gel Adesivo 2 Refis Marine, Limpeza Banheiro, 12 Discos
+                    - link "4,8 de 5 estrelas, 14.434 classificações" [ref=e852]:
+                      - /url: /product-reviews/B07FPT3MSD/ref=zg_bs_g_home_d_sccl_17_cr/140-5235038-8618349
+                      - generic [ref=e854]: 4,8 de 5 estrelas
+                      - text: "14.434"
+                    - link "R$ 23,39" [ref=e858]:
+                      - /url: /Desodorizador-Adesivo-Marine-Discos-Pato/dp/B07FPT3MSD/ref=zg_bs_g_home_d_sccl_17/140-5235038-8618349?psc=1
+                      - generic [ref=e860]: R$ 23,39
+            - listitem [ref=e861]:
+              - generic [ref=e865]:
+                - generic [ref=e866]: "#18"
+                - generic [ref=e870] [cursor=pointer]:
+                  - link [ref=e871]:
+                    - /url: /Lysoform-Desinfetante-Bruto-5L/dp/B07N4FX3TC/ref=zg_bs_g_home_d_sccl_18/140-5235038-8618349?psc=1
+                    - img [ref=e873]
+                  - generic [ref=e875]:
+                    - link "Lysoform Original, Desinfetante Líquido, Limpeza Casa, 5L" [ref=e876]:
+                      - /url: /Lysoform-Desinfetante-Bruto-5L/dp/B07N4FX3TC/ref=zg_bs_g_home_d_sccl_18/140-5235038-8618349?psc=1
+                      - generic [ref=e878]: Lysoform Original, Desinfetante Líquido, Limpeza Casa, 5L
+                    - link "4,9 de 5 estrelas, 17.240 classificações" [ref=e881]:
+                      - /url: /product-reviews/B07N4FX3TC/ref=zg_bs_g_home_d_sccl_18_cr/140-5235038-8618349
+                      - generic [ref=e883]: 4,9 de 5 estrelas
+                      - text: "17.240"
+                    - link "R$ 54,90" [ref=e887]:
+                      - /url: /Lysoform-Desinfetante-Bruto-5L/dp/B07N4FX3TC/ref=zg_bs_g_home_d_sccl_18/140-5235038-8618349?psc=1
+                      - generic [ref=e889]: R$ 54,90
+                - button "Assistir ao vídeo" [ref=e891] [cursor=pointer]:
+                  - img "Assistir ao vídeo" [ref=e893]
+            - listitem [ref=e899]:
+              - generic [ref=e903]:
+                - generic [ref=e904]: "#19"
+                - generic [ref=e908] [cursor=pointer]:
+                  - link [ref=e909]:
+                    - /url: /Mop-Giratorio-Flash-Limp-Cinza/dp/B07NQ9PFKN/ref=zg_bs_g_home_d_sccl_19/140-5235038-8618349?psc=1
+                    - img [ref=e911]
+                  - generic [ref=e913]:
+                    - link "Flash Limp - Mop Giratório Fit, Balde 8 litros - MOP5010" [ref=e914]:
+                      - /url: /Mop-Giratorio-Flash-Limp-Cinza/dp/B07NQ9PFKN/ref=zg_bs_g_home_d_sccl_19/140-5235038-8618349?psc=1
+                      - generic [ref=e916]: Flash Limp - Mop Giratório Fit, Balde 8 litros - MOP5010
+                    - link "4,6 de 5 estrelas, 69.929 classificações" [ref=e919]:
+                      - /url: /product-reviews/B07NQ9PFKN/ref=zg_bs_g_home_d_sccl_19_cr/140-5235038-8618349
+                      - generic [ref=e921]: 4,6 de 5 estrelas
+                      - text: "69.929"
+                    - link "R$ 62,00" [ref=e925]:
+                      - /url: /Mop-Giratorio-Flash-Limp-Cinza/dp/B07NQ9PFKN/ref=zg_bs_g_home_d_sccl_19/140-5235038-8618349?psc=1
+                      - generic [ref=e927]: R$ 62,00
+                - button "Assistir ao vídeo" [ref=e929] [cursor=pointer]:
+                  - img "Assistir ao vídeo" [ref=e931]
+            - listitem [ref=e937]:
+              - generic [ref=e941]:
+                - generic [ref=e942]: "#20"
+                - generic [ref=e946] [cursor=pointer]:
+                  - link [ref=e947]:
+                    - /url: /Pulverizador-Veja-Banheiro-Tira-Limo/dp/B07DZ8VWPQ/ref=zg_bs_g_home_d_sccl_20/140-5235038-8618349?psc=1
+                    - img [ref=e949]
+                  - generic [ref=e951]:
+                    - link "Spray Tira Limo Veja Banheiro X14 500ml Oferta" [ref=e952]:
+                      - /url: /Pulverizador-Veja-Banheiro-Tira-Limo/dp/B07DZ8VWPQ/ref=zg_bs_g_home_d_sccl_20/140-5235038-8618349?psc=1
+                      - generic [ref=e954]: Spray Tira Limo Veja Banheiro X14 500ml Oferta
+                    - link "4,8 de 5 estrelas, 3.745 classificações" [ref=e957]:
+                      - /url: /product-reviews/B07DZ8VWPQ/ref=zg_bs_g_home_d_sccl_20_cr/140-5235038-8618349
+                      - generic [ref=e959]: 4,8 de 5 estrelas
+                      - text: "3.745"
+                    - link "R$ 19,22" [ref=e963]:
+                      - /url: /Pulverizador-Veja-Banheiro-Tira-Limo/dp/B07DZ8VWPQ/ref=zg_bs_g_home_d_sccl_20/140-5235038-8618349?psc=1
+                      - generic [ref=e965]: R$ 19,22
+                - button "Assistir ao vídeo" [ref=e967] [cursor=pointer]:
+                  - img "Assistir ao vídeo" [ref=e969]
+            - listitem [ref=e975]:
+              - generic [ref=e979]:
+                - generic [ref=e980]: "#21"
+                - generic [ref=e984] [cursor=pointer]:
+                  - link [ref=e985]:
+                    - /url: /Glade-Aromatizador-Ambiente-Autom%C3%A1tico-Odorizador/dp/B08FTV8J79/ref=zg_bs_g_home_d_sccl_21/140-5235038-8618349?psc=1
+                    - img [ref=e987]
+                  - generic [ref=e989]:
+                    - link "Glade Aromatizador de Ambiente Automático, Frescor de Águas Florais, Refil 260ml" [ref=e990]:
+                      - /url: /Glade-Aromatizador-Ambiente-Autom%C3%A1tico-Odorizador/dp/B08FTV8J79/ref=zg_bs_g_home_d_sccl_21/140-5235038-8618349?psc=1
+                      - generic [ref=e992]: Glade Aromatizador de Ambiente Automático, Frescor de Águas Florais, Refil 260ml
+                    - link "4,8 de 5 estrelas, 11.722 classificações" [ref=e995]:
+                      - /url: /product-reviews/B08FTV8J79/ref=zg_bs_g_home_d_sccl_21_cr/140-5235038-8618349
+                      - generic [ref=e997]: 4,8 de 5 estrelas
+                      - text: "11.722"
+                    - link "R$ 33,50" [ref=e1001]:
+                      - /url: /Glade-Aromatizador-Ambiente-Autom%C3%A1tico-Odorizador/dp/B08FTV8J79/ref=zg_bs_g_home_d_sccl_21/140-5235038-8618349?psc=1
+                      - generic [ref=e1003]: R$ 33,50
+                - button "Assistir ao vídeo" [ref=e1005] [cursor=pointer]:
+                  - img "Assistir ao vídeo" [ref=e1007]
+            - listitem [ref=e1013]:
+              - generic [ref=e1017]:
+                - generic [ref=e1018]: "#22"
+                - generic [ref=e1022] [cursor=pointer]:
+                  - link [ref=e1023]:
+                    - /url: /Desinfetante-Lavanda-5-Litros-Sanol/dp/B077XDYZNF/ref=zg_bs_g_home_d_sccl_22/140-5235038-8618349?psc=1
+                    - img [ref=e1025]
+                  - generic [ref=e1027]:
+                    - link "Sanol Desinfetante Líquido Para Uso Geral Lavanda 5 Litros Roxo" [ref=e1028]:
+                      - /url: /Desinfetante-Lavanda-5-Litros-Sanol/dp/B077XDYZNF/ref=zg_bs_g_home_d_sccl_22/140-5235038-8618349?psc=1
+                      - generic [ref=e1030]: Sanol Desinfetante Líquido Para Uso Geral Lavanda 5 Litros Roxo
+                    - link "4,7 de 5 estrelas, 3.428 classificações" [ref=e1033]:
+                      - /url: /product-reviews/B077XDYZNF/ref=zg_bs_g_home_d_sccl_22_cr/140-5235038-8618349
+                      - generic [ref=e1035]: 4,7 de 5 estrelas
+                      - text: "3.428"
+                    - link "R$ 18,73" [ref=e1039]:
+                      - /url: /Desinfetante-Lavanda-5-Litros-Sanol/dp/B077XDYZNF/ref=zg_bs_g_home_d_sccl_22/140-5235038-8618349?psc=1
+                      - generic [ref=e1041]: R$ 18,73
+            - listitem [ref=e1042]:
+              - generic [ref=e1046]:
+                - generic [ref=e1047]: "#23"
+                - generic [ref=e1051] [cursor=pointer]:
+                  - link [ref=e1052]:
+                    - /url: /Chuveiro-Shower-Eletr%C3%B4nico-LORENZETTI-Branco/dp/B095VF5GR7/ref=zg_bs_g_home_d_sccl_23/140-5235038-8618349?psc=1
+                    - img [ref=e1054]
+                  - generic [ref=e1056]:
+                    - link "Chuveiro Loren Shower Eletrônico 7500w 220v~ Lorenzetti" [ref=e1057]:
+                      - /url: /Chuveiro-Shower-Eletr%C3%B4nico-LORENZETTI-Branco/dp/B095VF5GR7/ref=zg_bs_g_home_d_sccl_23/140-5235038-8618349?psc=1
+                      - generic [ref=e1059]: Chuveiro Loren Shower Eletrônico 7500w 220v~ Lorenzetti
+                    - link "4,6 de 5 estrelas, 11.661 classificações" [ref=e1062]:
+                      - /url: /product-reviews/B095VF5GR7/ref=zg_bs_g_home_d_sccl_23_cr/140-5235038-8618349
+                      - generic [ref=e1064]: 4,6 de 5 estrelas
+                      - text: "11.661"
+                    - link "R$ 107,00" [ref=e1068]:
+                      - /url: /Chuveiro-Shower-Eletr%C3%B4nico-LORENZETTI-Branco/dp/B095VF5GR7/ref=zg_bs_g_home_d_sccl_23/140-5235038-8618349?psc=1
+                      - generic [ref=e1070]: R$ 107,00
+            - listitem [ref=e1071]:
+              - generic [ref=e1075]:
+                - generic [ref=e1076]: "#24"
+                - generic [ref=e1080] [cursor=pointer]:
+                  - link [ref=e1081]:
+                    - /url: /MONDIAL-Ventilador-Mondial-Super-Power/dp/B09B15RDJ6/ref=zg_bs_g_home_d_sccl_24/140-5235038-8618349?psc=1
+                    - img [ref=e1083]
+                  - generic [ref=e1085]:
+                    - link "MONDIAL Ventilador de Mesa 40cm Super Power, Preto/Prata, 140W, 110V - VSP-40-B" [ref=e1086]:
+                      - /url: /MONDIAL-Ventilador-Mondial-Super-Power/dp/B09B15RDJ6/ref=zg_bs_g_home_d_sccl_24/140-5235038-8618349?psc=1
+                      - generic [ref=e1088]: MONDIAL Ventilador de Mesa 40cm Super Power, Preto/Prata, 140W, 110V - VSP-40-B
+                    - link "4,6 de 5 estrelas, 30.513 classificações" [ref=e1091]:
+                      - /url: /product-reviews/B09B15RDJ6/ref=zg_bs_g_home_d_sccl_24_cr/140-5235038-8618349
+                      - generic [ref=e1093]: 4,6 de 5 estrelas
+                      - text: "30.513"
+                    - link "R$ 125,68" [ref=e1097]:
+                      - /url: /MONDIAL-Ventilador-Mondial-Super-Power/dp/B09B15RDJ6/ref=zg_bs_g_home_d_sccl_24/140-5235038-8618349?psc=1
+                      - generic [ref=e1099]: R$ 125,68
+                - button "Assistir ao vídeo" [ref=e1101] [cursor=pointer]:
+                  - img "Assistir ao vídeo" [ref=e1103]
+            - listitem [ref=e1109]:
+              - generic [ref=e1113]:
+                - generic [ref=e1114]: "#25"
+                - generic [ref=e1118] [cursor=pointer]:
+                  - link [ref=e1119]:
+                    - /url: /Black-Decker-Vaporizador-Compacto-Port%C3%A1til/dp/B08B6DLFYD/ref=zg_bs_g_home_d_sccl_25/140-5235038-8618349?psc=1
+                    - img [ref=e1121]
+                  - generic [ref=e1123]:
+                    - link "BLACK+DECKER Vaporizador, Ferro de Passar Roupa, Compacto e Portátil, Função Passar a Seco, 3 em 1, modelo BDV3000, Bivolt" [ref=e1124]:
+                      - /url: /Black-Decker-Vaporizador-Compacto-Port%C3%A1til/dp/B08B6DLFYD/ref=zg_bs_g_home_d_sccl_25/140-5235038-8618349?psc=1
+                      - generic [ref=e1126]: BLACK+DECKER Vaporizador, Ferro de Passar Roupa, Compacto e Portátil, Função Passar a Seco, 3 em 1, modelo BDV3000, Bivolt
+                    - link "4,4 de 5 estrelas, 11.268 classificações" [ref=e1129]:
+                      - /url: /product-reviews/B08B6DLFYD/ref=zg_bs_g_home_d_sccl_25_cr/140-5235038-8618349
+                      - generic [ref=e1131]: 4,4 de 5 estrelas
+                      - text: "11.268"
+                    - link "R$ 204,20" [ref=e1135]:
+                      - /url: /Black-Decker-Vaporizador-Compacto-Port%C3%A1til/dp/B08B6DLFYD/ref=zg_bs_g_home_d_sccl_25/140-5235038-8618349?psc=1
+                      - generic [ref=e1137]: R$ 204,20
+                - button "Assistir ao vídeo" [ref=e1139] [cursor=pointer]:
+                  - img "Assistir ao vídeo" [ref=e1141]
+            - listitem [ref=e1147]:
+              - generic [ref=e1151]:
+                - generic [ref=e1152]: "#26"
+                - generic [ref=e1156] [cursor=pointer]:
+                  - link [ref=e1157]:
+                    - /url: /Percarbonato-S%C3%B3dio-1kg-100-Puro/dp/B0FNJJRV8D/ref=zg_bs_g_home_d_sccl_26/140-5235038-8618349?psc=1
+                    - img [ref=e1159]
+                  - generic [ref=e1161]:
+                    - link "Percarbonato de Sódio 1kg 100% Puro - Limpeza Profunda Com Oxigênio Ativo Tira Manchas das Roupas Sem Cloro e Seguro Para Limpeza Doméstica" [ref=e1162]:
+                      - /url: /Percarbonato-S%C3%B3dio-1kg-100-Puro/dp/B0FNJJRV8D/ref=zg_bs_g_home_d_sccl_26/140-5235038-8618349?psc=1
+                      - generic [ref=e1164]: Percarbonato de Sódio 1kg 100% Puro - Limpeza Profunda Com Oxigênio Ativo Tira Manchas das Roupas Sem Cloro e Seguro Para Limpeza Doméstica
+                    - link "4,8 de 5 estrelas, 760 classificações" [ref=e1167]:
+                      - /url: /product-reviews/B0FNJJRV8D/ref=zg_bs_g_home_d_sccl_26_cr/140-5235038-8618349
+                      - generic [ref=e1169]: 4,8 de 5 estrelas
+                      - text: "760"
+                    - link "R$ 32,90" [ref=e1173]:
+                      - /url: /Percarbonato-S%C3%B3dio-1kg-100-Puro/dp/B0FNJJRV8D/ref=zg_bs_g_home_d_sccl_26/140-5235038-8618349?psc=1
+                      - generic [ref=e1175]: R$ 32,90
+                - button "Assistir ao vídeo" [ref=e1177] [cursor=pointer]:
+                  - img "Assistir ao vídeo" [ref=e1179]
+            - listitem [ref=e1185]:
+              - generic [ref=e1189]:
+                - generic [ref=e1190]: "#27"
+                - generic [ref=e1194] [cursor=pointer]:
+                  - link [ref=e1195]:
+                    - /url: /Detergente-Limpador-Extratoras-WAP-Fragr%C3%A2ncia/dp/B098FKK5QD/ref=zg_bs_g_home_d_sccl_27/140-5235038-8618349?psc=1
+                    - img [ref=e1197]
+                  - generic [ref=e1199]:
+                    - link "WAP Detergente Limpador para Extratoras Concentrado WAP LIMPA E EXTRAI 1 LITRO com Fragrância e sem Espuma" [ref=e1200]:
+                      - /url: /Detergente-Limpador-Extratoras-WAP-Fragr%C3%A2ncia/dp/B098FKK5QD/ref=zg_bs_g_home_d_sccl_27/140-5235038-8618349?psc=1
+                      - generic [ref=e1202]: WAP Detergente Limpador para Extratoras Concentrado WAP LIMPA E EXTRAI 1 LITRO com Fragrância e sem Espuma
+                    - link "4,8 de 5 estrelas, 9.605 classificações" [ref=e1205]:
+                      - /url: /product-reviews/B098FKK5QD/ref=zg_bs_g_home_d_sccl_27_cr/140-5235038-8618349
+                      - generic [ref=e1207]: 4,8 de 5 estrelas
+                      - text: "9.605"
+                    - link "R$ 48,90" [ref=e1211]:
+                      - /url: /Detergente-Limpador-Extratoras-WAP-Fragr%C3%A2ncia/dp/B098FKK5QD/ref=zg_bs_g_home_d_sccl_27/140-5235038-8618349?psc=1
+                      - generic [ref=e1213]: R$ 48,90
+                - button "Assistir ao vídeo" [ref=e1215] [cursor=pointer]:
+                  - img "Assistir ao vídeo" [ref=e1217]
+            - listitem [ref=e1223]:
+              - generic [ref=e1227]:
+                - generic [ref=e1228]: "#28"
+                - generic [ref=e1232] [cursor=pointer]:
+                  - link [ref=e1233]:
+                    - /url: /V%C3%A1cuo-Roupa-Viagem-Western-Bomba/dp/B086GHJD9P/ref=zg_bs_g_home_d_sccl_28/140-5235038-8618349?psc=1
+                    - img [ref=e1235]
+                  - generic [ref=e1237]:
+                    - link "Kit 10 Saco a Vácuo Roupa Viagem 50 x 60 cm Western + Bomba" [ref=e1238]:
+                      - /url: /V%C3%A1cuo-Roupa-Viagem-Western-Bomba/dp/B086GHJD9P/ref=zg_bs_g_home_d_sccl_28/140-5235038-8618349?psc=1
+                      - generic [ref=e1240]: Kit 10 Saco a Vácuo Roupa Viagem 50 x 60 cm Western + Bomba
+                    - link "4,6 de 5 estrelas, 6.181 classificações" [ref=e1243]:
+                      - /url: /product-reviews/B086GHJD9P/ref=zg_bs_g_home_d_sccl_28_cr/140-5235038-8618349
+                      - generic [ref=e1245]: 4,6 de 5 estrelas
+                      - text: "6.181"
+                    - link "R$ 39,40" [ref=e1249]:
+                      - /url: /V%C3%A1cuo-Roupa-Viagem-Western-Bomba/dp/B086GHJD9P/ref=zg_bs_g_home_d_sccl_28/140-5235038-8618349?psc=1
+                      - generic [ref=e1251]: R$ 39,40
+            - listitem [ref=e1252]:
+              - generic [ref=e1256]:
+                - generic [ref=e1257]: "#29"
+                - generic [ref=e1261] [cursor=pointer]:
+                  - link [ref=e1262]:
+                    - /url: /WAP-FLOW-TURBO-Ventilador-Silencioso/dp/B0BT4YZZKK/ref=zg_bs_g_home_d_sccl_29/140-5235038-8618349?psc=1
+                    - img [ref=e1264]
+                  - generic [ref=e1266]:
+                    - link "WAP Ventilador de Coluna 50cm FLOW TURBO, com Tecnologia Silenciosa e Econômica, 8 Pás e 3 Velocidades, 180W 220V" [ref=e1267]:
+                      - /url: /WAP-FLOW-TURBO-Ventilador-Silencioso/dp/B0BT4YZZKK/ref=zg_bs_g_home_d_sccl_29/140-5235038-8618349?psc=1
+                      - generic [ref=e1269]: WAP Ventilador de Coluna 50cm FLOW TURBO, com Tecnologia Silenciosa e Econômica, 8 Pás e 3 Velocidades, 180W 220V
+                    - link "4,4 de 5 estrelas, 6.763 classificações" [ref=e1272]:
+                      - /url: /product-reviews/B0BT4YZZKK/ref=zg_bs_g_home_d_sccl_29_cr/140-5235038-8618349
+                      - generic [ref=e1274]: 4,4 de 5 estrelas
+                      - text: "6.763"
+                    - link "R$ 227,16" [ref=e1278]:
+                      - /url: /WAP-FLOW-TURBO-Ventilador-Silencioso/dp/B0BT4YZZKK/ref=zg_bs_g_home_d_sccl_29/140-5235038-8618349?psc=1
+                      - generic [ref=e1280]: R$ 227,16
+                - button "Assistir ao vídeo" [ref=e1282] [cursor=pointer]:
+                  - img "Assistir ao vídeo" [ref=e1284]
+            - listitem [ref=e1290]:
+              - generic [ref=e1294]:
+                - generic [ref=e1295]: "#30"
+                - generic [ref=e1299] [cursor=pointer]:
+                  - link [ref=e1300]:
+                    - /url: /Electrolux-BR-CNF1-ESI10-FERRO/dp/B09K3FNS7W/ref=zg_bs_g_home_d_sccl_30/140-5235038-8618349?psc=1
+                    - img [ref=e1302]
+                  - generic [ref=e1304]:
+                    - link "Ferro de passar seco e vapor Electrolux base antiaderente vapor vertical extra 1200W cabo 1,35m azul ESI10 127v" [ref=e1305]:
+                      - /url: /Electrolux-BR-CNF1-ESI10-FERRO/dp/B09K3FNS7W/ref=zg_bs_g_home_d_sccl_30/140-5235038-8618349?psc=1
+                      - generic [ref=e1307]: Ferro de passar seco e vapor Electrolux base antiaderente vapor vertical extra 1200W cabo 1,35m azul ESI10 127v
+                    - link "4,6 de 5 estrelas, 3.288 classificações" [ref=e1310]:
+                      - /url: /product-reviews/B09K3FNS7W/ref=zg_bs_g_home_d_sccl_30_cr/140-5235038-8618349
+                      - generic [ref=e1312]: 4,6 de 5 estrelas
+                      - text: "3.288"
+                    - link "R$ 83,43" [ref=e1316]:
+                      - /url: /Electrolux-BR-CNF1-ESI10-FERRO/dp/B09K3FNS7W/ref=zg_bs_g_home_d_sccl_30/140-5235038-8618349?psc=1
+                      - generic [ref=e1318]: R$ 83,43
+                - button "Assistir ao vídeo" [ref=e1320] [cursor=pointer]:
+                  - img "Assistir ao vídeo" [ref=e1322]
+            - text: 
+          - navigation "pagination" [ref=e1328]:
+            - list [ref=e1329]:
+              - listitem [ref=e1330]: Página anterior
+              - listitem "Page 1" [ref=e1331]:
+                - link "1" [ref=e1332] [cursor=pointer]:
+                  - /url: /gp/bestsellers/home/ref=zg_bs_pg_1_home?ie=UTF8&pg=1
+              - listitem "Page 2" [ref=e1333]:
+                - link "2" [ref=e1334] [cursor=pointer]:
+                  - /url: /gp/bestsellers/home/ref=zg_bs_pg_2_home?ie=UTF8&pg=2
+              - listitem [ref=e1335]:
+                - link "Próxima página" [ref=e1336] [cursor=pointer]:
+                  - /url: /gp/bestsellers/home/ref=zg_bs_pg_2_home?ie=UTF8&pg=2
+                  - text: Próxima página
+  - complementary "Itens que você visualizou recentemente e recomendações baseadas em seu histórico:"
+  - generic [ref=e1337]:
+    - button "Voltar ao início" [ref=e1338] [cursor=pointer]:
+      - generic [ref=e1339]: Voltar ao início
+    - generic [ref=e1340]:
+      - generic [ref=e1341]:
+        - heading "Conheça-nos" [level=6] [ref=e1342]
+        - list [ref=e1343]:
+          - listitem [ref=e1344]:
+            - link "Sobre a Amazon" [ref=e1345] [cursor=pointer]:
+              - /url: https://www.aboutamazon.com.br/
+          - listitem [ref=e1346]:
+            - link "Informações corporativas" [ref=e1347] [cursor=pointer]:
+              - /url: /gp/browse.html?node=23490129011&ref_=footer_gw_m_b_corporate
+          - listitem [ref=e1348]:
+            - link "Carreiras" [ref=e1349] [cursor=pointer]:
+              - /url: https://www.amazon.jobs
+          - listitem [ref=e1350]:
+            - link "Comunicados à imprensa" [ref=e1351] [cursor=pointer]:
+              - /url: /gp/browse.html?node=15155858011&ref_=footer_community
+          - listitem [ref=e1352]:
+            - link "Comunidade" [ref=e1353] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16593314011&ref_=footer_community
+          - listitem [ref=e1354]:
+            - link "Acessibilidade" [ref=e1355] [cursor=pointer]:
+              - /url: /gp/browse.html?node=23454858011&ref_=footer_accessibility
+          - listitem [ref=e1356]:
+            - link "Amazon Science" [ref=e1357] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e1359]:
+        - heading "Ganhe dinheiro conosco" [level=6] [ref=e1360]
+        - list [ref=e1361]:
+          - listitem [ref=e1362]:
+            - link "Venda na Amazon" [ref=e1363] [cursor=pointer]:
+              - /url: https://venda.amazon.com.br/?ld=SDBRSOA_footerDesk_T1
+          - listitem [ref=e1364]:
+            - link "Proteja e construa a sua marca" [ref=e1365] [cursor=pointer]:
+              - /url: https://brandservices.amazon.com.br?ref=AOBRABRLGNRFOOT&ld=AOBRABRLGNRFOOT
+          - listitem [ref=e1366]:
+            - link "Forneça para a Amazon" [ref=e1367] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=pt-BR
+          - listitem [ref=e1368]:
+            - link "Publique seus livros" [ref=e1369] [cursor=pointer]:
+              - /url: https://kdp.amazon.com?language=pt_BR
+          - listitem [ref=e1370]:
+            - link "Seja um associado" [ref=e1371] [cursor=pointer]:
+              - /url: https://associados.amazon.com.br
+          - listitem [ref=e1372]:
+            - link "Anuncie seus produtos" [ref=e1373] [cursor=pointer]:
+              - /url: https://advertising.amazon.com/pt-br?ref=footer_advtsing_BR
+      - generic [ref=e1375]:
+        - heading "Pagamento" [level=6] [ref=e1376]
+        - list [ref=e1377]:
+          - listitem [ref=e1378]:
+            - link "Meios de Pagamento" [ref=e1379] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16568920011&ref_=footer_pay_tc
+          - listitem [ref=e1380]:
+            - link "Compre com Pontos" [ref=e1381] [cursor=pointer]:
+              - /url: /gp/browse.html?node=24028636011&ref_=footer_pay_tc
+          - listitem [ref=e1382]:
+            - link "Cartão de crédito Amazon" [ref=e1383] [cursor=pointer]:
+              - /url: /gp/browse.html?node=24434261011&ref_=footer_pay_tc
+      - generic [ref=e1385]:
+        - heading "Deixe-nos ajudar você" [level=6] [ref=e1386]
+        - list [ref=e1387]:
+          - listitem [ref=e1388]:
+            - link "Sua conta" [ref=e1389] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e1390]:
+            - link "Frete e prazo de entrega" [ref=e1391] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201365500&ref_=footer_shiprates
+          - listitem [ref=e1392]:
+            - link "Devoluções e reembolsos" [ref=e1393] [cursor=pointer]:
+              - /url: /gp/orc/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e1394]:
+            - link "Gerencie seu conteúdo e dispositivos" [ref=e1395] [cursor=pointer]:
+              - /url: /hz/mycd/myx?ref_=footer_myk
+          - listitem [ref=e1396]:
+            - link "Recalls e alertas de segurança do produto" [ref=e1397] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e1398]:
+            - link "Ajuda" [ref=e1399] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he
+    - generic [ref=e1401]:
+      - link "Amazon Brazil Home" [ref=e1404] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - button "Escolha um país/região para fazer suas compras. A seleção atual é Brasil." [ref=e1408] [cursor=pointer]:
+        - generic [ref=e1410]: Brasil
+    - generic [ref=e1411]:
+      - list [ref=e1412]:
+        - listitem [ref=e1413]:
+          - link "Condições de Uso" [ref=e1414] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201283910&ref_=footer_cou
+        - listitem [ref=e1415]:
+          - link "Notificação de Privacidade" [ref=e1416] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201283950&ref_=footer_privacy
+        - listitem [ref=e1417]:
+          - link "Cookies" [ref=e1418] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201890250&ref_=footer_cookies
+        - listitem [ref=e1419]:
+          - link "Anúncios Baseados em Interesses" [ref=e1420] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201283970&ref_=footer_iba
+      - generic [ref=e1421]: © 2021-2026 Amazon.com, Inc. ou suas afiliadas
+    - list [ref=e1423]:
+      - listitem [ref=e1424]: Amazon Serviços de Varejo do Brasil Ltda. | CNPJ 15.436.940/0001-03
+    - list [ref=e1426]:
+      - listitem [ref=e1427]:
+        - text: "Av. Juscelino Kubitschek, 2041, Torre E, 18° andar - São Paulo CEP: 04543-011|"
+        - link "Fale conosco" [ref=e1428] [cursor=pointer]:
+          - /url: https://www.amazon.com.br/gp/help/customer/contact-us?ref=footer_gw_m_b_cu
+        - text: "| ajuda-amazon@amazon.com.br"
+    - list [ref=e1430]:
+      - listitem [ref=e1431]: "Formas de pagamento aceitas: cartões de crédito (Visa, MasterCard, Elo e American Express), cartões de débito (Visa e Elo), Boleto e Pix."

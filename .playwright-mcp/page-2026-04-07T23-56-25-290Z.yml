@@ -1,0 +1,14 @@
+- generic [active] [ref=e1]:
+  - heading "Lipedema não some com o tempo — mas dá pra viver muito melhor com ele." [level=2] [ref=e2]:
+    - text: Lipedema não some
+    - text: com o tempo —
+    - text: mas dá pra viver
+    - text: muito melhor com ele.
+  - generic [ref=e3]:
+    - paragraph [ref=e4]: Com o cuidado certo,
+    - paragraph [ref=e5]:
+      - text: o tratamento faz diferença
+      - text: no dia a dia.
+  - generic [ref=e7]: Salva e compartilha com quem precisa
+  - generic [ref=e8]: "@lais_esteticista"
+  - generic [ref=e9]: 5/5

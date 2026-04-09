@@ -1,0 +1,988 @@
+- generic [ref=e2]:
+  - navigation "Menu de atalhos" [ref=e3]:
+    - heading "Ir para" [level=2] [ref=e4]
+    - list "Ir para" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "conteúdo principal" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Conteúdo principal
+    - separator [ref=e8]
+    - heading "Atalhos do teclado" [level=2] [ref=e9]
+    - list "Atalhos do teclado" [ref=e10]:
+      - listitem [ref=e11]:
+        - link "Pesquisa, alt, barra para frente" [ref=e12] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e13]:
+            - generic [ref=e14]: Pesquisar
+            - generic [ref=e15]:
+              - generic [ref=e16]: alt
+              - generic [ref=e17]: +
+              - generic [ref=e18]: /
+      - listitem [ref=e19]:
+        - link "Carrinho, shift, alt, c" [ref=e20] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e21]:
+            - generic [ref=e22]: Carrinho
+            - generic [ref=e23]:
+              - generic [ref=e24]: shift
+              - generic [ref=e25]: +
+              - generic [ref=e26]: alt
+              - generic [ref=e27]: +
+              - generic [ref=e28]: C
+      - listitem [ref=e29]:
+        - link "Início, shift, alt, h" [ref=e30] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e31]:
+            - generic [ref=e32]: Página inicial
+            - generic [ref=e33]:
+              - generic [ref=e34]: shift
+              - generic [ref=e35]: +
+              - generic [ref=e36]: alt
+              - generic [ref=e37]: +
+              - generic [ref=e38]: H
+      - listitem [ref=e39]:
+        - link "Seus pedidos, shift, alt, o" [ref=e40] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e41]:
+            - generic [ref=e42]: Seus Pedidos
+            - generic [ref=e43]:
+              - generic [ref=e44]: shift
+              - generic [ref=e45]: +
+              - generic [ref=e46]: alt
+              - generic [ref=e47]: +
+              - generic [ref=e48]: O
+      - listitem [ref=e49]:
+        - button "Mostrar/ocultar atalhos, shift, alt, z" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]:
+            - generic [ref=e52]: Mostrar/ocultar atalhos
+            - generic [ref=e53]:
+              - generic [ref=e54]: shift
+              - generic [ref=e55]: +
+              - generic [ref=e56]: alt
+              - generic [ref=e57]: +
+              - generic [ref=e58]: Z
+    - generic [ref=e64]: Para se mover entre os produtos, use as setas para cima ou para baixo do teclado.
+  - banner [ref=e65]:
+    - navigation "Principal" [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - link "Amazon.com.br" [ref=e70] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .com.br
+          - button "A entrega será feita em Bela Vista 01319900 Atualizar CEP" [ref=e73] [cursor=pointer]:
+            - generic [ref=e75]:
+              - generic [ref=e76]: A entrega será feita em Bela Vista 01319900
+              - generic [ref=e77]: Atualizar CEP
+        - search [ref=e80]:
+          - generic [ref=e83]:
+            - generic [ref=e85]: Beleza
+            - combobox "Selecione o departamento que deseja pesquisar no" [ref=e87] [cursor=pointer]:
+              - option "Todos os departamentos"
+              - option "Alexa Skills"
+              - option "Alimentos e Bebidas"
+              - option "Amazon Now"
+              - option "Amazon Quase Novo"
+              - option "Apps e Jogos"
+              - option "Audiolivros Audible"
+              - option "Automotivo"
+              - option "Bebês"
+              - option "Beleza" [selected]
+              - option "Beleza de luxo"
+              - option "Bolsas, Malas e Mochilas"
+              - option "Brinquedos e Jogos"
+              - option "Casa"
+              - option "CD e Vinil"
+              - option "Computadores e Informática"
+              - option "Cozinha"
+              - option "Dispositivos Amazon"
+              - option "DVD e Blu-Ray"
+              - option "Eletrodomésticos"
+              - option "Eletrônicos"
+              - option "Esportes e Aventura"
+              - option "Ferramentas e Materiais de Construção"
+              - option "Games"
+              - option "Industrial"
+              - option "Instrumentos Musicais"
+              - option "Jardim e Piscina"
+              - option "Livros"
+              - option "Loja Kindle"
+              - option "Material para Escritório e Papelaria"
+              - option "Móveis e Decoração"
+              - option "Pet Shop"
+              - option "Prime Video"
+              - option "Programe e Poupe"
+              - option "Roupas, Calçados e Joias"
+              - option "Roupas, sapatos e joias femininas"
+              - option "Roupas, sapatos e joias masculinas"
+              - option "Roupas, sapatos e joias para meninas"
+              - option "Roupas, sapatos e joias para meninos"
+              - option "Roupas, sapatos e joias para bebês"
+              - option "Saúde e Cuidados Pessoais"
+          - searchbox "Pesquisar Amazon.com.br" [ref=e90]
+          - generic "Ir" [ref=e93] [cursor=pointer]:
+            - button "Ir" [ref=e94]
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - link "Olá, faça seu login Contas e Listas" [ref=e98] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fgp%2Fbestsellers%2Fbeauty%2F%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e100]: Olá, faça seu login
+              - generic [ref=e101]: Contas e Listas
+            - button "Expandir conta e listas" [ref=e102] [cursor=pointer]
+          - link "Devoluções e Pedidos" [ref=e103] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e104]: Devoluções
+            - generic [ref=e105]: e Pedidos
+          - link "0 itens no carrinho" [ref=e106] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e108]: "0"
+            - generic [ref=e111]: Carrinho
+      - generic [ref=e112]:
+        - button "Abrir o menu Todas as categorias" [ref=e114] [cursor=pointer]:
+          - generic [ref=e116]: Todos
+        - list [ref=e120]:
+          - listitem [ref=e121]:
+            - link "Venda na Amazon" [ref=e123] [cursor=pointer]:
+              - /url: /gp/browse.html?node=17877554011&ld=ASBRSOA_retail_sell_header_t1&ref_=nav_cs_sell
+          - listitem [ref=e124]:
+            - link "Chega em 15 min" [ref=e126] [cursor=pointer]:
+              - /url: /alm/storefront?almBrandId=10zZeC1FBwm&ref_=nav_cs_amnow
+          - listitem [ref=e127]:
+            - link "Ofertas do Dia" [ref=e129] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e130]:
+            - link "Mais Vendidos" [ref=e132] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e133]:
+            - link "Games" [ref=e135] [cursor=pointer]:
+              - /url: /Games-Consoles/b/?ie=UTF8&node=7791985011&ref_=nav_cs_video_games
+          - listitem [ref=e136]:
+            - link "Livros" [ref=e138] [cursor=pointer]:
+              - /url: /Livros/b/?ie=UTF8&node=6740748011&ref_=nav_cs_books
+          - listitem [ref=e139]:
+            - generic [ref=e140]:
+              - link "Prime" [ref=e141] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Detalhes de Prime" [ref=e142] [cursor=pointer]
+          - listitem [ref=e143]:
+            - link "Música" [ref=e145] [cursor=pointer]:
+              - /url: /music/unlimited?ref_=nav_cs_music
+          - listitem [ref=e146]:
+            - link "Casa" [ref=e148] [cursor=pointer]:
+              - /url: /Casa/b/?ie=UTF8&node=16191000011&ref_=nav_cs_home
+          - listitem [ref=e149]:
+            - link "Eletrônicos" [ref=e151] [cursor=pointer]:
+              - /url: /Eletronicos-e-Tecnologia/b/?ie=UTF8&node=16209062011&ref_=nav_cs_electronics
+          - listitem [ref=e152]:
+            - link "Brinquedos e Jogos" [ref=e154] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16194299011&ref_=nav_cs_toys
+          - listitem [ref=e155]:
+            - link "Computadores" [ref=e157] [cursor=pointer]:
+              - /url: /Computadores-Informatica/b/?ie=UTF8&node=16339926011&ref_=nav_cs_pc
+          - listitem [ref=e158]:
+            - link "Beleza" [ref=e160] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16194414011&ref_=nav_cs_beauty
+          - listitem [ref=e161]:
+            - link "Mercado" [ref=e163] [cursor=pointer]:
+              - /url: /fmc/everyday-essentials/?ref_=nav_cs_ee_desktop_disco
+          - listitem [ref=e164]:
+            - link "Cuidados Pessoais" [ref=e166] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16215417011&ref_=nav_cs_hpc
+          - listitem [ref=e167]:
+            - link "Novidades na Amazon" [ref=e169] [cursor=pointer]:
+              - /url: /gp/browse.html?node=207658984011&ref_=nav_cs_mtech
+          - listitem [ref=e170]:
+            - link "Ferramentas e Construção" [ref=e172] [cursor=pointer]:
+              - /url: /Ferramentas-Construcao/b/?ie=UTF8&node=16957182011&ref_=nav_cs_hi
+          - listitem [ref=e173]:
+            - link "Bebês" [ref=e175] [cursor=pointer]:
+              - /url: /gp/browse.html?node=17242603011&ref_=nav_cs_baby
+          - listitem [ref=e176]:
+            - link "Alimentos e Bebidas" [ref=e178] [cursor=pointer]:
+              - /url: /gp/browse.html?node=18991079011&ref_=nav_cs_grocery
+          - listitem [ref=e179]:
+            - link "Amazon Moda" [ref=e181] [cursor=pointer]:
+              - /url: /gp/browse.html?node=17365811011&ref_=nav_cs_fashion
+          - listitem [ref=e182]:
+            - link "Pet Shop" [ref=e184] [cursor=pointer]:
+              - /url: /gp/browse.html?node=18991136011&ref_=nav_cs_pets
+          - listitem [ref=e185]:
+            - link "Automotivos" [ref=e187] [cursor=pointer]:
+              - /url: /gp/browse.html?node=18914209011&ref_=nav_cs_automotive
+          - listitem [ref=e188]:
+            - link "eBooks Kindle" [ref=e190] [cursor=pointer]:
+              - /url: /ebooks-kindle/b/?ie=UTF8&node=5475882011&ref_=nav_cs_kindle_books
+          - listitem [ref=e191]:
+            - link "Atendimento ao Cliente" [ref=e193] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_help
+        - link "Economize mais de 90% na Audible" [ref=e196] [cursor=pointer]:
+          - /url: /hz/audible/mlp/membership/plus/monthly/?_encoding=UTF8&actionCode=AZNOR3861028253537&ref_=nav_swm_undefined&pf_rd_p=26af891d-c3a6-4f2e-8c7f-a1c558bd9582&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A2Q3Y263D00KWC&pf_rd_r=Q7J6NEA193XSGTW8525M
+      - generic [ref=e197]:
+        - generic [ref=e198]:
+          - link "Beleza" [ref=e199] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=16194414011&ref_=topnav_storetab_b
+          - link "Mais Vendidos" [ref=e200] [cursor=pointer]:
+            - /url: /gp/bestsellers/beauty/?ie=UTF8&ref_=sv_b_1
+          - link "Ofertas" [ref=e201] [cursor=pointer]:
+            - /url: /gp/goldbox/?ie=UTF8&gb_f_c2xvdC01=dealStates%3AAVAILABLE%252CWAITLIST%252CWAITLISTFULL%252CUPCOMING%252CEXPIRED%252CSOLDOUT%2CsortOrder%3ABY_SCORE%2CenforcedCategories%3A16194414011&ie=UTF8&pf_rd_i=gb_main&pf_rd_m=A1ZZFT5FULY4LN&pf_rd_p=faada73d-e81c-4969-8eeb-7b66099f944c&pf_rd_r=XVNGQF7RG8Y1AVMFQ629&pf_rd_s=slot-5&pf_rd_t=701&ref_=sv_b_2
+          - link "Dermocosméticos" [ref=e202] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=17933265011&ref_=sv_b_3
+          - link "Maquiagem, No momento, você está em um menu suspenso. Para abrir esse menu suspenso, pressione Enter." [ref=e203] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=16754350011&ref_=sv_b_4
+            - text: Maquiagem
+          - link "Perfumes" [ref=e205] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=16754347011&ref_=sv_b_5
+          - link "Cabelos, No momento, você está em um menu suspenso. Para abrir esse menu suspenso, pressione Enter." [ref=e206] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=16754346011&ref_=sv_b_6
+            - text: Cabelos
+          - link "Secadores e Modeladores, No momento, você está em um menu suspenso. Para abrir esse menu suspenso, pressione Enter." [ref=e208] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=16754371011&ref_=sv_b_7
+            - text: Secadores e Modeladores
+          - link "Manicure e Pedicure" [ref=e210] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=16754349011&ref_=sv_b_8
+          - link "Cachos e Ondas" [ref=e211] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=17925336011&ref_=sv_b_9
+          - link "Mais por Menos" [ref=e212] [cursor=pointer]:
+            - /url: /super/?_encoding=UTF8&ref_=sv_b_10
+        - generic [ref=e216]:
+          - link "Faça seu login" [ref=e217] [cursor=pointer]:
+            - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fgp%2Fbestsellers%2Fbeauty%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+            - generic [ref=e218]: Faça seu login
+          - generic [ref=e219]:
+            - text: Cliente novo?
+            - link "Novo na Amazon? Comece aqui para criar uma conta" [ref=e220] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/ap/register?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fgp%2Fbestsellers%2Fbeauty%2F%3Fie%3DUTF8%26ref_%3Dnav_custrec_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - text: Comece aqui.
+      - dialog [ref=e225]
+  - generic [ref=e227]:
+    - generic [ref=e231]:
+      - heading "Mais vendidos" [level=1] [ref=e232]
+      - paragraph [ref=e233]:
+        - generic [ref=e234]: Nossos produtos mais populares com base nas vendas. Atualizado com frequência.
+    - generic [ref=e235]:
+      - group [ref=e238]:
+        - list [ref=e239]:
+          - listitem "Árvore de navegação" [ref=e240]:
+            - text: ‹
+            - link "Qualquer departamento" [ref=e241] [cursor=pointer]:
+              - /url: /gp/bestsellers/ref=zg_bs_unv_beauty_0_1
+          - listitem [ref=e242]:
+            - list [ref=e243]:
+              - listitem [ref=e244]:
+                - generic [ref=e245]:
+                  - text: Beleza
+                  - generic [ref=e246]: (Current)
+              - listitem [ref=e247]:
+                - list [ref=e248]:
+                  - listitem [ref=e249]:
+                    - link "Corpo e Banho" [ref=e250] [cursor=pointer]:
+                      - /url: /gp/bestsellers/beauty/16754344011/ref=zg_bs_nav_beauty_1
+                  - listitem [ref=e251]:
+                    - link "Cuidados com o Cabelo" [ref=e252] [cursor=pointer]:
+                      - /url: /gp/bestsellers/beauty/16754346011/ref=zg_bs_nav_beauty_1
+                  - listitem [ref=e253]:
+                    - link "Depilação e Aparelhos de Barbear" [ref=e254] [cursor=pointer]:
+                      - /url: /gp/bestsellers/beauty/16769359011/ref=zg_bs_nav_beauty_1
+                  - listitem [ref=e255]:
+                    - link "Manicure e Pedicure" [ref=e256] [cursor=pointer]:
+                      - /url: /gp/bestsellers/beauty/16754349011/ref=zg_bs_nav_beauty_1
+                  - listitem [ref=e257]:
+                    - link "Maquiagem" [ref=e258] [cursor=pointer]:
+                      - /url: /gp/bestsellers/beauty/16754350011/ref=zg_bs_nav_beauty_1
+                  - listitem [ref=e259]:
+                    - link "Mobiliários de Spas" [ref=e260] [cursor=pointer]:
+                      - /url: /gp/bestsellers/beauty/23623496011/ref=zg_bs_nav_beauty_1
+                  - listitem [ref=e261]:
+                    - link "Pele" [ref=e262] [cursor=pointer]:
+                      - /url: /gp/bestsellers/beauty/16754345011/ref=zg_bs_nav_beauty_1
+                  - listitem [ref=e263]:
+                    - link "Perfumes" [ref=e264] [cursor=pointer]:
+                      - /url: /gp/bestsellers/beauty/16754347011/ref=zg_bs_nav_beauty_1
+                  - listitem [ref=e265]:
+                    - link "Utensílios e Acessórios" [ref=e266] [cursor=pointer]:
+                      - /url: /gp/bestsellers/beauty/16754348011/ref=zg_bs_nav_beauty_1
+      - generic [ref=e269]:
+        - heading "Mais Vendidos em Beleza" [level=1] [ref=e271]
+        - generic [ref=e272]:
+          - list [ref=e274]:
+            - listitem [ref=e275]:
+              - generic [ref=e279]:
+                - generic [ref=e280]: "#1"
+                - generic [ref=e284] [cursor=pointer]:
+                  - link [ref=e285]:
+                    - /url: /Paris-Extraordin%C3%A1rio-Finalizador-Preciosos-Anti-Frizz/dp/B07H113TPQ/ref=zg_bs_g_beauty_d_sccl_1/140-5235038-8618349?psc=1
+                    - img [ref=e287]
+                  - generic [ref=e289]:
+                    - link "L'Oréal Paris Elseve Óleo Extraordinário Finalizador Capilar, Nutrição Profunda com 6 Óleos Preciosos, Anti-Frizz, Proteção Térmica até 230°C, Brilho Intenso para Todos os Tipos de Cabelo, 100ml" [ref=e290]:
+                      - /url: /Paris-Extraordin%C3%A1rio-Finalizador-Preciosos-Anti-Frizz/dp/B07H113TPQ/ref=zg_bs_g_beauty_d_sccl_1/140-5235038-8618349?psc=1
+                      - generic [ref=e292]: L'Oréal Paris Elseve Óleo Extraordinário Finalizador Capilar, Nutrição Profunda com 6 Óleos Preciosos, Anti-Frizz, Proteção Térmica até 230°C, Brilho Intenso para Todos os Tipos de Cabelo, 100ml
+                    - link "4,8 de 5 estrelas, 112.294 classificações" [ref=e295]:
+                      - /url: /product-reviews/B07H113TPQ/ref=zg_bs_g_beauty_d_sccl_1_cr/140-5235038-8618349
+                      - generic [ref=e297]: 4,8 de 5 estrelas
+                      - text: "112.294"
+                    - link "R$ 36,99" [ref=e301]:
+                      - /url: /Paris-Extraordin%C3%A1rio-Finalizador-Preciosos-Anti-Frizz/dp/B07H113TPQ/ref=zg_bs_g_beauty_d_sccl_1/140-5235038-8618349?psc=1
+                      - generic [ref=e303]: R$ 36,99
+            - listitem [ref=e304]:
+              - generic [ref=e308]:
+                - generic [ref=e309]: "#2"
+                - generic [ref=e313] [cursor=pointer]:
+                  - link [ref=e314]:
+                    - /url: /Roche-Posay-Cicaplast-Cuidado-Multirreparador-Calmante/dp/B072MK7BN2/ref=zg_bs_g_beauty_d_sccl_2/140-5235038-8618349?psc=1
+                    - img [ref=e316]
+                  - generic [ref=e318]:
+                    - link "La Roche-Posay Cicaplast Baume B5+ Cuidado Multirreparador Calmante" [ref=e319]:
+                      - /url: /Roche-Posay-Cicaplast-Cuidado-Multirreparador-Calmante/dp/B072MK7BN2/ref=zg_bs_g_beauty_d_sccl_2/140-5235038-8618349?psc=1
+                      - generic [ref=e321]: La Roche-Posay Cicaplast Baume B5+ Cuidado Multirreparador Calmante
+                    - link "4,8 de 5 estrelas, 19.850 classificações" [ref=e324]:
+                      - /url: /product-reviews/B072MK7BN2/ref=zg_bs_g_beauty_d_sccl_2_cr/140-5235038-8618349
+                      - generic [ref=e326]: 4,8 de 5 estrelas
+                      - text: "19.850"
+                    - link "R$ 63,79" [ref=e330]:
+                      - /url: /Roche-Posay-Cicaplast-Cuidado-Multirreparador-Calmante/dp/B072MK7BN2/ref=zg_bs_g_beauty_d_sccl_2/140-5235038-8618349?psc=1
+                      - generic [ref=e332]: R$ 63,79
+            - listitem [ref=e333]:
+              - generic [ref=e337]:
+                - generic [ref=e338]: "#3"
+                - generic [ref=e342] [cursor=pointer]:
+                  - link [ref=e343]:
+                    - /url: /Argan-Oil-Novo-Lola-Cosmetics/dp/B07SBXMSGB/ref=zg_bs_g_beauty_d_sccl_3/140-5235038-8618349?psc=1
+                    - img [ref=e345]
+                  - generic [ref=e347]:
+                    - link "Argan Óleo Reparador 50ml , Lola Cosmetics" [ref=e348]:
+                      - /url: /Argan-Oil-Novo-Lola-Cosmetics/dp/B07SBXMSGB/ref=zg_bs_g_beauty_d_sccl_3/140-5235038-8618349?psc=1
+                      - generic [ref=e350]: Argan Óleo Reparador 50ml , Lola Cosmetics
+                    - link "4,8 de 5 estrelas, 41.026 classificações" [ref=e353]:
+                      - /url: /product-reviews/B07SBXMSGB/ref=zg_bs_g_beauty_d_sccl_3_cr/140-5235038-8618349
+                      - generic [ref=e355]: 4,8 de 5 estrelas
+                      - text: "41.026"
+                    - link "R$ 17,58" [ref=e359]:
+                      - /url: /Argan-Oil-Novo-Lola-Cosmetics/dp/B07SBXMSGB/ref=zg_bs_g_beauty_d_sccl_3/140-5235038-8618349?psc=1
+                      - generic [ref=e361]: R$ 17,58
+            - listitem [ref=e362]:
+              - generic [ref=e366]:
+                - generic [ref=e367]: "#4"
+                - generic [ref=e371] [cursor=pointer]:
+                  - link [ref=e372]:
+                    - /url: /DANOS-VORAZES-REPARADOR-Lola-Cosmetics/dp/B09GHN14FP/ref=zg_bs_g_beauty_d_sccl_4/140-5235038-8618349?psc=1
+                    - img [ref=e374]
+                  - generic [ref=e376]:
+                    - link "Danos Vorazes Óleo Reparador 50ml , Lola Cosmetics" [ref=e377]:
+                      - /url: /DANOS-VORAZES-REPARADOR-Lola-Cosmetics/dp/B09GHN14FP/ref=zg_bs_g_beauty_d_sccl_4/140-5235038-8618349?psc=1
+                      - generic [ref=e379]: Danos Vorazes Óleo Reparador 50ml , Lola Cosmetics
+                    - link "4,8 de 5 estrelas, 15.588 classificações" [ref=e382]:
+                      - /url: /product-reviews/B09GHN14FP/ref=zg_bs_g_beauty_d_sccl_4_cr/140-5235038-8618349
+                      - generic [ref=e384]: 4,8 de 5 estrelas
+                      - text: "15.588"
+                    - link "R$ 15,21" [ref=e388]:
+                      - /url: /DANOS-VORAZES-REPARADOR-Lola-Cosmetics/dp/B09GHN14FP/ref=zg_bs_g_beauty_d_sccl_4/140-5235038-8618349?psc=1
+                      - generic [ref=e390]: R$ 15,21
+            - listitem [ref=e391]:
+              - generic [ref=e395]:
+                - generic [ref=e396]: "#5"
+                - generic [ref=e400] [cursor=pointer]:
+                  - link [ref=e401]:
+                    - /url: /Sabonete-L%C3%ADquido-Natural-200ml-Nivea/dp/B00XDX9JJY/ref=zg_bs_g_beauty_d_sccl_5/140-5235038-8618349?psc=1
+                    - img [ref=e403]
+                  - generic [ref=e405]:
+                    - link "NIVEA Sabonete Líquido Óleo de Banho 200ml, Limpeza Corporal, Pele Macia, 55% Óleos Naturais, Sensação Hidratante" [ref=e406]:
+                      - /url: /Sabonete-L%C3%ADquido-Natural-200ml-Nivea/dp/B00XDX9JJY/ref=zg_bs_g_beauty_d_sccl_5/140-5235038-8618349?psc=1
+                      - generic [ref=e408]: NIVEA Sabonete Líquido Óleo de Banho 200ml, Limpeza Corporal, Pele Macia, 55% Óleos Naturais, Sensação Hidratante
+                    - link "4,7 de 5 estrelas, 36.632 classificações" [ref=e411]:
+                      - /url: /product-reviews/B00XDX9JJY/ref=zg_bs_g_beauty_d_sccl_5_cr/140-5235038-8618349
+                      - generic [ref=e413]: 4,7 de 5 estrelas
+                      - text: "36.632"
+                    - link "R$ 32,90" [ref=e417]:
+                      - /url: /Sabonete-L%C3%ADquido-Natural-200ml-Nivea/dp/B00XDX9JJY/ref=zg_bs_g_beauty_d_sccl_5/140-5235038-8618349?psc=1
+                      - generic [ref=e419]: R$ 32,90
+            - listitem [ref=e420]:
+              - generic [ref=e424]:
+                - generic [ref=e425]: "#6"
+                - generic [ref=e429] [cursor=pointer]:
+                  - link [ref=e430]:
+                    - /url: /Bepantol-Derma-Hidratante-Corporal-Restaurador/dp/B0DR3Q9ZKX/ref=zg_bs_g_beauty_d_sccl_6/140-5235038-8618349?psc=1
+                    - img [ref=e432]
+                  - generic [ref=e434]:
+                    - link "Bepantol Derma Hidratante Corporal, Loção Hidratante e Restauradora para Pele Seca, 400ml" [ref=e435]:
+                      - /url: /Bepantol-Derma-Hidratante-Corporal-Restaurador/dp/B0DR3Q9ZKX/ref=zg_bs_g_beauty_d_sccl_6/140-5235038-8618349?psc=1
+                      - generic [ref=e437]: Bepantol Derma Hidratante Corporal, Loção Hidratante e Restauradora para Pele Seca, 400ml
+                    - link "4,8 de 5 estrelas, 1.173 classificações" [ref=e440]:
+                      - /url: /product-reviews/B0DR3Q9ZKX/ref=zg_bs_g_beauty_d_sccl_6_cr/140-5235038-8618349
+                      - generic [ref=e442]: 4,8 de 5 estrelas
+                      - text: "1.173"
+                    - link "R$ 75,00" [ref=e446]:
+                      - /url: /Bepantol-Derma-Hidratante-Corporal-Restaurador/dp/B0DR3Q9ZKX/ref=zg_bs_g_beauty_d_sccl_6/140-5235038-8618349?psc=1
+                      - generic [ref=e448]: R$ 75,00
+            - listitem [ref=e449]:
+              - list [ref=e450]:
+                - listitem [ref=e451]:
+                  - link "Novidades na Amazon em Beleza" [ref=e453] [cursor=pointer]:
+                    - /url: /gp/new-releases/beauty/ref=zg_bs_tab_t_beauty_bsnr
+                    - generic [ref=e458]:
+                      - text: Novidades na Amazon
+                      - text: em Beleza
+                - listitem [ref=e459]:
+                  - link "Produtos em alta em Beleza" [ref=e461] [cursor=pointer]:
+                    - /url: /gp/movers-and-shakers/beauty/ref=zg_bs_tab_t_beauty_bsms
+                    - generic [ref=e466]:
+                      - text: Produtos em alta
+                      - text: em Beleza
+            - listitem [ref=e467]:
+              - generic [ref=e471]:
+                - generic [ref=e472]: "#7"
+                - generic [ref=e476] [cursor=pointer]:
+                  - link [ref=e477]:
+                    - /url: /M%C3%A1scara-Hidratante-S%C3%BAbita-Lola-Cosmetics/dp/B074LTNQBP/ref=zg_bs_g_beauty_d_sccl_7/140-5235038-8618349?psc=1
+                    - img [ref=e479]
+                  - generic [ref=e481]:
+                    - link "Morte Súbita Máscara Super Hidratante 450g , Lola Cosmetics" [ref=e482]:
+                      - /url: /M%C3%A1scara-Hidratante-S%C3%BAbita-Lola-Cosmetics/dp/B074LTNQBP/ref=zg_bs_g_beauty_d_sccl_7/140-5235038-8618349?psc=1
+                      - generic [ref=e484]: Morte Súbita Máscara Super Hidratante 450g , Lola Cosmetics
+                    - link "4,8 de 5 estrelas, 78.160 classificações" [ref=e487]:
+                      - /url: /product-reviews/B074LTNQBP/ref=zg_bs_g_beauty_d_sccl_7_cr/140-5235038-8618349
+                      - generic [ref=e489]: 4,8 de 5 estrelas
+                      - text: "78.160"
+                    - link "R$ 30,90" [ref=e493]:
+                      - /url: /M%C3%A1scara-Hidratante-S%C3%BAbita-Lola-Cosmetics/dp/B074LTNQBP/ref=zg_bs_g_beauty_d_sccl_7/140-5235038-8618349?psc=1
+                      - generic [ref=e495]: R$ 30,90
+            - listitem [ref=e496]:
+              - generic [ref=e500]:
+                - generic [ref=e501]: "#8"
+                - generic [ref=e505] [cursor=pointer]:
+                  - link [ref=e506]:
+                    - /url: /CeraVe-Hidratante-Hialur%C3%B4nico-Essenciais-Restaura%C3%A7%C3%A3o/dp/B07RK4HST7/ref=zg_bs_g_beauty_d_sccl_8/140-5235038-8618349?psc=1
+                    - img [ref=e508]
+                  - generic [ref=e510]:
+                    - link "CeraVe, Loção Hidratante Corporal, com textura Fluida e Ácido Hialurônico" [ref=e511]:
+                      - /url: /CeraVe-Hidratante-Hialur%C3%B4nico-Essenciais-Restaura%C3%A7%C3%A3o/dp/B07RK4HST7/ref=zg_bs_g_beauty_d_sccl_8/140-5235038-8618349?psc=1
+                      - generic [ref=e513]: CeraVe, Loção Hidratante Corporal, com textura Fluida e Ácido Hialurônico
+                    - link "4,8 de 5 estrelas, 81.946 classificações" [ref=e516]:
+                      - /url: /product-reviews/B07RK4HST7/ref=zg_bs_g_beauty_d_sccl_8_cr/140-5235038-8618349
+                      - generic [ref=e518]: 4,8 de 5 estrelas
+                      - text: "81.946"
+                    - link "R$ 89,91" [ref=e522]:
+                      - /url: /CeraVe-Hidratante-Hialur%C3%B4nico-Essenciais-Restaura%C3%A7%C3%A3o/dp/B07RK4HST7/ref=zg_bs_g_beauty_d_sccl_8/140-5235038-8618349?psc=1
+                      - generic [ref=e524]: R$ 89,91
+            - listitem [ref=e525]:
+              - generic [ref=e529]:
+                - generic [ref=e530]: "#9"
+                - generic [ref=e534] [cursor=pointer]:
+                  - link [ref=e535]:
+                    - /url: /Tratamento-Intensivo-Capilares-Reconstru%C3%A7%C3%A3o-Danificados/dp/B0F4L616L5/ref=zg_bs_g_beauty_d_sccl_9/140-5235038-8618349?psc=1
+                    - img [ref=e537]
+                  - generic [ref=e539]:
+                    - link "L'Oréal Paris Elseve Bond Repair Máscara de Tratamento Intensivo, com Ácido Cítrico e Glicina, Repara Ligações Capilares Quebradas, Reconstrução Profunda de Fios Danificados, 200g" [ref=e540]:
+                      - /url: /Tratamento-Intensivo-Capilares-Reconstru%C3%A7%C3%A3o-Danificados/dp/B0F4L616L5/ref=zg_bs_g_beauty_d_sccl_9/140-5235038-8618349?psc=1
+                      - generic [ref=e542]: L'Oréal Paris Elseve Bond Repair Máscara de Tratamento Intensivo, com Ácido Cítrico e Glicina, Repara Ligações Capilares Quebradas, Reconstrução Profunda de Fios Danificados, 200g
+                    - link "4,8 de 5 estrelas, 1.477 classificações" [ref=e545]:
+                      - /url: /product-reviews/B0F4L616L5/ref=zg_bs_g_beauty_d_sccl_9_cr/140-5235038-8618349
+                      - generic [ref=e547]: 4,8 de 5 estrelas
+                      - text: "1.477"
+                    - link "16 ofertas a partir de R$ 42,90" [ref=e549]:
+                      - /url: /Tratamento-Intensivo-Capilares-Reconstru%C3%A7%C3%A3o-Danificados/dp/B0F4L616L5/ref=zg_bs_g_beauty_d_sccl_9/140-5235038-8618349?psc=1
+                      - generic [ref=e550]:
+                        - text: 16 ofertas a partir de
+                        - generic [ref=e551]: R$ 42,90
+            - listitem [ref=e552]:
+              - generic [ref=e556]:
+                - generic [ref=e557]: "#10"
+                - generic [ref=e561] [cursor=pointer]:
+                  - link [ref=e562]:
+                    - /url: /NIVEA-Sabonete-Nutri%C3%A7%C3%A3o-Natureza-Manteiga/dp/B0F3BDZGL5/ref=zg_bs_g_beauty_d_sccl_10/140-5235038-8618349?psc=1
+                    - img [ref=e564]
+                  - generic [ref=e566]:
+                    - link "NIVEA Sabonete Vegetal Nutrição Da Natureza Manteiga De Karité & Lima Da Pérsia 80g (6 un.), Limpeza Delicada, Banho, Pele Macia e Hidratada, Fórmula Natural" [ref=e567]:
+                      - /url: /NIVEA-Sabonete-Nutri%C3%A7%C3%A3o-Natureza-Manteiga/dp/B0F3BDZGL5/ref=zg_bs_g_beauty_d_sccl_10/140-5235038-8618349?psc=1
+                      - generic [ref=e569]: NIVEA Sabonete Vegetal Nutrição Da Natureza Manteiga De Karité & Lima Da Pérsia 80g (6 un.), Limpeza Delicada, Banho, Pele Macia e Hidratada, Fórmula Natural
+                    - link "4,8 de 5 estrelas, 1.240 classificações" [ref=e572]:
+                      - /url: /product-reviews/B0F3BDZGL5/ref=zg_bs_g_beauty_d_sccl_10_cr/140-5235038-8618349
+                      - generic [ref=e574]: 4,8 de 5 estrelas
+                      - text: "1.240"
+                    - link "R$ 18,77" [ref=e578]:
+                      - /url: /NIVEA-Sabonete-Nutri%C3%A7%C3%A3o-Natureza-Manteiga/dp/B0F3BDZGL5/ref=zg_bs_g_beauty_d_sccl_10/140-5235038-8618349?psc=1
+                      - generic [ref=e580]: R$ 18,77
+            - listitem [ref=e581]:
+              - generic [ref=e585]:
+                - generic [ref=e586]: "#11"
+                - generic [ref=e590] [cursor=pointer]:
+                  - link [ref=e591]:
+                    - /url: /Protetor-Solar-Principia-PS01-FPS60/dp/B0CTR4FL63/ref=zg_bs_g_beauty_d_sccl_11/140-5235038-8618349?psc=1
+                    - img [ref=e593]
+                  - generic [ref=e595]:
+                    - link "Protetor Solar Facial Principia FPS 60, 16,5% Mix de Filtros UV + 5% Niacinamida FPS 60 PS-01 com 40ml" [ref=e596]:
+                      - /url: /Protetor-Solar-Principia-PS01-FPS60/dp/B0CTR4FL63/ref=zg_bs_g_beauty_d_sccl_11/140-5235038-8618349?psc=1
+                      - generic [ref=e598]: Protetor Solar Facial Principia FPS 60, 16,5% Mix de Filtros UV + 5% Niacinamida FPS 60 PS-01 com 40ml
+                    - link "4,7 de 5 estrelas, 13.812 classificações" [ref=e601]:
+                      - /url: /product-reviews/B0CTR4FL63/ref=zg_bs_g_beauty_d_sccl_11_cr/140-5235038-8618349
+                      - generic [ref=e603]: 4,7 de 5 estrelas
+                      - text: "13.812"
+                    - link "R$ 46,59" [ref=e607]:
+                      - /url: /Protetor-Solar-Principia-PS01-FPS60/dp/B0CTR4FL63/ref=zg_bs_g_beauty_d_sccl_11/140-5235038-8618349?psc=1
+                      - generic [ref=e609]: R$ 46,59
+            - listitem [ref=e610]:
+              - generic [ref=e614]:
+                - generic [ref=e615]: "#12"
+                - generic [ref=e619] [cursor=pointer]:
+                  - link [ref=e620]:
+                    - /url: /NIVEA-Facial-Cellular-Luminous-ANTIMARCAS/dp/B0CDNN9KKL/ref=zg_bs_g_beauty_d_sccl_12/140-5235038-8618349?psc=1
+                    - img [ref=e622]
+                  - generic [ref=e624]:
+                    - link "NIVEA Sérum Facial Cellular Luminous 630® ANTIMARCAS Acne 30ml" [ref=e625]:
+                      - /url: /NIVEA-Facial-Cellular-Luminous-ANTIMARCAS/dp/B0CDNN9KKL/ref=zg_bs_g_beauty_d_sccl_12/140-5235038-8618349?psc=1
+                      - generic [ref=e627]: NIVEA Sérum Facial Cellular Luminous 630® ANTIMARCAS Acne 30ml
+                    - link "4,5 de 5 estrelas, 808 classificações" [ref=e630]:
+                      - /url: /product-reviews/B0CDNN9KKL/ref=zg_bs_g_beauty_d_sccl_12_cr/140-5235038-8618349
+                      - generic [ref=e632]: 4,5 de 5 estrelas
+                      - text: "808"
+                    - link "R$ 27,50" [ref=e636]:
+                      - /url: /NIVEA-Facial-Cellular-Luminous-ANTIMARCAS/dp/B0CDNN9KKL/ref=zg_bs_g_beauty_d_sccl_12/140-5235038-8618349?psc=1
+                      - generic [ref=e638]: R$ 27,50
+            - listitem [ref=e639]:
+              - generic [ref=e643]:
+                - generic [ref=e644]: "#13"
+                - generic [ref=e648] [cursor=pointer]:
+                  - link [ref=e649]:
+                    - /url: /Lola-Cosmetics-932-RAPUNZEL-CRESCIMENTO/dp/B074LVMLNG/ref=zg_bs_g_beauty_d_sccl_13/140-5235038-8618349?psc=1
+                    - img [ref=e651]
+                  - generic [ref=e653]:
+                    - link "Lola Cosmetics Rapunzel - Tônico Capilar 230ml" [ref=e654]:
+                      - /url: /Lola-Cosmetics-932-RAPUNZEL-CRESCIMENTO/dp/B074LVMLNG/ref=zg_bs_g_beauty_d_sccl_13/140-5235038-8618349?psc=1
+                      - generic [ref=e656]: Lola Cosmetics Rapunzel - Tônico Capilar 230ml
+                    - link "4,7 de 5 estrelas, 23.114 classificações" [ref=e659]:
+                      - /url: /product-reviews/B074LVMLNG/ref=zg_bs_g_beauty_d_sccl_13_cr/140-5235038-8618349
+                      - generic [ref=e661]: 4,7 de 5 estrelas
+                      - text: "23.114"
+                    - link "R$ 33,90" [ref=e665]:
+                      - /url: /Lola-Cosmetics-932-RAPUNZEL-CRESCIMENTO/dp/B074LVMLNG/ref=zg_bs_g_beauty_d_sccl_13/140-5235038-8618349?psc=1
+                      - generic [ref=e667]: R$ 33,90
+            - listitem [ref=e668]:
+              - generic [ref=e672]:
+                - generic [ref=e673]: "#14"
+                - generic [ref=e677] [cursor=pointer]:
+                  - link [ref=e678]:
+                    - /url: /Removedor-Esmalte-Technology-Risqu%C3%A9-100/dp/B076X6B6TX/ref=zg_bs_g_beauty_d_sccl_14/140-5235038-8618349?psc=1
+                    - img [ref=e680]
+                  - generic [ref=e682]:
+                    - link "Removedor de Esmalte Technology, Risqué, 100 ml" [ref=e683]:
+                      - /url: /Removedor-Esmalte-Technology-Risqu%C3%A9-100/dp/B076X6B6TX/ref=zg_bs_g_beauty_d_sccl_14/140-5235038-8618349?psc=1
+                      - generic [ref=e685]: Removedor de Esmalte Technology, Risqué, 100 ml
+                    - link "4,8 de 5 estrelas, 44.013 classificações" [ref=e688]:
+                      - /url: /product-reviews/B076X6B6TX/ref=zg_bs_g_beauty_d_sccl_14_cr/140-5235038-8618349
+                      - generic [ref=e690]: 4,8 de 5 estrelas
+                      - text: "44.013"
+                    - link "R$ 6,99" [ref=e694]:
+                      - /url: /Removedor-Esmalte-Technology-Risqu%C3%A9-100/dp/B076X6B6TX/ref=zg_bs_g_beauty_d_sccl_14/140-5235038-8618349?psc=1
+                      - generic [ref=e696]: R$ 6,99
+            - listitem [ref=e697]:
+              - generic [ref=e701]:
+                - generic [ref=e702]: "#15"
+                - generic [ref=e706] [cursor=pointer]:
+                  - link [ref=e707]:
+                    - /url: /Garnier-Uniform-Hidratante-Facial-Antimanchas/dp/B0DP82WCWS/ref=zg_bs_g_beauty_d_sccl_15/140-5235038-8618349?psc=1
+                    - img [ref=e709]
+                  - generic [ref=e711]:
+                    - link "Garnier, Gel Creme Hidratante Facial Antimanchas Toque Seco, com Vitamina C, Niacinamida e Ácido Hialurônico, Controla a Oleosidade e Uniformiza a Pele, 85g" [ref=e712]:
+                      - /url: /Garnier-Uniform-Hidratante-Facial-Antimanchas/dp/B0DP82WCWS/ref=zg_bs_g_beauty_d_sccl_15/140-5235038-8618349?psc=1
+                      - generic [ref=e714]: Garnier, Gel Creme Hidratante Facial Antimanchas Toque Seco, com Vitamina C, Niacinamida e Ácido Hialurônico, Controla a Oleosidade e Uniformiza a Pele, 85g
+                    - link "4,7 de 5 estrelas, 17.311 classificações" [ref=e717]:
+                      - /url: /product-reviews/B0DP82WCWS/ref=zg_bs_g_beauty_d_sccl_15_cr/140-5235038-8618349
+                      - generic [ref=e719]: 4,7 de 5 estrelas
+                      - text: "17.311"
+                    - link "R$ 25,99" [ref=e723]:
+                      - /url: /Garnier-Uniform-Hidratante-Facial-Antimanchas/dp/B0DP82WCWS/ref=zg_bs_g_beauty_d_sccl_15/140-5235038-8618349?psc=1
+                      - generic [ref=e725]: R$ 25,99
+            - listitem [ref=e726]:
+              - generic [ref=e730]:
+                - generic [ref=e731]: "#16"
+                - generic [ref=e735] [cursor=pointer]:
+                  - link [ref=e736]:
+                    - /url: /Pinga-A%C3%A7ai-Pracaxi-Lola-Cosmetics/dp/B07QC7HJJF/ref=zg_bs_g_beauty_d_sccl_16/140-5235038-8618349?psc=1
+                    - img [ref=e738]
+                  - generic [ref=e740]:
+                    - link "Pinga Açaí e Pracaxi Óleo 50ml , Lola Cosmetics" [ref=e741]:
+                      - /url: /Pinga-A%C3%A7ai-Pracaxi-Lola-Cosmetics/dp/B07QC7HJJF/ref=zg_bs_g_beauty_d_sccl_16/140-5235038-8618349?psc=1
+                      - generic [ref=e743]: Pinga Açaí e Pracaxi Óleo 50ml , Lola Cosmetics
+                    - link "4,8 de 5 estrelas, 20.157 classificações" [ref=e746]:
+                      - /url: /product-reviews/B07QC7HJJF/ref=zg_bs_g_beauty_d_sccl_16_cr/140-5235038-8618349
+                      - generic [ref=e748]: 4,8 de 5 estrelas
+                      - text: "20.157"
+                    - link "R$ 18,63" [ref=e752]:
+                      - /url: /Pinga-A%C3%A7ai-Pracaxi-Lola-Cosmetics/dp/B07QC7HJJF/ref=zg_bs_g_beauty_d_sccl_16/140-5235038-8618349?psc=1
+                      - generic [ref=e754]: R$ 18,63
+            - listitem [ref=e755]:
+              - generic [ref=e759]:
+                - generic [ref=e760]: "#17"
+                - generic [ref=e764] [cursor=pointer]:
+                  - link [ref=e765]:
+                    - /url: /Tratamento-Pr%C3%A9-Shampoo-Repara%C3%A7%C3%A3o-Molecular-Reconstr%C3%B3i/dp/B0F4LT38LJ/ref=zg_bs_g_beauty_d_sccl_17/140-5235038-8618349?psc=1
+                    - img [ref=e767]
+                  - generic [ref=e769]:
+                    - link "L'Oréal Paris Elseve Bond Repair Tratamento Pré-Shampoo, Reparação Molecular que Reconstrói Ligações e Devolve a Força Original, com Ácido Cítrico, 200ml" [ref=e770]:
+                      - /url: /Tratamento-Pr%C3%A9-Shampoo-Repara%C3%A7%C3%A3o-Molecular-Reconstr%C3%B3i/dp/B0F4LT38LJ/ref=zg_bs_g_beauty_d_sccl_17/140-5235038-8618349?psc=1
+                      - generic [ref=e772]: L'Oréal Paris Elseve Bond Repair Tratamento Pré-Shampoo, Reparação Molecular que Reconstrói Ligações e Devolve a Força Original, com Ácido Cítrico, 200ml
+                    - link "4,8 de 5 estrelas, 1.355 classificações" [ref=e775]:
+                      - /url: /product-reviews/B0F4LT38LJ/ref=zg_bs_g_beauty_d_sccl_17_cr/140-5235038-8618349
+                      - generic [ref=e777]: 4,8 de 5 estrelas
+                      - text: "1.355"
+                    - link "R$ 23,90" [ref=e781]:
+                      - /url: /Tratamento-Pr%C3%A9-Shampoo-Repara%C3%A7%C3%A3o-Molecular-Reconstr%C3%B3i/dp/B0F4LT38LJ/ref=zg_bs_g_beauty_d_sccl_17/140-5235038-8618349?psc=1
+                      - generic [ref=e783]: R$ 23,90
+            - listitem [ref=e784]:
+              - generic [ref=e788]:
+                - generic [ref=e789]: "#18"
+                - generic [ref=e793] [cursor=pointer]:
+                  - link [ref=e794]:
+                    - /url: /Dove-Sabonete-L%C3%ADquido-Banho-Glicerina/dp/B0DC74428B/ref=zg_bs_g_beauty_d_sccl_18/140-5235038-8618349?psc=1
+                    - img [ref=e796]
+                  - generic [ref=e798]:
+                    - link "Dove Óleo de Banho Hidratação Intensa e Limpeza Delicada, Glicerinado com 96% Ingredientes de Origem Natural 240 ml" [ref=e799]:
+                      - /url: /Dove-Sabonete-L%C3%ADquido-Banho-Glicerina/dp/B0DC74428B/ref=zg_bs_g_beauty_d_sccl_18/140-5235038-8618349?psc=1
+                      - generic [ref=e801]: Dove Óleo de Banho Hidratação Intensa e Limpeza Delicada, Glicerinado com 96% Ingredientes de Origem Natural 240 ml
+                    - link "4,7 de 5 estrelas, 5.239 classificações" [ref=e804]:
+                      - /url: /product-reviews/B0DC74428B/ref=zg_bs_g_beauty_d_sccl_18_cr/140-5235038-8618349
+                      - generic [ref=e806]: 4,7 de 5 estrelas
+                      - text: "5.239"
+                    - link "R$ 32,79" [ref=e810]:
+                      - /url: /Dove-Sabonete-L%C3%ADquido-Banho-Glicerina/dp/B0DC74428B/ref=zg_bs_g_beauty_d_sccl_18/140-5235038-8618349?psc=1
+                      - generic [ref=e812]: R$ 32,79
+            - listitem [ref=e813]:
+              - generic [ref=e817]:
+                - generic [ref=e818]: "#19"
+                - generic [ref=e822] [cursor=pointer]:
+                  - link [ref=e823]:
+                    - /url: /Neutrogena-Refil-Hydro-Boost-Water/dp/B0CB716LLZ/ref=zg_bs_g_beauty_d_sccl_19/140-5235038-8618349?psc=1
+                    - img [ref=e825]
+                  - generic [ref=e827]:
+                    - link "Neutrogena Hidratante Facial Hydro Boost Water Gel Refil, 50g" [ref=e828]:
+                      - /url: /Neutrogena-Refil-Hydro-Boost-Water/dp/B0CB716LLZ/ref=zg_bs_g_beauty_d_sccl_19/140-5235038-8618349?psc=1
+                      - generic [ref=e830]: Neutrogena Hidratante Facial Hydro Boost Water Gel Refil, 50g
+                    - link "4,8 de 5 estrelas, 10.732 classificações" [ref=e833]:
+                      - /url: /product-reviews/B0CB716LLZ/ref=zg_bs_g_beauty_d_sccl_19_cr/140-5235038-8618349
+                      - generic [ref=e835]: 4,8 de 5 estrelas
+                      - text: "10.732"
+                    - link "R$ 44,79" [ref=e839]:
+                      - /url: /Neutrogena-Refil-Hydro-Boost-Water/dp/B0CB716LLZ/ref=zg_bs_g_beauty_d_sccl_19/140-5235038-8618349?psc=1
+                      - generic [ref=e841]: R$ 44,79
+            - listitem [ref=e842]:
+              - generic [ref=e846]:
+                - generic [ref=e847]: "#20"
+                - generic [ref=e851] [cursor=pointer]:
+                  - link [ref=e852]:
+                    - /url: /Shampoo-Anticaspa-Clear-Limpeza-Profunda/dp/B07LFDHL8H/ref=zg_bs_g_beauty_d_sccl_20/140-5235038-8618349?psc=1
+                    - img [ref=e854]
+                  - generic [ref=e856]:
+                    - link "Clear Sports Men - Shampoo Anticaspa Limpeza Profunda 400Ml" [ref=e857]:
+                      - /url: /Shampoo-Anticaspa-Clear-Limpeza-Profunda/dp/B07LFDHL8H/ref=zg_bs_g_beauty_d_sccl_20/140-5235038-8618349?psc=1
+                      - generic [ref=e859]: Clear Sports Men - Shampoo Anticaspa Limpeza Profunda 400Ml
+                    - link "4,8 de 5 estrelas, 9.882 classificações" [ref=e862]:
+                      - /url: /product-reviews/B07LFDHL8H/ref=zg_bs_g_beauty_d_sccl_20_cr/140-5235038-8618349
+                      - generic [ref=e864]: 4,8 de 5 estrelas
+                      - text: "9.882"
+                    - link "R$ 23,62" [ref=e868]:
+                      - /url: /Shampoo-Anticaspa-Clear-Limpeza-Profunda/dp/B07LFDHL8H/ref=zg_bs_g_beauty_d_sccl_20/140-5235038-8618349?psc=1
+                      - generic [ref=e870]: R$ 23,62
+            - listitem [ref=e871]:
+              - generic [ref=e875]:
+                - generic [ref=e876]: "#21"
+                - generic [ref=e880] [cursor=pointer]:
+                  - link [ref=e881]:
+                    - /url: /S%C3%A9rum-Facial-NIVEA-Luminous-Nivea/dp/B08YLQNL4W/ref=zg_bs_g_beauty_d_sccl_21/140-5235038-8618349?psc=1
+                    - img [ref=e883]
+                  - generic [ref=e885]:
+                    - link "NIVEA LUMINOUS 630® Sérum Avançado Antimarcas Escurecidas 30ml, Reduz Marcas, Uniformiza a Pele, Ácido Hialurônico, Pele Radiante" [ref=e886]:
+                      - /url: /S%C3%A9rum-Facial-NIVEA-Luminous-Nivea/dp/B08YLQNL4W/ref=zg_bs_g_beauty_d_sccl_21/140-5235038-8618349?psc=1
+                      - generic [ref=e888]: NIVEA LUMINOUS 630® Sérum Avançado Antimarcas Escurecidas 30ml, Reduz Marcas, Uniformiza a Pele, Ácido Hialurônico, Pele Radiante
+                    - link "4,7 de 5 estrelas, 5.456 classificações" [ref=e891]:
+                      - /url: /product-reviews/B08YLQNL4W/ref=zg_bs_g_beauty_d_sccl_21_cr/140-5235038-8618349
+                      - generic [ref=e893]: 4,7 de 5 estrelas
+                      - text: "5.456"
+                    - link "R$ 49,90" [ref=e897]:
+                      - /url: /S%C3%A9rum-Facial-NIVEA-Luminous-Nivea/dp/B08YLQNL4W/ref=zg_bs_g_beauty_d_sccl_21/140-5235038-8618349?psc=1
+                      - generic [ref=e899]: R$ 49,90
+            - listitem [ref=e900]:
+              - generic [ref=e904]:
+                - generic [ref=e905]: "#22"
+                - generic [ref=e909] [cursor=pointer]:
+                  - link [ref=e910]:
+                    - /url: /FEIRA-CRONOLOLA-Cronograma-Capilar-Produtos/dp/B0DKVJ1HWB/ref=zg_bs_g_beauty_d_sccl_22/140-5235038-8618349?psc=1
+                    - img [ref=e912]
+                  - generic [ref=e914]:
+                    - link "Kit Cronograma Capilar Be(m) dita Ghee 3 Produtos, Lola Cosmetics" [ref=e915]:
+                      - /url: /FEIRA-CRONOLOLA-Cronograma-Capilar-Produtos/dp/B0DKVJ1HWB/ref=zg_bs_g_beauty_d_sccl_22/140-5235038-8618349?psc=1
+                      - generic [ref=e917]: Kit Cronograma Capilar Be(m) dita Ghee 3 Produtos, Lola Cosmetics
+                    - link "4,8 de 5 estrelas, 4.862 classificações" [ref=e920]:
+                      - /url: /product-reviews/B0DKVJ1HWB/ref=zg_bs_g_beauty_d_sccl_22_cr/140-5235038-8618349
+                      - generic [ref=e922]: 4,8 de 5 estrelas
+                      - text: "4.862"
+                    - link "R$ 50,79" [ref=e926]:
+                      - /url: /FEIRA-CRONOLOLA-Cronograma-Capilar-Produtos/dp/B0DKVJ1HWB/ref=zg_bs_g_beauty_d_sccl_22/140-5235038-8618349?psc=1
+                      - generic [ref=e928]: R$ 50,79
+            - listitem [ref=e929]:
+              - generic [ref=e933]:
+                - generic [ref=e934]: "#23"
+                - generic [ref=e938] [cursor=pointer]:
+                  - link [ref=e939]:
+                    - /url: /Limpeza-Principia-%C3%81cido-Salic%C3%ADlico-Glicerina/dp/B0B6LZ36XV/ref=zg_bs_g_beauty_d_sccl_23/140-5235038-8618349?psc=1
+                    - img [ref=e941]
+                  - generic [ref=e943]:
+                    - link "PRINCIPIA, Gel de Limpeza Facial 2% Ácido Salicílico + 5% Glicerina GL-01 com 350g" [ref=e944]:
+                      - /url: /Limpeza-Principia-%C3%81cido-Salic%C3%ADlico-Glicerina/dp/B0B6LZ36XV/ref=zg_bs_g_beauty_d_sccl_23/140-5235038-8618349?psc=1
+                      - generic [ref=e946]: PRINCIPIA, Gel de Limpeza Facial 2% Ácido Salicílico + 5% Glicerina GL-01 com 350g
+                    - link "4,6 de 5 estrelas, 24.700 classificações" [ref=e949]:
+                      - /url: /product-reviews/B0B6LZ36XV/ref=zg_bs_g_beauty_d_sccl_23_cr/140-5235038-8618349
+                      - generic [ref=e951]: 4,6 de 5 estrelas
+                      - text: "24.700"
+                    - link "R$ 46,55" [ref=e955]:
+                      - /url: /Limpeza-Principia-%C3%81cido-Salic%C3%ADlico-Glicerina/dp/B0B6LZ36XV/ref=zg_bs_g_beauty_d_sccl_23/140-5235038-8618349?psc=1
+                      - generic [ref=e957]: R$ 46,55
+            - listitem [ref=e958]:
+              - generic [ref=e962]:
+                - generic [ref=e963]: "#24"
+                - generic [ref=e967] [cursor=pointer]:
+                  - link [ref=e968]:
+                    - /url: /Neostrata-Minesol-Oil-Control-Fps/dp/B07Y2BK4GJ/ref=zg_bs_g_beauty_d_sccl_24/140-5235038-8618349?psc=1
+                    - img [ref=e970]
+                  - generic [ref=e972]:
+                    - link "Neostrata Minesol Protetor Solar Facial Oil Control, Sem Cor, FPS 70, 40g" [ref=e973]:
+                      - /url: /Neostrata-Minesol-Oil-Control-Fps/dp/B07Y2BK4GJ/ref=zg_bs_g_beauty_d_sccl_24/140-5235038-8618349?psc=1
+                      - generic [ref=e975]: Neostrata Minesol Protetor Solar Facial Oil Control, Sem Cor, FPS 70, 40g
+                    - link "4,8 de 5 estrelas, 14.372 classificações" [ref=e978]:
+                      - /url: /product-reviews/B07Y2BK4GJ/ref=zg_bs_g_beauty_d_sccl_24_cr/140-5235038-8618349
+                      - generic [ref=e980]: 4,8 de 5 estrelas
+                      - text: "14.372"
+                    - link "R$ 57,35" [ref=e984]:
+                      - /url: /Neostrata-Minesol-Oil-Control-Fps/dp/B07Y2BK4GJ/ref=zg_bs_g_beauty_d_sccl_24/140-5235038-8618349?psc=1
+                      - generic [ref=e986]: R$ 57,35
+            - listitem [ref=e987]:
+              - generic [ref=e991]:
+                - generic [ref=e992]: "#25"
+                - generic [ref=e996] [cursor=pointer]:
+                  - link [ref=e997]:
+                    - /url: /Gokujyun-Oil-Cleasing-Hada-Labo/dp/B07ZD6R4QK/ref=zg_bs_g_beauty_d_sccl_25/140-5235038-8618349?psc=1
+                    - img [ref=e999]
+                  - generic [ref=e1001]:
+                    - link "Hada Labo® Gokujyun Oil Cleasing - Óleo de limpeza facial demaquilante com Ácido Hialurônico 200ml" [ref=e1002]:
+                      - /url: /Gokujyun-Oil-Cleasing-Hada-Labo/dp/B07ZD6R4QK/ref=zg_bs_g_beauty_d_sccl_25/140-5235038-8618349?psc=1
+                      - generic [ref=e1004]: Hada Labo® Gokujyun Oil Cleasing - Óleo de limpeza facial demaquilante com Ácido Hialurônico 200ml
+                    - link "4,7 de 5 estrelas, 22.213 classificações" [ref=e1007]:
+                      - /url: /product-reviews/B07ZD6R4QK/ref=zg_bs_g_beauty_d_sccl_25_cr/140-5235038-8618349
+                      - generic [ref=e1009]: 4,7 de 5 estrelas
+                      - text: "22.213"
+                    - link "R$ 58,79" [ref=e1013]:
+                      - /url: /Gokujyun-Oil-Cleasing-Hada-Labo/dp/B07ZD6R4QK/ref=zg_bs_g_beauty_d_sccl_25/140-5235038-8618349?psc=1
+                      - generic [ref=e1015]: R$ 58,79
+            - listitem [ref=e1016]:
+              - generic [ref=e1020]:
+                - generic [ref=e1021]: "#26"
+                - generic [ref=e1025] [cursor=pointer]:
+                  - link [ref=e1026]:
+                    - /url: /Hidratante-Facial-Epidrat-Calm-B5-50ml/dp/B09RL3X7RB/ref=zg_bs_g_beauty_d_sccl_26/140-5235038-8618349?psc=1
+                    - img [ref=e1028]
+                  - generic [ref=e1030]:
+                    - link "MANTECORP - Hidratante Epidrat Calm B5 - Hidrata e Acalma a Pele, Conforto Imediato, D-Pantenol" [ref=e1031]:
+                      - /url: /Hidratante-Facial-Epidrat-Calm-B5-50ml/dp/B09RL3X7RB/ref=zg_bs_g_beauty_d_sccl_26/140-5235038-8618349?psc=1
+                      - generic [ref=e1033]: MANTECORP - Hidratante Epidrat Calm B5 - Hidrata e Acalma a Pele, Conforto Imediato, D-Pantenol
+                    - link "4,8 de 5 estrelas, 4.543 classificações" [ref=e1036]:
+                      - /url: /product-reviews/B09RL3X7RB/ref=zg_bs_g_beauty_d_sccl_26_cr/140-5235038-8618349
+                      - generic [ref=e1038]: 4,8 de 5 estrelas
+                      - text: "4.543"
+                    - link "R$ 66,41" [ref=e1042]:
+                      - /url: /Hidratante-Facial-Epidrat-Calm-B5-50ml/dp/B09RL3X7RB/ref=zg_bs_g_beauty_d_sccl_26/140-5235038-8618349?psc=1
+                      - generic [ref=e1044]: R$ 66,41
+            - listitem [ref=e1045]:
+              - generic [ref=e1049]:
+                - generic [ref=e1050]: "#27"
+                - generic [ref=e1054] [cursor=pointer]:
+                  - link [ref=e1055]:
+                    - /url: /Kit-Sabonete-PHEBO-Amarelo-720g/dp/B00N6AKNQW/ref=zg_bs_g_beauty_d_sccl_27/140-5235038-8618349?psc=1
+                    - img [ref=e1057]
+                  - generic [ref=e1059]:
+                    - link "Kit Sabonete, PHEBO, Amarelo, 720g" [ref=e1060]:
+                      - /url: /Kit-Sabonete-PHEBO-Amarelo-720g/dp/B00N6AKNQW/ref=zg_bs_g_beauty_d_sccl_27/140-5235038-8618349?psc=1
+                      - generic [ref=e1062]: Kit Sabonete, PHEBO, Amarelo, 720g
+                    - link "4,8 de 5 estrelas, 9.047 classificações" [ref=e1065]:
+                      - /url: /product-reviews/B00N6AKNQW/ref=zg_bs_g_beauty_d_sccl_27_cr/140-5235038-8618349
+                      - generic [ref=e1067]: 4,8 de 5 estrelas
+                      - text: "9.047"
+                    - link "R$ 35,99" [ref=e1071]:
+                      - /url: /Kit-Sabonete-PHEBO-Amarelo-720g/dp/B00N6AKNQW/ref=zg_bs_g_beauty_d_sccl_27/140-5235038-8618349?psc=1
+                      - generic [ref=e1073]: R$ 35,99
+            - listitem [ref=e1074]:
+              - generic [ref=e1078]:
+                - generic [ref=e1079]: "#28"
+                - generic [ref=e1083] [cursor=pointer]:
+                  - link [ref=e1084]:
+                    - /url: /Desodorante-Antitranspirante-Aroma-C%C3%ADtrico-Secret/dp/B09NBGGPGC/ref=zg_bs_g_beauty_d_sccl_28/140-5235038-8618349?psc=1
+                    - img [ref=e1086]
+                  - generic [ref=e1088]:
+                    - link "Secret Desodorante Antitranspirante em Gel Invisible Orange Blossom 45 g" [ref=e1089]:
+                      - /url: /Desodorante-Antitranspirante-Aroma-C%C3%ADtrico-Secret/dp/B09NBGGPGC/ref=zg_bs_g_beauty_d_sccl_28/140-5235038-8618349?psc=1
+                      - generic [ref=e1091]: Secret Desodorante Antitranspirante em Gel Invisible Orange Blossom 45 g
+                    - link "4,7 de 5 estrelas, 6.503 classificações" [ref=e1094]:
+                      - /url: /product-reviews/B09NBGGPGC/ref=zg_bs_g_beauty_d_sccl_28_cr/140-5235038-8618349
+                      - generic [ref=e1096]: 4,7 de 5 estrelas
+                      - text: "6.503"
+                    - link "R$ 18,90" [ref=e1100]:
+                      - /url: /Desodorante-Antitranspirante-Aroma-C%C3%ADtrico-Secret/dp/B09NBGGPGC/ref=zg_bs_g_beauty_d_sccl_28/140-5235038-8618349?psc=1
+                      - generic [ref=e1102]: R$ 18,90
+            - listitem [ref=e1103]:
+              - generic [ref=e1107]:
+                - generic [ref=e1108]: "#29"
+                - generic [ref=e1112] [cursor=pointer]:
+                  - link [ref=e1113]:
+                    - /url: /Lola-Cosmetics-Rapunzel-M%C3%A1scara-450g/dp/B0C4QPGK3L/ref=zg_bs_g_beauty_d_sccl_29/140-5235038-8618349?psc=1
+                    - img [ref=e1115]
+                  - generic [ref=e1117]:
+                    - link "Rapunzel Máscara de Tratamento 450g , Lola Cosmetics" [ref=e1118]:
+                      - /url: /Lola-Cosmetics-Rapunzel-M%C3%A1scara-450g/dp/B0C4QPGK3L/ref=zg_bs_g_beauty_d_sccl_29/140-5235038-8618349?psc=1
+                      - generic [ref=e1120]: Rapunzel Máscara de Tratamento 450g , Lola Cosmetics
+                    - link "4,7 de 5 estrelas, 5.936 classificações" [ref=e1123]:
+                      - /url: /product-reviews/B0C4QPGK3L/ref=zg_bs_g_beauty_d_sccl_29_cr/140-5235038-8618349
+                      - generic [ref=e1125]: 4,7 de 5 estrelas
+                      - text: "5.936"
+                    - link "R$ 31,66" [ref=e1129]:
+                      - /url: /Lola-Cosmetics-Rapunzel-M%C3%A1scara-450g/dp/B0C4QPGK3L/ref=zg_bs_g_beauty_d_sccl_29/140-5235038-8618349?psc=1
+                      - generic [ref=e1131]: R$ 31,66
+            - listitem [ref=e1132]:
+              - generic [ref=e1136]:
+                - generic [ref=e1137]: "#30"
+                - generic [ref=e1141] [cursor=pointer]:
+                  - link [ref=e1142]:
+                    - /url: /PRINCIPIA-Hidratante-Manteiga-Glicerina-Niacinamida/dp/B0FBDLYLSZ/ref=zg_bs_g_beauty_d_sccl_30/140-5235038-8618349?psc=1
+                    - img [ref=e1144]
+                  - generic [ref=e1146]:
+                    - link "PRINCIPIA, Creme Hidratante Facial 5% Manteiga de Karité + 5% Glicerina + 2% Niacinamida CH-01 com 50g" [ref=e1147]:
+                      - /url: /PRINCIPIA-Hidratante-Manteiga-Glicerina-Niacinamida/dp/B0FBDLYLSZ/ref=zg_bs_g_beauty_d_sccl_30/140-5235038-8618349?psc=1
+                      - generic [ref=e1149]: PRINCIPIA, Creme Hidratante Facial 5% Manteiga de Karité + 5% Glicerina + 2% Niacinamida CH-01 com 50g
+                    - link "4,7 de 5 estrelas, 2.313 classificações" [ref=e1152]:
+                      - /url: /product-reviews/B0FBDLYLSZ/ref=zg_bs_g_beauty_d_sccl_30_cr/140-5235038-8618349
+                      - generic [ref=e1154]: 4,7 de 5 estrelas
+                      - text: "2.313"
+                    - link "R$ 38,99" [ref=e1158]:
+                      - /url: /PRINCIPIA-Hidratante-Manteiga-Glicerina-Niacinamida/dp/B0FBDLYLSZ/ref=zg_bs_g_beauty_d_sccl_30/140-5235038-8618349?psc=1
+                      - generic [ref=e1160]: R$ 38,99
+          - navigation "pagination" [ref=e1161]:
+            - list [ref=e1162]:
+              - listitem [ref=e1163]: Página anterior
+              - listitem "Page 1" [ref=e1164]:
+                - link "1" [ref=e1165] [cursor=pointer]:
+                  - /url: /gp/bestsellers/beauty/ref=zg_bs_pg_1_beauty?ie=UTF8&pg=1
+              - listitem "Page 2" [ref=e1166]:
+                - link "2" [ref=e1167] [cursor=pointer]:
+                  - /url: /gp/bestsellers/beauty/ref=zg_bs_pg_2_beauty?ie=UTF8&pg=2
+              - listitem [ref=e1168]:
+                - link "Próxima página" [ref=e1169] [cursor=pointer]:
+                  - /url: /gp/bestsellers/beauty/ref=zg_bs_pg_2_beauty?ie=UTF8&pg=2
+                  - text: Próxima página
+  - complementary "Itens que você visualizou recentemente e recomendações baseadas em seu histórico:"
+  - generic [ref=e1170]:
+    - button "Voltar ao início" [ref=e1171] [cursor=pointer]:
+      - generic [ref=e1172]: Voltar ao início
+    - generic [ref=e1173]:
+      - generic [ref=e1174]:
+        - heading "Conheça-nos" [level=6] [ref=e1175]
+        - list [ref=e1176]:
+          - listitem [ref=e1177]:
+            - link "Sobre a Amazon" [ref=e1178] [cursor=pointer]:
+              - /url: https://www.aboutamazon.com.br/
+          - listitem [ref=e1179]:
+            - link "Informações corporativas" [ref=e1180] [cursor=pointer]:
+              - /url: /gp/browse.html?node=23490129011&ref_=footer_gw_m_b_corporate
+          - listitem [ref=e1181]:
+            - link "Carreiras" [ref=e1182] [cursor=pointer]:
+              - /url: https://www.amazon.jobs
+          - listitem [ref=e1183]:
+            - link "Comunicados à imprensa" [ref=e1184] [cursor=pointer]:
+              - /url: /gp/browse.html?node=15155858011&ref_=footer_community
+          - listitem [ref=e1185]:
+            - link "Comunidade" [ref=e1186] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16593314011&ref_=footer_community
+          - listitem [ref=e1187]:
+            - link "Acessibilidade" [ref=e1188] [cursor=pointer]:
+              - /url: /gp/browse.html?node=23454858011&ref_=footer_accessibility
+          - listitem [ref=e1189]:
+            - link "Amazon Science" [ref=e1190] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e1192]:
+        - heading "Ganhe dinheiro conosco" [level=6] [ref=e1193]
+        - list [ref=e1194]:
+          - listitem [ref=e1195]:
+            - link "Venda na Amazon" [ref=e1196] [cursor=pointer]:
+              - /url: https://venda.amazon.com.br/?ld=SDBRSOA_footerDesk_T1
+          - listitem [ref=e1197]:
+            - link "Proteja e construa a sua marca" [ref=e1198] [cursor=pointer]:
+              - /url: https://brandservices.amazon.com.br?ref=AOBRABRLGNRFOOT&ld=AOBRABRLGNRFOOT
+          - listitem [ref=e1199]:
+            - link "Forneça para a Amazon" [ref=e1200] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=pt-BR
+          - listitem [ref=e1201]:
+            - link "Publique seus livros" [ref=e1202] [cursor=pointer]:
+              - /url: https://kdp.amazon.com?language=pt_BR
+          - listitem [ref=e1203]:
+            - link "Seja um associado" [ref=e1204] [cursor=pointer]:
+              - /url: https://associados.amazon.com.br
+          - listitem [ref=e1205]:
+            - link "Anuncie seus produtos" [ref=e1206] [cursor=pointer]:
+              - /url: https://advertising.amazon.com/pt-br?ref=footer_advtsing_BR
+      - generic [ref=e1208]:
+        - heading "Pagamento" [level=6] [ref=e1209]
+        - list [ref=e1210]:
+          - listitem [ref=e1211]:
+            - link "Meios de Pagamento" [ref=e1212] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16568920011&ref_=footer_pay_tc
+          - listitem [ref=e1213]:
+            - link "Compre com Pontos" [ref=e1214] [cursor=pointer]:
+              - /url: /gp/browse.html?node=24028636011&ref_=footer_pay_tc
+          - listitem [ref=e1215]:
+            - link "Cartão de crédito Amazon" [ref=e1216] [cursor=pointer]:
+              - /url: /gp/browse.html?node=24434261011&ref_=footer_pay_tc
+      - generic [ref=e1218]:
+        - heading "Deixe-nos ajudar você" [level=6] [ref=e1219]
+        - list [ref=e1220]:
+          - listitem [ref=e1221]:
+            - link "Sua conta" [ref=e1222] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e1223]:
+            - link "Frete e prazo de entrega" [ref=e1224] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201365500&ref_=footer_shiprates
+          - listitem [ref=e1225]:
+            - link "Devoluções e reembolsos" [ref=e1226] [cursor=pointer]:
+              - /url: /gp/orc/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e1227]:
+            - link "Gerencie seu conteúdo e dispositivos" [ref=e1228] [cursor=pointer]:
+              - /url: /hz/mycd/myx?ref_=footer_myk
+          - listitem [ref=e1229]:
+            - link "Recalls e alertas de segurança do produto" [ref=e1230] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e1231]:
+            - link "Ajuda" [ref=e1232] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he
+    - generic [ref=e1234]:
+      - link "Amazon Brazil Home" [ref=e1237] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - button "Escolha um país/região para fazer suas compras. A seleção atual é Brasil." [ref=e1241] [cursor=pointer]:
+        - generic [ref=e1243]: Brasil
+    - generic [ref=e1244]:
+      - list [ref=e1245]:
+        - listitem [ref=e1246]:
+          - link "Condições de Uso" [ref=e1247] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201283910&ref_=footer_cou
+        - listitem [ref=e1248]:
+          - link "Notificação de Privacidade" [ref=e1249] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201283950&ref_=footer_privacy
+        - listitem [ref=e1250]:
+          - link "Cookies" [ref=e1251] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201890250&ref_=footer_cookies
+        - listitem [ref=e1252]:
+          - link "Anúncios Baseados em Interesses" [ref=e1253] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201283970&ref_=footer_iba
+      - generic [ref=e1254]: © 2021-2026 Amazon.com, Inc. ou suas afiliadas
+    - list [ref=e1256]:
+      - listitem [ref=e1257]: Amazon Serviços de Varejo do Brasil Ltda. | CNPJ 15.436.940/0001-03
+    - list [ref=e1259]:
+      - listitem [ref=e1260]:
+        - text: "Av. Juscelino Kubitschek, 2041, Torre E, 18° andar - São Paulo CEP: 04543-011|"
+        - link "Fale conosco" [ref=e1261] [cursor=pointer]:
+          - /url: https://www.amazon.com.br/gp/help/customer/contact-us?ref=footer_gw_m_b_cu
+        - text: "| ajuda-amazon@amazon.com.br"
+    - list [ref=e1263]:
+      - listitem [ref=e1264]: "Formas de pagamento aceitas: cartões de crédito (Visa, MasterCard, Elo e American Express), cartões de débito (Visa e Elo), Boleto e Pix."

@@ -1,0 +1,12 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]: "\""
+  - paragraph [ref=e4]:
+    - text: E se eu ficar
+    - text: parecendo outra pessoa?"
+  - paragraph [ref=e6]:
+    - text: Esse é o medo número 1
+    - text: das minhas pacientes.
+    - text: E faz todo sentido.
+    - text: Mas a radiofrequência funciona diferente.
+  - generic [ref=e7]: "@lais_esteticista"
+  - generic [ref=e8]: 2/6

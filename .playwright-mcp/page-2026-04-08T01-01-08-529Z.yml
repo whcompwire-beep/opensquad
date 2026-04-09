@@ -1,0 +1,14 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]: Como funciona
+  - paragraph [ref=e4]:
+    - text: Ela não coloca
+    - text: nada novo na sua pele.
+  - paragraph [ref=e6]:
+    - text: Ela aquece as camadas profundas
+    - text: e acorda o colágeno
+    - text: que você já tinha.
+  - paragraph [ref=e7]:
+    - text: É o seu rosto.
+    - text: Só mais firme.
+  - generic [ref=e8]: "@lais_esteticista"
+  - generic [ref=e9]: 3/6

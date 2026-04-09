@@ -1,0 +1,14 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: "@lais_esteticista"
+  - generic [ref=e3]:
+    - generic [ref=e4]: Importante saber
+    - paragraph [ref=e6]:
+      - text: Lipedema não some com o tempo —
+      - text: mas dá pra viver
+      - emphasis [ref=e7]: muito melhor
+      - text: com ele.
+    - paragraph [ref=e8]:
+      - text: Com sessões regulares,
+      - text: a drenagem linfática ajuda
+      - text: a reduzir o desconforto
+      - text: e trazer mais leveza no dia a dia.

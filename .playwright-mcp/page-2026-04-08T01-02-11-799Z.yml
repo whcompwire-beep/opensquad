@@ -1,0 +1,15 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]: Reel
+  - generic [ref=e4]: 🎬
+  - generic [ref=e5]: Radiofrequência Facial
+  - heading "Você viu a pele da Ana Paula Renault no BBB?" [level=1] [ref=e6]:
+    - text: Você viu a pele
+    - text: da
+    - emphasis [ref=e7]: Ana Paula Renault
+    - text: no BBB?
+  - paragraph [ref=e9]:
+    - text: Ela tem 44 anos.
+    - text: E o protocolo dela
+    - text: inclui radiofrequência.
+  - generic [ref=e10]: ▶ Assista
+  - generic [ref=e11]: "@lais_esteticista"

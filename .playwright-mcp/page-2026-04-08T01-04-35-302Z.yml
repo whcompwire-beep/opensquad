@@ -1,0 +1,16 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]: Story 3/5
+  - generic [ref=e4]: 🌡️
+  - generic [ref=e5]: Você sabia?
+  - paragraph [ref=e6]:
+    - text: O frio reduz a
+    - emphasis [ref=e7]: circulação
+    - text: sanguínea da pele.
+  - paragraph [ref=e9]:
+    - text: Isso afeta diretamente
+    - text: a
+    - strong [ref=e10]: produção de colágeno
+    - text: .
+    - text: O inverno não espera.
+    - text: A pele, também não.
+  - generic [ref=e11]: "@lais_esteticista"

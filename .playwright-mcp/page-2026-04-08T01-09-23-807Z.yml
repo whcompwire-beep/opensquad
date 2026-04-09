@@ -1,0 +1,11 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]: Radiofrequência Facial
+  - heading "Radiofrequência não te muda. Ela te revela." [level=1] [ref=e5]:
+    - text: Radiofrequência
+    - text: não te muda.
+    - emphasis [ref=e6]: Ela te revela.
+  - paragraph [ref=e7]:
+    - text: e se você tem medo de ficar com cara de procedimento
+    - text: — esse post é pra você
+  - generic [ref=e8]: "@lais_esteticista"
+  - generic [ref=e9]: 1/6

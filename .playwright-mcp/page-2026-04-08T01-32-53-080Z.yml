@@ -1,0 +1,12 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]: Agenda aberta
+  - paragraph [ref=e4]:
+    - text: Vagas abertas
+    - text: para avaliação
+  - paragraph [ref=e6]:
+    - text: Aqui em Mafra-SC.
+    - text: Sem compromisso.
+    - text: Com toda atenção que
+    - text: sua pele merece.
+  - generic [ref=e7]: Enviar mensagem
+  - generic [ref=e8]: "@lais_esteticista"

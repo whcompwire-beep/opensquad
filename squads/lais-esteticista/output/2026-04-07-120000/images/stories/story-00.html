@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Lato:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1080px; height: 1920px; overflow: hidden;
+      background: url('lipedema.jpeg') center center / cover no-repeat;
+      font-family: 'Lato', sans-serif;
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: center;
+      padding: 100px 80px;
+      position: relative;
+      text-align: center;
+    }
+    body::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: linear-gradient(175deg, rgba(44,28,16,0.55) 0%, rgba(44,28,16,0.70) 100%);
+    }
+    .tag, .accent-line, h1, .sub, .handle { position: relative; z-index: 1; }
+    .handle {
+      position: absolute; bottom: 52px; left: 0; right: 0; z-index: 1;
+      text-align: center; font-size: 28px; font-weight: 500;
+      color: rgba(255,255,255,0.7); letter-spacing: 2px;
+    }
+    .tag {
+      font-size: 26px; font-weight: 700; color: #EDD5C0;
+      letter-spacing: 5px; text-transform: uppercase; margin-bottom: 40px;
+    }
+    .accent-line { width: 60px; height: 3px; background: #BDA78D; margin: 0 auto 60px; }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 70px; font-weight: 700;
+      color: #FFFFFF; line-height: 1.2;
+      margin-bottom: 52px;
+      text-shadow: 0 2px 20px rgba(0,0,0,0.3);
+    }
+    .sub {
+      font-size: 40px; font-weight: 400;
+      color: rgba(255,255,255,0.85); line-height: 1.65;
+    }
+    .sub strong { font-weight: 700; color: #EDD5C0; }
+  </style>
+</head>
+<body>
+  <div class="handle">@lais_esteticista</div>
+  <div class="tag">Lipedema</div>
+  <div class="accent-line"></div>
+  <h1>Lipedema e drenagem linfática:<br>o que muda quando<br>o protocolo é adequado.</h1>
+  <p class="sub">Entenda como esse tratamento<br>pode contribuir para<br><strong>mais qualidade de vida</strong><br>no dia a dia. 👇</p>
+</body>
+</html>

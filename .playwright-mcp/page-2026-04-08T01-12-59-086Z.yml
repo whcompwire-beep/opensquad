@@ -1,0 +1,11 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]: "\""
+  - generic [ref=e5]: Cuidados com a pele
+  - paragraph [ref=e6]:
+    - text: "\"Cuide da sua pele"
+    - text: antes que o
+    - emphasis [ref=e7]: inverno
+    - text: cuide dela."
+  - paragraph [ref=e9]: Radiofrequência facial — o momento certo é agora.
+  - generic [ref=e10]: "@lais_esteticista"
+  - generic [ref=e11]: outono 2026

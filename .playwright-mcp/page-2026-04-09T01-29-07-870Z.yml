@@ -1,0 +1,1513 @@
+- generic [ref=e2]:
+  - navigation "Menu de atalhos" [ref=e3]:
+    - heading "Ir para" [level=2] [ref=e4]
+    - list "Ir para" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "conteúdo principal" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Conteúdo principal
+      - listitem [ref=e8]:
+        - link "Sobre este produto" [ref=e9] [cursor=pointer]:
+          - /url: "#featurebullets_feature_div"
+      - listitem [ref=e10]:
+        - link "Pular para as opções de compra" [ref=e11] [cursor=pointer]:
+          - /url: "#buybox"
+          - text: Opções de compra
+      - listitem [ref=e12]:
+        - link "Avaliações" [ref=e13] [cursor=pointer]:
+          - /url: "#customerReviews"
+    - separator [ref=e14]
+    - heading "Atalhos do teclado" [level=2] [ref=e15]
+    - list "Atalhos do teclado" [ref=e16]:
+      - listitem [ref=e17]:
+        - link "Pesquisa, alt, barra para frente" [ref=e18] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e19]:
+            - generic [ref=e20]: Pesquisar
+            - generic [ref=e21]:
+              - generic [ref=e22]: alt
+              - generic [ref=e23]: +
+              - generic [ref=e24]: /
+      - listitem [ref=e25]:
+        - link "Carrinho, shift, alt, c" [ref=e26] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e27]:
+            - generic [ref=e28]: Carrinho
+            - generic [ref=e29]:
+              - generic [ref=e30]: shift
+              - generic [ref=e31]: +
+              - generic [ref=e32]: alt
+              - generic [ref=e33]: +
+              - generic [ref=e34]: C
+      - listitem [ref=e35]:
+        - link "Início, shift, alt, h" [ref=e36] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e37]:
+            - generic [ref=e38]: Página inicial
+            - generic [ref=e39]:
+              - generic [ref=e40]: shift
+              - generic [ref=e41]: +
+              - generic [ref=e42]: alt
+              - generic [ref=e43]: +
+              - generic [ref=e44]: H
+      - listitem [ref=e45]:
+        - link "Seus pedidos, shift, alt, o" [ref=e46] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e47]:
+            - generic [ref=e48]: Seus Pedidos
+            - generic [ref=e49]:
+              - generic [ref=e50]: shift
+              - generic [ref=e51]: +
+              - generic [ref=e52]: alt
+              - generic [ref=e53]: +
+              - generic [ref=e54]: O
+      - listitem [ref=e55]:
+        - button "Adicionar ao carrinho, shift, alt, K" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]:
+            - generic [ref=e58]: Adicionar ao carrinho
+            - generic [ref=e59]:
+              - generic [ref=e60]: shift
+              - generic [ref=e61]: +
+              - generic [ref=e62]: alt
+              - generic [ref=e63]: +
+              - generic [ref=e64]: K
+      - listitem [ref=e65]:
+        - button "Mostrar/ocultar atalhos, shift, alt, z" [ref=e66] [cursor=pointer]:
+          - generic [ref=e67]:
+            - generic [ref=e68]: Mostrar/ocultar atalhos
+            - generic [ref=e69]:
+              - generic [ref=e70]: shift
+              - generic [ref=e71]: +
+              - generic [ref=e72]: alt
+              - generic [ref=e73]: +
+              - generic [ref=e74]: Z
+    - generic [ref=e80]: Para se mover entre os produtos, use as setas para cima ou para baixo do teclado.
+  - banner [ref=e81]:
+    - navigation "Principal" [ref=e82]:
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - link "Amazon.com.br" [ref=e86] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .com.br
+          - button "A entrega será feita em Bela Vista 01319900 Atualizar CEP" [ref=e89] [cursor=pointer]:
+            - generic [ref=e91]:
+              - generic [ref=e92]: A entrega será feita em Bela Vista 01319900
+              - generic [ref=e93]: Atualizar CEP
+        - search [ref=e96]:
+          - generic [ref=e99]:
+            - generic [ref=e101]: Beleza
+            - combobox "Selecione o departamento que deseja pesquisar no" [ref=e103] [cursor=pointer]:
+              - option "Todos os departamentos"
+              - option "Alexa Skills"
+              - option "Alimentos e Bebidas"
+              - option "Amazon Now"
+              - option "Amazon Quase Novo"
+              - option "Apps e Jogos"
+              - option "Audiolivros Audible"
+              - option "Automotivo"
+              - option "Bebês"
+              - option "Beleza" [selected]
+              - option "Beleza de luxo"
+              - option "Bolsas, Malas e Mochilas"
+              - option "Brinquedos e Jogos"
+              - option "Casa"
+              - option "CD e Vinil"
+              - option "Computadores e Informática"
+              - option "Cozinha"
+              - option "Dispositivos Amazon"
+              - option "DVD e Blu-Ray"
+              - option "Eletrodomésticos"
+              - option "Eletrônicos"
+              - option "Esportes e Aventura"
+              - option "Ferramentas e Materiais de Construção"
+              - option "Games"
+              - option "Industrial"
+              - option "Instrumentos Musicais"
+              - option "Jardim e Piscina"
+              - option "Livros"
+              - option "Loja Kindle"
+              - option "Material para Escritório e Papelaria"
+              - option "Móveis e Decoração"
+              - option "Pet Shop"
+              - option "Prime Video"
+              - option "Programe e Poupe"
+              - option "Roupas, Calçados e Joias"
+              - option "Roupas, sapatos e joias femininas"
+              - option "Roupas, sapatos e joias masculinas"
+              - option "Roupas, sapatos e joias para meninas"
+              - option "Roupas, sapatos e joias para meninos"
+              - option "Roupas, sapatos e joias para bebês"
+              - option "Saúde e Cuidados Pessoais"
+          - searchbox "Pesquisar Amazon.com.br" [ref=e106]
+          - generic "Ir" [ref=e109] [cursor=pointer]:
+            - button "Ir" [ref=e110]
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - link "Olá, faça seu login Contas e Listas" [ref=e114] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fdp%2FB07SBXMSGB%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e116]: Olá, faça seu login
+              - generic [ref=e117]: Contas e Listas
+            - button "Expandir conta e listas" [ref=e118] [cursor=pointer]
+          - link "Devoluções e Pedidos" [ref=e119] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e120]: Devoluções
+            - generic [ref=e121]: e Pedidos
+          - link "0 itens no carrinho" [ref=e122] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e124]: "0"
+            - generic [ref=e127]: Carrinho
+      - generic [ref=e128]:
+        - button "Abrir o menu Todas as categorias" [ref=e130] [cursor=pointer]:
+          - generic [ref=e132]: Todos
+        - list [ref=e136]:
+          - listitem [ref=e137]:
+            - link "Venda na Amazon" [ref=e139] [cursor=pointer]:
+              - /url: /gp/browse.html?node=17877554011&ld=ASBRSOA_retail_sell_header_t1&ref_=nav_cs_sell
+          - listitem [ref=e140]:
+            - link "Chega em 15 min" [ref=e142] [cursor=pointer]:
+              - /url: /alm/storefront?almBrandId=10zZeC1FBwm&ref_=nav_cs_amnow
+          - listitem [ref=e143]:
+            - link "Ofertas do Dia" [ref=e145] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e146]:
+            - link "Mais Vendidos" [ref=e148] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e149]:
+            - link "Games" [ref=e151] [cursor=pointer]:
+              - /url: /Games-Consoles/b/?ie=UTF8&node=7791985011&ref_=nav_cs_video_games
+          - listitem [ref=e152]:
+            - link "Livros" [ref=e154] [cursor=pointer]:
+              - /url: /Livros/b/?ie=UTF8&node=6740748011&ref_=nav_cs_books
+          - listitem [ref=e155]:
+            - generic [ref=e156]:
+              - link "Prime" [ref=e157] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Detalhes de Prime" [ref=e158] [cursor=pointer]
+          - listitem [ref=e159]:
+            - link "Música" [ref=e161] [cursor=pointer]:
+              - /url: /music/unlimited?ref_=nav_cs_music
+          - listitem [ref=e162]:
+            - link "Casa" [ref=e164] [cursor=pointer]:
+              - /url: /Casa/b/?ie=UTF8&node=16191000011&ref_=nav_cs_home
+          - listitem [ref=e165]:
+            - link "Eletrônicos" [ref=e167] [cursor=pointer]:
+              - /url: /Eletronicos-e-Tecnologia/b/?ie=UTF8&node=16209062011&ref_=nav_cs_electronics
+          - listitem [ref=e168]:
+            - link "Brinquedos e Jogos" [ref=e170] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16194299011&ref_=nav_cs_toys
+          - listitem [ref=e171]:
+            - link "Computadores" [ref=e173] [cursor=pointer]:
+              - /url: /Computadores-Informatica/b/?ie=UTF8&node=16339926011&ref_=nav_cs_pc
+          - listitem [ref=e174]:
+            - link "Beleza" [ref=e176] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16194414011&ref_=nav_cs_beauty
+          - listitem [ref=e177]:
+            - link "Mercado" [ref=e179] [cursor=pointer]:
+              - /url: /fmc/everyday-essentials/?ref_=nav_cs_ee_desktop_disco
+          - listitem [ref=e180]:
+            - link "Cuidados Pessoais" [ref=e182] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16215417011&ref_=nav_cs_hpc
+          - listitem [ref=e183]:
+            - link "Novidades na Amazon" [ref=e185] [cursor=pointer]:
+              - /url: /gp/browse.html?node=207658984011&ref_=nav_cs_mtech
+          - listitem [ref=e186]:
+            - link "Ferramentas e Construção" [ref=e188] [cursor=pointer]:
+              - /url: /Ferramentas-Construcao/b/?ie=UTF8&node=16957182011&ref_=nav_cs_hi
+          - listitem [ref=e189]:
+            - link "Bebês" [ref=e191] [cursor=pointer]:
+              - /url: /gp/browse.html?node=17242603011&ref_=nav_cs_baby
+          - listitem [ref=e192]:
+            - link "Alimentos e Bebidas" [ref=e194] [cursor=pointer]:
+              - /url: /gp/browse.html?node=18991079011&ref_=nav_cs_grocery
+          - listitem [ref=e195]:
+            - link "Amazon Moda" [ref=e197] [cursor=pointer]:
+              - /url: /gp/browse.html?node=17365811011&ref_=nav_cs_fashion
+          - listitem [ref=e198]:
+            - link "Pet Shop" [ref=e200] [cursor=pointer]:
+              - /url: /gp/browse.html?node=18991136011&ref_=nav_cs_pets
+          - listitem [ref=e201]:
+            - link "Automotivos" [ref=e203] [cursor=pointer]:
+              - /url: /gp/browse.html?node=18914209011&ref_=nav_cs_automotive
+          - listitem [ref=e204]:
+            - link "eBooks Kindle" [ref=e206] [cursor=pointer]:
+              - /url: /ebooks-kindle/b/?ie=UTF8&node=5475882011&ref_=nav_cs_kindle_books
+          - listitem [ref=e207]:
+            - link "Atendimento ao Cliente" [ref=e209] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_help
+        - link "Prime Video" [ref=e213] [cursor=pointer]:
+          - /url: /gp/video/ssoredirect/?ie=UTF8&pvp=%2Fdetail%2Famzn1.dv.gti.88de2837-bb3f-4f7b-b41a-9c1ce670ee9a%2F%3Fref_%3Ddvm_crs_nav_br_s_dt_swm_l_al_thby_tp&ref_=nav_swm_dvm_crs_nav_br_s_dt_swm_l_al_thby_tp&pf_rd_p=8c469007-6eaf-41ba-abe7-a09ce86adc43&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A2Q3Y263D00KWC&pf_rd_r=DJWR4BEZTA9QP1BS15E2
+          - img "Prime Video" [ref=e214]
+      - generic [ref=e215]:
+        - generic [ref=e216]:
+          - link "Beleza" [ref=e217] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=16194414011&ref_=topnav_storetab_b
+          - link "Mais Vendidos" [ref=e218] [cursor=pointer]:
+            - /url: /gp/bestsellers/beauty/?ie=UTF8&ref_=sv_b_1
+          - link "Ofertas" [ref=e219] [cursor=pointer]:
+            - /url: /gp/goldbox/?ie=UTF8&gb_f_c2xvdC01=dealStates%3AAVAILABLE%252CWAITLIST%252CWAITLISTFULL%252CUPCOMING%252CEXPIRED%252CSOLDOUT%2CsortOrder%3ABY_SCORE%2CenforcedCategories%3A16194414011&ie=UTF8&pf_rd_i=gb_main&pf_rd_m=A1ZZFT5FULY4LN&pf_rd_p=faada73d-e81c-4969-8eeb-7b66099f944c&pf_rd_r=XVNGQF7RG8Y1AVMFQ629&pf_rd_s=slot-5&pf_rd_t=701&ref_=sv_b_2
+          - link "Dermocosméticos" [ref=e220] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=17933265011&ref_=sv_b_3
+          - link "Maquiagem, No momento, você está em um menu suspenso. Para abrir esse menu suspenso, pressione Enter." [ref=e221] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=16754350011&ref_=sv_b_4
+            - text: Maquiagem
+          - link "Perfumes" [ref=e223] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=16754347011&ref_=sv_b_5
+          - link "Cabelos, No momento, você está em um menu suspenso. Para abrir esse menu suspenso, pressione Enter." [ref=e224] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=16754346011&ref_=sv_b_6
+            - text: Cabelos
+          - link "Secadores e Modeladores, No momento, você está em um menu suspenso. Para abrir esse menu suspenso, pressione Enter." [ref=e226] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=16754371011&ref_=sv_b_7
+            - text: Secadores e Modeladores
+          - link "Manicure e Pedicure" [ref=e228] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=16754349011&ref_=sv_b_8
+          - link "Cachos e Ondas" [ref=e229] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=17925336011&ref_=sv_b_9
+          - link "Mais por Menos" [ref=e230] [cursor=pointer]:
+            - /url: /super/?_encoding=UTF8&ref_=sv_b_10
+        - generic [ref=e234]:
+          - link "Faça seu login" [ref=e235] [cursor=pointer]:
+            - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fdp%2FB07SBXMSGB%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+            - generic [ref=e236]: Faça seu login
+          - generic [ref=e237]:
+            - text: Cliente novo?
+            - link "Novo na Amazon? Comece aqui para criar uma conta" [ref=e238] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/ap/register?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fdp%2FB07SBXMSGB%2F%3F_encoding%3DUTF8%26ref_%3Dnav_custrec_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - text: Comece aqui.
+      - dialog [ref=e243]
+  - generic [ref=e245]:
+    - heading "O resumo do produto apresenta as principais informações do produto Atalho do teclado shift + alt + D" [level=1] [ref=e248]:
+      - button "O resumo do produto apresenta as principais informações do produto" [ref=e249] [cursor=pointer]:
+        - generic [ref=e250]: O resumo do produto apresenta as principais informações do produto
+      - separator [ref=e252]
+      - generic [ref=e253]:
+        - text: Atalho do teclado
+        - generic [ref=e254]: shift + alt + D
+    - main [ref=e255]:
+      - list [ref=e261]:
+        - listitem [ref=e262]:
+          - link "Beleza" [ref=e264] [cursor=pointer]:
+            - /url: /b/ref=dp_bc_1?ie=UTF8&node=16194414011
+        - listitem [ref=e265]: ›
+        - listitem [ref=e266]:
+          - link "Cuidados com o Cabelo" [ref=e268] [cursor=pointer]:
+            - /url: /b/ref=dp_bc_2?ie=UTF8&node=16754346011
+        - listitem [ref=e269]: ›
+        - listitem [ref=e270]:
+          - link "Óleos Capilares" [ref=e272] [cursor=pointer]:
+            - /url: /b/ref=dp_bc_3?ie=UTF8&node=16754521011
+      - generic [ref=e273]:
+        - generic [ref=e274]:
+          - generic [ref=e278]:
+            - group [ref=e281]:
+              - generic [ref=e283]:
+                - button "Compra única R$17,58 l por R$&nbsp;351,60" [expanded] [ref=e284]:
+                  - heading "Compra única R$17,58 l por R$&nbsp;351,60" [level=5] [ref=e286]:
+                    - generic [ref=e287]: Compra única
+                    - generic [ref=e294]:
+                      - generic [ref=e295]:
+                        - generic [ref=e296]: R$17,58
+                        - generic [ref=e297]:
+                          - text: R$
+                          - generic [ref=e298]:
+                            - text: "17"
+                            - generic [ref=e299]: ","
+                          - text: "58"
+                      - generic [ref=e300]:
+                        - generic [ref=e301]: l por R$&nbsp;351,60
+                        - generic [ref=e302]:
+                          - text: (
+                          - generic [ref=e303]:
+                            - generic [ref=e304]: R$351,60
+                            - text: R$351,60
+                          - text: / l)
+                - generic [ref=e309]:
+                  - generic [ref=e311]:
+                    - generic [ref=e314]:
+                      - generic [ref=e316]: "Entrega GRÁTIS: Sábado, 11 de Abril no seu primeiro pedido"
+                      - generic [ref=e318]: "Ou entrega mais rápida: Sexta-feira, 10 de Abril. Se pedir dentro de 1 h 30 mins"
+                    - button "Entregando em Bela Vista, 01319900. Atualizar local" [ref=e321] [cursor=pointer]:
+                      - generic [ref=e327]: Entregando em Bela Vista, 01319900. Atualizar local
+                  - generic [ref=e330]: Em estoque
+                  - generic [ref=e338]:
+                    - generic [ref=e339]: "Quantidade:"
+                    - combobox "Quantidade:" [ref=e340]:
+                      - option "1" [selected]
+                      - option "2"
+                      - option "3"
+                      - option "4"
+                      - option "5"
+                      - option "6"
+                      - option "7"
+                      - option "8"
+                      - option "9"
+                      - option "10"
+                    - generic [ref=e343] [cursor=pointer]: Quantidade:1
+                  - generic [ref=e350] [cursor=pointer]:
+                    - button "Adicionar ao carrinho" [ref=e351]
+                    - generic [ref=e352]: Adicionar ao carrinho
+                  - generic [ref=e357] [cursor=pointer]:
+                    - button "Comprar agora" [ref=e358]
+                    - generic [ref=e359]: Comprar agora
+                  - generic [ref=e362]:
+                    - group "Detalhes do vendedor, do frete e da opção de compra" [ref=e364]:
+                      - generic [ref=e365]:
+                        - heading "Enviado / Vendido" [level=4] [ref=e366]:
+                          - generic [ref=e367]: Enviado / Vendido
+                        - generic [ref=e370]: Amazon.com.br
+                      - generic [ref=e371]:
+                        - heading "Devolução" [level=4] [ref=e372]:
+                          - generic [ref=e373]: Devolução
+                        - button "Elegível para Devolução, Reembolso em até 30 dias após o recebimento" [ref=e376] [cursor=pointer]:
+                          - generic [ref=e377]: Elegível para Devolução, Reembolso em até 30 dias após o recebimento
+                      - generic [ref=e380]:
+                        - heading "Pagamento" [level=4] [ref=e381]:
+                          - generic [ref=e382]: Pagamento
+                        - button "Transação segura" [ref=e385] [cursor=pointer]:
+                          - generic [ref=e386]: Transação segura
+                    - button "Ver mais" [ref=e388] [cursor=pointer]: Ver mais
+              - 'button "Programe e Poupe R$15,82 l por R$&nbsp;316,40 Entrega GRÁTIS: Sábado, 11 de Abril no seu primeiro pedido Enviado / Vendido Amazon.com.br" [ref=e392] [cursor=pointer]':
+                - 'heading "Programe e Poupe R$15,82 l por R$&nbsp;316,40 Entrega GRÁTIS: Sábado, 11 de Abril no seu primeiro pedido Enviado / Vendido Amazon.com.br" [level=5] [ref=e394]':
+                  - generic [ref=e395]:
+                    - generic [ref=e398]: Programe e Poupe
+                    - generic [ref=e408]:
+                      - generic [ref=e409]:
+                        - generic [ref=e410]: R$15,82
+                        - generic [ref=e411]:
+                          - text: R$
+                          - generic [ref=e412]:
+                            - text: "15"
+                            - generic [ref=e413]: ","
+                          - text: "82"
+                      - generic [ref=e414]:
+                        - generic [ref=e415]: l por R$&nbsp;316,40
+                        - generic [ref=e416]:
+                          - text: (
+                          - generic [ref=e417]:
+                            - generic [ref=e418]: R$316,40
+                            - text: R$316,40
+                          - text: / l)
+                    - generic [ref=e423]: "Entrega GRÁTIS: Sábado, 11 de Abril no seu primeiro pedido"
+                    - generic [ref=e428]:
+                      - generic [ref=e430]: Enviado / Vendido
+                      - generic [ref=e433]: Amazon.com.br
+            - link "Adicionar à Lista" [ref=e442] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fgp%2Faw%2Fd%2FB07SBXMSGB&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=bramazon&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&
+          - generic [ref=e446]:
+            - generic [ref=e447]: Outros vendedores na Amazon
+            - separator [ref=e448]
+            - button "Comparar outras 22 ofertas a partir de R$17,58 Frete GRÁTIS no seu primeiro pedido." [ref=e451] [cursor=pointer]:
+              - text: Comparar outras 22 ofertas a partir de
+              - generic [ref=e452]:
+                - generic [ref=e453]: R$17,58
+                - generic [ref=e454]:
+                  - text: R$
+                  - generic [ref=e455]:
+                    - text: "17"
+                    - generic [ref=e456]: ","
+                  - text: "58"
+              - generic [ref=e457]: Frete GRÁTIS no seu primeiro pedido.
+        - generic [ref=e460]:
+          - button "Compartilhar" [ref=e461]:
+            - button "Compartilhar" [ref=e462] [cursor=pointer]
+          - generic [ref=e465]:
+            - radiogroup "Miniaturas de imagem" [ref=e467]:
+              - listitem [ref=e468]:
+                - radio [ref=e473] [cursor=pointer]
+              - listitem [ref=e475]:
+                - radio [ref=e480] [cursor=pointer]
+              - listitem [ref=e482]:
+                - radio [ref=e487] [cursor=pointer]
+              - listitem [ref=e489]:
+                - radio [ref=e494] [cursor=pointer]
+              - listitem [ref=e496]:
+                - radio [ref=e501] [cursor=pointer]
+              - listitem [ref=e503]:
+                - radio [ref=e508] [cursor=pointer]
+            - generic [ref=e510]:
+              - generic [ref=e512]:
+                - list
+                - list [ref=e513]:
+                  - listitem [ref=e514] [cursor=pointer]:
+                    - button "Argan Óleo Reparador 50ml , Lola Cosmetics" [ref=e517]:
+                      - img "Argan Óleo Reparador 50ml , Lola Cosmetics" [ref=e518]
+              - link "Clique para ver a imagem completa" [ref=e522] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e523]:
+          - heading "Argan Óleo Reparador 50ml , Lola Cosmetics" [level=1] [ref=e526]
+          - link "Visite a loja Lola" [ref=e529] [cursor=pointer]:
+            - /url: /stores/LolaFromRio/page/DFC81C5F-0170-40B0-9A31-E95AE590AFF5?lp_asin=B07SBXMSGB&ref_=ast_bln
+          - generic [ref=e531]:
+            - generic "4,8 de 5 estrelas" [ref=e533]:
+              - button "4,8 de 5 estrelas" [ref=e535] [cursor=pointer]:
+                - text: 4,8
+                - generic [ref=e537]: 4,8 de 5 estrelas
+            - link "41.026 Análises" [ref=e540] [cursor=pointer]:
+              - /url: "#averageCustomerReviewsAnchor"
+              - text: (41.026)
+          - generic [ref=e545]: Escolha da Amazon
+          - generic [ref=e549]: Mais de 20 mil compras no mês passado
+          - separator [ref=e550]
+          - generic [ref=e555]:
+            - generic [ref=e556]:
+              - generic [ref=e557]:
+                - generic [ref=e558]: R$ 17,58 com 60 por cento de desconto
+                - generic [ref=e559]: "-60%"
+                - generic [ref=e561]:
+                  - text: R$
+                  - generic [ref=e562]:
+                    - text: "17"
+                    - generic [ref=e563]: ","
+                  - text: "58"
+                - generic [ref=e565]:
+                  - generic [ref=e566]: l por R$&nbsp;351,60
+                  - generic [ref=e567]:
+                    - text: (
+                    - generic [ref=e568]:
+                      - generic [ref=e569]: R$351,60
+                      - text: R$351,60
+                    - text: / l)
+              - generic [ref=e571]:
+                - generic [ref=e572]:
+                  - generic [ref=e573]: "De: R$ 44,90"
+                  - generic [ref=e574]:
+                    - text: "De:"
+                    - generic [ref=e575]:
+                      - generic [ref=e576]: R$44,90
+                      - text: R$44,90
+                - link "Saiba mais sobre preços e descontos da Amazon" [ref=e579] [cursor=pointer]:
+                  - /url: "#"
+                  - img "Saiba mais sobre preços e descontos da Amazon" [ref=e580]
+            - generic:
+              - table
+            - generic [ref=e585]:
+              - generic [ref=e587]:
+                - text: Faça login para resgatar.
+                - generic [ref=e588] [cursor=pointer]: R$20
+                - generic [ref=e589]:
+                  - text: off. Insira o código COMPRANOAPP na hora do pagamento. Na sua primeira compra na Amazon. Válido somente no app
+                  - link "Termos" [ref=e592] [cursor=pointer]:
+                    - /url: "#"
+              - generic [ref=e594]:
+                - text: Faça login para resgatar.
+                - generic [ref=e595] [cursor=pointer]: R$20
+                - generic [ref=e596]:
+                  - text: off. Insira o código VEMNOAPP na hora do pagamento. Válido na sua primeira compra no app
+                  - link "Termos" [ref=e599] [cursor=pointer]:
+                    - /url: "#"
+              - generic [ref=e601]:
+                - generic [ref=e602] [cursor=pointer]: "Mais por Menos: 10%"
+                - generic [ref=e603]:
+                  - text: off em 10+ itens
+                  - link "Comprar itens elegíveis" [ref=e605] [cursor=pointer]:
+                    - /url: /fmc/everyday-essentials-category?node=206762043011&ref=cxcw_bxgx_alt_A22PDIX9XDC9EZ&source=dp_cxcw
+              - generic [ref=e607]:
+                - text: Faça login para resgatar.
+                - generic [ref=e608] [cursor=pointer]: "Exclusivo Prime: Economize R$25"
+                - generic [ref=e609]:
+                  - text: "em pedidos R$60+ cupom: MAISCOMPRIME. Válido na sua primeira compra na Amazon"
+                  - link "Termos" [ref=e612] [cursor=pointer]:
+                    - /url: "#"
+          - button "Ver opções de pagamento" [ref=e617] [cursor=pointer]: Ver opções de pagamento
+          - generic [ref=e625]:
+            - button "Pagamentos e Segurança" [ref=e629] [cursor=pointer]
+            - button "Enviado pela Amazon" [ref=e633] [cursor=pointer]
+            - button "Política de devolução" [ref=e638] [cursor=pointer]
+          - list [ref=e641]:
+            - rowgroup [ref=e642]:
+              - listitem [ref=e643]: Vantagens do produto Frizz
+              - listitem [ref=e644]: Tipo de cabelo Todos os tipos de cabelos
+              - listitem [ref=e645]: Tipo de material livre Produto vegano
+              - listitem [ref=e646]: Aroma Floral amadeirada com toque cítrico e notas doces especiadas
+              - listitem [ref=e647]: Volume líquido 50 Mililitros
+          - generic [ref=e649]:
+            - separator [ref=e650]
+            - heading "Sobre este item" [level=1] [ref=e651]
+            - list [ref=e652]:
+              - listitem [ref=e653]: ▸Este óleo de tratamento é ideal para a finalização e reconstrução de cabelos danificados. ▸ Ajuda a alinhar os fios com leveza, sem deixar resíduos ou aspecto pesado. ▸O Lola Argan Oil previne danos causados pelo calor de secadores e pranchas. ▸ Possui uma formulação leve que não pesa nos fios e é absorvida rapidamente. ▸Excelente para uso diário, mantém o cabelo protegido contra agressores externos. ▸ Elimina o efeito arrepiado (frizz), conferindo um brilho intenso e notável. ▸O óleo de argan para cabelo deixa os fios sutilmente perfumados com um aroma muito agradável.
+            - generic [ref=e654]:
+              - text: ›
+              - link "Ver mais detalhes do produto" [ref=e655] [cursor=pointer]:
+                - /url: "#productDetails"
+          - generic [ref=e662]:
+            - heading "Os clientes geralmente ficam com este produto" [level=5] [ref=e663]:
+              - paragraph [ref=e664]: Os clientes geralmente ficam com este produto
+            - paragraph [ref=e666]: Este produto tem menos devoluções do que a média em comparação com produtos similares.
+          - link "Relatar um problema com este produto" [ref=e671] [cursor=pointer]:
+            - /url: "#"
+            - text: Relatar um problema com este produto
+        - generic [ref=e674]:
+          - separator [ref=e675]
+          - generic [ref=e681]:
+            - link [ref=e683] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/b/?_encoding=UTF8&node=23467677011&pf_rd_p=95afaf16-5773-4fe6-92b2-2fdde0af3504&pf_rd_r=DJWR4BEZTA9QP1BS15E2
+            - generic [ref=e684]:
+              - generic [ref=e686]: Loja de Compras Internacionais
+              - generic [ref=e688]:
+                - text: Encontre milhares de produtos internacionais de Beleza como este.
+                - link "Loja de Compras Internacionais" [ref=e689] [cursor=pointer]:
+                  - /url: https://www.amazon.com.br/b/?_encoding=UTF8&node=23467677011&pf_rd_p=95afaf16-5773-4fe6-92b2-2fdde0af3504&pf_rd_r=DJWR4BEZTA9QP1BS15E2
+                  - text: Confira.
+      - generic [ref=e694]:
+        - separator [ref=e695]
+        - heading "Frequentemente comprados juntos" [level=2] [ref=e696]
+        - generic [ref=e697]:
+          - group "Frequentemente comprados juntos" [ref=e698]:
+            - generic [ref=e699]:
+              - generic [ref=e700]:
+                - 'checkbox "Este item: Argan Óleo Reparador 50ml , Lola Cosmetics" [checked] [ref=e706]'
+                - generic [ref=e711]:
+                  - generic [ref=e713]: "Este item: Argan Óleo Reparador 50ml , Lola Cosmetics"
+                  - generic [ref=e719]:
+                    - generic [ref=e720]:
+                      - generic [ref=e721]: R$17,58
+                      - generic [ref=e722]:
+                        - text: R$
+                        - generic [ref=e723]:
+                          - text: "17"
+                          - generic [ref=e724]: ","
+                        - text: "58"
+                    - text: (R$ 351,60/l)
+              - generic [ref=e725]:
+                - generic [ref=e726]:
+                  - generic [ref=e727]: +
+                  - checkbox "Danos Vorazes Óleo Reparador 50ml , Lola Cosmetics" [checked] [ref=e731]
+                  - link "Danos Vorazes Óleo Reparador 50ml , Lola Cosmetics" [ref=e735] [cursor=pointer]:
+                    - /url: /DANOS-VORAZES-REPARADOR-Lola-Cosmetics/dp/B09GHN14FP/ref=pd_bxgy_thbs_d_sccl_1/140-5235038-8618349?pd_rd_w=TKirR&content-id=amzn1.sym.ea5263f5-901f-4a74-9b73-3fc0e530788d&pf_rd_p=ea5263f5-901f-4a74-9b73-3fc0e530788d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B09GHN14FP&psc=1
+                    - img "Danos Vorazes Óleo Reparador 50ml , Lola Cosmetics" [ref=e736]
+                - generic [ref=e737]:
+                  - link "Danos Vorazes Óleo Reparador 50ml , Lola Cosmetics" [ref=e739] [cursor=pointer]:
+                    - /url: /DANOS-VORAZES-REPARADOR-Lola-Cosmetics/dp/B09GHN14FP/ref=pd_bxgy_d_sccl_1/140-5235038-8618349?pd_rd_w=TKirR&content-id=amzn1.sym.ea5263f5-901f-4a74-9b73-3fc0e530788d&pf_rd_p=ea5263f5-901f-4a74-9b73-3fc0e530788d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B09GHN14FP&psc=1
+                    - generic [ref=e740]: Danos Vorazes Óleo Reparador 50ml , Lola Cosmetics
+                  - generic [ref=e746]:
+                    - generic [ref=e747]:
+                      - generic [ref=e748]: R$15,21
+                      - generic [ref=e749]:
+                        - text: R$
+                        - generic [ref=e750]:
+                          - text: "15"
+                          - generic [ref=e751]: ","
+                        - text: "21"
+                    - text: (R$ 15,21/unidade)
+              - generic [ref=e752]:
+                - generic [ref=e753]:
+                  - generic [ref=e754]: +
+                  - checkbox "Pinga Cenoura e Oliva Óleo 50ml , Lola Cosmetics" [checked] [ref=e758]
+                  - link "Pinga Cenoura e Oliva Óleo 50ml , Lola Cosmetics" [ref=e762] [cursor=pointer]:
+                    - /url: /Pinga-Cenoura-Oliva-Lola-Cosmetics/dp/B07QHKCG9N/ref=pd_bxgy_thbs_d_sccl_2/140-5235038-8618349?pd_rd_w=TKirR&content-id=amzn1.sym.ea5263f5-901f-4a74-9b73-3fc0e530788d&pf_rd_p=ea5263f5-901f-4a74-9b73-3fc0e530788d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B07QHKCG9N&psc=1
+                    - img "Pinga Cenoura e Oliva Óleo 50ml , Lola Cosmetics" [ref=e763]
+                - generic [ref=e764]:
+                  - link "Pinga Cenoura e Oliva Óleo 50ml , Lola Cosmetics" [ref=e766] [cursor=pointer]:
+                    - /url: /Pinga-Cenoura-Oliva-Lola-Cosmetics/dp/B07QHKCG9N/ref=pd_bxgy_d_sccl_2/140-5235038-8618349?pd_rd_w=TKirR&content-id=amzn1.sym.ea5263f5-901f-4a74-9b73-3fc0e530788d&pf_rd_p=ea5263f5-901f-4a74-9b73-3fc0e530788d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B07QHKCG9N&psc=1
+                    - generic [ref=e767]: Pinga Cenoura e Oliva Óleo 50ml , Lola Cosmetics
+                  - generic [ref=e773]:
+                    - generic [ref=e774]:
+                      - generic [ref=e775]: R$17,91
+                      - generic [ref=e776]:
+                        - text: R$
+                        - generic [ref=e777]:
+                          - text: "17"
+                          - generic [ref=e778]: ","
+                        - text: "91"
+                    - text: (R$ 358,20/l)
+          - generic [ref=e780]:
+            - generic [ref=e782]:
+              - text: "Preço total:"
+              - generic [ref=e783]:
+                - generic [ref=e784]: R$ 50.70
+                - generic [ref=e785]:
+                  - text: R$
+                  - generic [ref=e786]: 50,
+                  - text: "70"
+            - generic [ref=e792] [cursor=pointer]:
+              - button "Adicionar todos os 3 ao carrinho, Argan Óleo Reparador 50ml , Lola Cosmetics" [ref=e793]
+              - generic [ref=e794]: Adicionar todos os 3 ao carrinho
+      - generic [ref=e797]:
+        - separator [ref=e798]
+        - group [ref=e801]:
+          - heading "Clientes que visualizaram este item também visualizaram" [level=2] [ref=e806]
+          - group [ref=e811]:
+            - list [ref=e812]:
+              - listitem [ref=e813]:
+                - generic [ref=e815]:
+                  - link [ref=e816] [cursor=pointer]:
+                    - /url: /DANOS-VORAZES-REPARADOR-Lola-Cosmetics/dp/B09GHN14FP/ref=pd_sbs_d_sccl_1_1/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B09GHN14FP&psc=1
+                    - img [ref=e818]
+                  - generic [ref=e820]:
+                    - link "Danos Vorazes Óleo Reparador 50ml , Lola Cosmetics" [ref=e821] [cursor=pointer]:
+                      - /url: /DANOS-VORAZES-REPARADOR-Lola-Cosmetics/dp/B09GHN14FP/ref=pd_sbs_d_sccl_1_1/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B09GHN14FP&psc=1
+                      - generic [ref=e823]: Danos Vorazes Óleo Reparador 50ml , Lola Cosmetics
+                    - link "4,8 de 5 estrelas, 15.588 classificações" [ref=e826] [cursor=pointer]:
+                      - /url: /product-reviews/B09GHN14FP/ref=pd_sbs_d_sccl_1_1_cr/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B09GHN14FP
+                      - generic [ref=e828]: 4,8 de 5 estrelas
+                      - text: "15.588"
+                    - generic [ref=e831]:
+                      - link:
+                        - /url: /DANOS-VORAZES-REPARADOR-Lola-Cosmetics/dp/B09GHN14FP/ref=pd_sbs_d_sccl_1_1/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B09GHN14FP&psc=1
+                      - generic [ref=e832]:
+                        - link "R$15,21" [ref=e833] [cursor=pointer]:
+                          - /url: /DANOS-VORAZES-REPARADOR-Lola-Cosmetics/dp/B09GHN14FP/ref=pd_sbs_d_sccl_1_1/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B09GHN14FP&psc=1
+                          - generic [ref=e834]:
+                            - generic [ref=e835]: R$15,21
+                            - generic [ref=e836]:
+                              - text: R$
+                              - generic [ref=e837]: 15,
+                              - text: "21"
+                        - link "(R$ 15,21/unidade)" [ref=e838] [cursor=pointer]:
+                          - /url: /DANOS-VORAZES-REPARADOR-Lola-Cosmetics/dp/B09GHN14FP/ref=pd_sbs_d_sccl_1_1/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B09GHN14FP&psc=1
+              - listitem [ref=e839]:
+                - generic [ref=e841]:
+                  - link [ref=e842] [cursor=pointer]:
+                    - /url: /FEIRA-CRONOLOLA-Cronograma-Capilar-Produtos/dp/B0DKVJ1HWB/ref=pd_sbs_d_sccl_1_2/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B0DKVJ1HWB&psc=1
+                    - img [ref=e844]
+                  - generic [ref=e846]:
+                    - link "Kit Cronograma Capilar Be(m) dita Ghee 3 Produtos, Lola Cosmetics" [ref=e847] [cursor=pointer]:
+                      - /url: /FEIRA-CRONOLOLA-Cronograma-Capilar-Produtos/dp/B0DKVJ1HWB/ref=pd_sbs_d_sccl_1_2/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B0DKVJ1HWB&psc=1
+                      - generic [ref=e849]: Kit Cronograma Capilar Be(m) dita Ghee 3 Produtos, Lola Cosmetics
+                    - link "4,8 de 5 estrelas, 4.862 classificações" [ref=e852] [cursor=pointer]:
+                      - /url: /product-reviews/B0DKVJ1HWB/ref=pd_sbs_d_sccl_1_2_cr/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B0DKVJ1HWB
+                      - generic [ref=e854]: 4,8 de 5 estrelas
+                      - text: "4.862"
+                    - generic [ref=e855]:
+                      - link "1º mais vendido":
+                        - /url: /gp/bestsellers/beauty/16754368011/ref=zg_b_bs_16754368011_1/ref=pd_sbs_d_sccl_1_2_bsb/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B0DKVJ1HWB
+                        - generic [ref=e859] [cursor=pointer]: 1º mais vendido
+                    - generic [ref=e860]:
+                      - generic [ref=e862]:
+                        - link:
+                          - /url: /FEIRA-CRONOLOLA-Cronograma-Capilar-Produtos/dp/B0DKVJ1HWB/ref=pd_sbs_d_sccl_1_2/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B0DKVJ1HWB&psc=1
+                        - generic [ref=e863]:
+                          - link "R$50,79" [ref=e864] [cursor=pointer]:
+                            - /url: /FEIRA-CRONOLOLA-Cronograma-Capilar-Produtos/dp/B0DKVJ1HWB/ref=pd_sbs_d_sccl_1_2/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B0DKVJ1HWB&psc=1
+                            - generic [ref=e865]:
+                              - generic [ref=e866]: R$50,79
+                              - generic [ref=e867]:
+                                - text: R$
+                                - generic [ref=e868]: 50,
+                                - text: "79"
+                          - link "(R$ 50,79/unidade)" [ref=e869] [cursor=pointer]:
+                            - /url: /FEIRA-CRONOLOLA-Cronograma-Capilar-Produtos/dp/B0DKVJ1HWB/ref=pd_sbs_d_sccl_1_2/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B0DKVJ1HWB&psc=1
+                      - generic [ref=e871]: Receba até sábado, abril 11
+                    - text: Opção de frete GRÁTIS disponível
+              - listitem [ref=e872]:
+                - generic [ref=e874]:
+                  - link [ref=e875] [cursor=pointer]:
+                    - /url: /Lola-Cosmetics-Rapunzel-M%C3%A1scara-450g/dp/B0C4QPGK3L/ref=pd_sbs_d_sccl_1_3/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B0C4QPGK3L&psc=1
+                    - img [ref=e877]
+                  - generic [ref=e879]:
+                    - link "Rapunzel Máscara de Tratamento 450g , Lola Cosmetics" [ref=e880] [cursor=pointer]:
+                      - /url: /Lola-Cosmetics-Rapunzel-M%C3%A1scara-450g/dp/B0C4QPGK3L/ref=pd_sbs_d_sccl_1_3/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B0C4QPGK3L&psc=1
+                      - generic [ref=e882]: Rapunzel Máscara de Tratamento 450g , Lola Cosmetics
+                    - link "4,7 de 5 estrelas, 5.936 classificações" [ref=e885] [cursor=pointer]:
+                      - /url: /product-reviews/B0C4QPGK3L/ref=pd_sbs_d_sccl_1_3_cr/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B0C4QPGK3L
+                      - generic [ref=e887]: 4,7 de 5 estrelas
+                      - text: "5.936"
+                    - generic [ref=e888]:
+                      - generic [ref=e890]:
+                        - link:
+                          - /url: /Lola-Cosmetics-Rapunzel-M%C3%A1scara-450g/dp/B0C4QPGK3L/ref=pd_sbs_d_sccl_1_3/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B0C4QPGK3L&psc=1
+                        - generic [ref=e891]:
+                          - link "R$31,66" [ref=e892] [cursor=pointer]:
+                            - /url: /Lola-Cosmetics-Rapunzel-M%C3%A1scara-450g/dp/B0C4QPGK3L/ref=pd_sbs_d_sccl_1_3/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B0C4QPGK3L&psc=1
+                            - generic [ref=e893]:
+                              - generic [ref=e894]: R$31,66
+                              - generic [ref=e895]:
+                                - text: R$
+                                - generic [ref=e896]: 31,
+                                - text: "66"
+                          - link "(R$ 31.660,00/kg)" [ref=e897] [cursor=pointer]:
+                            - /url: /Lola-Cosmetics-Rapunzel-M%C3%A1scara-450g/dp/B0C4QPGK3L/ref=pd_sbs_d_sccl_1_3/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B0C4QPGK3L&psc=1
+                      - generic [ref=e899]: Receba até sábado, abril 11
+                    - text: Opção de frete GRÁTIS disponível
+              - listitem [ref=e900]:
+                - generic [ref=e902]:
+                  - link [ref=e903] [cursor=pointer]:
+                    - /url: /Camomila-Oleo-Iluminador-Lola-Cosmetics/dp/B08RCVCC5X/ref=pd_sbs_d_sccl_1_4/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B08RCVCC5X&psc=1
+                    - img [ref=e905]
+                  - generic [ref=e907]:
+                    - link "Óleo Iluminador de Camomila 50ml, Lola Cosmetics" [ref=e908] [cursor=pointer]:
+                      - /url: /Camomila-Oleo-Iluminador-Lola-Cosmetics/dp/B08RCVCC5X/ref=pd_sbs_d_sccl_1_4/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B08RCVCC5X&psc=1
+                      - generic [ref=e910]: Óleo Iluminador de Camomila 50ml, Lola Cosmetics
+                    - link "3,9 de 5 estrelas, 48 classificações" [ref=e913] [cursor=pointer]:
+                      - /url: /product-reviews/B08RCVCC5X/ref=pd_sbs_d_sccl_1_4_cr/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B08RCVCC5X
+                      - generic [ref=e915]: 3,9 de 5 estrelas
+                      - text: "48"
+                    - generic [ref=e916]:
+                      - generic [ref=e918]:
+                        - link:
+                          - /url: /Camomila-Oleo-Iluminador-Lola-Cosmetics/dp/B08RCVCC5X/ref=pd_sbs_d_sccl_1_4/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B08RCVCC5X&psc=1
+                        - generic [ref=e919]:
+                          - link "R$22,81" [ref=e920] [cursor=pointer]:
+                            - /url: /Camomila-Oleo-Iluminador-Lola-Cosmetics/dp/B08RCVCC5X/ref=pd_sbs_d_sccl_1_4/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B08RCVCC5X&psc=1
+                            - generic [ref=e921]:
+                              - generic [ref=e922]: R$22,81
+                              - generic [ref=e923]:
+                                - text: R$
+                                - generic [ref=e924]: 22,
+                                - text: "81"
+                          - link "(R$ 0,46/milímetro)" [ref=e925] [cursor=pointer]:
+                            - /url: /Camomila-Oleo-Iluminador-Lola-Cosmetics/dp/B08RCVCC5X/ref=pd_sbs_d_sccl_1_4/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B08RCVCC5X&psc=1
+                      - generic [ref=e927]: Receba até sábado, abril 11
+                    - text: Opção de frete GRÁTIS disponível
+              - listitem [ref=e928]:
+                - generic [ref=e930]:
+                  - link [ref=e931] [cursor=pointer]:
+                    - /url: /Pinga-A%C3%A7ai-Pracaxi-Lola-Cosmetics/dp/B07QC7HJJF/ref=pd_sbs_d_sccl_1_5/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B07QC7HJJF&psc=1
+                    - img [ref=e933]
+                  - generic [ref=e935]:
+                    - link "Pinga Açaí e Pracaxi Óleo 50ml , Lola Cosmetics" [ref=e936] [cursor=pointer]:
+                      - /url: /Pinga-A%C3%A7ai-Pracaxi-Lola-Cosmetics/dp/B07QC7HJJF/ref=pd_sbs_d_sccl_1_5/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B07QC7HJJF&psc=1
+                      - generic [ref=e938]: Pinga Açaí e Pracaxi Óleo 50ml , Lola Cosmetics
+                    - link "4,8 de 5 estrelas, 20.157 classificações" [ref=e941] [cursor=pointer]:
+                      - /url: /product-reviews/B07QC7HJJF/ref=pd_sbs_d_sccl_1_5_cr/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B07QC7HJJF
+                      - generic [ref=e943]: 4,8 de 5 estrelas
+                      - text: "20.157"
+                    - generic [ref=e946]:
+                      - link:
+                        - /url: /Pinga-A%C3%A7ai-Pracaxi-Lola-Cosmetics/dp/B07QC7HJJF/ref=pd_sbs_d_sccl_1_5/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B07QC7HJJF&psc=1
+                      - generic [ref=e947]:
+                        - link "R$18,63" [ref=e948] [cursor=pointer]:
+                          - /url: /Pinga-A%C3%A7ai-Pracaxi-Lola-Cosmetics/dp/B07QC7HJJF/ref=pd_sbs_d_sccl_1_5/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B07QC7HJJF&psc=1
+                          - generic [ref=e949]:
+                            - generic [ref=e950]: R$18,63
+                            - generic [ref=e951]:
+                              - text: R$
+                              - generic [ref=e952]: 18,
+                              - text: "63"
+                        - link "(R$ 372,60/l)" [ref=e953] [cursor=pointer]:
+                          - /url: /Pinga-A%C3%A7ai-Pracaxi-Lola-Cosmetics/dp/B07QC7HJJF/ref=pd_sbs_d_sccl_1_5/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B07QC7HJJF&psc=1
+              - listitem [ref=e954]:
+                - generic [ref=e956]:
+                  - link [ref=e957] [cursor=pointer]:
+                    - /url: /Lola-Cosmetics-Xapadinha-Oleo-Disciplinante/dp/B0CGBS6WSY/ref=pd_sbs_d_sccl_1_6/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B0CGBS6WSY&psc=1
+                    - img [ref=e959]
+                  - generic [ref=e961]:
+                    - link "Xapadinha Óleo Disciplinante 50ml , Lola Cosmetics" [ref=e962] [cursor=pointer]:
+                      - /url: /Lola-Cosmetics-Xapadinha-Oleo-Disciplinante/dp/B0CGBS6WSY/ref=pd_sbs_d_sccl_1_6/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B0CGBS6WSY&psc=1
+                      - generic [ref=e964]: Xapadinha Óleo Disciplinante 50ml , Lola Cosmetics
+                    - link "4,6 de 5 estrelas, 1.591 classificações" [ref=e967] [cursor=pointer]:
+                      - /url: /product-reviews/B0CGBS6WSY/ref=pd_sbs_d_sccl_1_6_cr/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B0CGBS6WSY
+                      - generic [ref=e969]: 4,6 de 5 estrelas
+                      - text: "1.591"
+                    - generic [ref=e970]:
+                      - generic [ref=e972]:
+                        - link:
+                          - /url: /Lola-Cosmetics-Xapadinha-Oleo-Disciplinante/dp/B0CGBS6WSY/ref=pd_sbs_d_sccl_1_6/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B0CGBS6WSY&psc=1
+                        - generic [ref=e973]:
+                          - link "R$25,65" [ref=e974] [cursor=pointer]:
+                            - /url: /Lola-Cosmetics-Xapadinha-Oleo-Disciplinante/dp/B0CGBS6WSY/ref=pd_sbs_d_sccl_1_6/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B0CGBS6WSY&psc=1
+                            - generic [ref=e975]:
+                              - generic [ref=e976]: R$25,65
+                              - generic [ref=e977]:
+                                - text: R$
+                                - generic [ref=e978]: 25,
+                                - text: "65"
+                          - link "(R$ 513,00/l)" [ref=e979] [cursor=pointer]:
+                            - /url: /Lola-Cosmetics-Xapadinha-Oleo-Disciplinante/dp/B0CGBS6WSY/ref=pd_sbs_d_sccl_1_6/140-5235038-8618349?pd_rd_w=wcRO0&content-id=amzn1.sym.068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_p=068219f2-2859-4ecd-b083-e5bfc6d7772d&pf_rd_r=DJWR4BEZTA9QP1BS15E2&pd_rd_wg=kH99A&pd_rd_r=53a29f6f-ce9b-40d0-9ef5-b1a4bd338133&pd_rd_i=B0CGBS6WSY&psc=1
+                      - generic [ref=e981]: Receba até sábado, abril 11
+                    - text: Opção de frete GRÁTIS disponível
+      - generic [ref=e990]:
+        - heading "Informações importantes" [level=2] [ref=e991]
+        - generic [ref=e992]:
+          - heading "Informações de segurança" [level=4] [ref=e993]
+          - paragraph
+          - paragraph [ref=e994]: Uso externo. Não ingerir. Evitar contato com olhos e mucosas. Manter fora do alcance de crianças. Conservar em local fresco e ao abrigo da luz. Suspenda o uso em caso de irritação. Pessoas alérgicas a componentes da fórmula não devem utilizar.
+          - paragraph
+        - generic [ref=e995]:
+          - heading "Instruções" [level=4] [ref=e996]
+          - paragraph
+          - paragraph [ref=e997]: Aplique uma pequena quantidade de óleo nos fios úmidos ou secos, evitando a raiz. Penteie para distribuir uniformemente. Use antes ou depois de estilizar os cabelos para proteger e reparar os fios.
+          - paragraph
+      - generic [ref=e1000]:
+        - heading "Descrição do produto" [level=2] [ref=e1003]
+        - paragraph [ref=e1005]: Óleo de Argan com fórmula leve de toque seco para fios macios, com controle do frizz e estática.O Óleo de Argan é rico em ácidos graxos, vitamina A, D e E, o óleo de Argan é um poderoso hidratante e antioxidante natural que retarda o envelhecimento dos fios, restaura a fibra capilar, fortalecendo, nutrindo e revitalizando o couro cabeludo e os fios. Além disso ele minimiza o desgaste dos fios provocado por poluição, sol, vento, secador, chapinha, piscina, mar e processos químicos.
+      - generic [ref=e1007]:
+        - separator [ref=e1008]
+        - heading "Do fabricante" [level=2] [ref=e1009]
+        - generic [ref=e1012]:
+          - img "ARGAN" [ref=e1017]
+          - img "argan" [ref=e1030]
+          - generic [ref=e1033]:
+            - region "Carrossel de conteúdo em destaque" [ref=e1034]:
+              - list [ref=e1039]:
+                - listitem [ref=e1040]:
+                  - img "ARGAN" [ref=e1043]
+                - listitem [ref=e1044]:
+                  - img "ARGAN" [ref=e1047]
+            - tablist "tablist-section" [ref=e1051]:
+              - listitem [ref=e1052]:
+                - tab "slide-1" [selected] [ref=e1053] [cursor=pointer]
+              - listitem [ref=e1054]:
+                - tab "slide-2" [ref=e1055] [cursor=pointer]
+          - img "argan" [ref=e1060]
+          - generic [ref=e1063]:
+            - generic [ref=e1067]: ARGAN OIL
+            - generic [ref=e1070]:
+              - heading "Máscaras queridinhas" [level=3] [ref=e1072]
+              - table [ref=e1075]:
+                - rowgroup [ref=e1076]:
+                  - row
+                  - row "Reconstrução INDICAÇÃO Reparação" [ref=e1077]:
+                    - cell "Reconstrução" [ref=e1078]:
+                      - heading "Reconstrução" [level=3] [ref=e1079]
+                    - cell "INDICAÇÃO" [ref=e1080]:
+                      - heading "INDICAÇÃO" [level=3] [ref=e1081]
+                    - cell "Reparação" [ref=e1082]:
+                      - heading "Reparação" [level=3] [ref=e1083]
+                  - row
+                  - row "PROTEÇÃO TÉRMICA" [ref=e1084]:
+                    - cell [ref=e1085]
+                    - cell "PROTEÇÃO TÉRMICA" [ref=e1090]:
+                      - heading "PROTEÇÃO TÉRMICA" [level=3] [ref=e1091]
+                    - cell [ref=e1092]
+                  - row
+                  - row "LINHA COMPLETA" [ref=e1097]:
+                    - cell [ref=e1098]
+                    - cell "LINHA COMPLETA" [ref=e1103]:
+                      - heading "LINHA COMPLETA" [level=3] [ref=e1104]
+                    - cell [ref=e1105]
+            - generic [ref=e1111]:
+              - region "Carrossel de conteúdo em destaque" [ref=e1112]:
+                - list [ref=e1117]:
+                  - listitem [ref=e1118]:
+                    - generic [ref=e1119]:
+                      - generic [ref=e1121]: DANOS VORAZES
+                      - img "danos" [ref=e1122]
+                      - link "Mais informações" [ref=e1126] [cursor=pointer]:
+                        - /url: /dp/B09GHN14FP?ref=emc_p_m_9_b
+                  - listitem [ref=e1127]:
+                    - generic [ref=e1128]:
+                      - generic [ref=e1130]: BE(M)DITA GHEE
+                      - img "1" [ref=e1131]
+                      - link "Mais informações" [ref=e1135] [cursor=pointer]:
+                        - /url: /dp/B0D849R6RQ?ref=emc_p_m_9_b
+                  - listitem [ref=e1136]:
+                    - generic [ref=e1137]:
+                      - generic [ref=e1139]: PINGA!
+                      - img "1" [ref=e1140]
+                      - link "Mais informações" [ref=e1144] [cursor=pointer]:
+                        - /url: /dp/B07QC7HJJF?ref=emc_p_m_9_b
+              - tablist "tablist-section" [ref=e1148]:
+                - listitem [ref=e1149]:
+                  - tab "slide-1" [selected] [ref=e1150] [cursor=pointer]
+                - listitem [ref=e1151]:
+                  - tab "slide-2" [ref=e1152] [cursor=pointer]
+                - listitem [ref=e1153]:
+                  - tab "slide-3" [ref=e1154] [cursor=pointer]
+          - generic [ref=e1165]:
+            - generic "Clique para reproduzir o vídeo, familia argan oil"
+            - application [ref=e1166]
+            - button "Clique para reproduzir o vídeo" [ref=e1168] [cursor=pointer]:
+              - text: 
+              - generic [ref=e1169]: Clique para reproduzir o vídeo
+            - text:          
+      - generic:
+        - navigation:
+          - navigation "Navigate within the product detail page":
+            - navigation "Back to top jump link":
+              - generic:
+                - generic: topo
+            - navigation "About this item widget jump link":
+              - generic:
+                - generic: Sobre este produto
+            - navigation "Similar widget jump link":
+              - generic:
+                - generic: Semelhante
+            - navigation "Product information widget jump link":
+              - generic:
+                - generic: Informações do produto
+            - navigation "From the brand widget jump link":
+              - generic:
+                - generic: Da marca
+            - navigation "Customer reviews widget jump link":
+              - generic:
+                - generic: Avaliações
+          - navigation "Back to top Image jump link":
+            - img "Argan Óleo Reparador 50ml , Lola Cosmetics"
+          - navigation "Back to top title jump link":
+            - generic: Argan Óleo Reparador 50ml , Lola Cosmetics
+      - generic [ref=e1170]:
+        - separator [ref=e1171]
+        - generic [ref=e1173]:
+          - heading "Especificações do produto" [level=1] [ref=e1174]
+          - generic [ref=e1178]:
+            - generic [ref=e1181]:
+              - button "Características e Especificações" [ref=e1184] [cursor=pointer]:
+                - heading "Características e Especificações" [level=5] [ref=e1186]
+              - button "Detalhes do Produto" [ref=e1189] [cursor=pointer]:
+                - heading "Detalhes do Produto" [level=5] [ref=e1191]
+            - generic [ref=e1195]:
+              - button "Medidas" [ref=e1198] [cursor=pointer]:
+                - heading "Medidas" [level=5] [ref=e1200]
+              - button "Detalhes Adicionais" [ref=e1203] [cursor=pointer]:
+                - heading "Detalhes Adicionais" [level=5] [ref=e1205]
+      - generic [ref=e1207]:
+        - separator [ref=e1208]
+        - heading "Detalhes do produto" [level=2] [ref=e1209]
+        - list [ref=e1211]:
+          - listitem [ref=e1212]:
+            - generic [ref=e1213]: "Dimensões do produto ‏ : ‎ 4,13 x 4,13 x 8,9 cm; 20 g"
+          - listitem [ref=e1214]:
+            - generic [ref=e1215]: "Fabricante ‏ : ‎ Lola Cosmetics"
+          - listitem [ref=e1216]:
+            - generic [ref=e1217]: "ASIN ‏ : ‎ B07SBXMSGB"
+          - listitem [ref=e1218]:
+            - generic [ref=e1219]: "Número do modelo ‏ : ‎ 27101"
+          - listitem [ref=e1220]:
+            - generic [ref=e1221]: "País de origem ‏ : ‎ Brasil"
+          - listitem [ref=e1222]:
+            - generic [ref=e1223]: "Departamento ‏ : ‎ Adultos"
+          - listitem [ref=e1224]:
+            - generic [ref=e1225]:
+              - text: "Avaliações dos clientes:"
+              - generic [ref=e1226]:
+                - generic "4,8 de 5 estrelas" [ref=e1228]:
+                  - button "4,8 de 5 estrelas" [ref=e1230] [cursor=pointer]:
+                    - text: 4,8
+                    - generic [ref=e1232]: 4,8 de 5 estrelas
+                - link "41.026 Análises" [ref=e1235] [cursor=pointer]:
+                  - /url: "#averageCustomerReviewsAnchor"
+                  - text: (41.026)
+      - generic "Melhores avaliações" [ref=e1238]:
+        - separator [ref=e1239]
+        - generic [ref=e1241]:
+          - generic [ref=e1242]:
+            - generic [ref=e1247]:
+              - heading "Avaliações de clientes" [level=2] [ref=e1249]
+              - generic [ref=e1251]:
+                - generic [ref=e1254]: 4,8 de 5 estrelas
+                - generic [ref=e1257]: 4,8 de 5
+              - generic [ref=e1258]: 41.026 avaliações globais
+              - list [ref=e1262]:
+                - listitem [ref=e1263]:
+                  - link "89 por cento das avaliações têm 5 estrelas" [ref=e1265] [cursor=pointer]:
+                    - /url: /product-reviews/B07SBXMSGB/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar
+                    - generic [ref=e1266]: 5 estrelas
+                    - progressbar [ref=e1268]
+                    - generic [ref=e1269]: 89%
+                - listitem [ref=e1270]:
+                  - link "7 por cento das avaliações têm 4 estrelas" [ref=e1272] [cursor=pointer]:
+                    - /url: /product-reviews/B07SBXMSGB/ref=acr_dp_hist_4?ie=UTF8&filterByStar=four_star&reviewerType=all_reviews#reviews-filter-bar
+                    - generic [ref=e1273]: 4 estrelas
+                    - progressbar [ref=e1275]
+                    - generic [ref=e1276]: 7%
+                - listitem [ref=e1277]:
+                  - link "3 por cento das avaliações têm 3 estrelas" [ref=e1279] [cursor=pointer]:
+                    - /url: /product-reviews/B07SBXMSGB/ref=acr_dp_hist_3?ie=UTF8&filterByStar=three_star&reviewerType=all_reviews#reviews-filter-bar
+                    - generic [ref=e1280]: 3 estrelas
+                    - progressbar [ref=e1282]
+                    - generic [ref=e1283]: 3%
+                - listitem [ref=e1284]:
+                  - generic "0 por cento das avaliações têm 2 estrelas" [ref=e1286]:
+                    - generic [ref=e1287]: 2 estrelas
+                    - progressbar [ref=e1289]
+                    - generic [ref=e1290]: 0%
+                - listitem [ref=e1291]:
+                  - link "1 por cento das avaliações têm 1 estrelas" [ref=e1293] [cursor=pointer]:
+                    - /url: /product-reviews/B07SBXMSGB/ref=acr_dp_hist_1?ie=UTF8&filterByStar=one_star&reviewerType=all_reviews#reviews-filter-bar
+                    - generic [ref=e1294]: 1 estrela
+                    - progressbar [ref=e1296]
+                    - generic [ref=e1297]: 1%
+              - button "Como as avaliações e classificações de clientes funcionam" [ref=e1302] [cursor=pointer]: Como as avaliações e classificações de clientes funcionam
+            - separator [ref=e1304]
+            - separator [ref=e1305]
+          - generic [ref=e1309]:
+            - generic [ref=e1312]:
+              - group [ref=e1314]:
+                - generic [ref=e1315]:
+                  - heading "Avaliações com imagens" [level=3] [ref=e1317]
+                  - link "Ver todas as fotos" [ref=e1320] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - group [ref=e1324]:
+                  - list [ref=e1325]:
+                    - listitem [ref=e1326]:
+                      - button "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1327] [cursor=pointer]:
+                        - img "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1328]
+                    - listitem [ref=e1330]:
+                      - button "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1331] [cursor=pointer]:
+                        - img "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1332]
+                    - listitem [ref=e1334]:
+                      - button "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1335] [cursor=pointer]:
+                        - img "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1336]
+                    - listitem [ref=e1338]:
+                      - button "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1339] [cursor=pointer]:
+                        - img "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1340]
+                    - listitem [ref=e1342]:
+                      - button "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1343] [cursor=pointer]:
+                        - img "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1344]
+                    - listitem [ref=e1346]:
+                      - button "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1347] [cursor=pointer]:
+                        - img "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1348]
+                    - listitem [ref=e1350]:
+                      - button "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1351] [cursor=pointer]:
+                        - img "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1352]
+                    - listitem [ref=e1354]:
+                      - button "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1355] [cursor=pointer]:
+                        - img "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1356]
+                    - listitem [ref=e1358]:
+                      - button "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1359] [cursor=pointer]:
+                        - img "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1360]
+                    - listitem [ref=e1362]:
+                      - button "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1363] [cursor=pointer]:
+                        - img "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1364]
+                    - listitem [ref=e1366]:
+                      - button "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1367] [cursor=pointer]:
+                        - img "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1368]
+                    - listitem [ref=e1370]:
+                      - button "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1371] [cursor=pointer]:
+                        - img "Imagem do cliente, clique para abrir a avaliação de clientes" [ref=e1372]
+              - separator [ref=e1374]
+            - generic [ref=e1375]:
+              - generic [ref=e1378]:
+                - heading "Principais avaliações do Brasil" [level=3] [ref=e1380]
+                - list [ref=e1383]:
+                  - listitem [ref=e1384]:
+                    - generic [ref=e1387]:
+                      - link "George" [ref=e1389] [cursor=pointer]:
+                        - /url: /gp/profile/amzn1.account.AFB22AEHCQ6MDMBHGDNFF5DPWX2Q
+                        - img [ref=e1392]
+                        - generic [ref=e1393]: George
+                      - heading "5,0 de 5 estrelas Boa qualidade com bom custo-benefício" [level=5] [ref=e1395]:
+                        - link "5,0 de 5 estrelas Boa qualidade com bom custo-benefício" [ref=e1396] [cursor=pointer]:
+                          - /url: /gp/customer-reviews/RGOTJI1AWNGV2/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                          - generic [ref=e1398]: 5,0 de 5 estrelas
+                          - text: Boa qualidade com bom custo-benefício
+                      - heading "Avaliado no Brasil em 22 de março de 2023" [level=6] [ref=e1399]
+                      - 'link "Compra verificada: Saiba mais sobre como as avaliações de clientes funcionam na Amazon" [ref=e1401] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e1404]:
+                        - generic [ref=e1406]:
+                          - text: A maioria dos óleos de argan são na verdade um blend de silicones que contém em sua composição o óleo de argan e, quando muito, mais algum outro ativo de tratamento. Já no da Lola, o óleo de argan é o 2º ativo da composição. O primeiro é o Cocoato de isoamila, um emoliente derivado da beterraba e do óleo de coco. Contém ainda glicerina, extratos de algas marinhas, proteínas hidrolisadas do arroz e da soja e glicina. Logo, é uma composição mais rica em óleo de argan e muito mais completa que a maioria dos óleos vendidos em supermercados, farmácias e até mesmo por aqui na Amazon.
+                          - text: Sim, estes últimos podem até ser mais embelezadores, dada a alta quantidade de silicones que irão conferir, imediatamente, brilho e maciez, mas o óleo da Lola é um óleo que, além de embelezar, irá efetivamente tratar, uma vez que sua composição possui BEM MAIS óleo de argan e BEM MAIS ativos hidratantes e restauradores. E OK, talvez haja muita gente que talvez até prefira os óleos com blend de silicones, especialmente porque procuram embelezar o cabelo de forma mais perceptível e imediata (algo que os silicones realmente entregam). No entanto, é um erro achar que eles irão tratar mais que o da Lola. É justamente o contrário. Para mim são produtos com finalidades diferentes.
+                          - text: Dito isto, é o meu óleo predileto para finalizar o cabelo, seja seco ou molhado, porque além de hidratar e diminuir o frizz, rende bastante, tem um cheiro muito agradável e não acumula nos fios. Recomendo demais.
+                        - button "Ler mais sobre esta avaliação" [ref=e1409] [cursor=pointer]: Ler mais
+                      - generic [ref=e1411]:
+                        - generic [ref=e1412]:
+                          - generic [ref=e1413]: 3.241 pessoas acharam isso útil
+                          - link "Marcar avaliação como útil" [ref=e1417] [cursor=pointer]:
+                            - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fdp%2FB07SBXMSGB%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhKRZcxwPsHrhOw9Pm6c91%25252BWj0Q816MEV2K49TIc2xSjvAAAAAGnXAOIAAAAB%26reviewId%3DRGOTJI1AWNGV2%23RGOTJI1AWNGV2&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&marketPlaceId=A2Q3Y263D00KWC&language=pt&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                            - generic [ref=e1418]: Útil
+                        - generic [ref=e1420]:
+                          - img [ref=e1421]
+                          - link "Análise do relatório por George" [ref=e1423] [cursor=pointer]:
+                            - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hKRZcxwPsHrhOw9Pm6c91%2BWj0Q816MEV2K49TIc2xSjvAAAAAGnXAOIAAAAB&reviewId=RGOTJI1AWNGV2
+                            - text: Denunciar
+                  - listitem [ref=e1424]:
+                    - generic [ref=e1427]:
+                      - link "Boa cuba" [ref=e1429] [cursor=pointer]:
+                        - /url: /gp/profile/amzn1.account.AH4BKPJL4RCK5CNDLOOVCFXBVZZA
+                        - img [ref=e1432]
+                        - generic [ref=e1433]: Boa cuba
+                      - heading "5,0 de 5 estrelas Ótimo óleo, bom e barato" [level=5] [ref=e1435]:
+                        - link "5,0 de 5 estrelas Ótimo óleo, bom e barato" [ref=e1436] [cursor=pointer]:
+                          - /url: /gp/customer-reviews/ROYC09HXO2Z0K/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                          - generic [ref=e1438]: 5,0 de 5 estrelas
+                          - text: Ótimo óleo, bom e barato
+                      - heading "Avaliado no Brasil em 28 de março de 2026" [level=6] [ref=e1439]
+                      - 'link "Compra verificada: Saiba mais sobre como as avaliações de clientes funcionam na Amazon" [ref=e1441] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e1446]: Muito bom, cheiroso e deixa o cabelo macio
+                      - generic [ref=e1447]:
+                        - generic [ref=e1448]:
+                          - generic [ref=e1449]: 1 pessoa achou isso útil
+                          - link "Marcar avaliação como útil" [ref=e1453] [cursor=pointer]:
+                            - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fdp%2FB07SBXMSGB%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhM6miM3ptexpugVzmiUGytwbsmBTy%25252BqOSKtXWHO%25252BMWd1AAAAAGnXAOIAAAAB%26reviewId%3DROYC09HXO2Z0K%23ROYC09HXO2Z0K&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&marketPlaceId=A2Q3Y263D00KWC&language=pt&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                            - generic [ref=e1454]: Útil
+                        - generic [ref=e1456]:
+                          - img [ref=e1457]
+                          - link "Análise do relatório por Boa cuba" [ref=e1459] [cursor=pointer]:
+                            - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hM6miM3ptexpugVzmiUGytwbsmBTy%2BqOSKtXWHO%2BMWd1AAAAAGnXAOIAAAAB&reviewId=ROYC09HXO2Z0K
+                            - text: Denunciar
+                  - listitem [ref=e1460]:
+                    - generic [ref=e1463]:
+                      - link "Dandara Dahrlen" [ref=e1465] [cursor=pointer]:
+                        - /url: /gp/profile/amzn1.account.AG2X6IEXMU6FIAVCYYRHIDEVISYQ
+                        - img [ref=e1468]
+                        - generic [ref=e1469]: Dandara Dahrlen
+                      - heading "5,0 de 5 estrelas Óleo capilar da Lola" [level=5] [ref=e1471]:
+                        - link "5,0 de 5 estrelas Óleo capilar da Lola" [ref=e1472] [cursor=pointer]:
+                          - /url: /gp/customer-reviews/RUR3MGS31TTTD/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                          - generic [ref=e1474]: 5,0 de 5 estrelas
+                          - text: Óleo capilar da Lola
+                      - heading "Avaliado no Brasil em 30 de março de 2026" [level=6] [ref=e1475]
+                      - 'link "Compra verificada: Saiba mais sobre como as avaliações de clientes funcionam na Amazon" [ref=e1477] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e1482]: Óleo para cabelos maravilhoso! Deixa o cabelo super hidratado e sem frizz. Gosto bastante! O cheirinho parece produto masculino, mas muito bom. Amo o cheirinho! Chegou sem nenhum vazamento. Nada a reclamar. Obrigada Amazon! O serviço de entrega muito bom também, obrigada!
+                      - list [ref=e1484]:
+                        - listitem [ref=e1485]:
+                          - button "Imagem do cliente" [ref=e1487] [cursor=pointer]:
+                            - img "Imagem do cliente" [ref=e1488]
+                      - generic [ref=e1489]:
+                        - generic [ref=e1490]:
+                          - generic [ref=e1491]: 4 pessoas acharam isso útil
+                          - link "Marcar avaliação como útil" [ref=e1495] [cursor=pointer]:
+                            - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fdp%2FB07SBXMSGB%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhHEry2IJi5v6neN4ez9L0%25252BgQLJWJyrEPH1WfZ%25252BFT4Pf%25252FAAAAAGnXAOIAAAAB%26reviewId%3DRUR3MGS31TTTD%23RUR3MGS31TTTD&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&marketPlaceId=A2Q3Y263D00KWC&language=pt&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                            - generic [ref=e1496]: Útil
+                        - generic [ref=e1498]:
+                          - img [ref=e1499]
+                          - link "Análise do relatório por Dandara Dahrlen" [ref=e1501] [cursor=pointer]:
+                            - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hHEry2IJi5v6neN4ez9L0%2BgQLJWJyrEPH1WfZ%2BFT4Pf%2FAAAAAGnXAOIAAAAB&reviewId=RUR3MGS31TTTD
+                            - text: Denunciar
+                  - listitem [ref=e1502]:
+                    - generic [ref=e1505]:
+                      - link "la" [ref=e1507] [cursor=pointer]:
+                        - /url: /gp/profile/amzn1.account.AHCYJ3BV2MZSUTDITPKZEYIUZCVA
+                        - img [ref=e1510]
+                        - generic [ref=e1511]: la
+                      - heading "5,0 de 5 estrelas Muito bom!!" [level=5] [ref=e1513]:
+                        - link "5,0 de 5 estrelas Muito bom!!" [ref=e1514] [cursor=pointer]:
+                          - /url: /gp/customer-reviews/R2KDI376JGELLL/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                          - generic [ref=e1516]: 5,0 de 5 estrelas
+                          - text: Muito bom!!
+                      - heading "Avaliado no Brasil em 25 de março de 2026" [level=6] [ref=e1517]
+                      - 'link "Compra verificada: Saiba mais sobre como as avaliações de clientes funcionam na Amazon" [ref=e1519] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e1524]: Muitoooo bom e cheiroso, um ótimo custo benefício.
+                      - list [ref=e1526]:
+                        - listitem [ref=e1527]:
+                          - button "Imagem do cliente" [ref=e1529] [cursor=pointer]:
+                            - img "Imagem do cliente" [ref=e1530]
+                      - generic [ref=e1531]:
+                        - link "Marcar avaliação como útil" [ref=e1535] [cursor=pointer]:
+                          - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fdp%2FB07SBXMSGB%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhPGKgNUsI0eiYSDLwFlwzSEoJ%25252BwUGIfPnfpyP3YdghATAAAAAGnXAOIAAAAB%26reviewId%3DR2KDI376JGELLL%23R2KDI376JGELLL&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&marketPlaceId=A2Q3Y263D00KWC&language=pt&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                          - generic [ref=e1536]: Útil
+                        - generic [ref=e1538]:
+                          - img [ref=e1539]
+                          - link "Análise do relatório por la" [ref=e1541] [cursor=pointer]:
+                            - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hPGKgNUsI0eiYSDLwFlwzSEoJ%2BwUGIfPnfpyP3YdghATAAAAAGnXAOIAAAAB&reviewId=R2KDI376JGELLL
+                            - text: Denunciar
+                  - listitem [ref=e1542]:
+                    - generic [ref=e1545]:
+                      - link "Muito bom" [ref=e1547] [cursor=pointer]:
+                        - /url: /gp/profile/amzn1.account.AEK3IYXZBO37IGU3JQQSL7H6LWRA
+                        - img [ref=e1550]
+                        - generic [ref=e1551]: Muito bom
+                      - heading "5,0 de 5 estrelas Maravilhoso!" [level=5] [ref=e1553]:
+                        - link "5,0 de 5 estrelas Maravilhoso!" [ref=e1554] [cursor=pointer]:
+                          - /url: /gp/customer-reviews/R38YRF01RXF2A1/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                          - generic [ref=e1556]: 5,0 de 5 estrelas
+                          - text: Maravilhoso!
+                      - heading "Avaliado no Brasil em 2 de abril de 2026" [level=6] [ref=e1557]
+                      - 'link "Compra verificada: Saiba mais sobre como as avaliações de clientes funcionam na Amazon" [ref=e1559] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e1564]: Sempre compro e é extremamente maravilhoso, hidrata super, foi minha salvação contra a água salgada do mar. Uso antes do shampo, uso antes de secar com secador e uso para finalizar após secar, hidrata, não pesa e não deixa oleoso. É perfeito!
+                      - generic [ref=e1565]:
+                        - generic [ref=e1566]:
+                          - generic [ref=e1567]: 2 pessoas acharam isso útil
+                          - link "Marcar avaliação como útil" [ref=e1571] [cursor=pointer]:
+                            - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fdp%2FB07SBXMSGB%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhGvaF49zUCmvGcS8LXrvG8TD6eOyL%25252B6GnsyXwS5Bcc5KAAAAAGnXAOIAAAAB%26reviewId%3DR38YRF01RXF2A1%23R38YRF01RXF2A1&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&marketPlaceId=A2Q3Y263D00KWC&language=pt&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                            - generic [ref=e1572]: Útil
+                        - generic [ref=e1574]:
+                          - img [ref=e1575]
+                          - link "Análise do relatório por Muito bom" [ref=e1577] [cursor=pointer]:
+                            - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hGvaF49zUCmvGcS8LXrvG8TD6eOyL%2B6GnsyXwS5Bcc5KAAAAAGnXAOIAAAAB&reviewId=R38YRF01RXF2A1
+                            - text: Denunciar
+                  - listitem [ref=e1578]:
+                    - generic [ref=e1581]:
+                      - link "evecamily" [ref=e1583] [cursor=pointer]:
+                        - /url: /gp/profile/amzn1.account.AEUHM4ESVJX4PX3OQWBK4J7IAKVQ
+                        - img [ref=e1586]
+                        - generic [ref=e1587]: evecamily
+                      - heading "5,0 de 5 estrelas Maravilhoso" [level=5] [ref=e1589]:
+                        - link "5,0 de 5 estrelas Maravilhoso" [ref=e1590] [cursor=pointer]:
+                          - /url: /gp/customer-reviews/RVIW113GE2FCV/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                          - generic [ref=e1592]: 5,0 de 5 estrelas
+                          - text: Maravilhoso
+                      - heading "Avaliado no Brasil em 3 de abril de 2026" [level=6] [ref=e1593]
+                      - 'link "Compra verificada: Saiba mais sobre como as avaliações de clientes funcionam na Amazon" [ref=e1595] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e1600]: Sou apaixonada nesse óleo. Levinho, extremamente cheiroso e deixa o cabelo brilhoso
+                      - generic [ref=e1601]:
+                        - generic [ref=e1602]:
+                          - generic [ref=e1603]: 1 pessoa achou isso útil
+                          - link "Marcar avaliação como útil" [ref=e1607] [cursor=pointer]:
+                            - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fdp%2FB07SBXMSGB%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhM5BbU4TZsWWfFJyERKeqGT2s6GDzcEaP2Y4nPJGmWPBAAAAAGnXAOIAAAAB%26reviewId%3DRVIW113GE2FCV%23RVIW113GE2FCV&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&marketPlaceId=A2Q3Y263D00KWC&language=pt&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                            - generic [ref=e1608]: Útil
+                        - generic [ref=e1610]:
+                          - img [ref=e1611]
+                          - link "Análise do relatório por evecamily" [ref=e1613] [cursor=pointer]:
+                            - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hM5BbU4TZsWWfFJyERKeqGT2s6GDzcEaP2Y4nPJGmWPBAAAAAGnXAOIAAAAB&reviewId=RVIW113GE2FCV
+                            - text: Denunciar
+                  - listitem [ref=e1614]:
+                    - generic [ref=e1617]:
+                      - link "Kauãny" [ref=e1619] [cursor=pointer]:
+                        - /url: /gp/profile/amzn1.account.AE5BWEBLTP6PXFKXC4JQ4VAFM4VQ
+                        - img [ref=e1622]
+                        - generic [ref=e1623]: Kauãny
+                      - heading "5,0 de 5 estrelas Produto ótima, entrega ruim." [level=5] [ref=e1625]:
+                        - link "5,0 de 5 estrelas Produto ótima, entrega ruim." [ref=e1626] [cursor=pointer]:
+                          - /url: /gp/customer-reviews/R1GNHS0KSEWHLQ/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                          - generic [ref=e1628]: 5,0 de 5 estrelas
+                          - text: Produto ótima, entrega ruim.
+                      - heading "Avaliado no Brasil em 19 de março de 2026" [level=6] [ref=e1629]
+                      - 'link "Compra verificada: Saiba mais sobre como as avaliações de clientes funcionam na Amazon" [ref=e1631] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e1636]: O produto é excelente, tem cheiro de perfume masculino, mas é bom. Tive problemas com a entrega, pois além de demorar muito, no dia da entrega me foi informado que o produto estava em devolução, entrei em contato com o suporte e me informaram que tinha quebrado no transporte. Logo em seguida me enviaram um novo produto, por mais que tenha demorado valeu a pena, preço acessível e produto bom.
+                      - list [ref=e1638]:
+                        - listitem [ref=e1639]:
+                          - button "Imagem do cliente" [ref=e1641] [cursor=pointer]:
+                            - img "Imagem do cliente" [ref=e1642]
+                      - generic [ref=e1643]:
+                        - generic [ref=e1644]:
+                          - generic [ref=e1645]: 1 pessoa achou isso útil
+                          - link "Marcar avaliação como útil" [ref=e1649] [cursor=pointer]:
+                            - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fdp%2FB07SBXMSGB%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhK9EtOAmFiubljVrHapcOQT9R%25252F7zbGkFXl7dVRxs5k4HAAAAAGnXAOIAAAAB%26reviewId%3DR1GNHS0KSEWHLQ%23R1GNHS0KSEWHLQ&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&marketPlaceId=A2Q3Y263D00KWC&language=pt&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                            - generic [ref=e1650]: Útil
+                        - generic [ref=e1652]:
+                          - img [ref=e1653]
+                          - link "Análise do relatório por Kauãny" [ref=e1655] [cursor=pointer]:
+                            - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hK9EtOAmFiubljVrHapcOQT9R%2F7zbGkFXl7dVRxs5k4HAAAAAGnXAOIAAAAB&reviewId=R1GNHS0KSEWHLQ
+                            - text: Denunciar
+                  - listitem [ref=e1656]:
+                    - generic [ref=e1659]:
+                      - link "Ridelle Cunha" [ref=e1661] [cursor=pointer]:
+                        - /url: /gp/profile/amzn1.account.AF65LQ44NHXCMTLRIFSWNYUGIEVA
+                        - img [ref=e1664]
+                        - generic [ref=e1665]: Ridelle Cunha
+                      - heading "5,0 de 5 estrelas Apaixonada nesse reparador" [level=5] [ref=e1667]:
+                        - link "5,0 de 5 estrelas Apaixonada nesse reparador" [ref=e1668] [cursor=pointer]:
+                          - /url: /gp/customer-reviews/R2QFXYVUBRYV3K/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                          - generic [ref=e1670]: 5,0 de 5 estrelas
+                          - text: Apaixonada nesse reparador
+                      - heading "Avaliado no Brasil em 26 de março de 2026" [level=6] [ref=e1671]
+                      - 'link "Compra verificada: Saiba mais sobre como as avaliações de clientes funcionam na Amazon" [ref=e1673] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e1678]: Amei o cheiro e o brilho que deu no meu cabelo, não pesou , só compree !!!
+                      - generic [ref=e1679]:
+                        - link "Marcar avaliação como útil" [ref=e1683] [cursor=pointer]:
+                          - /url: https://www.amazon.com.br/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fdp%2FB07SBXMSGB%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhJfjd2V9VLg%25252BvIt1JFBs%25252BQOki%25252BTB%25252B1c0tSxbwJJtf0XhAAAAAGnXAOIAAAAB%26reviewId%3DR2QFXYVUBRYV3K%23R2QFXYVUBRYV3K&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&marketPlaceId=A2Q3Y263D00KWC&language=pt&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                          - generic [ref=e1684]: Útil
+                        - generic [ref=e1686]:
+                          - img [ref=e1687]
+                          - link "Análise do relatório por Ridelle Cunha" [ref=e1689] [cursor=pointer]:
+                            - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hJfjd2V9VLg%2BvIt1JFBs%2BQOki%2BTB%2B1c0tSxbwJJtf0XhAAAAAGnXAOIAAAAB&reviewId=R2QFXYVUBRYV3K
+                            - text: Denunciar
+                - generic [ref=e1691]:
+                  - separator [ref=e1692]
+                  - link "Veja mais avaliações" [ref=e1693] [cursor=pointer]:
+                    - /url: /product-reviews/B07SBXMSGB/ref=cm_cr_dp_d_show_all_btm?ie=UTF8
+              - generic [ref=e1697]:
+                - generic [ref=e1698]:
+                  - heading "Principais avaliações de outros países" [level=3] [ref=e1699]
+                  - link "Traduzir todas as avaliações para português" [ref=e1705] [cursor=pointer]:
+                    - /url: "#customerReviews"
+                - list [ref=e1708]:
+                  - listitem [ref=e1709]:
+                    - generic [ref=e1712]:
+                      - generic [ref=e1714]:
+                        - img [ref=e1717]
+                        - generic [ref=e1718]: Nair T.
+                      - heading "5,0 de 5 estrelas Bon produit" [level=5] [ref=e1720]:
+                        - generic [ref=e1722]: 5,0 de 5 estrelas
+                        - generic [ref=e1723]: Bon produit
+                      - heading "Avaliado na França em 16 de fevereiro de 2026" [level=6] [ref=e1724]
+                      - 'link "Compra verificada: Saiba mais sobre como as avaliações de clientes funcionam na Amazon" [ref=e1726] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e1731]: Excellent !!
+                      - generic [ref=e1732]:
+                        - link "Análise do relatório por Nair T." [ref=e1736] [cursor=pointer]:
+                          - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hF7KSl8WzJ0Nje49S9l8nh4LEFSdDeDBzUoLe56YC9j9AAAAAGnXAOIAAAAB&reviewId=R1027P81K97SUT
+                          - text: Denunciar
+                        - link "Traduzir avaliação para Português" [ref=e1739] [cursor=pointer]:
+                          - /url: "#customerReviews"
+                  - listitem [ref=e1740]:
+                    - generic [ref=e1743]:
+                      - generic [ref=e1745]:
+                        - img [ref=e1748]
+                        - generic [ref=e1749]: Maria
+                      - heading "5,0 de 5 estrelas Me encanta el aceite" [level=5] [ref=e1751]:
+                        - generic [ref=e1753]: 5,0 de 5 estrelas
+                        - generic [ref=e1754]: Me encanta el aceite
+                      - heading "Avaliado na Espanha em 28 de março de 2025" [level=6] [ref=e1755]
+                      - 'link "Compra verificada: Saiba mais sobre como as avaliações de clientes funcionam na Amazon" [ref=e1757] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e1762]: Muy bueno . Lo recomiendo. Suelo usar el aceite de kerastase pero este me gusta incluso más.
+                      - generic [ref=e1763]:
+                        - link "Análise do relatório por Maria" [ref=e1767] [cursor=pointer]:
+                          - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hE8%2BrPBQpIaEuXN4LRsZHS32FtWvYrxn9wCNDbwKWbvkAAAAAGnXAOIAAAAB&reviewId=R1SCXF1BW1L0EC
+                          - text: Denunciar
+                        - link "Traduzir avaliação para Português" [ref=e1770] [cursor=pointer]:
+                          - /url: "#customerReviews"
+                  - listitem [ref=e1771]:
+                    - generic [ref=e1774]:
+                      - generic [ref=e1776]:
+                        - img [ref=e1779]
+                        - generic [ref=e1780]: Ivonete Santos
+                      - heading "5,0 de 5 estrelas 😍😍😍😍" [level=5] [ref=e1782]:
+                        - generic [ref=e1784]: 5,0 de 5 estrelas
+                        - generic [ref=e1785]: 😍😍😍😍
+                      - heading "Avaliado na Alemanha em 28 de outubro de 2025" [level=6] [ref=e1786]
+                      - 'link "Compra verificada: Saiba mais sobre como as avaliações de clientes funcionam na Amazon" [ref=e1788] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e1793]: Sehr gut 👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻
+                      - generic [ref=e1794]:
+                        - link "Análise do relatório por Ivonete Santos" [ref=e1798] [cursor=pointer]:
+                          - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hJdygm2%2FsbWfneQoNTyib9LDL6YiVgePPAhRrx0IwTIzAAAAAGnXAOIAAAAB&reviewId=R2VJ8IEVSLALHX
+                          - text: Denunciar
+                        - link "Traduzir avaliação para Português" [ref=e1801] [cursor=pointer]:
+                          - /url: "#customerReviews"
+                  - listitem [ref=e1802]:
+                    - generic [ref=e1805]:
+                      - generic [ref=e1807]:
+                        - img [ref=e1810]
+                        - generic [ref=e1811]: Ana
+                      - heading "5,0 de 5 estrelas Sehr gut" [level=5] [ref=e1813]:
+                        - generic [ref=e1815]: 5,0 de 5 estrelas
+                        - generic [ref=e1816]: Sehr gut
+                      - heading "Avaliado na Alemanha em 18 de julho de 2024" [level=6] [ref=e1817]
+                      - 'link "Compra verificada: Saiba mais sobre como as avaliações de clientes funcionam na Amazon" [ref=e1819] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e1824]: Ich höre immer wieder, wie gut Haaröl ist und dass es seinen Ruf wirklich wert ist, es riecht gut und beschwert die Haare nicht ♥️
+                      - generic [ref=e1825]:
+                        - link "Análise do relatório por Ana" [ref=e1829] [cursor=pointer]:
+                          - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hNxQU4ReA%2Bg4b18cef7mZM5nWBTR6E0Q7ywr2Okalqr9AAAAAGnXAOIAAAAB&reviewId=R3JQLFFG0AANUW
+                          - text: Denunciar
+                        - link "Traduzir avaliação para Português" [ref=e1832] [cursor=pointer]:
+                          - /url: "#customerReviews"
+                  - listitem [ref=e1833]:
+                    - generic [ref=e1836]:
+                      - generic [ref=e1838]:
+                        - img [ref=e1841]
+                        - generic [ref=e1842]: Rayssa noleto
+                      - heading "5,0 de 5 estrelas Aceite de cabello" [level=5] [ref=e1844]:
+                        - generic [ref=e1846]: 5,0 de 5 estrelas
+                        - generic [ref=e1847]: Aceite de cabello
+                      - heading "Avaliado na Espanha em 13 de dezembro de 2025" [level=6] [ref=e1848]
+                      - 'link "Compra verificada: Saiba mais sobre como as avaliações de clientes funcionam na Amazon" [ref=e1850] [cursor=pointer]':
+                        - /url: /gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?nodeId=G8UYX7LALQC8V9KA
+                        - text: Compra verificada
+                      - generic [ref=e1855]: Huele súper rico
+                      - generic [ref=e1856]:
+                        - link "Análise do relatório por Rayssa noleto" [ref=e1860] [cursor=pointer]:
+                          - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hKHTInQPPsY5UAtjz6bowAbtgpqeGvwRkOEuQjRCWI8sAAAAAGnXAOIAAAAB&reviewId=R5KYJF3X4OP39
+                          - text: Denunciar
+                        - link "Traduzir avaliação para Português" [ref=e1863] [cursor=pointer]:
+                          - /url: "#customerReviews"
+                - generic [ref=e1864]:
+                  - separator [ref=e1865]
+                  - link "Veja mais avaliações" [ref=e1866] [cursor=pointer]:
+                    - /url: /product-reviews/B07SBXMSGB/ref=cm_cr_dp_d_show_all_btm?ie=UTF8
+  - complementary "Itens que você visualizou recentemente e recomendações baseadas em seu histórico:"
+  - generic [ref=e1871]:
+    - button "Voltar ao início" [ref=e1872] [cursor=pointer]:
+      - generic [ref=e1873]: Voltar ao início
+    - generic [ref=e1874]:
+      - generic [ref=e1875]:
+        - heading "Conheça-nos" [level=6] [ref=e1876]
+        - list [ref=e1877]:
+          - listitem [ref=e1878]:
+            - link "Sobre a Amazon" [ref=e1879] [cursor=pointer]:
+              - /url: https://www.aboutamazon.com.br/
+          - listitem [ref=e1880]:
+            - link "Informações corporativas" [ref=e1881] [cursor=pointer]:
+              - /url: /gp/browse.html?node=23490129011&ref_=footer_gw_m_b_corporate
+          - listitem [ref=e1882]:
+            - link "Carreiras" [ref=e1883] [cursor=pointer]:
+              - /url: https://www.amazon.jobs
+          - listitem [ref=e1884]:
+            - link "Comunicados à imprensa" [ref=e1885] [cursor=pointer]:
+              - /url: /gp/browse.html?node=15155858011&ref_=footer_community
+          - listitem [ref=e1886]:
+            - link "Comunidade" [ref=e1887] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16593314011&ref_=footer_community
+          - listitem [ref=e1888]:
+            - link "Acessibilidade" [ref=e1889] [cursor=pointer]:
+              - /url: /gp/browse.html?node=23454858011&ref_=footer_accessibility
+          - listitem [ref=e1890]:
+            - link "Amazon Science" [ref=e1891] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e1893]:
+        - heading "Ganhe dinheiro conosco" [level=6] [ref=e1894]
+        - list [ref=e1895]:
+          - listitem [ref=e1896]:
+            - link "Venda na Amazon" [ref=e1897] [cursor=pointer]:
+              - /url: https://venda.amazon.com.br/?ld=SDBRSOA_footerDesk_T1
+          - listitem [ref=e1898]:
+            - link "Proteja e construa a sua marca" [ref=e1899] [cursor=pointer]:
+              - /url: https://brandservices.amazon.com.br?ref=AOBRABRLGNRFOOT&ld=AOBRABRLGNRFOOT
+          - listitem [ref=e1900]:
+            - link "Forneça para a Amazon" [ref=e1901] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=pt-BR
+          - listitem [ref=e1902]:
+            - link "Publique seus livros" [ref=e1903] [cursor=pointer]:
+              - /url: https://kdp.amazon.com?language=pt_BR
+          - listitem [ref=e1904]:
+            - link "Seja um associado" [ref=e1905] [cursor=pointer]:
+              - /url: https://associados.amazon.com.br
+          - listitem [ref=e1906]:
+            - link "Anuncie seus produtos" [ref=e1907] [cursor=pointer]:
+              - /url: https://advertising.amazon.com/pt-br?ref=footer_advtsing_BR
+      - generic [ref=e1909]:
+        - heading "Pagamento" [level=6] [ref=e1910]
+        - list [ref=e1911]:
+          - listitem [ref=e1912]:
+            - link "Meios de Pagamento" [ref=e1913] [cursor=pointer]:
+              - /url: /gp/browse.html?node=16568920011&ref_=footer_pay_tc
+          - listitem [ref=e1914]:
+            - link "Compre com Pontos" [ref=e1915] [cursor=pointer]:
+              - /url: /gp/browse.html?node=24028636011&ref_=footer_pay_tc
+          - listitem [ref=e1916]:
+            - link "Cartão de crédito Amazon" [ref=e1917] [cursor=pointer]:
+              - /url: /gp/browse.html?node=24434261011&ref_=footer_pay_tc
+      - generic [ref=e1919]:
+        - heading "Deixe-nos ajudar você" [level=6] [ref=e1920]
+        - list [ref=e1921]:
+          - listitem [ref=e1922]:
+            - link "Sua conta" [ref=e1923] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e1924]:
+            - link "Frete e prazo de entrega" [ref=e1925] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201365500&ref_=footer_shiprates
+          - listitem [ref=e1926]:
+            - link "Devoluções e reembolsos" [ref=e1927] [cursor=pointer]:
+              - /url: /gp/orc/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e1928]:
+            - link "Gerencie seu conteúdo e dispositivos" [ref=e1929] [cursor=pointer]:
+              - /url: /hz/mycd/myx?ref_=footer_myk
+          - listitem [ref=e1930]:
+            - link "Recalls e alertas de segurança do produto" [ref=e1931] [cursor=pointer]:
+              - /url: https://www.amazon.com.br/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e1932]:
+            - link "Ajuda" [ref=e1933] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he
+    - generic [ref=e1935]:
+      - link "Amazon Brazil Home" [ref=e1938] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - button "Escolha um país/região para fazer suas compras. A seleção atual é Brasil." [ref=e1942] [cursor=pointer]:
+        - generic [ref=e1944]: Brasil
+    - generic [ref=e1945]:
+      - list [ref=e1946]:
+        - listitem [ref=e1947]:
+          - link "Condições de Uso" [ref=e1948] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201283910&ref_=footer_cou
+        - listitem [ref=e1949]:
+          - link "Notificação de Privacidade" [ref=e1950] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201283950&ref_=footer_privacy
+        - listitem [ref=e1951]:
+          - link "Cookies" [ref=e1952] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201890250&ref_=footer_cookies
+        - listitem [ref=e1953]:
+          - link "Anúncios Baseados em Interesses" [ref=e1954] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201283970&ref_=footer_iba
+      - generic [ref=e1955]: © 2021-2026 Amazon.com, Inc. ou suas afiliadas
+    - list [ref=e1957]:
+      - listitem [ref=e1958]: Amazon Serviços de Varejo do Brasil Ltda. | CNPJ 15.436.940/0001-03
+    - list [ref=e1960]:
+      - listitem [ref=e1961]:
+        - text: "Av. Juscelino Kubitschek, 2041, Torre E, 18° andar - São Paulo CEP: 04543-011|"
+        - link "Fale conosco" [ref=e1962] [cursor=pointer]:
+          - /url: https://www.amazon.com.br/gp/help/customer/contact-us?ref=footer_gw_m_b_cu
+        - text: "| ajuda-amazon@amazon.com.br"
+    - list [ref=e1964]:
+      - listitem [ref=e1965]: "Formas de pagamento aceitas: cartões de crédito (Visa, MasterCard, Elo e American Express), cartões de débito (Visa e Elo), Boleto e Pix."

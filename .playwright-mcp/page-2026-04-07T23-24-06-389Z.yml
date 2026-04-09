@@ -1,0 +1,12 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: "@lais_esteticista"
+  - generic [ref=e3]: Lipedema
+  - 'heading "Lipedema e drenagem linfática: o que muda quando o protocolo é adequado." [level=1] [ref=e5]':
+    - text: "Lipedema e drenagem linfática:"
+    - text: o que muda quando
+    - text: o protocolo é adequado.
+  - paragraph [ref=e6]:
+    - text: Entenda como esse tratamento
+    - text: pode contribuir para
+    - strong [ref=e7]: mais qualidade de vida
+    - text: no dia a dia. 👇

@@ -1,0 +1,13 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: "@lais_esteticista"
+  - generic [ref=e3]: Drenagem Linfática
+  - heading "A drenagem linfática é indicada para o seu caso?" [level=2] [ref=e5]:
+    - text: A drenagem linfática
+    - text: é indicada para
+    - text: o seu caso?
+  - paragraph [ref=e6]:
+    - text: Posso avaliar o seu histórico
+    - text: e te orientar sobre
+    - text: o protocolo mais adequado.
+    - text: Sem pressa, sem compromisso.
+  - generic [ref=e7]: Enviar mensagem

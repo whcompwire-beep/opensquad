@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1080px; height: 1920px; overflow: hidden;
+      background: url('lipedema2.jpeg') center center / cover no-repeat;
+      font-family: 'Lato', sans-serif;
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: center;
+      padding: 100px 80px;
+      position: relative;
+      text-align: center;
+    }
+    body::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: rgba(10,6,4,0.78);
+    }
+    .handle {
+      position: absolute; bottom: 52px; left: 0; right: 0; z-index: 1;
+      text-align: center; font-size: 28px; font-weight: 500;
+      color: rgba(255,255,255,0.55); letter-spacing: 2px;
+    }
+    .tag {
+      position: relative; z-index: 1;
+      font-size: 26px; font-weight: 700; color: #BDA78D;
+      letter-spacing: 5px; text-transform: uppercase; margin-bottom: 40px;
+    }
+    .accent-line { position: relative; z-index: 1; width: 60px; height: 3px; background: #BDA78D; margin: 0 auto 56px; }
+    h2 {
+      position: relative; z-index: 1;
+      font-family: 'Playfair Display', serif;
+      font-size: 66px; font-weight: 700;
+      color: #FFFFFF; line-height: 1.2;
+      margin-bottom: 44px;
+      text-shadow: 0 2px 24px rgba(0,0,0,0.5);
+    }
+    .sub {
+      position: relative; z-index: 1;
+      font-size: 38px; font-weight: 400;
+      color: rgba(255,255,255,0.80); line-height: 1.65;
+      margin-bottom: 64px;
+    }
+    .cta-btn {
+      position: relative; z-index: 1;
+      background: #FFFFFF;
+      border-radius: 60px; padding: 32px 80px;
+      font-size: 38px; font-weight: 700;
+      color: #AA9176; letter-spacing: 1px;
+      box-shadow: 0 4px 30px rgba(0,0,0,0.35);
+    }
+  </style>
+</head>
+<body>
+  <div class="handle">@lais_esteticista</div>
+  <div class="tag">Drenagem Linfática</div>
+  <div class="accent-line"></div>
+  <h2>A drenagem linfática<br>é indicada para<br>o seu caso?</h2>
+  <p class="sub">Posso avaliar o seu histórico<br>e te orientar sobre<br>o protocolo mais adequado.<br><br>Sem pressa, sem compromisso.</p>
+  <div class="cta-btn">Enviar mensagem</div>
+</body>
+</html>

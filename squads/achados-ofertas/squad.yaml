@@ -3,9 +3,11 @@ display_name: "Achados RioMafra — Squad de Ofertas"
 description: >
   Squad completo para encontrar produtos trending nos marketplaces brasileiros
   (Mercado Livre, Shopee, Amazon) e criar posts de oferta prontos para publicação
-  no Instagram Feed, Instagram Stories, WhatsApp e TikTok/Reels como afiliado.
-version: "1.1.0"
+  no Instagram Feed, Instagram Stories, WhatsApp, Facebook e TikTok/Reels como afiliado.
+  Foco inicial: público classe média em Mafra-SC e Rio Negro-PR.
+version: "2.1.0"
 created: "2026-03-26"
+updated: "2026-04-08"
 performance_mode: alta_performance
 
 investigation:
@@ -17,8 +19,19 @@ investigation:
 platforms:
   - instagram-feed
   - instagram-stories
+  - instagram-reels
   - whatsapp
-  - reels
+  - facebook
+  - tiktok
+
+target_audience:
+  profile: "Classe média"
+  cities:
+    - "Mafra-SC"
+    - "Rio Negro-PR"
+  age_range: "22–55"
+  income_range: "R$3.000–R$10.000/mês"
+  price_sweet_spot: "R$15–R$250"
 
 company: Achados RioMafra
 
@@ -43,17 +56,21 @@ agents:
     name: Revisor de Qualidade
     file: agents/revisor.agent.md
     role: reviewer
+  - id: analista-trafego
+    name: Analista de Tráfego Pago
+    file: agents/analista-trafego.agent.md
+    role: media-buyer
 
 pipeline:
   - step: 01-pesquisa
     agent: garimpeiro
     file: pipeline/steps/01-pesquisa.step.md
-    description: "Pesquisa produtos trending nos marketplaces"
+    description: "Pesquisa produtos trending nos marketplaces via browser, valida dados e gera links de afiliado reais"
 
   - step: checkpoint-produtos
     type: checkpoint
     label: "✅ Aprovar produtos para promover"
-    description: "Revise os produtos encontrados e selecione quais seguirão para produção de conteúdo"
+    description: "Revise os produtos encontrados e selecione quais seguirão para produção de conteúdo. Produtos Reserva são salvos automaticamente no banco de ideias."
 
   - step: 02-visual
     agent: visual
@@ -63,7 +80,7 @@ pipeline:
   - step: 03-estrategia
     agent: estrategista
     file: pipeline/steps/03-estrategia.step.md
-    description: "Define ângulos, formatos e ordem de publicação"
+    description: "Define ângulos, formatos e ordem de publicação para todas as plataformas"
 
   - step: checkpoint-estrategia
     type: checkpoint
@@ -73,7 +90,7 @@ pipeline:
   - step: 04-copy
     agent: copywriter
     file: pipeline/steps/04-copy.step.md
-    description: "Cria conteúdo completo para todas as plataformas"
+    description: "Cria conteúdo completo para todas as plataformas: Instagram, WhatsApp, Facebook e TikTok"
 
   - step: checkpoint-conteudo
     type: checkpoint
@@ -85,5 +102,35 @@ pipeline:
     file: pipeline/steps/05-revisao.step.md
     description: "Avalia qualidade e aprova ou solicita ajustes"
 
+  - step: 06-entrega
+    agent: copywriter
+    file: pipeline/steps/06-entrega.step.md
+    description: "Organiza e exporta arquivos de publicação prontos por produto e plataforma + agenda de publicação"
+
+  - step: 08-trafego-pre
+    agent: analista-trafego
+    file: pipeline/steps/08-trafego-pre.step.md
+    description: "Analisa viabilidade de tráfego pago antes da publicação — scorecard, break-even e brief Meta Ads"
+
+  - step: checkpoint-publicacao
+    type: checkpoint
+    label: "📅 Publicar conteúdo (orgânico)"
+    description: "Publique o conteúdo nas plataformas. Após 24h, acione o step 09 com as métricas orgânicas para avaliar amplificação."
+
+  - step: 09-trafego-pos
+    agent: analista-trafego
+    file: pipeline/steps/09-trafego-pos.step.md
+    trigger: manual
+    description: "Decisão de amplificação 24h após publicação — acionado manualmente com métricas reais"
+
+  - step: 07-feedback-loop
+    agent: estrategista
+    file: pipeline/steps/07-feedback-loop.step.md
+    trigger: manual
+    description: "Coleta métricas reais 24–72h após publicação e atualiza memória do squad"
+
 output_dir: squads/achados-ofertas/output
 memory_file: squads/achados-ofertas/_memory/memories.md
+ideas_file: squads/achados-ofertas/_memory/banco-de-ideias.md
+budget_file: squads/achados-ofertas/_memory/budget-trafego.md
+benchmarks_file: squads/achados-ofertas/pipeline/data/benchmarks-trafego.md

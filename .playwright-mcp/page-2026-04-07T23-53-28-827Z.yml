@@ -1,0 +1,32 @@
+- generic [active] [ref=e1]:
+  - heading "Por que a drenagem linfática ajuda no lipedema?" [level=2] [ref=e3]:
+    - text: Por que a drenagem
+    - text: linfática ajuda
+    - text: no lipedema?
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: "1"
+      - generic [ref=e7]:
+        - text: Trabalha no
+        - strong [ref=e8]: caminho certo dos vasos linfáticos
+        - text: — diferente da drenagem estética comum
+    - generic [ref=e9]:
+      - generic [ref=e10]: "2"
+      - generic [ref=e11]:
+        - text: Ajuda a
+        - strong [ref=e12]: mover o fluido parado
+        - text: nos membros e reduzir o inchaço
+    - generic [ref=e13]:
+      - generic [ref=e14]: "3"
+      - generic [ref=e15]:
+        - text: Ajuda a
+        - strong [ref=e16]: aliviar a dor e a sensação de peso
+        - text: nas pernas
+    - generic [ref=e17]:
+      - generic [ref=e18]: "4"
+      - generic [ref=e19]:
+        - strong [ref=e20]: Sessões regulares fazem diferença
+        - text: — o resultado vem com continuidade
+  - paragraph [ref=e21]: Com regularidade, o corpo responde.
+  - generic [ref=e22]: "@lais_esteticista"
+  - generic [ref=e23]: 4/5

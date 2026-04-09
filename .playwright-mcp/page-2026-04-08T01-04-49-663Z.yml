@@ -1,0 +1,15 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]: Story 5/5
+  - generic [ref=e4]: Agenda aberta
+  - paragraph [ref=e5]:
+    - text: Vagas abertas
+    - text: para avaliação
+    - text: gratuita
+  - paragraph [ref=e7]:
+    - text: Aqui em Mafra-SC.
+    - text: Sem compromisso.
+    - text: Com toda atenção que
+    - text: sua pele merece.
+  - generic [ref=e8]: Manda mensagem 👆
+  - paragraph [ref=e9]: Clica no link da bio
+  - generic [ref=e10]: "@lais_esteticista"

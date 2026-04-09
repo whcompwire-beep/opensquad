@@ -1,0 +1,11 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]: Enquete
+  - paragraph [ref=e4]:
+    - text: Você já notou sua pele
+    - text: ficando mais flácida
+    - text: ou cansada no inverno?
+  - generic [ref=e5]:
+    - generic [ref=e6]: Responde aí 👇
+    - generic [ref=e7]: 😔 Sim, sempre
+    - generic [ref=e8]: 🤔 Não percebi ainda
+  - generic [ref=e9]: "@lais_esteticista"

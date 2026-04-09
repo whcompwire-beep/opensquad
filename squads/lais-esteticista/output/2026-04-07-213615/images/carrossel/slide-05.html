@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1080px; height: 1440px; overflow: hidden;
+      background: #FDFAF7;
+      font-family: 'Lato', sans-serif;
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: center;
+      padding: 90px;
+      position: relative;
+    }
+    .top-line { position: absolute; top: 0; left: 0; right: 0; height: 6px; background: #BDA78D; }
+    .eyebrow {
+      font-family: 'Lato', sans-serif;
+      font-size: 20px; font-weight: 400;
+      color: #AA9176;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      margin-bottom: 40px;
+    }
+    .heading {
+      font-family: 'Playfair Display', serif;
+      font-size: 68px; font-weight: 700;
+      color: #2C2C2C;
+      text-align: center;
+      line-height: 1.2;
+      margin-bottom: 56px;
+    }
+    .divider { width: 60px; height: 2px; background: #AA9176; margin-bottom: 56px; }
+    .details {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      width: 100%;
+      max-width: 820px;
+    }
+    .detail-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 24px;
+    }
+    .detail-bullet {
+      width: 10px; height: 10px;
+      border-radius: 50%;
+      background: #AA9176;
+      flex-shrink: 0;
+      margin-top: 16px;
+    }
+    .detail-text {
+      font-family: 'Lato', sans-serif;
+      font-size: 38px;
+      font-weight: 300;
+      color: #6B5F55;
+      line-height: 1.5;
+    }
+    .detail-text strong {
+      font-weight: 500;
+      color: #3D342B;
+    }
+    .brand { position: absolute; bottom: 52px; right: 70px; font-family: 'Lato', sans-serif; font-size: 26px; font-weight: 500; color: #AA9176; letter-spacing: 2px; }
+    .slide-number { position: absolute; bottom: 55px; left: 70px; font-size: 22px; color: #BDA78D; font-family: 'Lato', sans-serif; }
+  </style>
+</head>
+<body>
+  <div class="top-line"></div>
+  <div class="eyebrow">Como é a sessão</div>
+  <h2 class="heading">O que esperar<br>na prática</h2>
+  <div class="divider"></div>
+  <div class="details">
+    <div class="detail-row">
+      <div class="detail-bullet"></div>
+      <p class="detail-text"><strong>40 a 60 minutos</strong> de duração</p>
+    </div>
+    <div class="detail-row">
+      <div class="detail-bullet"></div>
+      <p class="detail-text">Sensação de <strong>calor suave</strong> na pele</p>
+    </div>
+    <div class="detail-row">
+      <div class="detail-bullet"></div>
+      <p class="detail-text">Você sai <strong>maquiada se quiser</strong></p>
+    </div>
+    <div class="detail-row">
+      <div class="detail-bullet"></div>
+      <p class="detail-text">A pele vai <strong>melhorando nas semanas</strong> seguintes</p>
+    </div>
+  </div>
+  <span class="brand">@lais_esteticista</span>
+  <span class="slide-number">5/6</span>
+</body>
+</html>

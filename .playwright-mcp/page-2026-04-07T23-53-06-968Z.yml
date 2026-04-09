@@ -1,0 +1,14 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]: Lipedema
+  - 'heading "Lipedema: a condição que muitas mulheres ainda não sabem que têm." [level=1] [ref=e5]':
+    - text: "Lipedema: a condição"
+    - text: que muitas mulheres
+    - text: ainda não sabem
+    - text: que têm.
+  - paragraph [ref=e6]:
+    - text: Ela pode ser confundida com outros fatores
+    - text: e levar um tempo para ser reconhecida.
+    - text: Mas tem como identificar — e cuidar.
+  - paragraph [ref=e7]: Arrasta para entender melhor. 👉
+  - generic [ref=e8]: "@lais_esteticista"
+  - generic [ref=e9]: 1/5

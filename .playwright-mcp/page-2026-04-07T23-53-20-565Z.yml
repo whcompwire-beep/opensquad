@@ -1,0 +1,18 @@
+- generic [active] [ref=e1]:
+  - heading "O que acontece dentro do corpo?" [level=2] [ref=e3]:
+    - text: O que acontece
+    - text: dentro do corpo?
+  - paragraph [ref=e5]:
+    - text: Com o lipedema, a gordura se acumula de um jeito que o sistema linfático tem dificuldade de acompanhar.
+    - text: "Isso pode causar:"
+    - text: →
+    - strong [ref=e6]: Sensação de peso e pressão
+    - text: nos membros
+    - text: → Dor ao toque, mesmo de leve
+    - text: →
+    - strong [ref=e7]: Inchaço
+    - text: que piora com calor ou cansaço
+    - text: → Sensação de que as pernas estão mais pesadas
+  - paragraph [ref=e8]: O corpo pede atenção — não julgamento.
+  - generic [ref=e9]: "@lais_esteticista"
+  - generic [ref=e10]: 3/5
